@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "synthetic": true,
+    "warning": "NOT Phase 1 research; contract fixture only"
+  },
+  "schemes": [
+    {
+      "id": "synthetic-scheme",
+      "title": "SYNTHETIC scheme",
+      "sourceIds": [
+        "synthetic-source"
+      ],
+      "sourceUrl": "https://example.test/research",
+      "description": "ಕನ್ನಡ हिंदी English",
+      "state": "Karnataka",
+      "category": "student",
+      "benefits": "Research description only"
+    }
+  ]
+}

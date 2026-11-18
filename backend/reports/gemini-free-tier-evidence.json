@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-18T07:34:44.830Z",
+  "model": "gemini-3.5-flash-lite",
+  "projectTier": "FREE",
+  "projectEvidence": "Owner confirmed: Free tier — no paid billing linked",
+  "modelAvailability": "Selected model metadata reachable; generateContent supported",
+  "structuredOutput": "Supported in official model capability documentation",
+  "standardInputFreeTierUsd": 0,
+  "standardOutputFreeTierUsd": 0,
+  "paidInputPerMillionUsd": 0.3,
+  "paidOutputPerMillionUsd": 2.5,
+  "paidUseAuthorized": false,
+  "toolsEnabled": false,
+  "officialReferences": [
+    "https://aistudio.google.com/docs/models/gemini-3.5-flash-lite",
+    "https://aistudio.google.com/docs/pricing#gemini-3.5-flash-lite",
+    "https://aistudio.google.com/docs/billing"
+  ],
+  "limitations": "Model metadata cannot independently attest billing tier or remaining free quota. Owner confirmation plus current official pricing used; do not enable billing."
+}

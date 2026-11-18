@@ -1,0 +1,1 @@
+No research records are generated here. The strict importer reads PHASE1_DATA_DIR directly and fails before writing if any required JSON file is absent. The explicit import:available command reports a partial import of supplied datasets. Synthetic test data lives under fixtures/ and is never described as Phase 1 evidence.

@@ -1,0 +1,4 @@
+import mongoose from 'mongoose';
+import {connectDB,disconnectDB,requireTransactions} from '../src/config/db.js';
+import {initContentModels} from '../src/models/content.js';
+try{await connectDB();await requireTransactions();const before=await mongoose.connection.db.listCollections({},{nameOnly:true}).toArray();console.log(JSON.stringify({database:mongoose.connection.name,transactions:true,existingCollections:before.map(c=>c.name),operation:'ADDITIVE_CONTENT_INDEXES_ONLY'}));await initContentModels();console.log('Content collections/indexes initialized. Existing records preserved.');}catch(error){console.error(JSON.stringify({status:'BLOCKED',category:error.category||'MIGRATION_UNAVAILABLE',message:'Check private database configuration and transaction capabilities. No destructive migration is used.'}));process.exitCode=1;}finally{await disconnectDB();}

@@ -1,0 +1,50 @@
+{
+  "at": "2026-11-18T08:32:10.722Z",
+  "database": "mygovguide_phase2",
+  "sourceId": "live-cbdt-press-rss",
+  "mode": "GENUINE_NETWORK_COLLECTION",
+  "runs": [
+    {
+      "jobId": "ff23c1b2-857e-4f7c-ad58-2f2ab26f8254",
+      "state": "FAILED",
+      "runId": "run-447c398b-7eff-4a23-ad2b-cafe4ba2d860",
+      "counters": {
+        "read": 0,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 0,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 1,
+        "skipped": 0
+      },
+      "sourceResults": [
+        {
+          "sourceId": "live-cbdt-press-rss",
+          "status": "FAILED",
+          "reason": "Collection or staging failed; see validation and source configuration"
+        }
+      ]
+    }
+  ],
+  "httpRequests": [
+    {
+      "url": "https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/rss",
+      "status": 403,
+      "bytes": 468,
+      "etag": null,
+      "at": "2026-11-18T08:32:11.655Z",
+      "sha256": "f12fc2aeadcf0ae6f241199bc4be6b6fd94b10ee32f2ad33af62733c66a21f7a"
+    }
+  ],
+  "before": {
+    "schemes": 25,
+    "notices": 16,
+    "versions": 87
+  },
+  "status": "STOPPED",
+  "error": "Live worker did not complete successfully"
+}

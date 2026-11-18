@@ -1,0 +1,38 @@
+{
+  "at": "2026-11-18T08:28:53.528Z",
+  "authorization": "Official RSS subscription page and copyright policy; feed metadata only",
+  "requests": [
+    {
+      "url": "https://wm.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/rss",
+      "status": 302,
+      "type": "text/html",
+      "location": "https://www.incometaxindia.gov.in//press-release-rss-feed/-/asset_publisher/bxhj/rss",
+      "bytes": 138,
+      "sha256": "753e0dd54f28c4f7009b9c0b18a68aed175416bd8b7d134858264586eaac56f0"
+    },
+    {
+      "url": "https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/rss",
+      "status": 200,
+      "type": "text/xml;charset=UTF-8",
+      "location": null,
+      "bytes": 23488,
+      "sha256": "14984db0d0fa9e6e396b142f2d229fd4ce0ee6bc47351235dd5c589ab2caa2bd",
+      "title": "Press Release",
+      "records": 10,
+      "sample": [
+        {
+          "title": "Initiative to encourage taxpayers to voluntarily review deduction/exemption claims identified as potentially ineligible through risk analytics",
+          "link": "https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/content/initiative-to-encourage-taxpayers-to-voluntarily-review-deduction-exemption-claims-identified-as-potentially-ineligible-through-risk-analytics?p_r_p_assetEntryId=13036943&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_urlTitle=initiative-to-encourage-taxpayers-to-voluntarily-review-deduction-exemption-claims-identified-as-potentially-ineligible-through-risk-analytics&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_redirect=https%3A%2F%2Fwww.incometaxindia.gov.in%2Fpress-release-rss-feed%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D13036943%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_cur%3D0%26p_r_p_resetCur%3Dfalse",
+          "guid": "https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/content/initiative-to-encourage-taxpayers-to-voluntarily-review-deduction-exemption-claims-identified-as-potentially-ineligible-through-risk-analytics?p_r_p_assetEntryId=13036943&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_urlTitle=initiative-to-encourage-taxpayers-to-voluntarily-review-deduction-exemption-claims-identified-as-potentially-ineligible-through-risk-analytics&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_redirect=https%3A%2F%2Fwww.incometaxindia.gov.in%2Fpress-release-rss-feed%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D13036943%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_cur%3D0%26p_r_p_resetCur%3Dfalse",
+          "date": "Fri, 26 Dec 2025 05:51:00 GMT"
+        },
+        {
+          "title": "CBDT launches 2nd NUDGE initiative to strengthen voluntary compliance in respect of Foreign Assets",
+          "link": "https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/content/cbdt-launches-2nd-nudge-initiative-to-strengthen-voluntary-compliance-in-respect-of-foreign-assets?p_r_p_assetEntryId=12751620&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_urlTitle=cbdt-launches-2nd-nudge-initiative-to-strengthen-voluntary-compliance-in-respect-of-foreign-assets&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_redirect=https%3A%2F%2Fwww.incometaxindia.gov.in%2Fpress-release-rss-feed%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D12751620%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_cur%3D0%26p_r_p_resetCur%3Dfalse",
+          "guid": "https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/content/cbdt-launches-2nd-nudge-initiative-to-strengthen-voluntary-compliance-in-respect-of-foreign-assets?p_r_p_assetEntryId=12751620&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_urlTitle=cbdt-launches-2nd-nudge-initiative-to-strengthen-voluntary-compliance-in-respect-of-foreign-assets&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_redirect=https%3A%2F%2Fwww.incometaxindia.gov.in%2Fpress-release-rss-feed%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D12751620%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_bxhj_cur%3D0%26p_r_p_resetCur%3Dfalse",
+          "date": "Wed, 24 Dec 2025 11:47:00 GMT"
+        }
+      ]
+    }
+  ]
+}

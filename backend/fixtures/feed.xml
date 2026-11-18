@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>SYNTHETIC research feed</title><link>https://example.test/rss</link><description>Local demonstration</description><item><title>SYNTHETIC feed item</title><link>https://example.test/rss/item-1</link><guid>fixture-rss-notice</guid><description>General information only; no verified deadline.</description></item></channel></rss>

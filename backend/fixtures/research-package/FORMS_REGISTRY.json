@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "synthetic": true,
+    "warning": "NOT Phase 1 research; contract fixture only"
+  },
+  "forms": [
+    {
+      "id": "synthetic-form",
+      "title": "SYNTHETIC instructions",
+      "sourceIds": [
+        "synthetic-source"
+      ],
+      "sourceUrl": "https://example.test/research",
+      "formKind": "INSTRUCTIONS_ONLY",
+      "schemeId": "synthetic-scheme"
+    }
+  ],
+  "brokenLinkDoNotUse": [
+    {
+      "url": "https://example.test/broken",
+      "reason": "Synthetic excluded link"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "import-6d6b713a-f3cf-4ae8-ad2b-b3c55681483f",
+  "original": {
+    "packageHashes": {
+      "SOURCE_REGISTRY.json": "82a1970947ee114f8b823cb9f77a25e3e8f950b477fbc138ddaeb6eb1f08c269",
+      "VERIFIED_SCHEMES.json": "f8acc8c3c6d72bdbc1ede8f8a92719897072875d19313e8b0f5aaaa52448e4a1",
+      "FORMS_REGISTRY.json": "abcd4cb5866922c4737de8fc0ee97286c39f58a855a863811a7462666e490446",
+      "NOTICES_AND_ALERTS.json": "9a7971cfb5c66a8f10f74f352e7c8efe99b38a9d6cb881df29fd622d6cac47b2"
+    },
+    "results": {
+      "sources": {
+        "read": 70,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 70,
+        "rejected": 0,
+        "pendingReview": 70,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      },
+      "schemes": {
+        "read": 25,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 25,
+        "rejected": 0,
+        "pendingReview": 25,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      },
+      "forms": {
+        "read": 18,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 18,
+        "rejected": 0,
+        "pendingReview": 18,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      },
+      "notices": {
+        "read": 12,
+        "created": 0,
+        "updated": 12,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 12,
+        "reviewItems": 12,
+        "changeEvents": 12,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      },
+      "scamAwareness": {
+        "read": 12,
+        "created": 12,
+        "updated": 0,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 12,
+        "reviewItems": 12,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "missingFiles": [],
+    "availableOnly": false,
+    "brokenLinksExcluded": [
+      {
+        "url": "https://pmuy.gov.in/Declaration_for_new_connection.pdf",
+        "reason": "Returned unavailable/404 during research"
+      }
+    ],
+    "brokenLinkCount": 1,
+    "supplementalSourceCount": 38
+  },
+  "mode": "IMPORT",
+  "startedAt": "2026-11-17T14:51:04.161Z",
+  "counters": {
+    "read": 137,
+    "created": 12,
+    "updated": 12,
+    "unchanged": 113,
+    "rejected": 0,
+    "pendingReview": 137,
+    "reviewItems": 24,
+    "changeEvents": 12,
+    "successful": 0,
+    "failed": 0,
+    "skipped": 0
+  },
+  "sources": [],
+  "runErrors": [],
+  "finishedAt": "2026-11-17T14:51:05.635Z",
+  "outcome": "SUCCESS"
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://www.pib.gov.in/ContentPage.aspx?menuid=101&reg=1&lang=1",
+    "status": 200,
+    "location": null
+  },
+  {
+    "url": "https://dst.gov.in/robots.txt",
+    "status": 302,
+    "location": "https://www.dst.gov.in/robots.txt",
+    "body": ""
+  },
+  {
+    "url": "https://www.education.gov.in/robots.txt",
+    "status": 200,
+    "location": null,
+    "body": "User-agent: *\nAllow: /\n"
+  },
+  {
+    "url": "https://www.pmindia.gov.in/robots.txt",
+    "status": 403,
+    "location": null,
+    "body": ""
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-17T15:00:58.644Z",
+  "purpose": "Policy investigation only; no content collection or activation",
+  "results": [
+    {
+      "url": "https://www.pib.gov.in/robots.txt",
+      "status": 200,
+      "contentType": "text/html",
+      "location": null,
+      "robots": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html >\r\n<head>\r\n    <title>Untitled Page</title> \r\n  \r\n   \r\n</head>\r\n<body style=\"text-align: center\">\r\n    <strong><span style=\"font-size: 16pt; text-decoration: underline\"><span style=\"color: #3333ff\">\r\n        <span style=\"font-family: Arial\">\r\n            <br />\r\n            <br />\r\n            <br />\r\n            <br />\r\n            <br />\r\n            <br />\r\n            <br />\r\n            <br />\r\n            <br />\r\n            <br />\r\n           The Page you have requested is not available at present.\r\n            <br />\r\n            Sorry for your Inconvenience.\r\n            <br />\r\n          <a href='index.aspx' target='_self'>  Click here to go back </a></span>\r\n        <br />\r\n       \r\n        <br />\r\n        If the problem persists, please contact admin.</span></span></strong>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "url": "https://www.pib.gov.in/RssMain.aspx",
+      "status": 302,
+      "contentType": "text/html; charset=utf-8",
+      "location": "/RssMain.aspx?reg=48&lang=2",
+      "rssLinks": [
+        "/RssMain.aspx?reg=48&amp;lang=2"
+      ]
+    },
+    {
+      "url": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "location": null
+    }
+  ]
+}

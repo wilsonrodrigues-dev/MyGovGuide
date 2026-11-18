@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "ui": {
+      "resourceUri": "ui://stitch.googleapis.com/project-viewer",
+      "visibility": [
+        "model",
+        "app"
+      ]
+    }
+  },
+  "content": [
+    {
+      "text": "{\"name\":\"projects/16872371074444001614/screens/2c897643928c4ba4b3fe8fee44563974\",\"title\":\"MyGovGuide — Profile & Language Settings\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/9f1edc4dfa5846e298bd4a1f096227ed\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/9f1edc4dfa5846e298bd4a1f096227ed:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/27a6b60971bf4c14ad156636ed4c8949\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/27a6b60971bf4c14ad156636ed4c8949:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"5554\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"}",
+      "type": "text"
+    }
+  ],
+  "structuredContent": {
+    "deviceType": "DESKTOP",
+    "height": "5554",
+    "htmlCode": {
+      "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/27a6b60971bf4c14ad156636ed4c8949:download",
+      "mimeType": "text/html",
+      "name": "projects/16872371074444001614/files/27a6b60971bf4c14ad156636ed4c8949"
+    },
+    "name": "projects/16872371074444001614/screens/2c897643928c4ba4b3fe8fee44563974",
+    "screenType": "DESIGN",
+    "screenshot": {
+      "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/9f1edc4dfa5846e298bd4a1f096227ed:download",
+      "mimeType": "png",
+      "name": "projects/16872371074444001614/files/9f1edc4dfa5846e298bd4a1f096227ed"
+    },
+    "title": "MyGovGuide — Profile & Language Settings",
+    "width": "2560"
+  }
+}

@@ -1,0 +1,34 @@
+name: Controlled collection
+on:
+  workflow_dispatch:
+  # Scheduling stays disabled until individual adapters have genuine approval.
+  # schedule:
+  #   - cron: '30 3 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: phase2-collection
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ENABLE_LIVE_COLLECTION: 'false'
+      MONGODB_URI: ${{ secrets.MONGODB_URI }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run registry:validate
+      - run: npm run collect:approved
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: collection-reports
+          path: backend/reports/*.json
+      - if: failure()
+        run: echo 'Collection failed. Inspect job logs and retained report artifacts.' >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,90 @@
+{
+  "verifiedAt": "2026-11-16T17:26:17.612Z",
+  "verified": [
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\ASSET_REGISTRY.md",
+      "newPath": "backend/research/phase1/ASSET_REGISTRY.md",
+      "sha256": "f424791cfd81e9e5784b6beada66a159b3d44bcc84840ca687880f3df0545c11"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\DATASET_CLASSIFICATION_AND_RELEASE.md",
+      "newPath": "backend/research/phase1/DATASET_CLASSIFICATION_AND_RELEASE.md",
+      "sha256": "df03a1a6f528664649ac8a7073c8e6764dfe8ef9ad616d92773f1dddf393adbb"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\DATA_REQUIREMENTS.md",
+      "newPath": "backend/research/phase1/DATA_REQUIREMENTS.md",
+      "sha256": "84d4117257692088f868a9a12bc9ceb2255ac37f5ae6fd1ea4efad786058d421"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\FORMS_REGISTRY.json",
+      "newPath": "backend/research/phase1/FORMS_REGISTRY.json",
+      "sha256": "852eb05147b25bdaa906fced14a2cd15c6d1046f43a78f4b66bc9929285160bf"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\KARNATAKA_ORDERS_AUDIT.md",
+      "newPath": "backend/research/phase1/KARNATAKA_ORDERS_AUDIT.md",
+      "sha256": "37e913eaced85da53c6cf113e067a4b2822e9dc5fdf204b1c9d77193ad50069f"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\OUTREACH_AND_EXTERNAL_APPROVALS.md",
+      "newPath": "backend/research/phase1/OUTREACH_AND_EXTERNAL_APPROVALS.md",
+      "sha256": "ac8da0a46d123e3b3dfb880976d724c1e3f1cc64b017776b053cf2f3b50dcc4a"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\PHASE1_CLOSURE_REPORT.md",
+      "newPath": "backend/research/phase1/PHASE1_CLOSURE_REPORT.md",
+      "sha256": "12c700a4c3faec6b4486271e007d41831763db3588c9505f253a5c81bca5604e"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\PHASE1_COMPLETION_REPORT.md",
+      "newPath": "backend/research/phase1/PHASE1_COMPLETION_REPORT.md",
+      "sha256": "c99cdbd0339e1ef8e60aa0c25cc3658cebf0da11a511794f8ac250916621774b"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\PILOT_SOURCE_SELECTION.md",
+      "newPath": "backend/research/phase1/PILOT_SOURCE_SELECTION.md",
+      "sha256": "7aacb27dceea28db64e677ff81701d4749e1d29332176f47c59a5002239026ab"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\QUALITY_AUDIT.md",
+      "newPath": "backend/research/phase1/QUALITY_AUDIT.md",
+      "sha256": "4757e34cca825eaed20455b481d90c4241f6b074ae1fc670e373f9b77db62aa1"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\SCHEME_VERIFICATION_MATRIX.csv",
+      "newPath": "backend/research/phase1/SCHEME_VERIFICATION_MATRIX.csv",
+      "sha256": "9f422b22c1864479a4bf131e0b9b210f70455aeede382ee82c1f1150a9e4a449"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\SCRAPING_FEASIBILITY.md",
+      "newPath": "backend/research/phase1/SCRAPING_FEASIBILITY.md",
+      "sha256": "d3301428384edc39c1b4ae99510368f788534543570608271165e9f59e9ec968"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\SOURCE_PERMISSION_DECISIONS.csv",
+      "newPath": "backend/research/phase1/SOURCE_PERMISSION_DECISIONS.csv",
+      "sha256": "37aa3e8627ab4c2797157048641c68d9fc45e3edd6ef2b297df66bbb82b1391e"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\SOURCE_REGISTRY.md",
+      "newPath": "backend/research/phase1/SOURCE_REGISTRY.md",
+      "sha256": "2c4cb8100f13d213ce0adc4df611ccf363faf7a559746589d2baf55c98378110"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase1_Pack\\VERIFIED_SCHEMES.json",
+      "newPath": "backend/research/phase1/VERIFIED_SCHEMES.json",
+      "sha256": "4fc26ddf4567bd1e4f32a16a8cc2216c075b0137dd28bc9abd8bf45a5ae4c893"
+    },
+    {
+      "oldPath": "MyGovGuide_Project_Handoff.md",
+      "newPath": "backend/docs/specifications/MyGovGuide_Project_Handoff.md",
+      "sha256": "8ad7482760cec191db6a8d0972cefb8eb110fa2ecb6b23fdfaf33aa202e78b21"
+    },
+    {
+      "oldPath": "MyGovGuide_Phase2_Blueprint.md",
+      "newPath": "backend/docs/specifications/MyGovGuide_Phase2_Blueprint.md",
+      "sha256": "2e329788cd80dc0863c6d0e275a9e446062ccb69156c0ee52b00ac5f00056e0f"
+    }
+  ]
+}

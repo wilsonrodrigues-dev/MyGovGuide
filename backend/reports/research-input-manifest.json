@@ -1,0 +1,73 @@
+{
+  "recordedAt": "2026-11-16T16:58:58.554Z",
+  "files": {
+    "MyGovGuide_Phase1_Pack\\ASSET_REGISTRY.md": {
+      "bytes": 4952,
+      "sha256": "f424791cfd81e9e5784b6beada66a159b3d44bcc84840ca687880f3df0545c11"
+    },
+    "MyGovGuide_Phase1_Pack\\DATASET_CLASSIFICATION_AND_RELEASE.md": {
+      "bytes": 2552,
+      "sha256": "df03a1a6f528664649ac8a7073c8e6764dfe8ef9ad616d92773f1dddf393adbb"
+    },
+    "MyGovGuide_Phase1_Pack\\DATA_REQUIREMENTS.md": {
+      "bytes": 6275,
+      "sha256": "84d4117257692088f868a9a12bc9ceb2255ac37f5ae6fd1ea4efad786058d421"
+    },
+    "MyGovGuide_Phase1_Pack\\FORMS_REGISTRY.json": {
+      "bytes": 12450,
+      "sha256": "852eb05147b25bdaa906fced14a2cd15c6d1046f43a78f4b66bc9929285160bf"
+    },
+    "MyGovGuide_Phase1_Pack\\KARNATAKA_ORDERS_AUDIT.md": {
+      "bytes": 3081,
+      "sha256": "37e913eaced85da53c6cf113e067a4b2822e9dc5fdf204b1c9d77193ad50069f"
+    },
+    "MyGovGuide_Phase1_Pack\\OUTREACH_AND_EXTERNAL_APPROVALS.md": {
+      "bytes": 2069,
+      "sha256": "ac8da0a46d123e3b3dfb880976d724c1e3f1cc64b017776b053cf2f3b50dcc4a"
+    },
+    "MyGovGuide_Phase1_Pack\\PHASE1_CLOSURE_REPORT.md": {
+      "bytes": 4388,
+      "sha256": "12c700a4c3faec6b4486271e007d41831763db3588c9505f253a5c81bca5604e"
+    },
+    "MyGovGuide_Phase1_Pack\\PHASE1_COMPLETION_REPORT.md": {
+      "bytes": 4193,
+      "sha256": "c99cdbd0339e1ef8e60aa0c25cc3658cebf0da11a511794f8ac250916621774b"
+    },
+    "MyGovGuide_Phase1_Pack\\PILOT_SOURCE_SELECTION.md": {
+      "bytes": 2236,
+      "sha256": "7aacb27dceea28db64e677ff81701d4749e1d29332176f47c59a5002239026ab"
+    },
+    "MyGovGuide_Phase1_Pack\\QUALITY_AUDIT.md": {
+      "bytes": 4962,
+      "sha256": "4757e34cca825eaed20455b481d90c4241f6b074ae1fc670e373f9b77db62aa1"
+    },
+    "MyGovGuide_Phase1_Pack\\SCHEME_VERIFICATION_MATRIX.csv": {
+      "bytes": 8032,
+      "sha256": "9f422b22c1864479a4bf131e0b9b210f70455aeede382ee82c1f1150a9e4a449"
+    },
+    "MyGovGuide_Phase1_Pack\\SCRAPING_FEASIBILITY.md": {
+      "bytes": 4112,
+      "sha256": "d3301428384edc39c1b4ae99510368f788534543570608271165e9f59e9ec968"
+    },
+    "MyGovGuide_Phase1_Pack\\SOURCE_PERMISSION_DECISIONS.csv": {
+      "bytes": 18725,
+      "sha256": "37aa3e8627ab4c2797157048641c68d9fc45e3edd6ef2b297df66bbb82b1391e"
+    },
+    "MyGovGuide_Phase1_Pack\\SOURCE_REGISTRY.md": {
+      "bytes": 13500,
+      "sha256": "2c4cb8100f13d213ce0adc4df611ccf363faf7a559746589d2baf55c98378110"
+    },
+    "MyGovGuide_Phase1_Pack\\VERIFIED_SCHEMES.json": {
+      "bytes": 37773,
+      "sha256": "4fc26ddf4567bd1e4f32a16a8cc2216c075b0137dd28bc9abd8bf45a5ae4c893"
+    },
+    "MyGovGuide_Project_Handoff.md": {
+      "bytes": 33874,
+      "sha256": "8ad7482760cec191db6a8d0972cefb8eb110fa2ecb6b23fdfaf33aa202e78b21"
+    },
+    "MyGovGuide_Phase2_Blueprint.md": {
+      "bytes": 9863,
+      "sha256": "2e329788cd80dc0863c6d0e275a9e446062ccb69156c0ee52b00ac5f00056e0f"
+    }
+  }
+}

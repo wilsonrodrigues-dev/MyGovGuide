@@ -1,0 +1,104 @@
+{
+  "at": "2026-11-18T08:41:01.261Z",
+  "database": "mygovguide_phase2",
+  "origin": "CURATED_OFFICIAL_DOCUMENT_RESEARCH_NOT_AUTOMATED_SCRAPING",
+  "humanApproval": "Owner explicitly approved these five packets for AI preparation only on 18 November 2026; editorial publication and eligibility remain pending.",
+  "schemes": [
+    {
+      "id": "IN-FA-01",
+      "sourceVersionId": "version-c22abc23f2779d0d0ae58fda",
+      "status": "REVIEW_REQUIRED",
+      "publicationStatus": "WITHDRAWN",
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-ST-02",
+      "sourceVersionId": "version-a943875f43676fbca614b430",
+      "status": "REVIEW_REQUIRED",
+      "publicationStatus": "WITHDRAWN",
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-WK-02",
+      "sourceVersionId": "version-7f296db84324dc299a527a1e",
+      "status": "REVIEW_REQUIRED",
+      "publicationStatus": "WITHDRAWN",
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 5,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-WK-03",
+      "sourceVersionId": "version-0b914b613cff9e680ca8e589",
+      "status": "REVIEW_REQUIRED",
+      "publicationStatus": "WITHDRAWN",
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 5,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-WO-02",
+      "sourceVersionId": "version-4c73bb8d362796b3bd5deee5",
+      "status": "REVIEW_REQUIRED",
+      "publicationStatus": "WITHDRAWN",
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 5,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    }
+  ],
+  "ruleApprovals": 0
+}

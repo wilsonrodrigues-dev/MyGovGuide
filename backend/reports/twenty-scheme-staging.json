@@ -1,0 +1,393 @@
+{
+  "at": "2026-11-18T10:26:11.877Z",
+  "database": "mygovguide_dev",
+  "humanDecision": {
+    "date": "2026-11-18",
+    "reply": "all",
+    "context": "Owner approved all20 concrete fact packets for Gemini preparation only; no editorial publication or eligibility approval."
+  },
+  "schemes": [
+    {
+      "id": "IN-FA-02",
+      "batch": 1,
+      "sourceVersionId": "version-51a3df9ea4061423830a51ef",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-FA-03",
+      "batch": 1,
+      "sourceVersionId": "version-fda164a8d1d4e77435366651",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-FA-04",
+      "batch": 1,
+      "sourceVersionId": "version-be7fa1f62b407d0fad34dc15",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-FA-05",
+      "batch": 1,
+      "sourceVersionId": "version-a12151f9d22e12b1d51283b8",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-SR-01",
+      "batch": 1,
+      "sourceVersionId": "version-68ade86c17cf578dd19df69e",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-SR-02",
+      "batch": 2,
+      "sourceVersionId": "version-8a9c554936baff73de5e21ba",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-SR-03",
+      "batch": 2,
+      "sourceVersionId": "version-1f71fb75247d1e6551069de5",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-ST-01",
+      "batch": 2,
+      "sourceVersionId": "version-9a69f117fe4896b8cd409ec1",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-ST-03",
+      "batch": 2,
+      "sourceVersionId": "version-4aff6af83ee20bdef3fb49fb",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-ST-04",
+      "batch": 2,
+      "sourceVersionId": "version-57cf28946585ee4f60be729a",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-ST-05",
+      "batch": 3,
+      "sourceVersionId": "version-011cb8bfcc2b4361d1dd0c50",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-WK-01",
+      "batch": 3,
+      "sourceVersionId": "version-22bb784e0d74d8fdcf93067c",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-WO-01",
+      "batch": 3,
+      "sourceVersionId": "version-d86cafa45aa5d7235696d5bc",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-WO-03",
+      "batch": 3,
+      "sourceVersionId": "version-2c7b16369f0cd4e9b611e7b4",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "IN-WO-04",
+      "batch": 3,
+      "sourceVersionId": "version-e42819e38bf97b6cb32841f7",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "KA-GN-01",
+      "batch": 4,
+      "sourceVersionId": "version-dfce18a5eac0af4c256e34a4",
+      "publicationBlocked": true,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "KA-GN-02",
+      "batch": 4,
+      "sourceVersionId": "version-200777bf7adfaf978afa7543",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "KA-ST-01",
+      "batch": 4,
+      "sourceVersionId": "version-91c3afa5321d636335c76029",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "KA-WO-01",
+      "batch": 4,
+      "sourceVersionId": "version-51e5d2ca359fbec44560b915",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "KA-WO-02",
+      "batch": 4,
+      "sourceVersionId": "version-57c429955cf9a447deadbc7c",
+      "publicationBlocked": false,
+      "counters": {
+        "read": 1,
+        "created": 0,
+        "updated": 1,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 1,
+        "reviewItems": 4,
+        "changeEvents": 1,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    }
+  ],
+  "generationCalls": 0,
+  "status": "TWENTY_VERSIONED_RESEARCH_PACKETS_STAGED"
+}

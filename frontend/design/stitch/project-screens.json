@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "ui": {
+      "resourceUri": "ui://stitch.googleapis.com/project-viewer",
+      "visibility": [
+        "model",
+        "app"
+      ]
+    }
+  },
+  "content": [
+    {
+      "text": "{\"screens\":[{\"name\":\"projects/16872371074444001614/screens/b8c540a220e945baaa6f4efc3d7b7990\",\"title\":\"MyGovGuide — Forms Library\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/a3e8d23aee814ae89e58f1debe80651f\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/a3e8d23aee814ae89e58f1debe80651f:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/623f85e061cf4070aacbf0a94bc42f26\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/623f85e061cf4070aacbf0a94bc42f26:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"6974\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"},{\"name\":\"projects/16872371074444001614/screens/58e1395b6613416f81576fa172d2b12b\",\"title\":\"MyGovGuide — Notice Action Checklist\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/158de3d2163a43d0a04ec23dc58bdfed\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/158de3d2163a43d0a04ec23dc58bdfed:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/39625591027544bf85e5a2e457679c01\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/39625591027544bf85e5a2e457679c01:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"5504\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"},{\"name\":\"projects/16872371074444001614/screens/7fbf63cc3aae4faabb5bd55f4c3fb98a\",\"title\":\"MyGovGuide — Form Guidance\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/49592302acfe45efa57dec1d15114236\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/49592302acfe45efa57dec1d15114236:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/7fd9a8d532904a97ac3586e700801157\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/7fd9a8d532904a97ac3586e700801157:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"5462\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"},{\"name\":\"projects/16872371074444001614/screens/ad79ff4eba8b4d0b98bdde7f287ab53f\",\"title\":\"MyGovGuide — Eligibility Checker\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/204cd443517c49caa3085c8f66c25905\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/204cd443517c49caa3085c8f66c25905:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/db604feff1b545f88fff57b57504a29b\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/db604feff1b545f88fff57b57504a29b:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"6044\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"},{\"name\":\"projects/16872371074444001614/screens/4945eb6222a94e44bf186154501e53b4\",\"title\":\"MyGovGuide — Notice Explainer\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/d31054d00c4f45fb85b87f1a32c9e276\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/d31054d00c4f45fb85b87f1a32c9e276:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/e85b0a79051e4dd49fbb35b2ad526dad\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/e85b0a79051e4dd49fbb35b2ad526dad:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"4002\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"},{\"name\":\"projects/16872371074444001614/screens/6c9c61c00f6b4d7caf7e149b82867fb2\",\"title\":\"MyGovGuide — Mobile Onboarding\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/d9b3a211e89440fc875d6c0895cbf5d3\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/d9b3a211e89440fc875d6c0895cbf5d3:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/a523f625dcff44ff9a985368154403f8\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/a523f625dcff44ff9a985368154403f8:download\",\"mimeType\":\"text/html\"},\"width\":\"780\",\"height\":\"2296\",\"deviceType\":\"MOBILE\",\"screenType\":\"DESIGN\"},{\"name\":\"projects/16872371074444001614/screens/c7b5ae99f8f64ed28e98dc27b0c858c6\",\"title\":\"MyGovGuide — Scheme Discovery\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/9205b657136442f5b5c41e7e9747da9c\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/9205b657136442f5b5c41e7e9747da9c:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/eabbd01635f34498a58da35df9cd0534\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/eabbd01635f34498a58da35df9cd0534:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"5648\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"},{\"name\":\"projects/16872371074444001614/screens/da8595d6171d4f2891cf28fec1521252\",\"title\":\"MyGovGuide — Eligibility Results\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/9982dcecf2404b61b6fd489ecf6b16aa\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/9982dcecf2404b61b6fd489ecf6b16aa:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/2ccd50eeb4ad4405a252e734166f6343\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/2ccd50eeb4ad4405a252e734166f6343:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"5994\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"},{\"name\":\"projects/16872371074444001614/screens/c06ddfe531e2499fbeb4d962b38afc18\",\"title\":\"MyGovGuide — Citizen Home Screen\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/6fafa287693447048fbe9aafd706bb59\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/6fafa287693447048fbe9aafd706bb59:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/23afdb903ced4146a640969a883dda32\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/23afdb903ced4146a640969a883dda32:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3818\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"},{\"name\":\"projects/16872371074444001614/screens/63b154894bf54a969665ef8528ce4678\",\"title\":\"MyGovGuide — Scheme Details\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/918c4ab370de4b6f837fa8ea6af51fcb\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/918c4ab370de4b6f837fa8ea6af51fcb:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/3011fa72604e46cfa5cd3b4696ed01f0\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/3011fa72604e46cfa5cd3b4696ed01f0:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"5578\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"}]}",
+      "type": "text"
+    }
+  ],
+  "structuredContent": {
+    "screens": [
+      {
+        "deviceType": "DESKTOP",
+        "height": "6974",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/623f85e061cf4070aacbf0a94bc42f26:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/623f85e061cf4070aacbf0a94bc42f26"
+        },
+        "name": "projects/16872371074444001614/screens/b8c540a220e945baaa6f4efc3d7b7990",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/a3e8d23aee814ae89e58f1debe80651f:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/a3e8d23aee814ae89e58f1debe80651f"
+        },
+        "title": "MyGovGuide — Forms Library",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "5504",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/39625591027544bf85e5a2e457679c01:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/39625591027544bf85e5a2e457679c01"
+        },
+        "name": "projects/16872371074444001614/screens/58e1395b6613416f81576fa172d2b12b",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/158de3d2163a43d0a04ec23dc58bdfed:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/158de3d2163a43d0a04ec23dc58bdfed"
+        },
+        "title": "MyGovGuide — Notice Action Checklist",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "5462",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/7fd9a8d532904a97ac3586e700801157:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/7fd9a8d532904a97ac3586e700801157"
+        },
+        "name": "projects/16872371074444001614/screens/7fbf63cc3aae4faabb5bd55f4c3fb98a",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/49592302acfe45efa57dec1d15114236:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/49592302acfe45efa57dec1d15114236"
+        },
+        "title": "MyGovGuide — Form Guidance",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "6044",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/db604feff1b545f88fff57b57504a29b:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/db604feff1b545f88fff57b57504a29b"
+        },
+        "name": "projects/16872371074444001614/screens/ad79ff4eba8b4d0b98bdde7f287ab53f",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/204cd443517c49caa3085c8f66c25905:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/204cd443517c49caa3085c8f66c25905"
+        },
+        "title": "MyGovGuide — Eligibility Checker",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "4002",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/e85b0a79051e4dd49fbb35b2ad526dad:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/e85b0a79051e4dd49fbb35b2ad526dad"
+        },
+        "name": "projects/16872371074444001614/screens/4945eb6222a94e44bf186154501e53b4",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/d31054d00c4f45fb85b87f1a32c9e276:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/d31054d00c4f45fb85b87f1a32c9e276"
+        },
+        "title": "MyGovGuide — Notice Explainer",
+        "width": "2560"
+      },
+      {
+        "deviceType": "MOBILE",
+        "height": "2296",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/a523f625dcff44ff9a985368154403f8:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/a523f625dcff44ff9a985368154403f8"
+        },
+        "name": "projects/16872371074444001614/screens/6c9c61c00f6b4d7caf7e149b82867fb2",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/d9b3a211e89440fc875d6c0895cbf5d3:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/d9b3a211e89440fc875d6c0895cbf5d3"
+        },
+        "title": "MyGovGuide — Mobile Onboarding",
+        "width": "780"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "5648",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/eabbd01635f34498a58da35df9cd0534:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/eabbd01635f34498a58da35df9cd0534"
+        },
+        "name": "projects/16872371074444001614/screens/c7b5ae99f8f64ed28e98dc27b0c858c6",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/9205b657136442f5b5c41e7e9747da9c:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/9205b657136442f5b5c41e7e9747da9c"
+        },
+        "title": "MyGovGuide — Scheme Discovery",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "5994",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/2ccd50eeb4ad4405a252e734166f6343:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/2ccd50eeb4ad4405a252e734166f6343"
+        },
+        "name": "projects/16872371074444001614/screens/da8595d6171d4f2891cf28fec1521252",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/9982dcecf2404b61b6fd489ecf6b16aa:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/9982dcecf2404b61b6fd489ecf6b16aa"
+        },
+        "title": "MyGovGuide — Eligibility Results",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "3818",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/23afdb903ced4146a640969a883dda32:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/23afdb903ced4146a640969a883dda32"
+        },
+        "name": "projects/16872371074444001614/screens/c06ddfe531e2499fbeb4d962b38afc18",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/6fafa287693447048fbe9aafd706bb59:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/6fafa287693447048fbe9aafd706bb59"
+        },
+        "title": "MyGovGuide — Citizen Home Screen",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "5578",
+        "htmlCode": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/3011fa72604e46cfa5cd3b4696ed01f0:download",
+          "mimeType": "text/html",
+          "name": "projects/16872371074444001614/files/3011fa72604e46cfa5cd3b4696ed01f0"
+        },
+        "name": "projects/16872371074444001614/screens/63b154894bf54a969665ef8528ce4678",
+        "screenType": "DESIGN",
+        "screenshot": {
+          "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/918c4ab370de4b6f837fa8ea6af51fcb:download",
+          "mimeType": "png",
+          "name": "projects/16872371074444001614/files/918c4ab370de4b6f837fa8ea6af51fcb"
+        },
+        "title": "MyGovGuide — Scheme Details",
+        "width": "2560"
+      }
+    ]
+  }
+}

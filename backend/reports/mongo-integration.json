@@ -1,0 +1,107 @@
+{
+  "databaseName": "mygovguide_phase2_test_1794995703958",
+  "results": [
+    "unique index: passed",
+    {
+      "syntheticImport": {
+        "read": 5,
+        "created": 5,
+        "updated": 0,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 5,
+        "reviewItems": 4,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      },
+      "syntheticRepeat": {
+        "read": 5,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 5,
+        "rejected": 0,
+        "pendingReview": 5,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "availableImport": {
+        "read": 137,
+        "created": 137,
+        "updated": 0,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 137,
+        "reviewItems": 67,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      },
+      "availableRepeat": {
+        "read": 137,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 137,
+        "rejected": 0,
+        "pendingReview": 137,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 0,
+        "failed": 0,
+        "skipped": 0
+      },
+      "missingFiles": []
+    },
+    {
+      "fixtureFirst": {
+        "read": 4,
+        "created": 4,
+        "updated": 0,
+        "unchanged": 0,
+        "rejected": 0,
+        "pendingReview": 4,
+        "reviewItems": 4,
+        "changeEvents": 0,
+        "successful": 4,
+        "failed": 0,
+        "skipped": 0
+      },
+      "fixtureRepeat": {
+        "read": 4,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 4,
+        "rejected": 0,
+        "pendingReview": 4,
+        "reviewItems": 0,
+        "changeEvents": 0,
+        "successful": 4,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "reference integrity and transaction rollback: passed"
+  ],
+  "counts": {
+    "Source": 92,
+    "SourceVersion": 76,
+    "Scheme": 26,
+    "SchemeFact": 125,
+    "EligibilityRuleSet": 26,
+    "FormTemplate": 19,
+    "Notice": 17,
+    "ScamAlert": 13,
+    "ChangeEvent": 1,
+    "ReviewEvent": 0,
+    "ReviewItem": 76,
+    "ImportRejection": 0,
+    "IngestionRun": 7
+  }
+}

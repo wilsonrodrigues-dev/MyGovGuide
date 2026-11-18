@@ -1,0 +1,469 @@
+{
+  "metadata": {
+    "asOf": "2026-11-16",
+    "noticesAreHistoricalAnnouncementsNotAllPersonalTasks": true,
+    "alertsAreAwarenessTopicsNotLiveIncidents": true,
+    "publicationSafety": "Do not show historical dates as current; deduplicate superseded announcement events"
+  },
+  "notices": [
+    {
+      "id": "N-01",
+      "title": "NMMSS 2026–27 application deadline extended to 15 November",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330936&lang=1&reg=3",
+      "announcedAt": "2026-10-31",
+      "contentType": "application_deadline",
+      "relatedSchemeIds": [
+        "IN-ST-02"
+      ],
+      "summaryForResearch": "Student submissions ended 15 Nov 2026; post-submission institute/district verifications continue.",
+      "dueDate": "2026-11-15",
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "Application date expired; later verification milestones apply to officers and already-submitted applications. Must not show “apply now”.",
+      "asOf": "2026-11-16",
+      "processDeadlines": [
+        {
+          "stage": "student_application",
+          "date": "2026-11-15",
+          "asOfResearch": "expired"
+        },
+        {
+          "stage": "institute_L1_verification",
+          "date": "2026-11-30",
+          "asOfResearch": "future_after_submitted_application"
+        },
+        {
+          "stage": "district_L2_verification",
+          "date": "2026-12-15",
+          "asOfResearch": "future_after_submitted_application"
+        }
+      ]
+    },
+    {
+      "id": "N-02",
+      "title": "NMMSS earlier extension to 31 October 2026",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2317657&lang=2&reg=48",
+      "announcedAt": "2026-10-01",
+      "contentType": "superseded_deadline",
+      "relatedSchemeIds": [
+        "IN-ST-02"
+      ],
+      "summaryForResearch": "Superseded by 31 Oct announcement extending student deadline to 15 Nov 2026.",
+      "dueDate": "2026-10-31",
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "SUPERSEDED: keep for Change Radar history only.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "N-03",
+      "title": "NMMSS earlier application deadline announcement",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2305633&lang=2&reg=48",
+      "announcedAt": "2026-09-01",
+      "contentType": "superseded_deadline",
+      "relatedSchemeIds": [
+        "IN-ST-02"
+      ],
+      "summaryForResearch": "Historical NMMSS deadline; later extensions supersede it.",
+      "dueDate": "2026-09-30",
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "SUPERSEDED; validate exact press-note date if re-ingested.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "N-04",
+      "title": "PM-KISAN 24th instalment announcement",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330171&lang=1&reg=3",
+      "announcedAt": "2026-10-29",
+      "contentType": "government_announcement",
+      "relatedSchemeIds": [
+        "IN-FA-01"
+      ],
+      "summaryForResearch": "Government announced 24th instalment event for 30 Oct 2026.",
+      "dueDate": null,
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "News event, not citizen-specific payment confirmation.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "N-05",
+      "title": "PM-KISAN 24th instalment release coverage",
+      "officialUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2330414&lang=2&reg=48",
+      "announcedAt": "2026-10-30",
+      "contentType": "government_announcement",
+      "relatedSchemeIds": [
+        "IN-FA-01"
+      ],
+      "summaryForResearch": "Release coverage; distinguish event reporting from an individual beneficiary statement.",
+      "dueDate": null,
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "Related to N-04. Deduplicate by event in Change Radar.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "N-06",
+      "title": "Cabinet approves continuation of PM-KISAN from 2026–27 to 2030–31",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292460&lang=2&reg=48",
+      "announcedAt": "2026-07-31",
+      "contentType": "government_announcement",
+      "relatedSchemeIds": [
+        "IN-FA-01"
+      ],
+      "summaryForResearch": "Scheme continuation approved for 2026–27 to 2030–31; not an application action notice.",
+      "dueDate": null,
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "No implied action deadline.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "N-07",
+      "title": "National social assistance programme renamed",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323266",
+      "announcedAt": "2026-10-14",
+      "contentType": "policy_name_change",
+      "relatedSchemeIds": [
+        "IN-SR-01"
+      ],
+      "summaryForResearch": "NSAP renamed Pradhan Mantri Samajik Sahayata Yojana and old-age pension renamed Pradhan Mantri Vridhavastha Pension Yojana.",
+      "dueDate": null,
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "Major alias/version event; programme continued from 2026–27 through 2030–31.",
+      "asOf": "2026-11-16",
+      "policyEffectiveAt": "2026-10-14"
+    },
+    {
+      "id": "N-08",
+      "title": "Further national social assistance update",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2326529&lang=1&reg=48",
+      "announcedAt": "2026-10-22",
+      "contentType": "government_announcement",
+      "relatedSchemeIds": [
+        "IN-SR-01"
+      ],
+      "summaryForResearch": "Additional government programme coverage; related to October pension updates.",
+      "dueDate": null,
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "Deduplicate related underlying policy changes and verify page dates.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "N-09",
+      "title": "PMFBY August 2026 programme backgrounder",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2304549&lang=1&reg=48",
+      "announcedAt": "2026-08-29",
+      "contentType": "programme_backgrounder",
+      "relatedSchemeIds": [
+        "IN-FA-02"
+      ],
+      "summaryForResearch": "2026 update describes insurance coverage, farmer inclusions, and state-dependent crop notifications.",
+      "dueDate": null,
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "Reference for research, not an individual application deadline.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "N-10",
+      "title": "PM-SYM August 2026 programme update",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2293891&lang=2&n=csc&reg=48",
+      "announcedAt": "2026-08-03",
+      "contentType": "government_announcement",
+      "relatedSchemeIds": [
+        "IN-WK-01"
+      ],
+      "summaryForResearch": "Programme update with membership and pension information.",
+      "dueDate": null,
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "Not an application closure notice.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "N-11",
+      "title": "PMMVY June 2026 implementation update",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2270668&lang=1&reg=3",
+      "announcedAt": "2026-06-09",
+      "contentType": "government_announcement",
+      "relatedSchemeIds": [
+        "IN-WO-01"
+      ],
+      "summaryForResearch": "Maternity benefit programme status and support amounts.",
+      "dueDate": null,
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "Reports programme background; do not invent notice checklist dates.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "id": "N-12",
+      "title": "PM-KISAN 23rd instalment June 2026 announcement",
+      "officialUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2274616&lang=1&reg=20",
+      "announcedAt": "2026-06-18",
+      "contentType": "government_announcement",
+      "relatedSchemeIds": [
+        "IN-FA-01"
+      ],
+      "summaryForResearch": "Government announced 23rd instalment event for 20 June 2026; past event, not current citizen task.",
+      "dueDate": null,
+      "actionableForCitizen": false,
+      "sourceReusePermission": "NOT_CHECKED",
+      "sourceEdition": "PIB public page",
+      "notes": "Confirm publication metadata on source before ingesting.",
+      "asOf": "2026-11-16"
+    }
+  ],
+  "scamAwareness": [
+    {
+      "id": "A-01",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "UPI PIN requested to receive money",
+      "topic": "upi_pin_scam",
+      "primaryOfficialUrl": "https://www.npci.org.in/fraud-awareness",
+      "matchedCategories": [
+        "General",
+        "Worker",
+        "Farmer",
+        "Senior Citizen"
+      ],
+      "safetySummary": "Warn that a UPI PIN is for authorising payments, not for receiving money.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-02",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "QR-code payment request",
+      "topic": "qr_code_payment_scam",
+      "primaryOfficialUrl": "https://www.npci.org.in/fraud-awareness",
+      "matchedCategories": [
+        "General",
+        "Worker",
+        "Senior Citizen"
+      ],
+      "safetySummary": "Scanning a payment QR can initiate outgoing payment; check details before authorising.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-03",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Fake cashback or reward link",
+      "topic": "fake_reward_link",
+      "primaryOfficialUrl": "https://www.npci.org.in/fraud-awareness",
+      "matchedCategories": [
+        "General",
+        "Student",
+        "Woman"
+      ],
+      "safetySummary": "Avoid unknown reward links and payment-credential collection.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-04",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Fake customer support contact",
+      "topic": "fake_customer_support",
+      "primaryOfficialUrl": "https://www.npci.org.in/fraud-awareness",
+      "matchedCategories": [
+        "General",
+        "Senior Citizen"
+      ],
+      "safetySummary": "Use official support channels, not unverified numbers from search or social posts.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-05",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Remote screen-sharing application scam",
+      "topic": "remote_access_app",
+      "primaryOfficialUrl": "https://www.npci.org.in/fraud-awareness",
+      "matchedCategories": [
+        "General",
+        "Senior Citizen",
+        "Worker"
+      ],
+      "safetySummary": "Do not install unfamiliar remote access apps on instructions from unknown callers.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-06",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Investment returns impersonation",
+      "topic": "investment_fraud",
+      "primaryOfficialUrl": "https://www.npci.org.in/fraud-awareness",
+      "matchedCategories": [
+        "General",
+        "Senior Citizen",
+        "Worker"
+      ],
+      "safetySummary": "Verify any investment claim with regulated financial entities; beware guaranteed returns.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-07",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Online marketplace payment scam",
+      "topic": "online_marketplace",
+      "primaryOfficialUrl": "https://www.npci.org.in/fraud-awareness",
+      "matchedCategories": [
+        "General",
+        "Student"
+      ],
+      "safetySummary": "Avoid requests to pay verification deposits or follow unusual QR workflows.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-08",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Fake job and recruitment offers",
+      "topic": "job_fraud",
+      "primaryOfficialUrl": "https://cybercrime.gov.in/Webform/CyberAware.aspx",
+      "matchedCategories": [
+        "Student",
+        "Worker"
+      ],
+      "safetySummary": "Verify employer or recruitment portal before paying fees or sharing sensitive documents.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-09",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Social media account impersonation",
+      "topic": "social_impersonation",
+      "primaryOfficialUrl": "https://cybercrime.gov.in/Webform/CyberAware.aspx",
+      "matchedCategories": [
+        "General",
+        "Student"
+      ],
+      "safetySummary": "Confirm requests over a second channel and report impersonators.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-10",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Digital arrest intimidation",
+      "topic": "digital_arrest",
+      "primaryOfficialUrl": "https://rbi.org.in/scripts/PublicationsView.aspx?id=23441",
+      "matchedCategories": [
+        "General",
+        "Senior Citizen"
+      ],
+      "safetySummary": "Government agencies do not demand instant private payments to avoid a purported online arrest; verify on official channels.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-11",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Fake banking or KYC verification links",
+      "topic": "bank_kyc_phishing",
+      "primaryOfficialUrl": "https://rbikehtahai.rbi.org.in/index.html",
+      "matchedCategories": [
+        "General",
+        "Senior Citizen",
+        "Worker"
+      ],
+      "safetySummary": "Do not disclose OTPs, PINs or credentials to messages claiming account suspension.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    },
+    {
+      "id": "A-12",
+      "recordType": "awareness_topic_not_live_incident",
+      "title": "Matrimonial or relationship-based fraud",
+      "topic": "matrimonial_fraud",
+      "primaryOfficialUrl": "https://cybercrime.gov.in/Webform/CyberAware.aspx",
+      "matchedCategories": [
+        "General",
+        "Woman"
+      ],
+      "safetySummary": "Treat urgent money requests from new online contacts as high risk; verify identity independently.",
+      "publishedAt": null,
+      "firstResearchChecked": "2026-11-16",
+      "language": "en",
+      "requiresFreshnessLabel": true,
+      "doNotPresentAsNewIncident": true,
+      "verificationStatus": "OFFICIAL_AWARENESS_MATERIAL",
+      "notes": "Topic-level educational awareness. Site does not furnish an individually dated incident record for this entry."
+    }
+  ]
+}

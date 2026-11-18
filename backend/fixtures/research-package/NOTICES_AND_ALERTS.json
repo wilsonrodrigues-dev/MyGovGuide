@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "synthetic": true,
+    "warning": "NOT Phase 1 research; contract fixture only"
+  },
+  "notices": [
+    {
+      "id": "synthetic-notice",
+      "title": "SYNTHETIC notice",
+      "sourceIds": [
+        "synthetic-source"
+      ],
+      "sourceUrl": "https://example.test/research"
+    }
+  ],
+  "scamAwareness": [
+    {
+      "id": "synthetic-awareness",
+      "title": "SYNTHETIC awareness topic",
+      "sourceIds": [
+        "synthetic-source"
+      ],
+      "sourceUrl": "https://example.test/research"
+    }
+  ]
+}

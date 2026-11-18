@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "ui": {
+      "resourceUri": "ui://stitch.googleapis.com/project-viewer",
+      "visibility": [
+        "model",
+        "app"
+      ]
+    }
+  },
+  "content": [
+    {
+      "text": "{\"name\":\"projects/16872371074444001614/screens/0a1fc9db38c5463e8b8c6017d06d7ea6\",\"title\":\"MyGovGuide — Scam Alerts\",\"screenshot\":{\"name\":\"projects/16872371074444001614/files/2c38bdb0eae84ba7b3ec4be56b710831\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/2c38bdb0eae84ba7b3ec4be56b710831:download\",\"mimeType\":\"png\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/3734c0bb690b4d99bf62d10e3c98f48c\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/3734c0bb690b4d99bf62d10e3c98f48c:download\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"4008\",\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\"}",
+      "type": "text"
+    }
+  ],
+  "structuredContent": {
+    "deviceType": "DESKTOP",
+    "height": "4008",
+    "htmlCode": {
+      "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/3734c0bb690b4d99bf62d10e3c98f48c:download",
+      "mimeType": "text/html",
+      "name": "projects/16872371074444001614/files/3734c0bb690b4d99bf62d10e3c98f48c"
+    },
+    "name": "projects/16872371074444001614/screens/0a1fc9db38c5463e8b8c6017d06d7ea6",
+    "screenType": "DESIGN",
+    "screenshot": {
+      "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/2c38bdb0eae84ba7b3ec4be56b710831:download",
+      "mimeType": "png",
+      "name": "projects/16872371074444001614/files/2c38bdb0eae84ba7b3ec4be56b710831"
+    },
+    "title": "MyGovGuide — Scam Alerts",
+    "width": "2560"
+  }
+}

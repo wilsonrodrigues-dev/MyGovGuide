@@ -1,0 +1,3592 @@
+{
+  "at": "2026-11-18T10:12:23.213Z",
+  "scope": "FOUR_EXISTING_SCHEMES_EDITORIAL_ONLY",
+  "schemes": [
+    {
+      "schemeId": "IN-ST-02",
+      "name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323830&lang=1&reg=3",
+      "approval": {
+        "_id": "99ac04636daadc0da4d00372eac2a83042b75722cfefffa402c3047d1f322b6f",
+        "schemeId": "IN-ST-02",
+        "sourceVersionId": "version-a943875f43676fbca614b430",
+        "sourceHash": "776cd16ddc9d61ce2f7b6d094cf7b314a56479a7ed4b85a1f326950612083b06",
+        "factsHash": "3fa5575928a90596ec5bd895ba141945a6ecc4cd4b81460abe9e5185bd51ea48",
+        "facts": {
+          "title": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+          "historicalAliases": [],
+          "department": "Ministry of Education, Department of School Education and Literacy",
+          "state": "All India",
+          "beneficiaryCategories": [
+            "Student"
+          ],
+          "description": "Meritorious students from economically weaker families continuing secondary education after class VIII, subject to selection and scheme rules. Source reports an annual INR 12000 scholarship for selected qualifying students. Important limits: Required supporting documents are not specified in this release; Complete selection, renewal and income rules need operative-guideline review; October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed",
+          "benefits": "Source reports an annual INR 12000 scholarship for selected qualifying students.",
+          "requiredDocuments": [],
+          "applicationInfo": {
+            "steps": [
+              "Selection is conducted by States/UTs; scholarship registration and disbursement use NSP. Confirm the current application window with the issuing authority."
+            ],
+            "url": "https://scholarships.gov.in/"
+          },
+          "supportingOfficialUrls": [
+            "https://scholarships.gov.in/"
+          ],
+          "eligibilityConditions": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+          "dates": {
+            "sourcePublication": {
+              "original": "2026-10-15",
+              "value": "2026-10-15",
+              "reviewRequired": false
+            }
+          },
+          "monetaryAmounts": [],
+          "ageRanges": [],
+          "incomeThresholds": [],
+          "observedFacts": {
+            "reviewScope": "Limited factual summary approved for AI preparation only; not publication or eligibility approval",
+            "sourceGaps": [
+              "Required supporting documents are not specified in this release",
+              "Complete selection, renewal and income rules need operative-guideline review",
+              "October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed"
+            ]
+          }
+        },
+        "excerpt": "eligible students receive a scholarship of ₹12,000 per annum.",
+        "clauseRefs": [
+          "PIB PRID 2323830: final scheme-description paragraph"
+        ],
+        "evidenceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323830&lang=1&reg=3",
+        "rightsBasis": "PIB attributed accurate reuse policy; source-grounded factual paraphrase, not a verified ruleset.",
+        "evidence": "Owner explicitly approved five concrete packets for AI preparation only; editorial publication and eligibility remain pending. Known limits: Required supporting documents are not specified in this release; Complete selection, renewal and income rules need operative-guideline review; October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed",
+        "reviewer": "wilson",
+        "verifiedAt": "2026-11-18T08:38:58.332Z",
+        "validUntil": "2026-11-25T08:43:46.290Z",
+        "dataClass": "CURATED_PUBLIC",
+        "sourceIds": [
+          "curated-evidence-0fa24477e7f456a8ff",
+          "reference-a80ba7897673af9910b75abb"
+        ],
+        "createdAt": "2026-11-18T08:43:46.303Z",
+        "updatedAt": "2026-11-18T08:43:46.303Z",
+        "__v": 0
+      },
+      "artifacts": [
+        {
+          "_id": "7df14ea6-1819-4057-aaa6-d6e34343a816",
+          "schemeId": "IN-ST-02",
+          "jobId": "a6bfc47f-6573-4bf4-945c-2b90f7fba470",
+          "approvalId": "99ac04636daadc0da4d00372eac2a83042b75722cfefffa402c3047d1f322b6f",
+          "sourceVersionId": "version-a943875f43676fbca614b430",
+          "sourceHash": "776cd16ddc9d61ce2f7b6d094cf7b314a56479a7ed4b85a1f326950612083b06",
+          "language": "en",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "en",
+            "title": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+            "summary": "Meritorious students from economically weaker families continuing secondary education after class VIII, subject to selection and scheme rules.",
+            "whoItMayHelp": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+            "benefits": [
+              "Source reports an annual INR 12000 scholarship for selected qualifying students."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Selection is conducted by States/UTs; scholarship registration and disbursement use NSP. Confirm the current application window with the issuing authority."
+              ],
+              "links": [
+                {
+                  "url": "https://scholarships.gov.in/",
+                  "label": "National Scholarship Portal"
+                }
+              ]
+            },
+            "limitations": [
+              "Required supporting documents are not specified in this release",
+              "Complete selection, renewal and income rules need operative-guideline review",
+              "October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed"
+            ],
+            "aliases": [
+              "NMMSS"
+            ],
+            "keywords": [
+              "scholarship",
+              "students",
+              "education"
+            ],
+            "romanized": [
+              "NMMSS"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "National Means-cum-Merit Scholarship Scheme (NMMSS)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Education, Department of School Education and Literacy"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Student\"]"
+              },
+              {
+                "id": "description",
+                "value": "Meritorious students from economically weaker families continuing secondary education after class VIII, subject to selection and scheme rules. Source reports an annual INR 12000 scholarship for selected qualifying students. Important limits: Required supporting documents are not specified in this release; Complete selection, renewal and income rules need operative-guideline review; October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed"
+              },
+              {
+                "id": "benefits",
+                "value": "Source reports an annual INR 12000 scholarship for selected qualifying students."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Selection is conducted by States/UTs; scholarship registration and disbursement use NSP. Confirm the current application window with the issuing authority.\"],\"url\":\"https://scholarships.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://scholarships.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{\"sourcePublication\":{\"original\":\"2026-10-15\",\"value\":\"2026-10-15\",\"reviewRequired\":false}}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Required supporting documents are not specified in this release\",\"Complete selection, renewal and income rules need operative-guideline review\",\"October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "PIB PRID 2323830: final scheme-description paragraph",
+                "quote": "eligible students receive a scholarship of ₹12,000 per annum."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1091,
+            "outputTokens": 1106,
+            "totalTokens": 2197
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:44:07.561Z",
+          "updatedAt": "2026-11-18T08:44:07.561Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "en",
+              "title": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+              "summary": "Meritorious students from economically weaker families continuing secondary education after class VIII, subject to selection and scheme rules.",
+              "whoItMayHelp": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+              "benefits": [
+                "Source reports an annual INR 12000 scholarship for selected qualifying students."
+              ],
+              "documents": [],
+              "howToApply": {
+                "steps": [
+                  "Selection is conducted by States/UTs; scholarship registration and disbursement use NSP. Confirm the current application window with the issuing authority."
+                ],
+                "links": [
+                  {
+                    "url": "https://scholarships.gov.in/",
+                    "label": "National Scholarship Portal"
+                  }
+                ]
+              },
+              "limitations": [
+                "Required supporting documents are not specified in this release",
+                "Complete selection, renewal and income rules need operative-guideline review",
+                "October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed"
+              ],
+              "aliases": [
+                "NMMSS"
+              ],
+              "keywords": [
+                "scholarship",
+                "students",
+                "education"
+              ],
+              "romanized": [
+                "NMMSS"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "National Means-cum-Merit Scholarship Scheme (NMMSS)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Ministry of Education, Department of School Education and Literacy"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Student\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Meritorious students from economically weaker families continuing secondary education after class VIII, subject to selection and scheme rules. Source reports an annual INR 12000 scholarship for selected qualifying students. Important limits: Required supporting documents are not specified in this release; Complete selection, renewal and income rules need operative-guideline review; October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed"
+                },
+                {
+                  "id": "benefits",
+                  "value": "Source reports an annual INR 12000 scholarship for selected qualifying students."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Selection is conducted by States/UTs; scholarship registration and disbursement use NSP. Confirm the current application window with the issuing authority.\"],\"url\":\"https://scholarships.gov.in/\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://scholarships.gov.in/\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{\"sourcePublication\":{\"original\":\"2026-10-15\",\"value\":\"2026-10-15\",\"reviewRequired\":false}}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Required supporting documents are not specified in this release\",\"Complete selection, renewal and income rules need operative-guideline review\",\"October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "PIB PRID 2323830: final scheme-description paragraph",
+                  "quote": "eligible students receive a scholarship of ₹12,000 per annum."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "schemeId": "IN-ST-02",
+          "jobId": "e9247a8f-d4b9-4650-a577-a889a762dc5e",
+          "approvalId": "99ac04636daadc0da4d00372eac2a83042b75722cfefffa402c3047d1f322b6f",
+          "sourceVersionId": "version-a943875f43676fbca614b430",
+          "sourceHash": "776cd16ddc9d61ce2f7b6d094cf7b314a56479a7ed4b85a1f326950612083b06",
+          "language": "hi",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "hi",
+            "title": "राष्ट्रीय साधन-सह-मेधा छात्रवृत्ति योजना (NMMSS)",
+            "summary": "आर्थिक रूप से कमज़ोर परिवारों के मेधावी छात्र जो कक्षा आठवीं के बाद अपनी माध्यमिक शिक्षा जारी रख रहे हैं, चयन और योजना के नियमों के अधीन हैं। स्रोत चयनित योग्य छात्रों के लिए प्रति वर्ष 12000 रुपये की छात्रवृत्ति की रिपोर्ट करता है।",
+            "whoItMayHelp": "कक्षा आठवीं के बाद माध्यमिक शिक्षा जारी रखने वाले आर्थिक रूप से कमज़ोर परिवारों के मेधावी छात्र।",
+            "benefits": [
+              "चयनित योग्य छात्रों के लिए प्रति वर्ष 12000 रुपये की छात्रवृत्ति।"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "चयन राज्यों/केंद्र शासित प्रदेशों द्वारा किया जाता है; छात्रवृत्ति पंजीकरण और संवितरण एनएसपी का उपयोग करते हैं। जारी करने वाले प्राधिकरण के साथ वर्तमान आवेदन विंडो की पुष्टि करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://scholarships.gov.in/",
+                  "label": "नेशनल स्कॉलरशिप पोर्टल"
+                }
+              ]
+            },
+            "limitations": [
+              "इस विमोचन में आवश्यक समर्थन दस्तावेज निर्दिष्ट नहीं हैं।",
+              "पूर्ण चयन, नवीनीकरण और आय नियमों के लिए वर्तमान दिशानिर्देशों की समीक्षा आवश्यक है।",
+              "इस स्रोत की आवेदन पंजीकरण की तारीख बीत चुकी है। वर्तमान आवेदन अवधि की पुष्टि नहीं हुई है।"
+            ],
+            "aliases": [
+              "NMMSS",
+              "राष्ट्रीय साधन-सह-मेधा छात्रवृत्ति योजना"
+            ],
+            "keywords": [
+              "छात्रवृत्ति",
+              "NMMSS",
+              "शिक्षा मंत्रालय",
+              "छात्र"
+            ],
+            "romanized": [
+              "National Means-cum-Merit Scholarship Scheme"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "National Means-cum-Merit Scholarship Scheme (NMMSS)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Education, Department of School Education and Literacy"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Student\"]"
+              },
+              {
+                "id": "description",
+                "value": "Meritorious students from economically weaker families continuing secondary education after class VIII, subject to selection and scheme rules. Source reports an annual INR 12000 scholarship for selected qualifying students. Important limits: Required supporting documents are not specified in this release; Complete selection, renewal and income rules need operative-guideline review; October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed"
+              },
+              {
+                "id": "benefits",
+                "value": "Source reports an annual INR 12000 scholarship for selected qualifying students."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Selection is conducted by States/UTs; scholarship registration and disbursement use NSP. Confirm the current application window with the issuing authority.\"],\"url\":\"https://scholarships.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://scholarships.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{\"sourcePublication\":{\"original\":\"2026-10-15\",\"value\":\"2026-10-15\",\"reviewRequired\":false}}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Required supporting documents are not specified in this release\",\"Complete selection, renewal and income rules need operative-guideline review\",\"October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "PIB PRID 2323830: final scheme-description paragraph",
+                "quote": "eligible students receive a scholarship of ₹12,000 per annum."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1091,
+            "outputTokens": 1170,
+            "totalTokens": 2261
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 2,
+          "_id": "386c1d6c-3c08-4540-ad6d-61d3b1ac1b6e",
+          "previousArtifactId": "5d4be1b9-dd61-471b-b601-299dce3e6cd2",
+          "editor": "wilson",
+          "reviewEvidence": "Editorial draft only: explicit expired/unverified NMMSS application window, clearer Hindi terminology and corrected Kannada keywords. Preserve originals; no approval or regeneration.",
+          "reviewedAt": null
+        },
+        {
+          "schemeId": "IN-ST-02",
+          "jobId": "acc4b973-b80b-48fb-bee2-0ba30e09b253",
+          "approvalId": "99ac04636daadc0da4d00372eac2a83042b75722cfefffa402c3047d1f322b6f",
+          "sourceVersionId": "version-a943875f43676fbca614b430",
+          "sourceHash": "776cd16ddc9d61ce2f7b6d094cf7b314a56479a7ed4b85a1f326950612083b06",
+          "language": "kn",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "kn",
+            "title": "ರಾಷ್ಟ್ರೀಯ ಸಾಧನಾ-ಸಂಬಂಧಿತ ವಿದ್ಯಾರ್ಥಿವೇತನ ಯೋಜನೆ (NMMSS)",
+            "summary": "ಆರ್ಥಿಕವಾಗಿ ದುರ್ಬಲ ಕುಟುಂಬಗಳಿಂದ ಬರುವ ಮತ್ತು ಎಂಟನೇ ತರಗತಿಯ ನಂತರ ಮಾಧ್ಯಮಿಕ ಶಿಕ್ಷಣವನ್ನು ಮುಂದುವರಿಸುವ ಪ್ರತಿಭಾವಂತ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ, ಆಯ್ಕೆ ಮತ್ತು ಯೋಜನೆ ನಿಯಮಗಳಿಗೆ ಒಳಪಟ್ಟು ನೆರವು ನೀಡಲಾಗುತ್ತದೆ. ಮೂಲದ ಪ್ರಕಾರ ಆಯ್ಕೆಯಾದ ಅರ್ಹ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ವಾರ್ಷಿಕ ರೂ. 12000 ವಿದ್ಯಾರ್ಥಿವೇತನ ನೀಡಲಾಗುತ್ತದೆ.",
+            "whoItMayHelp": "ಆರ್ಥಿಕವಾಗಿ ದುರ್ಬಲ ಕುಟುಂಬಗಳಿಂದ ಬರುವ ಮತ್ತು ಎಂಟನೇ ತರಗತಿಯ ನಂತರ ಮಾಧ್ಯಮಿಕ ಶಿಕ್ಷಣವನ್ನು ಮುಂದುವರಿಸುವ ವಿದ್ಯಾರ್ಥಿಗಳು.",
+            "benefits": [
+              "ಆಯ್ಕೆಯಾದ ಅರ್ಹ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ವಾರ್ಷಿಕ ರೂ. 12000 ವಿದ್ಯಾರ್ಥಿವೇತನ."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ಆಯ್ಕೆಯನ್ನು ರಾಜ್ಯಗಳು/ಕೇಂದ್ರಾಡಳಿತ ಪ್ರದೇಶಗಳು ನಡೆಸುತ್ತವೆ; ವಿದ್ಯಾರ್ಥಿವೇತನ ನೋಂದಣಿ ಮತ್ತು ವಿತರಣೆಗೆ ಎನ್‌ಎಸ್‌ಪಿ ಬಳಸಲಾಗುತ್ತದೆ. ಪ್ರಸ್ತುತ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಅವಧಿಯನ್ನು ಸಂಬಂಧಪಟ್ಟ ಅಧಿಕಾರಿಯೊಂದಿಗೆ ದೃಢೀಕರಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://scholarships.gov.in/",
+                  "label": "ನ್ಯಾಷನಲ್ ಸ್ಕಾಲರ್‌ಶಿಪ್ ಪೋರ್ಟಲ್"
+                }
+              ]
+            },
+            "limitations": [
+              "ಈ ಬಿಡುಗಡೆಯಲ್ಲಿ ಅಗತ್ಯವಿರುವ ಬೆಂಬಲ ದಾಖಲೆಗಳನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಲಾಗಿಲ್ಲ",
+              "ಸಂಪೂರ್ಣ ಆಯ್ಕೆ, ನವೀಕರಣ ಮತ್ತು ಆದಾಯ ನಿಯಮಗಳ ಪರಿಶೀಲನೆ ಅಗತ್ಯವಿದೆ",
+              "ಈ ಬಿಡುಗಡೆಯಲ್ಲಿ ನಮೂದಿಸಲಾದ ಅಕ್ಟೋಬರ್ 31 ನೋಂದಣಿ ದಿನಾಂಕವು ಮುಗಿದಿದೆ",
+              "ಪ್ರಸ್ತುತ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಅವಧಿ ತೆರೆದಿದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ."
+            ],
+            "aliases": [
+              "NMMSS"
+            ],
+            "keywords": [
+              "ವಿದ್ಯಾರ್ಥಿವೇತನ",
+              "ಎನ್‌ಎಂಎಂಎಸ್‌ಎಸ್",
+              "NMMSS"
+            ],
+            "romanized": [
+              "NMMSS"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "National Means-cum-Merit Scholarship Scheme (NMMSS)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Education, Department of School Education and Literacy"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Student\"]"
+              },
+              {
+                "id": "description",
+                "value": "Meritorious students from economically weaker families continuing secondary education after class VIII, subject to selection and scheme rules. Source reports an annual INR 12000 scholarship for selected qualifying students. Important limits: Required supporting documents are not specified in this release; Complete selection, renewal and income rules need operative-guideline review; October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed"
+              },
+              {
+                "id": "benefits",
+                "value": "Source reports an annual INR 12000 scholarship for selected qualifying students."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Selection is conducted by States/UTs; scholarship registration and disbursement use NSP. Confirm the current application window with the issuing authority.\"],\"url\":\"https://scholarships.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://scholarships.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{\"sourcePublication\":{\"original\":\"2026-10-15\",\"value\":\"2026-10-15\",\"reviewRequired\":false}}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Required supporting documents are not specified in this release\",\"Complete selection, renewal and income rules need operative-guideline review\",\"October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "PIB PRID 2323830: final scheme-description paragraph",
+                "quote": "eligible students receive a scholarship of ₹12,000 per annum."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1091,
+            "outputTokens": 1303,
+            "totalTokens": 2394
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 2,
+          "_id": "474d9fa7-c2bc-4163-a96e-2af426ce9fb3",
+          "previousArtifactId": "9d354f3f-5ec1-4ae1-ad2f-9b234d73a1c3",
+          "editor": "wilson",
+          "reviewEvidence": "Editorial draft only: explicit expired/unverified NMMSS application window, clearer Hindi terminology and corrected Kannada keywords. Preserve originals; no approval or regeneration.",
+          "reviewedAt": null
+        }
+      ]
+    },
+    {
+      "schemeId": "IN-WK-02",
+      "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "sourceUrl": "https://financialservices.gov.in/pmjjby",
+      "approval": {
+        "_id": "2bd09de0ed1d71ce96e79adef90da3f1bd7364ae2e323899e2c2343a9d92f920",
+        "schemeId": "IN-WK-02",
+        "sourceVersionId": "version-7f296db84324dc299a527a1e",
+        "sourceHash": "1d2a54b13a4c59afad355ac0463386586febe9a8b2e344e7f43778c35b3aaf99",
+        "factsHash": "83e1d9a73d727677495f871f8b1a903ec236fcb2f37925715ca4ef229dbe1d96",
+        "facts": {
+          "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+          "historicalAliases": [],
+          "department": "Department of Financial Services, Ministry of Finance",
+          "state": "All India",
+          "beneficiaryCategories": [
+            "Worker"
+          ],
+          "description": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion. One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry. Important limits: Bank-specific identity/KYC checklist not verified; Full insurance policy/claims exclusions and all amendments need editorial review; Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes",
+          "benefits": "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry.",
+          "requiredDocuments": [
+            "Prescribed enrolment and auto-debit consent/declaration form"
+          ],
+          "applicationInfo": {
+            "steps": [
+              "Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms."
+            ],
+            "url": "https://financialservices.gov.in/pmjjby"
+          },
+          "supportingOfficialUrls": [
+            "https://financialservices.gov.in/pmjjby"
+          ],
+          "eligibilityConditions": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+          "dates": {},
+          "monetaryAmounts": [],
+          "ageRanges": [],
+          "incomeThresholds": [],
+          "observedFacts": {
+            "reviewScope": "Limited factual summary approved for AI preparation only; not publication or eligibility approval",
+            "sourceGaps": [
+              "Bank-specific identity/KYC checklist not verified",
+              "Full insurance policy/claims exclusions and all amendments need editorial review",
+              "Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+            ]
+          }
+        },
+        "excerpt": "Rs.2 lakh is payable on a subscriber’s death due to any cause.",
+        "clauseRefs": [
+          "DFS PMJJBY FAQ: benefit, premium, entry and enrolment sections"
+        ],
+        "evidenceUrl": "https://financialservices.gov.in/pmjjby",
+        "rightsBasis": "Public factual paraphrase with a short evidence quotation; no copied imagery/expression; human rights/currentness review required.",
+        "evidence": "Owner explicitly approved five concrete packets for AI preparation only; editorial publication and eligibility remain pending. Known limits: Bank-specific identity/KYC checklist not verified; Full insurance policy/claims exclusions and all amendments need editorial review; Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes",
+        "reviewer": "wilson",
+        "verifiedAt": "2026-11-18T08:38:58.332Z",
+        "validUntil": "2026-11-25T08:47:41.461Z",
+        "dataClass": "CURATED_PUBLIC",
+        "sourceIds": [
+          "curated-evidence-373e95cf2eb8b9dc60",
+          "reference-b5e46132e8330a98175f9e97"
+        ],
+        "createdAt": "2026-11-18T08:47:41.546Z",
+        "updatedAt": "2026-11-18T08:47:41.546Z",
+        "__v": 0
+      },
+      "artifacts": [
+        {
+          "_id": "6497f933-287e-48fe-94de-8726a3a97de7",
+          "schemeId": "IN-WK-02",
+          "jobId": "01833999-d2c4-4485-8941-3ac06dd0d98b",
+          "approvalId": "2bd09de0ed1d71ce96e79adef90da3f1bd7364ae2e323899e2c2343a9d92f920",
+          "sourceVersionId": "version-7f296db84324dc299a527a1e",
+          "sourceHash": "1d2a54b13a4c59afad355ac0463386586febe9a8b2e344e7f43778c35b3aaf99",
+          "language": "en",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "en",
+            "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+            "summary": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion. One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry.",
+            "whoItMayHelp": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+            "benefits": [
+              "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry."
+            ],
+            "documents": [
+              {
+                "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                "label": "Enrolment Form",
+                "explanation": "Prescribed enrolment and auto-debit consent/declaration form required for application."
+              }
+            ],
+            "howToApply": {
+              "steps": [
+                "Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms."
+              ],
+              "links": [
+                {
+                  "url": "https://financialservices.gov.in/pmjjby",
+                  "label": "Official Website"
+                }
+              ]
+            },
+            "limitations": [
+              "Bank-specific identity/KYC checklist not verified",
+              "Full insurance policy/claims exclusions and all amendments need editorial review",
+              "Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+            ],
+            "aliases": [
+              "PMJJBY"
+            ],
+            "keywords": [
+              "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+              "PMJJBY",
+              "Life Insurance",
+              "Worker"
+            ],
+            "romanized": [
+              "Pradhan Mantri Jeevan Jyoti Bima Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Department of Financial Services, Ministry of Finance"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Worker\"]"
+              },
+              {
+                "id": "description",
+                "value": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion. One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry. Important limits: Bank-specific identity/KYC checklist not verified; Full insurance policy/claims exclusions and all amendments need editorial review; Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+              },
+              {
+                "id": "benefits",
+                "value": "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms.\"],\"url\":\"https://financialservices.gov.in/pmjjby\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://financialservices.gov.in/pmjjby\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC checklist not verified\",\"Full insurance policy/claims exclusions and all amendments need editorial review\",\"Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "DFS PMJJBY FAQ: benefit, premium, entry and enrolment sections",
+                "quote": "Rs.2 lakh is payable on a subscriber’s death due to any cause."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1247,
+            "outputTokens": 1424,
+            "totalTokens": 2671
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:48:02.572Z",
+          "updatedAt": "2026-11-18T08:48:02.572Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "en",
+              "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+              "summary": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion. One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry.",
+              "whoItMayHelp": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+              "benefits": [
+                "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry."
+              ],
+              "documents": [
+                {
+                  "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                  "label": "Enrolment Form",
+                  "explanation": "Prescribed enrolment and auto-debit consent/declaration form required for application."
+                }
+              ],
+              "howToApply": {
+                "steps": [
+                  "Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms."
+                ],
+                "links": [
+                  {
+                    "url": "https://financialservices.gov.in/pmjjby",
+                    "label": "Official Website"
+                  }
+                ]
+              },
+              "limitations": [
+                "Bank-specific identity/KYC checklist not verified",
+                "Full insurance policy/claims exclusions and all amendments need editorial review",
+                "Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+              ],
+              "aliases": [
+                "PMJJBY"
+              ],
+              "keywords": [
+                "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+                "PMJJBY",
+                "Life Insurance",
+                "Worker"
+              ],
+              "romanized": [
+                "Pradhan Mantri Jeevan Jyoti Bima Yojana"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Department of Financial Services, Ministry of Finance"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Worker\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion. One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry. Important limits: Bank-specific identity/KYC checklist not verified; Full insurance policy/claims exclusions and all amendments need editorial review; Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+                },
+                {
+                  "id": "benefits",
+                  "value": "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms.\"],\"url\":\"https://financialservices.gov.in/pmjjby\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://financialservices.gov.in/pmjjby\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC checklist not verified\",\"Full insurance policy/claims exclusions and all amendments need editorial review\",\"Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "DFS PMJJBY FAQ: benefit, premium, entry and enrolment sections",
+                  "quote": "Rs.2 lakh is payable on a subscriber’s death due to any cause."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "_id": "7e795ca1-b0ca-4458-9e1d-934d34954372",
+          "schemeId": "IN-WK-02",
+          "jobId": "a0f3427d-59bf-40ac-bcf9-e7acd7d24118",
+          "approvalId": "2bd09de0ed1d71ce96e79adef90da3f1bd7364ae2e323899e2c2343a9d92f920",
+          "sourceVersionId": "version-7f296db84324dc299a527a1e",
+          "sourceHash": "1d2a54b13a4c59afad355ac0463386586febe9a8b2e344e7f43778c35b3aaf99",
+          "language": "hi",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "hi",
+            "title": "प्रधानमंत्री जीवन ज्योति बीमा योजना (PMJJBY)",
+            "summary": "यह योजना किसी भी कारण से मृत्यु होने पर एक वर्ष का नवीकरणीय जीवन बीमा कवर प्रदान करती है।",
+            "whoItMayHelp": "भाग लेने वाले बैंकों और डाकघरों के व्यक्तिगत खाता धारक।",
+            "benefits": [
+              "किसी भी कारण से मृत्यु होने पर 2,00,000 रुपये का एक वर्ष का नवीकरणीय जीवन बीमा कवर, जो पॉलिसी की शर्तों के अधीन है।"
+            ],
+            "documents": [
+              {
+                "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                "label": "निर्धारित नामांकन और ऑटो-डेबिट सहमति/घोषणा पत्र",
+                "explanation": "भाग लेने वाले बैंक या डाकघर के साथ नामांकन के लिए आवश्यक फॉर्म।"
+              }
+            ],
+            "howToApply": {
+              "steps": [
+                "निर्धारित फॉर्म का उपयोग करके भाग लेने वाले बैंक या डाकघर के साथ नामांकन का अनुरोध करें और प्रीमियम ऑटो-डेबिट के लिए सहमति दें। लागू होने वाले पहले प्रवेश प्रीमियम और शर्तों की पुष्टि करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://financialservices.gov.in/pmjjby",
+                  "label": "आधिकारिक वेबसाइट"
+                }
+              ]
+            },
+            "limitations": [
+              "बैंक-विशिष्ट पहचान/केवाईसी चेकलिस्ट सत्यापित नहीं है।",
+              "पूर्ण बीमा पॉलिसी/दावे बहिष्करण और सभी संशोधनों की संपादकीय समीक्षा की आवश्यकता है।",
+              "आधिकारिक एफएक्यू सूचियां अंतिम बार 2026-01-05 को अपडेट की गईं।"
+            ],
+            "aliases": [
+              "PMJJBY",
+              "प्रधानमंत्री जीवन ज्योति बीमा योजना"
+            ],
+            "keywords": [
+              "बीमा",
+              "जीवन बीमा",
+              "PMJJBY",
+              "वित्तीय सेवा विभाग"
+            ],
+            "romanized": [
+              "Pradhan Mantri Jeevan Jyoti Bima Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Department of Financial Services, Ministry of Finance"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Worker\"]"
+              },
+              {
+                "id": "description",
+                "value": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion. One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry. Important limits: Bank-specific identity/KYC checklist not verified; Full insurance policy/claims exclusions and all amendments need editorial review; Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+              },
+              {
+                "id": "benefits",
+                "value": "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms.\"],\"url\":\"https://financialservices.gov.in/pmjjby\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://financialservices.gov.in/pmjjby\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC checklist not verified\",\"Full insurance policy/claims exclusions and all amendments need editorial review\",\"Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "DFS PMJJBY FAQ: benefit, premium, entry and enrolment sections",
+                "quote": "Rs.2 lakh is payable on a subscriber’s death due to any cause."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1247,
+            "outputTokens": 1337,
+            "totalTokens": 2584
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:48:25.145Z",
+          "updatedAt": "2026-11-18T08:48:25.145Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "hi",
+              "title": "प्रधानमंत्री जीवन ज्योति बीमा योजना (PMJJBY)",
+              "summary": "यह योजना किसी भी कारण से मृत्यु होने पर एक वर्ष का नवीकरणीय जीवन बीमा कवर प्रदान करती है।",
+              "whoItMayHelp": "भाग लेने वाले बैंकों और डाकघरों के व्यक्तिगत खाता धारक।",
+              "benefits": [
+                "किसी भी कारण से मृत्यु होने पर 2,00,000 रुपये का एक वर्ष का नवीकरणीय जीवन बीमा कवर, जो पॉलिसी की शर्तों के अधीन है।"
+              ],
+              "documents": [
+                {
+                  "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                  "label": "निर्धारित नामांकन और ऑटो-डेबिट सहमति/घोषणा पत्र",
+                  "explanation": "भाग लेने वाले बैंक या डाकघर के साथ नामांकन के लिए आवश्यक फॉर्म।"
+                }
+              ],
+              "howToApply": {
+                "steps": [
+                  "निर्धारित फॉर्म का उपयोग करके भाग लेने वाले बैंक या डाकघर के साथ नामांकन का अनुरोध करें और प्रीमियम ऑटो-डेबिट के लिए सहमति दें। लागू होने वाले पहले प्रवेश प्रीमियम और शर्तों की पुष्टि करें।"
+                ],
+                "links": [
+                  {
+                    "url": "https://financialservices.gov.in/pmjjby",
+                    "label": "आधिकारिक वेबसाइट"
+                  }
+                ]
+              },
+              "limitations": [
+                "बैंक-विशिष्ट पहचान/केवाईसी चेकलिस्ट सत्यापित नहीं है।",
+                "पूर्ण बीमा पॉलिसी/दावे बहिष्करण और सभी संशोधनों की संपादकीय समीक्षा की आवश्यकता है।",
+                "आधिकारिक एफएक्यू सूचियां अंतिम बार 2026-01-05 को अपडेट की गईं।"
+              ],
+              "aliases": [
+                "PMJJBY",
+                "प्रधानमंत्री जीवन ज्योति बीमा योजना"
+              ],
+              "keywords": [
+                "बीमा",
+                "जीवन बीमा",
+                "PMJJBY",
+                "वित्तीय सेवा विभाग"
+              ],
+              "romanized": [
+                "Pradhan Mantri Jeevan Jyoti Bima Yojana"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Department of Financial Services, Ministry of Finance"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Worker\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion. One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry. Important limits: Bank-specific identity/KYC checklist not verified; Full insurance policy/claims exclusions and all amendments need editorial review; Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+                },
+                {
+                  "id": "benefits",
+                  "value": "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms.\"],\"url\":\"https://financialservices.gov.in/pmjjby\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://financialservices.gov.in/pmjjby\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC checklist not verified\",\"Full insurance policy/claims exclusions and all amendments need editorial review\",\"Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "DFS PMJJBY FAQ: benefit, premium, entry and enrolment sections",
+                  "quote": "Rs.2 lakh is payable on a subscriber’s death due to any cause."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "_id": "720262da-d66e-4eef-b2e2-f18fb410e623",
+          "schemeId": "IN-WK-02",
+          "jobId": "90a2b8e7-09e8-4584-85d5-fbdf7cdf4ac5",
+          "approvalId": "2bd09de0ed1d71ce96e79adef90da3f1bd7364ae2e323899e2c2343a9d92f920",
+          "sourceVersionId": "version-7f296db84324dc299a527a1e",
+          "sourceHash": "1d2a54b13a4c59afad355ac0463386586febe9a8b2e344e7f43778c35b3aaf99",
+          "language": "kn",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "kn",
+            "title": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಜೀವನ್ ಜ್ಯೋತಿ ವಿಮಾ ಯೋಜನೆ (PMJJBY)",
+            "summary": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಜೀವನ್ ಜ್ಯೋತಿ ವಿಮಾ ಯೋಜನೆಯು ಯಾವುದೇ ಕಾರಣದಿಂದ ಸಂಭವಿಸುವ ಸಾವಿಗೆ INR 200000 ವರೆಗಿನ ಒಂದು ವರ್ಷದ ನವೀಕರಿಸಬಹುದಾದ ಜೀವ ವಿಮಾ ರಕ್ಷಣೆಯನ್ನು ನೀಡುತ್ತದೆ.",
+            "whoItMayHelp": "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್‌ಗಳು ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಗಳ ವೈಯಕ್ತಿಕ ಖಾತೆದಾರರು. ಅನ್ವಯವಾಗುವ ಪ್ರವೇಶ ವಯಸ್ಸು 18 ರಿಂದ 50 ವರ್ಷಗಳು.",
+            "benefits": [
+              "ಯಾವುದೇ ಕಾರಣದಿಂದ ಸಂಭವಿಸುವ ಸಾವಿಗೆ ಒಂದು ವರ್ಷದ ನವೀಕರಿಸಬಹುದಾದ ಜೀವ ವಿಮಾ ರಕ್ಷಣೆ INR 200000.",
+              "ಪ್ರಮಾಣಿತ ವಾರ್ಷಿಕ ನವೀಕರಣ ಪ್ರೀಮಿಯಂ INR 436 ಮತ್ತು ಮೊದಲ ಬಾರಿಗೆ ಮಧ್ಯರಾತ್ರಿಯ ಪ್ರವೇಶಕ್ಕೆ ಪ್ರೊ-ರಾಟಾ ಆಯ್ಕೆಗಳು ಲಭ್ಯವಿವೆ."
+            ],
+            "documents": [
+              {
+                "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                "label": "ನಿಗದಿತ ದಾಖಲಾತಿ ಮತ್ತು ಸ್ವಯಂ-ಡೆಬಿಟ್ ಒಪ್ಪಿಗೆ ನಮೂನೆ",
+                "explanation": "ಬ್ಯಾಂಕ್ ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಯಲ್ಲಿ ನೋಂದಾಯಿಸಲು ಮತ್ತು ಪ್ರೀಮಿಯಂ ಸ್ವಯಂ-ಡೆಬಿಟ್‌ಗೆ ಒಪ್ಪಿಗೆ ನೀಡಲು ಬಳಸುವ ನಿಗದಿತ ನಮೂನೆ."
+              }
+            ],
+            "howToApply": {
+              "steps": [
+                "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್ ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಯಲ್ಲಿ ಅದರ ನಿಗದಿತ ನಮೂನೆಯನ್ನು ಬಳಸಿಕೊಂಡು ದಾಖಲಾತಿಯನ್ನು ವಿನಂತಿಸಿ ಮತ್ತು ಪ್ರೀಮಿಯಂ ಸ್ವಯಂ-ಡೆಬಿಟ್‌ಗೆ ಒಪ್ಪಿಗೆ ನೀಡಿ.",
+                "ಅನ್ವಯವಾಗುವ ಮೊದಲ ಪ್ರವೇಶ ಪ್ರೀಮಿಯಂ ಮತ್ತು ನಿಯಮಗಳನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://financialservices.gov.in/pmjjby",
+                  "label": "ಅಧಿಕೃತ ಜಾಲತಾಣ"
+                }
+              ]
+            },
+            "limitations": [
+              "ಬ್ಯಾಂಕ್ ನಿರ್ದಿಷ್ಟ ಗುರುತಿನ/KYC ಪರಿಶೀಲನಾಪಟ್ಟಿ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.",
+              "ಪೂರ್ಣ ವಿಮಾ ಪಾಲಿಸಿ/ದಾಾವೆ ಹೊರತುಪಡಿಸುವಿಕೆಗಳು ಮತ್ತು ಎಲ್ಲಾ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ವಿಮರ್ಶೆಯ ಅಗತ್ಯವಿದೆ."
+            ],
+            "aliases": [
+              "PMJJBY"
+            ],
+            "keywords": [
+              "ವಿಮೆ",
+              "ಜೀವ ವಿಮೆ",
+              "PMJJBY",
+              "ಪ್ರಧಾನ ಮಂತ್ರಿ ಜೀವನ್ ಜ್ಯೋತಿ ವಿಮಾ ಯೋಜನೆ"
+            ],
+            "romanized": [
+              "Pradhan Mantri Jeevan Jyoti Bima Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Department of Financial Services, Ministry of Finance"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Worker\"]"
+              },
+              {
+                "id": "description",
+                "value": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion. One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry. Important limits: Bank-specific identity/KYC checklist not verified; Full insurance policy/claims exclusions and all amendments need editorial review; Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+              },
+              {
+                "id": "benefits",
+                "value": "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms.\"],\"url\":\"https://financialservices.gov.in/pmjjby\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://financialservices.gov.in/pmjjby\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC checklist not verified\",\"Full insurance policy/claims exclusions and all amendments need editorial review\",\"Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "DFS PMJJBY FAQ: benefit, premium, entry and enrolment sections",
+                "quote": "Rs.2 lakh is payable on a subscriber’s death due to any cause."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1247,
+            "outputTokens": 1535,
+            "totalTokens": 2782
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:48:41.573Z",
+          "updatedAt": "2026-11-18T08:48:41.573Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "kn",
+              "title": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಜೀವನ್ ಜ್ಯೋತಿ ವಿಮಾ ಯೋಜನೆ (PMJJBY)",
+              "summary": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಜೀವನ್ ಜ್ಯೋತಿ ವಿಮಾ ಯೋಜನೆಯು ಯಾವುದೇ ಕಾರಣದಿಂದ ಸಂಭವಿಸುವ ಸಾವಿಗೆ INR 200000 ವರೆಗಿನ ಒಂದು ವರ್ಷದ ನವೀಕರಿಸಬಹುದಾದ ಜೀವ ವಿಮಾ ರಕ್ಷಣೆಯನ್ನು ನೀಡುತ್ತದೆ.",
+              "whoItMayHelp": "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್‌ಗಳು ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಗಳ ವೈಯಕ್ತಿಕ ಖಾತೆದಾರರು. ಅನ್ವಯವಾಗುವ ಪ್ರವೇಶ ವಯಸ್ಸು 18 ರಿಂದ 50 ವರ್ಷಗಳು.",
+              "benefits": [
+                "ಯಾವುದೇ ಕಾರಣದಿಂದ ಸಂಭವಿಸುವ ಸಾವಿಗೆ ಒಂದು ವರ್ಷದ ನವೀಕರಿಸಬಹುದಾದ ಜೀವ ವಿಮಾ ರಕ್ಷಣೆ INR 200000.",
+                "ಪ್ರಮಾಣಿತ ವಾರ್ಷಿಕ ನವೀಕರಣ ಪ್ರೀಮಿಯಂ INR 436 ಮತ್ತು ಮೊದಲ ಬಾರಿಗೆ ಮಧ್ಯರಾತ್ರಿಯ ಪ್ರವೇಶಕ್ಕೆ ಪ್ರೊ-ರಾಟಾ ಆಯ್ಕೆಗಳು ಲಭ್ಯವಿವೆ."
+              ],
+              "documents": [
+                {
+                  "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                  "label": "ನಿಗದಿತ ದಾಖಲಾತಿ ಮತ್ತು ಸ್ವಯಂ-ಡೆಬಿಟ್ ಒಪ್ಪಿಗೆ ನಮೂನೆ",
+                  "explanation": "ಬ್ಯಾಂಕ್ ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಯಲ್ಲಿ ನೋಂದಾಯಿಸಲು ಮತ್ತು ಪ್ರೀಮಿಯಂ ಸ್ವಯಂ-ಡೆಬಿಟ್‌ಗೆ ಒಪ್ಪಿಗೆ ನೀಡಲು ಬಳಸುವ ನಿಗದಿತ ನಮೂನೆ."
+                }
+              ],
+              "howToApply": {
+                "steps": [
+                  "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್ ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಯಲ್ಲಿ ಅದರ ನಿಗದಿತ ನಮೂನೆಯನ್ನು ಬಳಸಿಕೊಂಡು ದಾಖಲಾತಿಯನ್ನು ವಿನಂತಿಸಿ ಮತ್ತು ಪ್ರೀಮಿಯಂ ಸ್ವಯಂ-ಡೆಬಿಟ್‌ಗೆ ಒಪ್ಪಿಗೆ ನೀಡಿ.",
+                  "ಅನ್ವಯವಾಗುವ ಮೊದಲ ಪ್ರವೇಶ ಪ್ರೀಮಿಯಂ ಮತ್ತು ನಿಯಮಗಳನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+                ],
+                "links": [
+                  {
+                    "url": "https://financialservices.gov.in/pmjjby",
+                    "label": "ಅಧಿಕೃತ ಜಾಲತಾಣ"
+                  }
+                ]
+              },
+              "limitations": [
+                "ಬ್ಯಾಂಕ್ ನಿರ್ದಿಷ್ಟ ಗುರುತಿನ/KYC ಪರಿಶೀಲನಾಪಟ್ಟಿ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.",
+                "ಪೂರ್ಣ ವಿಮಾ ಪಾಲಿಸಿ/ದಾಾವೆ ಹೊರತುಪಡಿಸುವಿಕೆಗಳು ಮತ್ತು ಎಲ್ಲಾ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ವಿಮರ್ಶೆಯ ಅಗತ್ಯವಿದೆ."
+              ],
+              "aliases": [
+                "PMJJBY"
+              ],
+              "keywords": [
+                "ವಿಮೆ",
+                "ಜೀವ ವಿಮೆ",
+                "PMJJBY",
+                "ಪ್ರಧಾನ ಮಂತ್ರಿ ಜೀವನ್ ಜ್ಯೋತಿ ವಿಮಾ ಯೋಜನೆ"
+              ],
+              "romanized": [
+                "Pradhan Mantri Jeevan Jyoti Bima Yojana"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Department of Financial Services, Ministry of Finance"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Worker\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion. One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry. Important limits: Bank-specific identity/KYC checklist not verified; Full insurance policy/claims exclusions and all amendments need editorial review; Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+                },
+                {
+                  "id": "benefits",
+                  "value": "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms.\"],\"url\":\"https://financialservices.gov.in/pmjjby\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://financialservices.gov.in/pmjjby\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC checklist not verified\",\"Full insurance policy/claims exclusions and all amendments need editorial review\",\"Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "DFS PMJJBY FAQ: benefit, premium, entry and enrolment sections",
+                  "quote": "Rs.2 lakh is payable on a subscriber’s death due to any cause."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "schemeId": "IN-WK-03",
+      "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "sourceUrl": "https://financialservices.gov.in/pmsby",
+      "approval": {
+        "_id": "9c8e2e94f2d8f1fc29026b6d41b1d72781bad820d9be653d515f499859ae29f2",
+        "schemeId": "IN-WK-03",
+        "sourceVersionId": "version-0b914b613cff9e680ca8e589",
+        "sourceHash": "1ed6bfd3477adeadec3f33a336af602b39bf4bc0339ffc0cdf2d46ba6b079238",
+        "factsHash": "70cf6be0f289bc8ed899dd563167369d249b8bfea4f2e68e10b522cd47517ed2",
+        "facts": {
+          "title": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+          "historicalAliases": [],
+          "department": "Department of Financial Services, Ministry of Finance",
+          "state": "All India",
+          "beneficiaryCategories": [
+            "Worker"
+          ],
+          "description": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict. Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit. Important limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms",
+          "benefits": "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit.",
+          "requiredDocuments": [
+            "Prescribed enrolment and auto-debit consent/declaration form"
+          ],
+          "applicationInfo": {
+            "steps": [
+              "Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions."
+            ],
+            "url": "https://financialservices.gov.in/pmsby"
+          },
+          "supportingOfficialUrls": [
+            "https://financialservices.gov.in/pmsby"
+          ],
+          "eligibilityConditions": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+          "dates": {},
+          "monetaryAmounts": [],
+          "ageRanges": [],
+          "incomeThresholds": [],
+          "observedFacts": {
+            "reviewScope": "Limited factual summary approved for AI preparation only; not publication or eligibility approval",
+            "sourceGaps": [
+              "Bank-specific identity/KYC requirements not verified",
+              "Exact disability definitions, claim documents and latest policy amendments require editorial review",
+              "FAQ availability does not independently certify all current terms"
+            ]
+          }
+        },
+        "excerpt": "Premium payable is Rs.20/- per annum per member.",
+        "clauseRefs": [
+          "DFS PMSBY FAQ: benefits table, premium and enrolment"
+        ],
+        "evidenceUrl": "https://financialservices.gov.in/pmsby",
+        "rightsBasis": "Public factual paraphrase and short evidence quotation; human rights/currentness review required.",
+        "evidence": "Owner explicitly approved five concrete packets for AI preparation only; editorial publication and eligibility remain pending. Known limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms",
+        "reviewer": "wilson",
+        "verifiedAt": "2026-11-18T08:38:58.332Z",
+        "validUntil": "2026-11-25T08:48:41.619Z",
+        "dataClass": "CURATED_PUBLIC",
+        "sourceIds": [
+          "curated-evidence-faf5c2243aec62b9b0",
+          "reference-31639292f0256847b466bd0b"
+        ],
+        "createdAt": "2026-11-18T08:48:41.633Z",
+        "updatedAt": "2026-11-18T08:48:41.633Z",
+        "__v": 0
+      },
+      "artifacts": [
+        {
+          "_id": "2e4fc1c3-871d-4670-92b1-f7c781b1a83c",
+          "schemeId": "IN-WK-03",
+          "jobId": "68b1c0f5-4707-43ee-8044-f4008d2ad473",
+          "approvalId": "9c8e2e94f2d8f1fc29026b6d41b1d72781bad820d9be653d515f499859ae29f2",
+          "sourceVersionId": "version-0b914b613cff9e680ca8e589",
+          "sourceHash": "1ed6bfd3477adeadec3f33a336af602b39bf4bc0339ffc0cdf2d46ba6b079238",
+          "language": "en",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "en",
+            "title": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+            "summary": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict. Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit. Important limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms",
+            "whoItMayHelp": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+            "benefits": [
+              "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit."
+            ],
+            "documents": [
+              {
+                "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                "label": "Prescribed enrolment and auto-debit consent/declaration form",
+                "explanation": "Required form for enrolment and auto-debit consent."
+              }
+            ],
+            "howToApply": {
+              "steps": [
+                "Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions."
+              ],
+              "links": [
+                {
+                  "url": "https://financialservices.gov.in/pmsby",
+                  "label": "Official PMSBY Portal"
+                }
+              ]
+            },
+            "limitations": [
+              "Bank-specific identity/KYC requirements not verified",
+              "Exact disability definitions, claim documents and latest policy amendments require editorial review",
+              "FAQ availability does not independently certify all current terms"
+            ],
+            "aliases": [],
+            "keywords": [
+              "PMSBY",
+              "accident insurance",
+              "Pradhan Mantri Suraksha Bima Yojana",
+              "insurance scheme"
+            ],
+            "romanized": [
+              "Pradhan Mantri Suraksha Bima Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Department of Financial Services, Ministry of Finance"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Worker\"]"
+              },
+              {
+                "id": "description",
+                "value": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict. Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit. Important limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms"
+              },
+              {
+                "id": "benefits",
+                "value": "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions.\"],\"url\":\"https://financialservices.gov.in/pmsby\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://financialservices.gov.in/pmsby\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC requirements not verified\",\"Exact disability definitions, claim documents and latest policy amendments require editorial review\",\"FAQ availability does not independently certify all current terms\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "DFS PMSBY FAQ: benefits table, premium and enrolment",
+                "quote": "Premium payable is Rs.20/- per annum per member."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1092,
+            "outputTokens": 1314,
+            "totalTokens": 2406
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:49:02.912Z",
+          "updatedAt": "2026-11-18T08:49:02.912Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "en",
+              "title": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+              "summary": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict. Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit. Important limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms",
+              "whoItMayHelp": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+              "benefits": [
+                "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit."
+              ],
+              "documents": [
+                {
+                  "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                  "label": "Prescribed enrolment and auto-debit consent/declaration form",
+                  "explanation": "Required form for enrolment and auto-debit consent."
+                }
+              ],
+              "howToApply": {
+                "steps": [
+                  "Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions."
+                ],
+                "links": [
+                  {
+                    "url": "https://financialservices.gov.in/pmsby",
+                    "label": "Official PMSBY Portal"
+                  }
+                ]
+              },
+              "limitations": [
+                "Bank-specific identity/KYC requirements not verified",
+                "Exact disability definitions, claim documents and latest policy amendments require editorial review",
+                "FAQ availability does not independently certify all current terms"
+              ],
+              "aliases": [],
+              "keywords": [
+                "PMSBY",
+                "accident insurance",
+                "Pradhan Mantri Suraksha Bima Yojana",
+                "insurance scheme"
+              ],
+              "romanized": [
+                "Pradhan Mantri Suraksha Bima Yojana"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Department of Financial Services, Ministry of Finance"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Worker\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict. Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit. Important limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms"
+                },
+                {
+                  "id": "benefits",
+                  "value": "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions.\"],\"url\":\"https://financialservices.gov.in/pmsby\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://financialservices.gov.in/pmsby\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC requirements not verified\",\"Exact disability definitions, claim documents and latest policy amendments require editorial review\",\"FAQ availability does not independently certify all current terms\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "DFS PMSBY FAQ: benefits table, premium and enrolment",
+                  "quote": "Premium payable is Rs.20/- per annum per member."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "_id": "4ab5b673-8595-4680-bd08-ba02d89d1068",
+          "schemeId": "IN-WK-03",
+          "jobId": "7c3dc0bf-384c-4cd2-8607-367755bd615d",
+          "approvalId": "9c8e2e94f2d8f1fc29026b6d41b1d72781bad820d9be653d515f499859ae29f2",
+          "sourceVersionId": "version-0b914b613cff9e680ca8e589",
+          "sourceHash": "1ed6bfd3477adeadec3f33a336af602b39bf4bc0339ffc0cdf2d46ba6b079238",
+          "language": "hi",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "hi",
+            "title": "प्रधानमंत्री सुरक्षा बीमा योजना (PMSBY)",
+            "summary": "प्रधानमंत्री सुरक्षा बीमा योजना (PMSBY) भाग लेने वाले बैंकों और डाकघरों के व्यक्तिगत खाताधारकों के लिए एक नवीकरणीय वार्षिक दुर्घटना बीमा है, जिसमें 18 से 70 वर्ष की प्रवेश आयु और एक-खाता प्रतिबंध शामिल है।",
+            "whoItMayHelp": "यह योजना भाग लेने वाले बैंकों या डाकघरों के व्यक्तिगत खाताधारकों और श्रमिकों के लिए है, जिनकी प्रवेश आयु 18 से 70 वर्ष के बीच है।",
+            "benefits": [
+              "दुर्घटना में मृत्यु या निर्दिष्ट कुल विकलांगता के लिए 2,00,000 रुपये और निर्दिष्ट आंशिक विकलांगता के लिए 1,00,000 रुपये का नवीकरणीय वार्षिक दुर्घटना बीमा।",
+              "सहमति से ऑटो-डेबिट के माध्यम से प्रति वर्ष 20 रुपये का वार्षिक प्रीमियम।"
+            ],
+            "documents": [
+              {
+                "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                "label": "निर्धारित नामांकन और ऑटो-डेबिट सहमति/घोषणा पत्र",
+                "explanation": "योजना के लिए आवेदन करने और ऑटो-डेबिट की अनुमति देने के वास्ते आवश्यक प्रपत्र।"
+              }
+            ],
+            "howToApply": {
+              "steps": [
+                "निर्धारित नामांकन और ऑटो-डेबिट सहमति फॉर्म का उपयोग करके भाग लेने वाले बैंक या डाकघर के माध्यम से आवेदन करें।",
+                "कवरेज शुरू होने और नवीनीकरण की शर्तों को सत्यापित करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://financialservices.gov.in/pmsby",
+                  "label": "आधिकारिक वेबसाइट"
+                }
+              ]
+            },
+            "limitations": [
+              "बैंक-विशिष्ट पहचान और केवाईसी आवश्यकताएं सत्यापित नहीं हैं।",
+              "सटीक विकलांगता परिभाषाएं, दावा दस्तावेज और नवीनतम नीति संशोधन के लिए संपादकीय समीक्षा आवश्यक है।",
+              "एफएक्यू की उपलब्धता स्वतंत्र रूप से सभी वर्तमान शर्तों को प्रमाणित नहीं करती है।"
+            ],
+            "aliases": [
+              "PMSBY"
+            ],
+            "keywords": [
+              "प्रधानमंत्री सुरक्षा बीमा योजना",
+              "PMSBY",
+              "दुर्घटना बीमा",
+              "बीमा योजना",
+              "वित्तीय सेवा विभाग"
+            ],
+            "romanized": [
+              "Pradhan Mantri Suraksha Bima Yojana",
+              "PMSBY"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Department of Financial Services, Ministry of Finance"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Worker\"]"
+              },
+              {
+                "id": "description",
+                "value": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict. Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit. Important limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms"
+              },
+              {
+                "id": "benefits",
+                "value": "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions.\"],\"url\":\"https://financialservices.gov.in/pmsby\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://financialservices.gov.in/pmsby\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC requirements not verified\",\"Exact disability definitions, claim documents and latest policy amendments require editorial review\",\"FAQ availability does not independently certify all current terms\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "DFS PMSBY FAQ: benefits table, premium and enrolment",
+                "quote": "Premium payable is Rs.20/- per annum per member."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1092,
+            "outputTokens": 1342,
+            "totalTokens": 2434
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:49:23.940Z",
+          "updatedAt": "2026-11-18T08:49:23.940Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "hi",
+              "title": "प्रधानमंत्री सुरक्षा बीमा योजना (PMSBY)",
+              "summary": "प्रधानमंत्री सुरक्षा बीमा योजना (PMSBY) भाग लेने वाले बैंकों और डाकघरों के व्यक्तिगत खाताधारकों के लिए एक नवीकरणीय वार्षिक दुर्घटना बीमा है, जिसमें 18 से 70 वर्ष की प्रवेश आयु और एक-खाता प्रतिबंध शामिल है।",
+              "whoItMayHelp": "यह योजना भाग लेने वाले बैंकों या डाकघरों के व्यक्तिगत खाताधारकों और श्रमिकों के लिए है, जिनकी प्रवेश आयु 18 से 70 वर्ष के बीच है।",
+              "benefits": [
+                "दुर्घटना में मृत्यु या निर्दिष्ट कुल विकलांगता के लिए 2,00,000 रुपये और निर्दिष्ट आंशिक विकलांगता के लिए 1,00,000 रुपये का नवीकरणीय वार्षिक दुर्घटना बीमा।",
+                "सहमति से ऑटो-डेबिट के माध्यम से प्रति वर्ष 20 रुपये का वार्षिक प्रीमियम।"
+              ],
+              "documents": [
+                {
+                  "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                  "label": "निर्धारित नामांकन और ऑटो-डेबिट सहमति/घोषणा पत्र",
+                  "explanation": "योजना के लिए आवेदन करने और ऑटो-डेबिट की अनुमति देने के वास्ते आवश्यक प्रपत्र।"
+                }
+              ],
+              "howToApply": {
+                "steps": [
+                  "निर्धारित नामांकन और ऑटो-डेबिट सहमति फॉर्म का उपयोग करके भाग लेने वाले बैंक या डाकघर के माध्यम से आवेदन करें।",
+                  "कवरेज शुरू होने और नवीनीकरण की शर्तों को सत्यापित करें।"
+                ],
+                "links": [
+                  {
+                    "url": "https://financialservices.gov.in/pmsby",
+                    "label": "आधिकारिक वेबसाइट"
+                  }
+                ]
+              },
+              "limitations": [
+                "बैंक-विशिष्ट पहचान और केवाईसी आवश्यकताएं सत्यापित नहीं हैं।",
+                "सटीक विकलांगता परिभाषाएं, दावा दस्तावेज और नवीनतम नीति संशोधन के लिए संपादकीय समीक्षा आवश्यक है।",
+                "एफएक्यू की उपलब्धता स्वतंत्र रूप से सभी वर्तमान शर्तों को प्रमाणित नहीं करती है।"
+              ],
+              "aliases": [
+                "PMSBY"
+              ],
+              "keywords": [
+                "प्रधानमंत्री सुरक्षा बीमा योजना",
+                "PMSBY",
+                "दुर्घटना बीमा",
+                "बीमा योजना",
+                "वित्तीय सेवा विभाग"
+              ],
+              "romanized": [
+                "Pradhan Mantri Suraksha Bima Yojana",
+                "PMSBY"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Department of Financial Services, Ministry of Finance"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Worker\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict. Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit. Important limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms"
+                },
+                {
+                  "id": "benefits",
+                  "value": "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions.\"],\"url\":\"https://financialservices.gov.in/pmsby\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://financialservices.gov.in/pmsby\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC requirements not verified\",\"Exact disability definitions, claim documents and latest policy amendments require editorial review\",\"FAQ availability does not independently certify all current terms\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "DFS PMSBY FAQ: benefits table, premium and enrolment",
+                  "quote": "Premium payable is Rs.20/- per annum per member."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "_id": "ce412a64-af6f-4de9-b071-0c5a00576f9f",
+          "schemeId": "IN-WK-03",
+          "jobId": "765adc74-ca8d-4b46-8114-61dfb2067f97",
+          "approvalId": "9c8e2e94f2d8f1fc29026b6d41b1d72781bad820d9be653d515f499859ae29f2",
+          "sourceVersionId": "version-0b914b613cff9e680ca8e589",
+          "sourceHash": "1ed6bfd3477adeadec3f33a336af602b39bf4bc0339ffc0cdf2d46ba6b079238",
+          "language": "kn",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "kn",
+            "title": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಸುರಕ್ಷಾ ಬೀಮಾ ಯೋಜನೆ (PMSBY)",
+            "summary": "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್‌ಗಳು ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಗಳ ವೈಯಕ್ತಿಕ ಖಾತೆದಾರರಿಗೆ ನವೀಕರಿಸಬಹುದಾದ ವಾರ್ಷಿಕ ಅಪಘಾತ ವಿಮೆ, ಪಾಲಿಸಿ ನಿಬಂಧನೆಗಳಿಗೆ ಒಳಪಟ್ಟಿರುತ್ತದೆ.",
+            "whoItMayHelp": "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್‌ಗಳು ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಗಳ ವೈಯಕ್ತಿಕ ಖಾತೆದಾರರು, 18 ರಿಂದ 70 ವರ್ಷ ವಯಸ್ಸಿನವರು.",
+            "benefits": [
+              "ಅಪಘಾತದಿಂದ ಸಾವು ಅಥವಾ ನಿರ್ದಿಷ್ಟಪಡಿಸಿದ ಸಂಪೂರ್ಣ ಅಸಾಮರ್ಥ್ಯಕ್ಕೆ INR 200000 ಮತ್ತು ನಿರ್ದಿಷ್ಟಪಡಿಸಿದ ಭಾಗಶಃ ಅಸಾಮರ್ಥ್ಯಕ್ಕೆ INR 100000 ವರೆಗಿನ ನವೀಕರಿಸಬಹುದಾದ ವಾರ್ಷಿಕ ಅಪಘಾತ ವಿಮೆ.",
+              "ಸಮ್ಮತಿಸಿದ ಸ್ವಯಂ-ಡೆಬಿಟ್ ಮೂಲಕ ವಾರ್ಷಿಕ ಪ್ರೀಮಿಯಂ INR 20."
+            ],
+            "documents": [
+              {
+                "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                "label": "ನಿಗದಿತ ದಾಖಲೆ",
+                "explanation": "ನೋಂದಣಿ ಮತ್ತು ಸ್ವಯಂ-ಡೆಬಿಟ್ ಒಪ್ಪಿಗೆಗಾಗಿ."
+              }
+            ],
+            "howToApply": {
+              "steps": [
+                "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್ ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಯ ಮೂಲಕ ನಿಗದಿತ ನೋಂದಣಿ ಮತ್ತು ಸ್ವಯಂ-ಡೆಬಿಟ್ ಒಪ್ಪಿಗೆ ನಮೂನೆಯನ್ನು ಬಳಸಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ; ಕವರೇಜ್ ಪ್ರಾರಂಭ ಮತ್ತು ನವೀಕರಣ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://financialservices.gov.in/pmsby",
+                  "label": "ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್"
+                }
+              ]
+            },
+            "limitations": [
+              "ಬ್ಯಾಂಕ್ ನಿರ್ದಿಷ್ಟ ಗುರುತು ಮತ್ತು KYC ಅವಶ್ಯಕತೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.",
+              "ನಿಖರವಾದ ಅಸಾಮರ್ಥ್ಯದ ವ್ಯಾಖ್ಯಾನಗಳು, ಕ್ಲೈಮ್ ದಾಖಲೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ಪಾಲಿಸಿ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ವಿಮರ್ಶೆಯ ಅಗತ್ಯವಿದೆ."
+            ],
+            "aliases": [
+              "PMSBY"
+            ],
+            "keywords": [
+              "ಅಪಘಾತ ವಿಮೆ",
+              "ಪ್ರಧಾನ ಮಂತ್ರಿ ಸುರಕ್ಷಾ ಬೀಮಾ ಯೋಜನೆ"
+            ],
+            "romanized": [
+              "Pradhan Mantri Suraksha Bima Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Department of Financial Services, Ministry of Finance"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Worker\"]"
+              },
+              {
+                "id": "description",
+                "value": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict. Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit. Important limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms"
+              },
+              {
+                "id": "benefits",
+                "value": "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions.\"],\"url\":\"https://financialservices.gov.in/pmsby\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://financialservices.gov.in/pmsby\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC requirements not verified\",\"Exact disability definitions, claim documents and latest policy amendments require editorial review\",\"FAQ availability does not independently certify all current terms\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "DFS PMSBY FAQ: benefits table, premium and enrolment",
+                "quote": "Premium payable is Rs.20/- per annum per member."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1092,
+            "outputTokens": 1387,
+            "totalTokens": 2479
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:49:45.681Z",
+          "updatedAt": "2026-11-18T08:49:45.681Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "kn",
+              "title": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಸುರಕ್ಷಾ ಬೀಮಾ ಯೋಜನೆ (PMSBY)",
+              "summary": "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್‌ಗಳು ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಗಳ ವೈಯಕ್ತಿಕ ಖಾತೆದಾರರಿಗೆ ನವೀಕರಿಸಬಹುದಾದ ವಾರ್ಷಿಕ ಅಪಘಾತ ವಿಮೆ, ಪಾಲಿಸಿ ನಿಬಂಧನೆಗಳಿಗೆ ಒಳಪಟ್ಟಿರುತ್ತದೆ.",
+              "whoItMayHelp": "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್‌ಗಳು ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಗಳ ವೈಯಕ್ತಿಕ ಖಾತೆದಾರರು, 18 ರಿಂದ 70 ವರ್ಷ ವಯಸ್ಸಿನವರು.",
+              "benefits": [
+                "ಅಪಘಾತದಿಂದ ಸಾವು ಅಥವಾ ನಿರ್ದಿಷ್ಟಪಡಿಸಿದ ಸಂಪೂರ್ಣ ಅಸಾಮರ್ಥ್ಯಕ್ಕೆ INR 200000 ಮತ್ತು ನಿರ್ದಿಷ್ಟಪಡಿಸಿದ ಭಾಗಶಃ ಅಸಾಮರ್ಥ್ಯಕ್ಕೆ INR 100000 ವರೆಗಿನ ನವೀಕರಿಸಬಹುದಾದ ವಾರ್ಷಿಕ ಅಪಘಾತ ವಿಮೆ.",
+                "ಸಮ್ಮತಿಸಿದ ಸ್ವಯಂ-ಡೆಬಿಟ್ ಮೂಲಕ ವಾರ್ಷಿಕ ಪ್ರೀಮಿಯಂ INR 20."
+              ],
+              "documents": [
+                {
+                  "name": "Prescribed enrolment and auto-debit consent/declaration form",
+                  "label": "ನಿಗದಿತ ದಾಖಲೆ",
+                  "explanation": "ನೋಂದಣಿ ಮತ್ತು ಸ್ವಯಂ-ಡೆಬಿಟ್ ಒಪ್ಪಿಗೆಗಾಗಿ."
+                }
+              ],
+              "howToApply": {
+                "steps": [
+                  "ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್ ಅಥವಾ ಅಂಚೆ ಕಚೇರಿಯ ಮೂಲಕ ನಿಗದಿತ ನೋಂದಣಿ ಮತ್ತು ಸ್ವಯಂ-ಡೆಬಿಟ್ ಒಪ್ಪಿಗೆ ನಮೂನೆಯನ್ನು ಬಳಸಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ; ಕವರೇಜ್ ಪ್ರಾರಂಭ ಮತ್ತು ನವೀಕರಣ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ."
+                ],
+                "links": [
+                  {
+                    "url": "https://financialservices.gov.in/pmsby",
+                    "label": "ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್"
+                  }
+                ]
+              },
+              "limitations": [
+                "ಬ್ಯಾಂಕ್ ನಿರ್ದಿಷ್ಟ ಗುರುತು ಮತ್ತು KYC ಅವಶ್ಯಕತೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.",
+                "ನಿಖರವಾದ ಅಸಾಮರ್ಥ್ಯದ ವ್ಯಾಖ್ಯಾನಗಳು, ಕ್ಲೈಮ್ ದಾಖಲೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ಪಾಲಿಸಿ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ವಿಮರ್ಶೆಯ ಅಗತ್ಯವಿದೆ."
+              ],
+              "aliases": [
+                "PMSBY"
+              ],
+              "keywords": [
+                "ಅಪಘಾತ ವಿಮೆ",
+                "ಪ್ರಧಾನ ಮಂತ್ರಿ ಸುರಕ್ಷಾ ಬೀಮಾ ಯೋಜನೆ"
+              ],
+              "romanized": [
+                "Pradhan Mantri Suraksha Bima Yojana"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Department of Financial Services, Ministry of Finance"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Worker\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict. Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit. Important limits: Bank-specific identity/KYC requirements not verified; Exact disability definitions, claim documents and latest policy amendments require editorial review; FAQ availability does not independently certify all current terms"
+                },
+                {
+                  "id": "benefits",
+                  "value": "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[\"Prescribed enrolment and auto-debit consent/declaration form\"]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions.\"],\"url\":\"https://financialservices.gov.in/pmsby\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://financialservices.gov.in/pmsby\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Bank-specific identity/KYC requirements not verified\",\"Exact disability definitions, claim documents and latest policy amendments require editorial review\",\"FAQ availability does not independently certify all current terms\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "DFS PMSBY FAQ: benefits table, premium and enrolment",
+                  "quote": "Premium payable is Rs.20/- per annum per member."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "schemeId": "IN-WO-02",
+      "name": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)",
+      "sourceUrl": "https://pmuy.gov.in/Ujjwala2.html",
+      "approval": {
+        "_id": "c38d8e80a63e00e74f85d8219f957ab97e2a7650a8f70e36ec443a8358456425",
+        "schemeId": "IN-WO-02",
+        "sourceVersionId": "version-4c73bb8d362796b3bd5deee5",
+        "sourceHash": "f4b1806f12867cd2e6886455e58e0ffe89da409b76d56f550b877836f370bfb8",
+        "factsHash": "a2f0354c67bf72b197912b8f1ec67d65e6686a4bf47f3452b06a4c94c7ec9bcf",
+        "facts": {
+          "title": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)",
+          "historicalAliases": [],
+          "department": "Ministry of Petroleum and Natural Gas / participating oil marketing companies",
+          "state": "All India",
+          "beneficiaryCategories": [
+            "Woman"
+          ],
+          "description": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision. Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted. Important limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content",
+          "benefits": "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted.",
+          "requiredDocuments": [
+            "KYC application form",
+            "Applicant identity evidence",
+            "Current-address evidence when required; migrant declaration alternative",
+            "Ration card or recognised family-composition evidence; migrant declaration alternative",
+            "Identity copies for adult family members as required",
+            "Passbook copy or cancelled cheque",
+            "Prescribed deprivation declaration"
+          ],
+          "applicationInfo": {
+            "steps": [
+              "Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals."
+            ],
+            "url": "https://pmuy.gov.in/Ujjwala2.html"
+          },
+          "supportingOfficialUrls": [
+            "https://pmuy.gov.in/Ujjwala2.html"
+          ],
+          "eligibilityConditions": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+          "dates": {},
+          "monetaryAmounts": [],
+          "ageRanges": [],
+          "incomeThresholds": [],
+          "observedFacts": {
+            "reviewScope": "Limited factual summary approved for AI preparation only; not publication or eligibility approval",
+            "sourceGaps": [
+              "Page has no reliable current amendment/effective-date statement",
+              "Specific connection assistance/refill subsidy not verified",
+              "Original form annexures and full exceptions need human review",
+              "Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+            ]
+          }
+        },
+        "excerpt": "The applicant must be a woman who has attained 18 years of age.",
+        "clauseRefs": [
+          "PMUY new connection page: application and document sections"
+        ],
+        "evidenceUrl": "https://pmuy.gov.in/Ujjwala2.html",
+        "rightsBasis": "Uncopyrightable factual summary and minimal verification quotation only; all-rights-reserved footer noted for human rights review; no images/forms copied.",
+        "evidence": "Owner explicitly approved five concrete packets for AI preparation only; editorial publication and eligibility remain pending. Known limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content",
+        "reviewer": "wilson",
+        "verifiedAt": "2026-11-18T08:38:58.332Z",
+        "validUntil": "2026-11-25T08:49:45.717Z",
+        "dataClass": "CURATED_PUBLIC",
+        "sourceIds": [
+          "curated-evidence-643a97395f95cfba2a",
+          "reference-134ba558ddd8c7451982e616"
+        ],
+        "createdAt": "2026-11-18T08:49:45.727Z",
+        "updatedAt": "2026-11-18T08:49:45.727Z",
+        "__v": 0
+      },
+      "artifacts": [
+        {
+          "_id": "d2675b82-0663-4276-97fd-2a79550a26ee",
+          "schemeId": "IN-WO-02",
+          "jobId": "8cdda9b9-07d6-42fa-8df4-e3ce0e5e556e",
+          "approvalId": "c38d8e80a63e00e74f85d8219f957ab97e2a7650a8f70e36ec443a8358456425",
+          "sourceVersionId": "version-4c73bb8d362796b3bd5deee5",
+          "sourceHash": "f4b1806f12867cd2e6886455e58e0ffe89da409b76d56f550b877836f370bfb8",
+          "language": "en",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "en",
+            "title": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)",
+            "summary": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision. Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted. Important limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content",
+            "whoItMayHelp": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+            "benefits": [
+              "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted."
+            ],
+            "documents": [
+              {
+                "name": "KYC application form",
+                "label": "KYC application form",
+                "explanation": "Required for application processing."
+              },
+              {
+                "name": "Applicant identity evidence",
+                "label": "Applicant identity evidence",
+                "explanation": "Required for applicant identification."
+              },
+              {
+                "name": "Current-address evidence when required; migrant declaration alternative",
+                "label": "Current-address evidence when required; migrant declaration alternative",
+                "explanation": "Required for address verification or migrant declaration alternative."
+              },
+              {
+                "name": "Ration card or recognised family-composition evidence; migrant declaration alternative",
+                "label": "Ration card or recognised family-composition evidence; migrant declaration alternative",
+                "explanation": "Required for family composition or household verification."
+              },
+              {
+                "name": "Identity copies for adult family members as required",
+                "label": "Identity copies for adult family members as required",
+                "explanation": "Required for adult family members identification."
+              },
+              {
+                "name": "Passbook copy or cancelled cheque",
+                "label": "Passbook copy or cancelled cheque",
+                "explanation": "Required for banking details verification."
+              },
+              {
+                "name": "Prescribed deprivation declaration",
+                "label": "Prescribed deprivation declaration",
+                "explanation": "Required as a prescribed deprivation declaration."
+              }
+            ],
+            "howToApply": {
+              "steps": [
+                "Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals."
+              ],
+              "links": [
+                {
+                  "url": "https://pmuy.gov.in/Ujjwala2.html",
+                  "label": "Official PMUY portal"
+                }
+              ]
+            },
+            "limitations": [
+              "Page has no reliable current amendment/effective-date statement",
+              "Specific connection assistance/refill subsidy not verified",
+              "Original form annexures and full exceptions need human review",
+              "Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+            ],
+            "aliases": [
+              "PMUY",
+              "Ujjwala 2.0"
+            ],
+            "keywords": [
+              "Pradhan Mantri Ujjwala Yojana",
+              "PMUY",
+              "Ujjwala 2.0",
+              "LPG connection"
+            ],
+            "romanized": [
+              "Pradhan Mantri Ujjwala Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Petroleum and Natural Gas / participating oil marketing companies"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision. Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted. Important limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+              },
+              {
+                "id": "benefits",
+                "value": "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[\"KYC application form\",\"Applicant identity evidence\",\"Current-address evidence when required; migrant declaration alternative\",\"Ration card or recognised family-composition evidence; migrant declaration alternative\",\"Identity copies for adult family members as required\",\"Passbook copy or cancelled cheque\",\"Prescribed deprivation declaration\"]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals.\"],\"url\":\"https://pmuy.gov.in/Ujjwala2.html\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://pmuy.gov.in/Ujjwala2.html\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Page has no reliable current amendment/effective-date statement\",\"Specific connection assistance/refill subsidy not verified\",\"Original form annexures and full exceptions need human review\",\"Site footer reserves rights: use factual paraphrases, do not copy protected expressive content\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "PMUY new connection page: application and document sections",
+                "quote": "The applicant must be a woman who has attained 18 years of age."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1183,
+            "outputTokens": 1645,
+            "totalTokens": 2828
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:50:05.488Z",
+          "updatedAt": "2026-11-18T08:50:05.488Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "en",
+              "title": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)",
+              "summary": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision. Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted. Important limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content",
+              "whoItMayHelp": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved.",
+              "benefits": [
+                "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted."
+              ],
+              "documents": [
+                {
+                  "name": "KYC application form",
+                  "label": "KYC application form",
+                  "explanation": "Required for application processing."
+                },
+                {
+                  "name": "Applicant identity evidence",
+                  "label": "Applicant identity evidence",
+                  "explanation": "Required for applicant identification."
+                },
+                {
+                  "name": "Current-address evidence when required; migrant declaration alternative",
+                  "label": "Current-address evidence when required; migrant declaration alternative",
+                  "explanation": "Required for address verification or migrant declaration alternative."
+                },
+                {
+                  "name": "Ration card or recognised family-composition evidence; migrant declaration alternative",
+                  "label": "Ration card or recognised family-composition evidence; migrant declaration alternative",
+                  "explanation": "Required for family composition or household verification."
+                },
+                {
+                  "name": "Identity copies for adult family members as required",
+                  "label": "Identity copies for adult family members as required",
+                  "explanation": "Required for adult family members identification."
+                },
+                {
+                  "name": "Passbook copy or cancelled cheque",
+                  "label": "Passbook copy or cancelled cheque",
+                  "explanation": "Required for banking details verification."
+                },
+                {
+                  "name": "Prescribed deprivation declaration",
+                  "label": "Prescribed deprivation declaration",
+                  "explanation": "Required as a prescribed deprivation declaration."
+                }
+              ],
+              "howToApply": {
+                "steps": [
+                  "Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals."
+                ],
+                "links": [
+                  {
+                    "url": "https://pmuy.gov.in/Ujjwala2.html",
+                    "label": "Official PMUY portal"
+                  }
+                ]
+              },
+              "limitations": [
+                "Page has no reliable current amendment/effective-date statement",
+                "Specific connection assistance/refill subsidy not verified",
+                "Original form annexures and full exceptions need human review",
+                "Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+              ],
+              "aliases": [
+                "PMUY",
+                "Ujjwala 2.0"
+              ],
+              "keywords": [
+                "Pradhan Mantri Ujjwala Yojana",
+                "PMUY",
+                "Ujjwala 2.0",
+                "LPG connection"
+              ],
+              "romanized": [
+                "Pradhan Mantri Ujjwala Yojana"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Ministry of Petroleum and Natural Gas / participating oil marketing companies"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Woman\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision. Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted. Important limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+                },
+                {
+                  "id": "benefits",
+                  "value": "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[\"KYC application form\",\"Applicant identity evidence\",\"Current-address evidence when required; migrant declaration alternative\",\"Ration card or recognised family-composition evidence; migrant declaration alternative\",\"Identity copies for adult family members as required\",\"Passbook copy or cancelled cheque\",\"Prescribed deprivation declaration\"]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals.\"],\"url\":\"https://pmuy.gov.in/Ujjwala2.html\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://pmuy.gov.in/Ujjwala2.html\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Page has no reliable current amendment/effective-date statement\",\"Specific connection assistance/refill subsidy not verified\",\"Original form annexures and full exceptions need human review\",\"Site footer reserves rights: use factual paraphrases, do not copy protected expressive content\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "PMUY new connection page: application and document sections",
+                  "quote": "The applicant must be a woman who has attained 18 years of age."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "_id": "d29a25b8-3710-43d8-a138-9ef2ae7513b5",
+          "schemeId": "IN-WO-02",
+          "jobId": "8c9ff8ac-750f-4520-b423-2d235d4db8cd",
+          "approvalId": "c38d8e80a63e00e74f85d8219f957ab97e2a7650a8f70e36ec443a8358456425",
+          "sourceVersionId": "version-4c73bb8d362796b3bd5deee5",
+          "sourceHash": "f4b1806f12867cd2e6886455e58e0ffe89da409b76d56f550b877836f370bfb8",
+          "language": "hi",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "hi",
+            "title": "प्रधानमंत्री उज्ज्वला योजना (पीएमयूवाई / उज्ज्वला 2.0)",
+            "summary": "यह पेज एक नए पीएमयूवाई एलपीजी कनेक्शन के लिए आवेदन मार्ग प्रदान करता है। यह विशिष्ट नकद अनुदान, जमा सब्सिडी या रिफिल राशि स्थापित नहीं करता है।",
+            "whoItMayHelp": "गरीब परिवारों में वयस्क महिलाएं, प्रकाशित आयु/मौजूदा एलपीजी और वंचना-घोषणा शर्तों के साथ।",
+            "benefits": [
+              "एक नए पीएमयूवाई एलपीजी कनेक्शन के लिए आवेदन का मार्ग।"
+            ],
+            "documents": [
+              {
+                "name": "KYC application form",
+                "label": "केवाईसी आवेदन पत्र",
+                "explanation": "आवश्यक केवाईसी आवेदन पत्र।"
+              },
+              {
+                "name": "Applicant identity evidence",
+                "label": "आवेदक की पहचान का प्रमाण",
+                "explanation": "आवेदक की पहचान का दस्तावेजी प्रमाण।"
+              },
+              {
+                "name": "Current-address evidence when required; migrant declaration alternative",
+                "label": "वर्तमान पते का प्रमाण या प्रवासी घोषणा विकल्प",
+                "explanation": "आवश्यक होने पर वर्तमान पते का प्रमाण या प्रवासी घोषणा।"
+              },
+              {
+                "name": "Ration card or recognised family-composition evidence; migrant declaration alternative",
+                "label": "राशन कार्ड या परिवार संरचना का प्रमाण",
+                "explanation": "राशन कार्ड या मान्यता प्राप्त परिवार संरचना का प्रमाण।"
+              },
+              {
+                "name": "Identity copies for adult family members as required",
+                "label": "वयस्क परिवार के सदस्यों की पहचान प्रतियां",
+                "explanation": "आवश्यकतानुसार वयस्क परिवार के सदस्यों की पहचान की प्रतियां।"
+              },
+              {
+                "name": "Passbook copy or cancelled cheque",
+                "label": "पासबुक की प्रति या रद्द चेक",
+                "explanation": "बैंक पासबुक की प्रति या रद्द चेक।"
+              },
+              {
+                "name": "Prescribed deprivation declaration",
+                "label": "निर्धारित वंचना घोषणा",
+                "explanation": "निर्धारित वंचना घोषणा पत्र।"
+              }
+            ],
+            "howToApply": {
+              "steps": [
+                "निर्धारित आवेदन को किसी चुने हुए भाग लेने वाले वितरक को जमा करें या भाग लेने वाली तेल-कंपनी पोर्टलों के लिए आधिकारिक पेज लिंक का उपयोग करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://pmuy.gov.in/Ujjwala2.html",
+                  "label": "पीएमयूवाई आधिकारिक पेज"
+                }
+              ]
+            },
+            "limitations": [
+              "पेज में कोई विश्वसनीय वर्तमान संशोधन/प्रभावी-तिथि कथन नहीं है।",
+              "विशिष्ट कनेक्शन सहायता/रिफिल सब्सिडी सत्यापित नहीं है।",
+              "मूल फॉर्म अनुबंध और पूर्ण अपवादों की मानवीय समीक्षा की आवश्यकता है।"
+            ],
+            "aliases": [
+              "PMUY",
+              "Ujjwala 2.0"
+            ],
+            "keywords": [
+              "प्रधानमंत्री उज्ज्वला योजना",
+              "पीएमयूवाई",
+              "एलपीजी कनेक्शन",
+              "उज्ज्वला 2.0"
+            ],
+            "romanized": [
+              "Pradhan Mantri Ujjwala Yojana",
+              "PMUY",
+              "Ujjwala 2.0"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Petroleum and Natural Gas / participating oil marketing companies"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision. Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted. Important limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+              },
+              {
+                "id": "benefits",
+                "value": "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[\"KYC application form\",\"Applicant identity evidence\",\"Current-address evidence when required; migrant declaration alternative\",\"Ration card or recognised family-composition evidence; migrant declaration alternative\",\"Identity copies for adult family members as required\",\"Passbook copy or cancelled cheque\",\"Prescribed deprivation declaration\"]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals.\"],\"url\":\"https://pmuy.gov.in/Ujjwala2.html\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://pmuy.gov.in/Ujjwala2.html\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Page has no reliable current amendment/effective-date statement\",\"Specific connection assistance/refill subsidy not verified\",\"Original form annexures and full exceptions need human review\",\"Site footer reserves rights: use factual paraphrases, do not copy protected expressive content\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "PMUY new connection page: application and document sections",
+                "quote": "The applicant must be a woman who has attained 18 years of age."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1183,
+            "outputTokens": 1601,
+            "totalTokens": 2784
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:50:21.830Z",
+          "updatedAt": "2026-11-18T08:50:21.830Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "hi",
+              "title": "प्रधानमंत्री उज्ज्वला योजना (पीएमयूवाई / उज्ज्वला 2.0)",
+              "summary": "यह पेज एक नए पीएमयूवाई एलपीजी कनेक्शन के लिए आवेदन मार्ग प्रदान करता है। यह विशिष्ट नकद अनुदान, जमा सब्सिडी या रिफिल राशि स्थापित नहीं करता है।",
+              "whoItMayHelp": "गरीब परिवारों में वयस्क महिलाएं, प्रकाशित आयु/मौजूदा एलपीजी और वंचना-घोषणा शर्तों के साथ।",
+              "benefits": [
+                "एक नए पीएमयूवाई एलपीजी कनेक्शन के लिए आवेदन का मार्ग।"
+              ],
+              "documents": [
+                {
+                  "name": "KYC application form",
+                  "label": "केवाईसी आवेदन पत्र",
+                  "explanation": "आवश्यक केवाईसी आवेदन पत्र।"
+                },
+                {
+                  "name": "Applicant identity evidence",
+                  "label": "आवेदक की पहचान का प्रमाण",
+                  "explanation": "आवेदक की पहचान का दस्तावेजी प्रमाण।"
+                },
+                {
+                  "name": "Current-address evidence when required; migrant declaration alternative",
+                  "label": "वर्तमान पते का प्रमाण या प्रवासी घोषणा विकल्प",
+                  "explanation": "आवश्यक होने पर वर्तमान पते का प्रमाण या प्रवासी घोषणा।"
+                },
+                {
+                  "name": "Ration card or recognised family-composition evidence; migrant declaration alternative",
+                  "label": "राशन कार्ड या परिवार संरचना का प्रमाण",
+                  "explanation": "राशन कार्ड या मान्यता प्राप्त परिवार संरचना का प्रमाण।"
+                },
+                {
+                  "name": "Identity copies for adult family members as required",
+                  "label": "वयस्क परिवार के सदस्यों की पहचान प्रतियां",
+                  "explanation": "आवश्यकतानुसार वयस्क परिवार के सदस्यों की पहचान की प्रतियां।"
+                },
+                {
+                  "name": "Passbook copy or cancelled cheque",
+                  "label": "पासबुक की प्रति या रद्द चेक",
+                  "explanation": "बैंक पासबुक की प्रति या रद्द चेक।"
+                },
+                {
+                  "name": "Prescribed deprivation declaration",
+                  "label": "निर्धारित वंचना घोषणा",
+                  "explanation": "निर्धारित वंचना घोषणा पत्र।"
+                }
+              ],
+              "howToApply": {
+                "steps": [
+                  "निर्धारित आवेदन को किसी चुने हुए भाग लेने वाले वितरक को जमा करें या भाग लेने वाली तेल-कंपनी पोर्टलों के लिए आधिकारिक पेज लिंक का उपयोग करें।"
+                ],
+                "links": [
+                  {
+                    "url": "https://pmuy.gov.in/Ujjwala2.html",
+                    "label": "पीएमयूवाई आधिकारिक पेज"
+                  }
+                ]
+              },
+              "limitations": [
+                "पेज में कोई विश्वसनीय वर्तमान संशोधन/प्रभावी-तिथि कथन नहीं है।",
+                "विशिष्ट कनेक्शन सहायता/रिफिल सब्सिडी सत्यापित नहीं है।",
+                "मूल फॉर्म अनुबंध और पूर्ण अपवादों की मानवीय समीक्षा की आवश्यकता है।"
+              ],
+              "aliases": [
+                "PMUY",
+                "Ujjwala 2.0"
+              ],
+              "keywords": [
+                "प्रधानमंत्री उज्ज्वला योजना",
+                "पीएमयूवाई",
+                "एलपीजी कनेक्शन",
+                "उज्ज्वला 2.0"
+              ],
+              "romanized": [
+                "Pradhan Mantri Ujjwala Yojana",
+                "PMUY",
+                "Ujjwala 2.0"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Ministry of Petroleum and Natural Gas / participating oil marketing companies"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Woman\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision. Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted. Important limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+                },
+                {
+                  "id": "benefits",
+                  "value": "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[\"KYC application form\",\"Applicant identity evidence\",\"Current-address evidence when required; migrant declaration alternative\",\"Ration card or recognised family-composition evidence; migrant declaration alternative\",\"Identity copies for adult family members as required\",\"Passbook copy or cancelled cheque\",\"Prescribed deprivation declaration\"]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals.\"],\"url\":\"https://pmuy.gov.in/Ujjwala2.html\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://pmuy.gov.in/Ujjwala2.html\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Page has no reliable current amendment/effective-date statement\",\"Specific connection assistance/refill subsidy not verified\",\"Original form annexures and full exceptions need human review\",\"Site footer reserves rights: use factual paraphrases, do not copy protected expressive content\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "PMUY new connection page: application and document sections",
+                  "quote": "The applicant must be a woman who has attained 18 years of age."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "_id": "0c84388f-a81a-4b01-b47f-c95bf37670ba",
+          "schemeId": "IN-WO-02",
+          "jobId": "a001f3d4-dffa-45d3-8f45-93e502241b4e",
+          "approvalId": "c38d8e80a63e00e74f85d8219f957ab97e2a7650a8f70e36ec443a8358456425",
+          "sourceVersionId": "version-4c73bb8d362796b3bd5deee5",
+          "sourceHash": "f4b1806f12867cd2e6886455e58e0ffe89da409b76d56f550b877836f370bfb8",
+          "language": "kn",
+          "task": "PREPARE_CONTENT",
+          "promptVersion": "civic-content-1",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "dataClass": "CURATED_PUBLIC",
+          "output": {
+            "language": "kn",
+            "title": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ (ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ / ಉಜ್ವಲ 2.0)",
+            "summary": "ಬಡ ಕುಟುಂಬಗಳಲ್ಲಿರುವ ವಯಸ್ಕ ಮಹಿಳೆಯರಿಗೆ ಹೊಸ ಎಲ್ಪಿಜಿ ಸಂಪರ್ಕ ಪಡೆಯಲು ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮಾರ್ಗ. ಇದು ನಿರ್ದಿಷ್ಟ ನಗದು ಅನುದಾನ, ಸಬ್ಸಿಡಿ ಅಥವಾ ರೀಫಿಲ್ ಮೊತ್ತವನ್ನು ಸ್ಥಾಪಿಸುವುದಿಲ್ಲ.",
+            "whoItMayHelp": "ಬಡ ಕುಟುಂಬಗಳಲ್ಲಿರುವ ವಯಸ್ಕ ಮಹಿಳೆಯರು.",
+            "benefits": [
+              "ಹೊಸ ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ ಎಲ್ಪಿಜಿ ಸಂಪರ್ಕಕ್ಕಾಗಿ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮಾರ್ಗ."
+            ],
+            "documents": [
+              {
+                "name": "KYC application form",
+                "label": "ಕೆವೈಸಿ ಅರ್ಜಿ ನಮೂನೆ",
+                "explanation": "ಅಗತ್ಯವಿರುವ ಕೆವೈಸಿ ಅರ್ಜಿ ನಮೂನೆ."
+              },
+              {
+                "name": "Applicant identity evidence",
+                "label": "ಅರ್ಜಿದಾರರ ಗುರುತಿನ ಪುರಾವೆ",
+                "explanation": "ಅರ್ಜಿದಾರರ ಗುರುತನ್ನು ಸಾಬೀತುಪಡಿಸುವ ದಾಖಲೆ."
+              },
+              {
+                "name": "Current-address evidence when required; migrant declaration alternative",
+                "label": "ಪ್ರಸ್ತುತ ವಿಳಾಸದ ಪುರಾವೆ ಅಥವಾ ವಲಸಿಗರ ಘೋಷಣೆ ಪರ್ಯಾಯ",
+                "explanation": "ಅಗತ್ಯವಿರುವಾಗ ಪ್ರಸ್ತುತ ವಿಳಾಸದ ಪುರಾವೆ ಅಥವಾ ವಲಸಿಗರ ಘೋಷಣೆ."
+              },
+              {
+                "name": "Ration card or recognised family-composition evidence; migrant declaration alternative",
+                "label": "ಪಡಿತರ ಚೀಟಿ ಅಥವಾ ಕುಟುಂಬದ ಸಂಯೋಜನೆಯ ಪುರಾವೆ",
+                "explanation": "ಪಡಿತರ ಚೀಟಿ ಅಥವಾ ಕುಟುಂಬದ ಸಂಯೋಜನೆಯನ್ನು ತೋರಿಸುವ ದಾಖಲೆ."
+              },
+              {
+                "name": "Identity copies for adult family members as required",
+                "label": "ಕುಟುಂಬದ ವಯಸ್ಕ ಸದಸ್ಯರ ಗುರುತಿನ ಚೀಟಿ ಪ್ರತಿಗಳು",
+                "explanation": "ಅಗತ್ಯವಿದ್ದಲ್ಲಿ ಕುಟುಂಬದ ವಯಸ್ಕ ಸದಸ್ಯರ ಗುರುತಿನ ಚೀಟಿಗಳು."
+              },
+              {
+                "name": "Passbook copy or cancelled cheque",
+                "label": "ಪಾಸ್ಬುಕ್ ಪ್ರತಿ ಅಥವಾ ರದ್ದುಗೊಳಿಸಿದ ಚೆಕ್",
+                "explanation": "ಬ್ಯಾಂಕ್ ಪಾಸ್ಬುಕ್ ಪ್ರತಿ ಅಥವಾ ರದ್ದುಗೊಳಿಸಿದ ಚೆಕ್."
+              },
+              {
+                "name": "Prescribed deprivation declaration",
+                "label": "ನಿಗದಿತ ವಂಚಿತರ ಘೋಷಣೆ",
+                "explanation": "ನಿಗದಿತ ವಂಚಿತರ ಘೋಷಣೆ ಪತ್ರ."
+              }
+            ],
+            "howToApply": {
+              "steps": [
+                "ಆಯ್ಕೆಮಾಡಿದ ಭಾಗವಹಿಸುವ ವಿತರಕರಿಗೆ ನಿಗದಿತ ಅರ್ಜಿಯನ್ನು ಸಲ್ಲಿಸಿ ಅಥವಾ ಅಧಿಕೃತ ಪುಟದ ಲಿಂಕ್‌ಗಳನ್ನು ಬಳಸಿ ಎಲ್ಪಿಜಿ ಕಂಪನಿ ಪೋರ್ಟಲ್‌ಗಳನ್ನು ಪ್ರವೇಶಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://pmuy.gov.in/Ujjwala2.html",
+                  "label": "ಅಧಿಕೃತ ಜಾಲತಾಣ"
+                }
+              ]
+            },
+            "limitations": [
+              "ಪುಟವು ಯಾವುದೇ ವಿಶ್ವಾಸಾರ್ಹ ಪ್ರಸ್ತುತ ತಿದ್ದುಪಡಿ ಅಥವಾ ಜಾರಿಗೆ ಬರುವ ದಿನಾಂಕದ ಹೇಳಿಕೆಯನ್ನು ಹೊಂದಿಲ್ಲ.",
+              "ನಿರ್ದಿಷ್ಟ ಸಂಪರ್ಕ ನೆರವು ಅಥವಾ ರೀಫಿಲ್ ಸಬ್ಸಿಡಿಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.",
+              "ಮೂಲ ನಮೂನೆ ಅನುಬಂಧಗಳು ಮತ್ತು ಸಂಪೂರ್ಣ ವಿನಾಯಿತಿಗಳಿಗೆ ಮಾನವ ಪರಿಶೀಲನೆ ಅಗತ್ಯವಿದೆ."
+            ],
+            "aliases": [
+              "PMUY",
+              "Ujjwala 2.0"
+            ],
+            "keywords": [
+              "ಉಜ್ವಲ ಯೋಜನೆ",
+              "ಎಲ್ಪಿಜಿ",
+              "ಮಹಿಳೆಯರು",
+              "ಅರ್ಜಿ"
+            ],
+            "romanized": [
+              "Pradhan Mantri Ujjwala Yojana",
+              "Ujjwala 2.0"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Petroleum and Natural Gas / participating oil marketing companies"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision. Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted. Important limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+              },
+              {
+                "id": "benefits",
+                "value": "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[\"KYC application form\",\"Applicant identity evidence\",\"Current-address evidence when required; migrant declaration alternative\",\"Ration card or recognised family-composition evidence; migrant declaration alternative\",\"Identity copies for adult family members as required\",\"Passbook copy or cancelled cheque\",\"Prescribed deprivation declaration\"]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals.\"],\"url\":\"https://pmuy.gov.in/Ujjwala2.html\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://pmuy.gov.in/Ujjwala2.html\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Page has no reliable current amendment/effective-date statement\",\"Specific connection assistance/refill subsidy not verified\",\"Original form annexures and full exceptions need human review\",\"Site footer reserves rights: use factual paraphrases, do not copy protected expressive content\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "PMUY new connection page: application and document sections",
+                "quote": "The applicant must be a woman who has attained 18 years of age."
+              }
+            ]
+          },
+          "validation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ]
+          },
+          "usage": {
+            "inputTokens": 1183,
+            "outputTokens": 1774,
+            "totalTokens": 2957
+          },
+          "attempts": [
+            {
+              "provider": "gemini",
+              "model": "gemini-3.5-flash-lite",
+              "credential": "primary",
+              "outcome": "RESPONSE_RECEIVED",
+              "reservedUsd": 0
+            }
+          ],
+          "costUsd": 0,
+          "state": "REVIEW_PENDING",
+          "stale": false,
+          "revision": 1,
+          "createdAt": "2026-11-18T08:50:43.455Z",
+          "updatedAt": "2026-11-18T08:50:43.455Z",
+          "__v": 0,
+          "checkedValidation": {
+            "ok": true,
+            "errors": [],
+            "warnings": [
+              "Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation."
+            ],
+            "output": {
+              "language": "kn",
+              "title": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ (ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ / ಉಜ್ವಲ 2.0)",
+              "summary": "ಬಡ ಕುಟುಂಬಗಳಲ್ಲಿರುವ ವಯಸ್ಕ ಮಹಿಳೆಯರಿಗೆ ಹೊಸ ಎಲ್ಪಿಜಿ ಸಂಪರ್ಕ ಪಡೆಯಲು ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮಾರ್ಗ. ಇದು ನಿರ್ದಿಷ್ಟ ನಗದು ಅನುದಾನ, ಸಬ್ಸಿಡಿ ಅಥವಾ ರೀಫಿಲ್ ಮೊತ್ತವನ್ನು ಸ್ಥಾಪಿಸುವುದಿಲ್ಲ.",
+              "whoItMayHelp": "ಬಡ ಕುಟುಂಬಗಳಲ್ಲಿರುವ ವಯಸ್ಕ ಮಹಿಳೆಯರು.",
+              "benefits": [
+                "ಹೊಸ ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ ಎಲ್ಪಿಜಿ ಸಂಪರ್ಕಕ್ಕಾಗಿ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮಾರ್ಗ."
+              ],
+              "documents": [
+                {
+                  "name": "KYC application form",
+                  "label": "ಕೆವೈಸಿ ಅರ್ಜಿ ನಮೂನೆ",
+                  "explanation": "ಅಗತ್ಯವಿರುವ ಕೆವೈಸಿ ಅರ್ಜಿ ನಮೂನೆ."
+                },
+                {
+                  "name": "Applicant identity evidence",
+                  "label": "ಅರ್ಜಿದಾರರ ಗುರುತಿನ ಪುರಾವೆ",
+                  "explanation": "ಅರ್ಜಿದಾರರ ಗುರುತನ್ನು ಸಾಬೀತುಪಡಿಸುವ ದಾಖಲೆ."
+                },
+                {
+                  "name": "Current-address evidence when required; migrant declaration alternative",
+                  "label": "ಪ್ರಸ್ತುತ ವಿಳಾಸದ ಪುರಾವೆ ಅಥವಾ ವಲಸಿಗರ ಘೋಷಣೆ ಪರ್ಯಾಯ",
+                  "explanation": "ಅಗತ್ಯವಿರುವಾಗ ಪ್ರಸ್ತುತ ವಿಳಾಸದ ಪುರಾವೆ ಅಥವಾ ವಲಸಿಗರ ಘೋಷಣೆ."
+                },
+                {
+                  "name": "Ration card or recognised family-composition evidence; migrant declaration alternative",
+                  "label": "ಪಡಿತರ ಚೀಟಿ ಅಥವಾ ಕುಟುಂಬದ ಸಂಯೋಜನೆಯ ಪುರಾವೆ",
+                  "explanation": "ಪಡಿತರ ಚೀಟಿ ಅಥವಾ ಕುಟುಂಬದ ಸಂಯೋಜನೆಯನ್ನು ತೋರಿಸುವ ದಾಖಲೆ."
+                },
+                {
+                  "name": "Identity copies for adult family members as required",
+                  "label": "ಕುಟುಂಬದ ವಯಸ್ಕ ಸದಸ್ಯರ ಗುರುತಿನ ಚೀಟಿ ಪ್ರತಿಗಳು",
+                  "explanation": "ಅಗತ್ಯವಿದ್ದಲ್ಲಿ ಕುಟುಂಬದ ವಯಸ್ಕ ಸದಸ್ಯರ ಗುರುತಿನ ಚೀಟಿಗಳು."
+                },
+                {
+                  "name": "Passbook copy or cancelled cheque",
+                  "label": "ಪಾಸ್ಬುಕ್ ಪ್ರತಿ ಅಥವಾ ರದ್ದುಗೊಳಿಸಿದ ಚೆಕ್",
+                  "explanation": "ಬ್ಯಾಂಕ್ ಪಾಸ್ಬುಕ್ ಪ್ರತಿ ಅಥವಾ ರದ್ದುಗೊಳಿಸಿದ ಚೆಕ್."
+                },
+                {
+                  "name": "Prescribed deprivation declaration",
+                  "label": "ನಿಗದಿತ ವಂಚಿತರ ಘೋಷಣೆ",
+                  "explanation": "ನಿಗದಿತ ವಂಚಿತರ ಘೋಷಣೆ ಪತ್ರ."
+                }
+              ],
+              "howToApply": {
+                "steps": [
+                  "ಆಯ್ಕೆಮಾಡಿದ ಭಾಗವಹಿಸುವ ವಿತರಕರಿಗೆ ನಿಗದಿತ ಅರ್ಜಿಯನ್ನು ಸಲ್ಲಿಸಿ ಅಥವಾ ಅಧಿಕೃತ ಪುಟದ ಲಿಂಕ್‌ಗಳನ್ನು ಬಳಸಿ ಎಲ್ಪಿಜಿ ಕಂಪನಿ ಪೋರ್ಟಲ್‌ಗಳನ್ನು ಪ್ರವೇಶಿಸಿ."
+                ],
+                "links": [
+                  {
+                    "url": "https://pmuy.gov.in/Ujjwala2.html",
+                    "label": "ಅಧಿಕೃತ ಜಾಲತಾಣ"
+                  }
+                ]
+              },
+              "limitations": [
+                "ಪುಟವು ಯಾವುದೇ ವಿಶ್ವಾಸಾರ್ಹ ಪ್ರಸ್ತುತ ತಿದ್ದುಪಡಿ ಅಥವಾ ಜಾರಿಗೆ ಬರುವ ದಿನಾಂಕದ ಹೇಳಿಕೆಯನ್ನು ಹೊಂದಿಲ್ಲ.",
+                "ನಿರ್ದಿಷ್ಟ ಸಂಪರ್ಕ ನೆರವು ಅಥವಾ ರೀಫಿಲ್ ಸಬ್ಸಿಡಿಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.",
+                "ಮೂಲ ನಮೂನೆ ಅನುಬಂಧಗಳು ಮತ್ತು ಸಂಪೂರ್ಣ ವಿನಾಯಿತಿಗಳಿಗೆ ಮಾನವ ಪರಿಶೀಲನೆ ಅಗತ್ಯವಿದೆ."
+              ],
+              "aliases": [
+                "PMUY",
+                "Ujjwala 2.0"
+              ],
+              "keywords": [
+                "ಉಜ್ವಲ ಯೋಜನೆ",
+                "ಎಲ್ಪಿಜಿ",
+                "ಮಹಿಳೆಯರು",
+                "ಅರ್ಜಿ"
+              ],
+              "romanized": [
+                "Pradhan Mantri Ujjwala Yojana",
+                "Ujjwala 2.0"
+              ],
+              "preservedFacts": [
+                {
+                  "id": "title",
+                  "value": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)"
+                },
+                {
+                  "id": "historicalAliases",
+                  "value": "[]"
+                },
+                {
+                  "id": "department",
+                  "value": "Ministry of Petroleum and Natural Gas / participating oil marketing companies"
+                },
+                {
+                  "id": "state",
+                  "value": "All India"
+                },
+                {
+                  "id": "beneficiaryCategories",
+                  "value": "[\"Woman\"]"
+                },
+                {
+                  "id": "description",
+                  "value": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision. Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted. Important limits: Page has no reliable current amendment/effective-date statement; Specific connection assistance/refill subsidy not verified; Original form annexures and full exceptions need human review; Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+                },
+                {
+                  "id": "benefits",
+                  "value": "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted."
+                },
+                {
+                  "id": "requiredDocuments",
+                  "value": "[\"KYC application form\",\"Applicant identity evidence\",\"Current-address evidence when required; migrant declaration alternative\",\"Ration card or recognised family-composition evidence; migrant declaration alternative\",\"Identity copies for adult family members as required\",\"Passbook copy or cancelled cheque\",\"Prescribed deprivation declaration\"]"
+                },
+                {
+                  "id": "applicationInfo",
+                  "value": "{\"steps\":[\"Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals.\"],\"url\":\"https://pmuy.gov.in/Ujjwala2.html\"}"
+                },
+                {
+                  "id": "supportingOfficialUrls",
+                  "value": "[\"https://pmuy.gov.in/Ujjwala2.html\"]"
+                },
+                {
+                  "id": "eligibilityConditions",
+                  "value": "Incomplete candidate audience information only. No rule set or personal eligibility assessment is approved."
+                },
+                {
+                  "id": "dates",
+                  "value": "{}"
+                },
+                {
+                  "id": "monetaryAmounts",
+                  "value": "[]"
+                },
+                {
+                  "id": "ageRanges",
+                  "value": "[]"
+                },
+                {
+                  "id": "incomeThresholds",
+                  "value": "[]"
+                },
+                {
+                  "id": "observedFacts",
+                  "value": "{\"reviewScope\":\"Limited factual summary approved for AI preparation only; not publication or eligibility approval\",\"sourceGaps\":[\"Page has no reliable current amendment/effective-date statement\",\"Specific connection assistance/refill subsidy not verified\",\"Original form annexures and full exceptions need human review\",\"Site footer reserves rights: use factual paraphrases, do not copy protected expressive content\"]}"
+                }
+              ],
+              "citations": [
+                {
+                  "clauseRef": "PMUY new connection page: application and document sections",
+                  "quote": "The applicant must be a woman who has attained 18 years of age."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "generationCalls": 0,
+  "humanApproval": "PENDING"
+}

@@ -1,0 +1,103 @@
+{
+  "at": "2026-11-18T01:49:18.094Z",
+  "movedDocuments": 19,
+  "protectedFilesChecked": 155,
+  "changedApplicationOrConfigurationFiles": [],
+  "localMarkdownLinks": {
+    "broken": []
+  },
+  "researchFiles": [
+    {
+      "path": "backend/research/phase1/ASSET_REGISTRY.md",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/DATASET_CLASSIFICATION_AND_RELEASE.md",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/DATA_REQUIREMENTS.md",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/FORMS_REGISTRY.json",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/KARNATAKA_ORDERS_AUDIT.md",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/NOTICES_AND_ALERTS.json",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/OUTREACH_AND_EXTERNAL_APPROVALS.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/history/PHASE1_CLOSURE_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/history/PHASE1_COMPLETION_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/PILOT_SOURCE_SELECTION.md",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/QUALITY_AUDIT.md",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/SCHEME_VERIFICATION_MATRIX.csv",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/SCRAPING_FEASIBILITY.md",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/SOURCE_PERMISSION_DECISIONS.csv",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/SOURCE_REGISTRY.json",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/SOURCE_REGISTRY.md",
+      "unchanged": true
+    },
+    {
+      "path": "backend/research/phase1/VERIFIED_SCHEMES.json",
+      "unchanged": true
+    }
+  ],
+  "secretExclusion": {
+    "ignored": [
+      {
+        "path": "backend/.env",
+        "ignored": true
+      },
+      {
+        "path": "frontend/.env",
+        "ignored": true
+      },
+      {
+        "path": "backend/.env.production",
+        "ignored": true
+      },
+      {
+        "path": "frontend/.env.local",
+        "ignored": true
+      }
+    ],
+    "trackedPrivateFiles": [],
+    "filesScanned": 305,
+    "configuredSecretsFoundInShareableFiles": []
+  },
+  "scope": "Documentation only; no source, tests, dependencies, AI settings or application features changed."
+}

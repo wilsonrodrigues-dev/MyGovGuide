@@ -1,0 +1,15 @@
+{
+  "content": [
+    {
+      "text": "{\"name\":\"projects/16872371074444001614\",\"title\":\"MyGovGuide — multilingual citizen services · Phase 3\",\"visibility\":\"PRIVATE\",\"projectType\":\"PROJECT_DESIGN\",\"origin\":\"MCP\"}",
+      "type": "text"
+    }
+  ],
+  "structuredContent": {
+    "name": "projects/16872371074444001614",
+    "origin": "MCP",
+    "projectType": "PROJECT_DESIGN",
+    "title": "MyGovGuide — multilingual citizen services · Phase 3",
+    "visibility": "PRIVATE"
+  }
+}

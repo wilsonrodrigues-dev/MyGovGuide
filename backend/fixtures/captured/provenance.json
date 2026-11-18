@@ -1,0 +1,16 @@
+[
+  {
+    "file": "ndma-2026-11-18.xml",
+    "url": "https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml",
+    "capturedAt": "2026-11-18T08:45:45.373Z",
+    "mode": "OFFLINE_REPLAY_OF_GENUINELY_FETCHED_PUBLIC_RSS",
+    "sha256": "38ea43c041271ddd8ef915ba7e7634f2e4a512cc4f2518d72fcefc4c26b34b2c"
+  },
+  {
+    "file": "cbdt-2026-11-18.xml",
+    "url": "https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/rss",
+    "capturedAt": "2026-11-18T08:45:45.376Z",
+    "mode": "OFFLINE_REPLAY_OF_GENUINELY_FETCHED_PUBLIC_RSS",
+    "sha256": "14984db0d0fa9e6e396b142f2d229fd4ce0ee6bc47351235dd5c589ab2caa2bd"
+  }
+]

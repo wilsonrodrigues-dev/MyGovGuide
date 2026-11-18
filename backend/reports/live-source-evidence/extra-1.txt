@@ -1,0 +1,239 @@
+# ============================================================
+# Income Tax India - robots.txt
+# ============================================================
+
+# ------------------------------------------------------------
+# GENERAL CRAWLERS
+# ------------------------------------------------------------
+
+User-agent: *
+
+Disallow: /group/*
+Disallow: /login
+Disallow: /logout
+Disallow: /ids/*
+Disallow: /c/
+Disallow: /c/portal/*
+Disallow: /webdav/
+Disallow: /search
+Disallow: /search/
+Disallow: /user-management/
+Disallow: /user-management/*
+Disallow: /web/guest/*
+Disallow: /reports
+Disallow: /reports/*
+Disallow: /tax-defaulters
+Disallow: /swachhata-campaign
+Disallow: /income-declaration-scheme-dashboard
+Disallow: /income-declaration-scheme-2016
+Disallow: /income-declaration-scheme-cbdt
+
+# Liferay / application parameters
+Disallow: /*doAsUserId=
+Disallow: /*?doAsUserId=
+Disallow: /*&doAsUserId=
+Disallow: /*?refererPlid=
+Disallow: /*&refererPlid=
+Disallow: /*?saveLastPath=
+Disallow: /*&saveLastPath=
+Disallow: /*?inheritRedirect=
+Disallow: /*&inheritRedirect=
+Disallow: /*?redirect=
+Disallow: /*&redirect=
+Disallow: /*?controlPanelCategory=
+Disallow: /*&controlPanelCategory=
+Disallow: /*?layoutId=
+Disallow: /*&layoutId=
+Disallow: /*?groupId=
+Disallow: /*&groupId=
+Disallow: /*?p_l_id=
+Disallow: /*&p_l_id=
+Disallow: /*category=
+Disallow: /*?categoryId=
+Disallow: /*&categoryId=
+Disallow: /*?version=
+Disallow: /*&version=
+Disallow: /*?download=
+Disallow: /*&download=
+Disallow: /*?t=
+Disallow: /*&t=
+Disallow: /*?k=
+Disallow: /*&k=
+Disallow: /*?ID=
+Disallow: /*&ID=
+Disallow: /*?Source=
+Disallow: /*&Source=
+Disallow: /*?ContentTypeId=
+Disallow: /*&ContentTypeId=
+Disallow: /*?sessionid=
+Disallow: /*&sessionid=
+Disallow: /*;jsessionid=
+Disallow: /*?*p_l_back_url=
+
+# Tracking parameters
+Disallow: /*?utm_source=
+Disallow: /*&utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*&utm_medium=
+Disallow: /*?utm_campaign=
+Disallow: /*&utm_campaign=
+Disallow: /*?utm_term=
+Disallow: /*&utm_term=
+Disallow: /*?utm_content=
+Disallow: /*&utm_content=
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?yclid=
+Disallow: /*&yclid=
+Disallow: /*?mc_cid=
+Disallow: /*&mc_cid=
+Disallow: /*?mc_eid=
+Disallow: /*&mc_eid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+
+# Sorting / filtering parameters
+Disallow: /*?sort=
+Disallow: /*&sort=
+Disallow: /*?order=
+Disallow: /*&order=
+Disallow: /*?filter=
+Disallow: /*&filter=
+
+
+# ============================================================
+# AI / LLM CRAWLERS
+# Same restrictions as general crawlers
+# ============================================================
+
+# OpenAI
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+
+# Anthropic
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+
+# Perplexity
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+
+# Google AI
+User-agent: Google-Extended
+
+# Apple AI
+User-agent: Applebot-Extended
+
+# Common Crawl
+User-agent: CCBot
+
+# ByteDance
+User-agent: Bytespider
+
+# ------------------------------------------------------------
+# Apply the same restrictions to all AI agents above
+# ------------------------------------------------------------
+
+Disallow: /group/*
+Disallow: /login
+Disallow: /logout
+Disallow: /ids/*
+Disallow: /c/
+Disallow: /c/portal/*
+Disallow: /webdav/
+Disallow: /search
+Disallow: /search/
+Disallow: /user-management/
+Disallow: /user-management/*
+Disallow: /web/guest/*
+Disallow: /reports
+Disallow: /reports/*
+Disallow: /tax-defaulters
+Disallow: /swachhata-campaign
+Disallow: /income-declaration-scheme-dashboard
+Disallow: /income-declaration-scheme-2016
+Disallow: /income-declaration-scheme-cbdt
+
+# Liferay / application parameters
+Disallow: /*doAsUserId=
+Disallow: /*?doAsUserId=
+Disallow: /*&doAsUserId=
+Disallow: /*?refererPlid=
+Disallow: /*&refererPlid=
+Disallow: /*?saveLastPath=
+Disallow: /*&saveLastPath=
+Disallow: /*?inheritRedirect=
+Disallow: /*&inheritRedirect=
+Disallow: /*?redirect=
+Disallow: /*&redirect=
+Disallow: /*?controlPanelCategory=
+Disallow: /*&controlPanelCategory=
+Disallow: /*?layoutId=
+Disallow: /*&layoutId=
+Disallow: /*?groupId=
+Disallow: /*&groupId=
+Disallow: /*?p_l_id=
+Disallow: /*&p_l_id=
+Disallow: /*category=
+Disallow: /*?categoryId=
+Disallow: /*&categoryId=
+Disallow: /*?version=
+Disallow: /*&version=
+Disallow: /*?download=
+Disallow: /*&download=
+Disallow: /*?t=
+Disallow: /*&t=
+Disallow: /*?k=
+Disallow: /*&k=
+Disallow: /*?ID=
+Disallow: /*&ID=
+Disallow: /*?Source=
+Disallow: /*&Source=
+Disallow: /*?ContentTypeId=
+Disallow: /*&ContentTypeId=
+Disallow: /*?sessionid=
+Disallow: /*&sessionid=
+Disallow: /*;jsessionid=
+Disallow: /*?*p_l_back_url=
+
+# Tracking parameters
+Disallow: /*?utm_source=
+Disallow: /*&utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*&utm_medium=
+Disallow: /*?utm_campaign=
+Disallow: /*&utm_campaign=
+Disallow: /*?utm_term=
+Disallow: /*&utm_term=
+Disallow: /*?utm_content=
+Disallow: /*&utm_content=
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?yclid=
+Disallow: /*&yclid=
+Disallow: /*?mc_cid=
+Disallow: /*&mc_cid=
+Disallow: /*?mc_eid=
+Disallow: /*&mc_eid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+
+# Sorting / filtering parameters
+Disallow: /*?sort=
+Disallow: /*&sort=
+Disallow: /*?order=
+Disallow: /*&order=
+Disallow: /*?filter=
+Disallow: /*&filter=
+
+
+# ============================================================
+# SITEMAP
+# ============================================================
+
+Sitemap: https://www.incometaxindia.gov.in/sitemap.xml

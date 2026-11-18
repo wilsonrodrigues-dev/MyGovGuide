@@ -1,0 +1,1552 @@
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Cache-control" content="public">
+<meta name="description" content="Press Information Bureau (PIB) is the nodal agency of the Government of India to disseminate information to the print and electronic media on government policies, programmes, initiatives and achievements." />
+<meta name="keywords" content="Press Information Bureau, PIB, Government of India, Indian Government news, press releases, government updates, official news, India policies, national events, government schemes, Indian news portal" />
+<head id="Head1"><title>
+	Terms and Conditions | PIB
+</title><meta property="fb:app_id" content="930300783691811" /><link rel="icon" href="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2022/apr/ph20224636301.jpg" type="image/jpg" /><link href="/css/style3.1.css?v=7" rel="stylesheet" type="text/css" />
+    <!-- Color Theme CSS -->
+    <link rel="alternate stylesheet" href="/css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="https://static.pib.gov.in/writereaddata/css/green2.css" media="screen" title="green" /><link rel="alternate stylesheet" href="https://static.pib.gov.in/writereaddata/css/yellow.css" media="screen" title="yellow" /><link id="pibA11yCss" href="/css/accessibility.css?v=7" rel="stylesheet" type="text/css" /><link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" />
+    <link rel="alternate" hreflang="en" href="/ContentPage.aspx?reg=1&lang=1" />
+    <link rel="alternate" hreflang="ko" href="/ContentPage.aspx?reg=1&lang=42" />
+    <link rel="alternate" hreflang="mr" href="/ContentPage.aspx?reg=1&lang=9" />
+    <link rel="alternate" hreflang="x-default" href="/ContentPage.aspx?reg=1" />
+    <script type="text/javascript">
+        /* Stamps the saved theme on <html> before the page paints. The
+           switcher in js/accessibility.js settles the rest, but on inner
+           pages it does not run until the end of the body and inside the
+           release frame it is a separate download - either way the reader
+           would otherwise watch a light page turn dark in front of them. */
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            if (c) {
+                d.documentElement.className += c;
+            }
+        }(document));
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://static.pib.gov.in/writereaddata/css/prtint.css" media="print" />
+    <script type="text/javascript" src="https://static.pib.gov.in/writereaddata/js/jquery-3.7.1.min_all_js.js"></script>
+    <style>
+        table tr th {
+            background-color: var(--dbim-key, #0F5757) !important;
+            color: #fff !important;
+        }
+
+        .menus1 h2 {
+            background: var(--dbim-key, #0F5757) !important;
+        }
+
+        .ace-responsive-menu li a:hover {
+            background: var(--dbim-key, #0F5757) !important;
+        }
+
+        .ace-responsive-menu > li.selected a {
+            background: var(--dbim-text, #150202) !important;
+        }
+        /* Optional: Some basic styling for clarity */
+        #searchInput {
+            padding: 0.2em;
+            width: 300px;
+            font-size: 16px;
+        }
+
+        #searchButton {
+            padding: var(--dbim-btn-pad-sm, 6px 12px);   /* was 0.2em */
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .breadcrumb a {
+            outline-offset: 2px;
+        }
+
+        .content-filter {
+            padding: 15px 0;
+            position: sticky;
+            top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+            box-shadow: 0px 0px 4px grey;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            width: 100%;
+            row-gap: 10px;
+        }
+
+        .description_div {
+            overflow: auto;
+        }
+
+        .txtsearch, .ministryFilter {
+            width: 45%;
+        }
+
+        @media(max-width:500px) {
+            .txtsearch {
+                width: 90%;
+            }
+
+            .ministryFilter {
+                width: 100%;
+            }
+        }
+    </style>
+<link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><style type='text/css'>html, body { font-size: 100%; }</style>
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="ta4uxdqxye4gu2x5mdgq-f-1e3c8766c-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":39,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"107e398","ak.r":38762,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":50080,"ak.gh":"23.193.56.102","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1794990285","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==WQHWlufDi48A4jl161juBmqiCSnjbdqPgv5JVVOqPxnxZIQF34LwnGrLdk/h/9IsCvE6ZlId5NS61NEyknLmfjkV2AyPPHbQYTXSxk1vBO5U94mXeBb5s65WuHApb0F5R24YALQTJ6MqPTBbvHv3kFsTa3pg2/18t94t3sZoTL0ULV1RXquQXEwNdZMtvw2j1rmMR9QAjT/1hDKe3qx2PE9QE1mnnCFANgbLjJOfwdkn4XZ0LsKU9X3kwj5h15Lw26DoHhKcdosLwW6ws3HhPdKS6pNEnEIlsnJLNY1nYIQYFuUSn60sBHaZh2t2E99Ps+a6NYpFEcWbdgUx/sDU3ueHbZ+C422FoHeihHd2Xj9ihUF1k5JepDSndJvelO4UwMLnWyF/pYm/6E83Axj8K2DC7cftgxZNndRwmFNR04E=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body id="fontSize">
+    <form method="post" action="./ContentPage.aspx?menuid=101&amp;reg=1&amp;lang=1" id="form1">
+<input type="hidden" name="script_HiddenField" id="script_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C0D1CBB7" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="XW66oz6qMQxI7WEa3X2LaqRgYEpGrVOdggQ+xGplryQSF3k++eTv4fDyBEdq27RRC4yQ3L777JY0M4gosGt8eaSL8RoAWw0ZfX3+rJy1cISgzXbqBS3Nwo+AXlMcJD4flWxSQS8TsMXQCH7KmPc4KZUEuR2Y5lk6557hI6yPHBgi8k0u7bF/yikyA5m5V8jiD8vwv9n5VFiF0YvuvoP+oAcJxqzpdVRhKleROkjdKn2SS3J/PeSATgiNE4C4Mtrt9Hpj8DKzXyjqI1EOtDx1sn4SwHza/9cneeXBEp6oyV3rFEcXWLNlaMnu6xJgb2Qic/2eB4tFSbT3LVYaAbSovIy4J3gk4pcyO9EygCGGGMfP6inu/Ef6JxbvdmgXeR2A+1Bqr8GQAESPMoJRZQ9cRRoiUf8CdwEYF4E2aXZTu4VdSUf/1laqr251QOfCaSrB0bDg3vPBl26lV+Q3ZHAQeU6jMGoY58bpifWLXc/S402ZTWgiIRcIfVxnCQi1FVcS5utC6EGShrmZM4xVCeXM83w5ZngBrlOqK7Uxyec17gmtKRxNDINT4f5BY7dB/0LsuwtnI7PE//ItrmsD5E6kqImeJ1OKGhhUbpR9HgG9jF8ItAFNgMZMnW7SejquBQd+gHNsrXDDZLXBxxSGdVAoDttyuY24b5ERgIoCVvVLPEAaiShBVNCQUQ82KqOcXhkoZkoWVPIwt+Lii9uIpKlLd+0iaw8BXvYuGuCBFzPtSq8RLpXZ50/I5fkIdoRF0ah4M0udG6q6bTbQPY07DxP3OyMU+gU=" />
+        
+        
+        
+        <noscript>
+            <div class="nos">
+                <p>
+                    JavaScript must be enabled in order for you to use the Site in standard view. However,
+                it seems JavaScript is either disabled or not supported by your browser. To use
+                standard view, enable JavaScript by changing your browser options.
+                </p>
+            </div>
+        </noscript>
+        
+        
+        
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+        
+        <header role="banner">
+            <div class="top_head">
+                <div class="container">
+                    
+<style type="text/css">
+    .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: auto;
+    }
+
+        .skip-link:focus {
+            left: 10px;
+            top: 10px;
+            background: #000;
+            color: #fff;
+            padding: 8px 16px;
+            z-index: 1000;
+        }
+
+    .top-acess a:focus, .top-acess a:hover {
+        color: #ECF3FA !important;
+    }
+
+    .form-control:focus {
+        border-color: #092840 !important;
+    }
+
+    .top-acess li.icon:hover {
+        background: #000 !important;
+    }
+
+    span.home:hover, span.rss:hover, span.subscribe:hover {
+        background-color: #000 !important;
+    }
+
+    .selector-label {
+        display: block;
+        margin-bottom: 4px;
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    #example1 li.dropdown .dropdown-content {
+        display: none !important;
+    }
+
+    #example1 li.dropdown > .theme-toggle[aria-expanded="true"] + .dropdown-content {
+        display: block !important;
+    }
+
+
+    /* Header search box - DBIM 3.0 sections 5.4 and 9(v). Sized so the
+       field is usable rather than token, and the button meets the 44px
+       target guidance. */
+    .pib-headsearch {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        vertical-align: middle;
+    }
+
+    .pib-headsearch-input {
+        width: 190px;
+        max-width: 40vw;
+        height: 30px;
+        padding: 2px 8px;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        color: var(--dbim-text, #150202)   /* was #212121 - the input ground is #ffffff, so 19.1:1 */;
+        background: #ffffff;
+        font-size: 13px;
+    }
+
+    .pib-headsearch-go {
+        height: 30px;
+        min-width: 32px;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        background: transparent;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 15px;
+        line-height: 1;
+    }
+
+        .pib-headsearch-go:hover,
+        .pib-headsearch-go:focus {
+            background: #ffffff;
+            color: #000000;
+        }
+
+    html.pib-hc .pib-headsearch-input {
+        background: #150202 !important;
+        color: #ffffff !important;
+        border-color: #ffff00 !important;
+    }
+
+    html.pib-hc .pib-headsearch-go {
+        color: #ffff00 !important;
+        border-color: #ffff00 !important;
+    }
+
+    @media (max-width: 767px) {
+        .pib-headsearch-input { width: 130px; }
+    }
+</style>
+<a tabindex="-1" href="javascript:void(0)"></a>
+<a tabindex="0" accesskey="2" href="#pageContent" class="skip-link" title="Skip to Content" aria-label="Skip to Content">Skip to Content</a>
+<div class="row">
+    <div class="col-md-12 top-acess">
+        <div class="pull-left hidden-xs res_pb5">
+
+            <ul>
+                <li><a accesskey="1" href='/index.aspx' title="Home" aria-label="Home"><span class="home"><svg class="dbim-icon" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false"><use href="#icon-home" xlink:href="#icon-home"></use></svg></span></a></li>
+
+                <li><a href='/SubscribeRelease/SubscribeReleaseForm.aspx' aria-label="Subscribe Release Form" title='Subscribe Release'>
+                    <span class="subscribe"><svg class="dbim-icon" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false"><use href="#icon-mail-open" xlink:href="#icon-mail-open"></use></svg></span></a></li>
+
+                <li><a href='/ViewRss.aspx' target="_blank" title="RSS" aria-label="View RSS Feeds"><span class="rss"><svg class="dbim-icon" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false"><use href="#icon-rss" xlink:href="#icon-rss"></use></svg></span></a></li>
+            </ul>
+        </div>
+        <div class="pull-right">
+            <ul id="example1">
+                <li class="skin-reader hidden-xs"><a accesskey="0" aria-label="Accessibility Statement" href='/AccessibilityStatement.aspx' title='AccessibilityStatement'>AccessibilityStatement </a></li>
+                <li class="skin-reader hidden-xs"><a accesskey="5" aria-label="Screen Reader Access" href='/screenReaderAcces.aspx' title='Screen Reader Access '>Screen Reader Access  </a></li>
+                <li class="regional res_pb5">
+                    <label for="Bar1_ddlregion" id="Bar1_lblRegion" class="selector-label">Region</label>
+                    <select name="ctl00$Bar1$ddlregion" id="Bar1_ddlregion" class="classic form-control" aria-label="Region Selection">
+	<option value="3">PIB Delhi</option>
+	<option selected="selected" value="1">PIB Mumbai</option>
+	<option value="5">PIB Hyderabad</option>
+	<option value="6">PIB Chennai</option>
+	<option value="17">PIB Chandigarh</option>
+	<option value="19">PIB Kolkata</option>
+	<option value="20">PIB Bengaluru</option>
+	<option value="21">PIB Bhubaneswar</option>
+	<option value="22">PIB Ahmedabad</option>
+	<option value="23">PIB Guwahati</option>
+	<option value="24">PIB Thiruvananthpuram</option>
+	<option value="30">PIB Imphal</option>
+	<option value="31">PIB Mizoram</option>
+	<option value="32">PIB Agartala</option>
+	<option value="33">PIB Gangtok</option>
+	<option value="34">PIB Kohima</option>
+	<option value="35">PIB Shillong</option>
+	<option value="36">PIB Itanagar</option>
+	<option value="37">PIB Lucknow</option>
+	<option value="38">PIB Bhopal</option>
+	<option value="39">PIB Jaipur</option>
+	<option value="40">PIB Patna</option>
+	<option value="41">PIB Ranchi</option>
+	<option value="42">PIB Shimla</option>
+	<option value="43">PIB Raipur</option>
+	<option value="44">PIB Jammu and Kashmir</option>
+	<option value="45">PIB Vijayawada</option>
+	<option value="46">PIB Dehradun</option>
+	<option value="48">National</option>
+
+</select>
+
+                </li>
+                <li class="language res_pb5">
+                    <label for="Bar1_ddlLang" id="Bar1_lblLanguage" class="selector-label">Language</label>
+                    <select name="ctl00$Bar1$ddlLang" id="Bar1_ddlLang" class="form-control" aria-label="Language Selection">
+	<option selected="selected" value="1">English</option>
+	<option value="42">Konkani</option>
+	<option value="9">Marathi</option>
+
+</select>
+
+                </li>
+                <li class="icon res_icon"><a aria-label="Home" href="/index.aspx" title="Home"><span class="home"><svg class="dbim-icon" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false"><use href="#icon-home" xlink:href="#icon-home"></use></svg></span></a></li>
+                <li class="icon res_icon"><a aria-label="Subscribe Release Form" href="/SubscribeRelease/SubscribeReleaseForm.aspx" title="Subscribe Release"><span class="subscribe"><svg class="dbim-icon" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false"><use href="#icon-mail-open" xlink:href="#icon-mail-open"></use></svg></span></a></li>
+                <li class="icon res_icon"><a aria-label="View Rss Feeds" href="/ViewRss.aspx" title="RSS"><span class="rss"><svg class="dbim-icon" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false"><use href="#icon-rss" xlink:href="#icon-rss"></use></svg></span></a></li>
+
+                
+                <li class="icon dropdown">
+                    <a href="javascript:void(0)"
+                        class="theme-toggle"
+                        role="button"
+                        aria-label="Change Font Size"
+                        title="Change Font Size"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-controls="font-size-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor"><circle cx="12" cy="4.2" r="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 8h6M12 8v6M12 14h4l2 5"/><circle cx="9.5" cy="16.5" r="4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <ul id="font-size-menu" class="dropdown-content">
+                        <li><a href="javascript:void(0)" role="button" aria-label="Decrease Font Size" title="Decrease Font Size" onclick="set_font_size('decrease')">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 19 L8.5 6 L14 19"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5.3 15 H11.7"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.5H22.5"/></svg></a></li>
+                        <li><a href="javascript:void(0)" role="button" aria-label="Normal Font Size" title="Normal Font Size" onclick="set_font_size('')">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 19 L8.5 6 L14 19"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5.3 15 H11.7"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 21.5H19"/></svg></a></li>
+                        <li><a href="javascript:void(0)" role="button" aria-label="Increase Font Size" title="Increase Font Size" onclick="set_font_size('increase')">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 19 L8.5 6 L14 19"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5.3 15 H11.7"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.5H22.5M19.5 9.5V15.5"/></svg></a></li>
+                        <li><a href="javascript:void(0)" role="button" aria-label="High Contrast" title="High Contrast" onclick="setActiveStyleSheet('change'); return false;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path fill="currentColor" d="M12 3a9 9 0 0 1 0 18z"/></svg></a></li>
+                        <li><a href="javascript:void(0)" role="button" aria-label="Normal Theme" title="Normal Theme" onclick="setActiveStyleSheet('normal'); return false;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 19 L8.5 6 L14 19"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5.3 15 H11.7"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 21.5H19"/></svg></a></li>
+                    </ul>
+                </li>
+
+                <li class="icon dropdown">
+                    <a href="javascript:void(0)"
+                        class="theme-toggle"
+                        role="button"
+                        aria-label="Color Theme"
+                        title="Color Theme"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-controls="color-theme-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3a9 9 0 1 0 0 18c1 0 1.6-.7 1.6-1.5 0-.4-.2-.8-.5-1.1-.3-.3-.4-.6-.4-1 0-.8.7-1.4 1.5-1.4H16a5 5 0 0 0 5-5c0-4.4-4-8-9-8z"/><circle cx="7.5" cy="10.5" r="1.2" fill="currentColor"/><circle cx="11" cy="7" r="1.2" fill="currentColor"/><circle cx="15.5" cy="8.5" r="1.2" fill="currentColor"/><circle cx="17.5" cy="12.5" r="1.2" fill="currentColor"/></svg>
+                    </a>
+                    <ul id="color-theme-menu" class="dropdown-content">
+                        <li><a href="javascript:void(0)" role="button" aria-label="Green Theme" title="Green" onclick="setActiveStyleSheet('green'); return false;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="3" fill="#1F8A2E" stroke="currentColor" stroke-width="2"/></svg></a></li>
+                        <li><a href="javascript:void(0)" role="button" aria-label="Orange Theme" title="Orange" onclick="setActiveStyleSheet('yellow'); return false;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="3" fill="#E0A800" stroke="currentColor" stroke-width="2"/></svg></a></li>
+                    </ul>
+                </li>
+
+                
+                <li class="pib-headsearch" role="search">
+                    <label class="sr-only" for="Bar1_q">Search</label>
+                    <input type="search" accesskey="3" id="Bar1_q" class="pib-headsearch-input"
+                           placeholder="Search"
+                           maxlength="200" autocomplete="off" />
+                    <button type="button" id="Bar1_go" class="pib-headsearch-go"
+                            aria-label="Search">
+                        <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="7" cy="7" r="5" />
+                            <line x1="11" y1="11" x2="15" y2="15" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="icon"><a accesskey="4" aria-label="Sitemap" href='/SiteMap.aspx'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="9" y="2.5" width="6" height="4.5" rx="1"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 7v3.5M4.5 14v-3.5h15V14"/><rect fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="1.5" y="14" width="6" height="4.5" rx="1"/><rect fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="9" y="14" width="6" height="4.5" rx="1"/><rect fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="16.5" y="14" width="6" height="4.5" rx="1"/></svg></a></li>
+                <!-- 
+<li class="icon dropdown"><a href=""><img src="images/language-icon.png" alt="Language" title="Language"></a>
+<ul class="dropdown-content">
+		<li><a href="#" title="Red" onclick="setActiveStyleSheet('red'); return false;"><img src="images/hindi.png" alt="Hindi" title="Hindi"></a></li>
+		<li><a href="#" title="Green" onclick="setActiveStyleSheet('green'); return false;"><img src="images/english.png" alt="English" title="English"></a></li>
+	</ul>
+</li> -->
+
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function setDropdownState(dropdown, isOpen) {
+            if (!dropdown) return;
+
+            var content = dropdown.querySelector(".dropdown-content");
+            var btn = dropdown.querySelector(".theme-toggle");
+            var menuLinks = dropdown.querySelectorAll(".dropdown-content a");
+
+            if (isOpen) {
+                if (content) {
+                    content.style.display = "block";
+                    content.setAttribute("aria-hidden", "false");
+                }
+                if (btn) btn.setAttribute("aria-expanded", "true");
+                menuLinks.forEach(function (link) { link.setAttribute("tabindex", "0"); });
+            } else {
+                dropdown.classList.remove("open");
+                dropdown.classList.remove("sfHover");
+                if (content) {
+                    content.style.display = "none";
+                    content.setAttribute("aria-hidden", "true");
+                }
+                if (btn) btn.setAttribute("aria-expanded", "false");
+                menuLinks.forEach(function (link) { link.setAttribute("tabindex", "-1"); });
+            }
+        }
+
+        function closeAllDropdowns() {
+            var dropdowns = document.querySelectorAll(".dropdown");
+            dropdowns.forEach(function (d) { setDropdownState(d, false); });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            closeAllDropdowns();
+
+            var toggles = document.querySelectorAll(".theme-toggle");
+
+            toggles.forEach(function (toggle) {
+                toggle.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    var dropdown = toggle.closest(".dropdown");
+                    var wasOpen = toggle.getAttribute("aria-expanded") === "true";
+
+                    closeAllDropdowns();
+                    if (!wasOpen) {
+                        setDropdownState(dropdown, true);
+                    }
+                });
+
+                toggle.addEventListener("keydown", function (e) {
+                    if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        toggle.click();
+                    } else if (e.key === "Escape" || e.key === "Esc") {
+                        e.preventDefault();
+                        closeAllDropdowns();
+                        toggle.focus();
+                    }
+                });
+            });
+
+            var menuButtons = document.querySelectorAll(".dropdown-content a[role='button']");
+            menuButtons.forEach(function (btn) {
+                btn.addEventListener("keydown", function (e) {
+                    if (e.key === " " || e.key === "Spacebar") {
+                        e.preventDefault();
+                        btn.click();
+                    }
+                });
+            });
+
+            document.addEventListener("click", function (e) {
+                if (!e.target.closest(".dropdown")) {
+                    closeAllDropdowns();
+                }
+            });
+
+            document.addEventListener("keydown", function (e) {
+                if (e.key === "Escape" || e.key === "Esc") {
+                    var openBtn = document.querySelector(".theme-toggle[aria-expanded='true']");
+                    closeAllDropdowns();
+                    if (openBtn) openBtn.focus();
+                }
+            });
+        });
+    </script>
+</div>
+
+<script type="text/javascript">
+    /* Header search. The masters already wrap the page in a server-side
+       <form>, so this cannot be a form of its own; Enter and the button
+       both navigate to the search page instead. */
+    (function () {
+        var input = document.getElementById("Bar1_q");
+        var go = document.getElementById("Bar1_go");
+        if (!input || !go) { return; }
+
+        var target = "/AdvanceSearch.aspx";
+
+        function submitSearch() {
+            var q = (input.value || "").trim();
+            if (!q) { input.focus(); return; }
+            /* Region and language are carried on the query string sitewide,
+               so the search page must stay in the reader's locale. */
+            var params = new URLSearchParams(window.location.search);
+            var extra = "";
+            if (params.get("reg")) { extra += "&reg=" + encodeURIComponent(params.get("reg")); }
+            if (params.get("lang")) { extra += "&lang=" + encodeURIComponent(params.get("lang")); }
+            window.location.href = target + "?q=" + encodeURIComponent(q) + extra;
+        }
+
+        go.addEventListener("click", submitSearch);
+        input.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.keyCode === 13) {
+                e.preventDefault();
+                submitSearch();
+            }
+        });
+    }());
+</script>
+
+                </div>
+            </div>
+            <div class="mid-head">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            
+                            <div class="dbim-lockup">
+                            <div class="indian-emblem">
+                                <a href='/index.aspx'>
+                                    <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9780_20260902_18024501.png' width="53" height="90" alt="Indian Emblem" title="Indian Emblem" /></a>
+                            </div>
+                            
+                            <div class="pib-mark">
+                                <picture>
+                                    <source srcset='/images/pib-logo.webp?v=1' type="image/webp" />
+                                    <img src='/images/pib-logo.png?v=1' width="400" height="400" alt="" />
+                                </picture>
+                            </div>
+                            <div class="logo">
+                                
+                                <h1><a href='/index.aspx' title='Press Information Bureau'>Press Information Bureau</a> </h1>
+                                <p class="logo-tagline">Ministry of Information and Broadcasting, Government of India</p>
+                            </div>
+                            </div>
+
+                        </div>
+
+                        
+                        <div class="col-md-3 dbim-cobrand">
+                        </div>
+
+
+
+                        <!--
+<div class="col-md-3">
+           <a href="https://pib.gov.in/newsite/g20india.aspx" target="_blank">
+  <img src="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2022/nov/ph20221121131401.png" style="  width: 50%;  " title="g20-india-2023" alt="g20-india-2023">
+ </a>
+</div> -->
+                        <div class="col-md-1">
+                        </div>
+
+
+                        <!--  factcheck start link -->
+                        
+                        <!--  factcheck end link -->
+
+
+                    </div>
+                </div>
+            </div>
+            <div id="main-nav" class="navigation-bg" style="display: none;">
+                <nav>
+                    <div class="container">
+                        <ul class='clearfix sf-menu' id='example'><li><a title='Home' aria-label='Home' href='/index.aspx'><i class='fa-home_r'></i></a></li><li class='has-sub'><a role='button' aria-haspopup='true' aria-expanded='false' aria-label='About Us' title='About Us' href='#' class='has-sub'>About Us</a><ul><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/aboutpibn.aspx'>About Us</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/mainfunctions.aspx'>Main Functions</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/organisationalsetup.aspx'>Organizational Setup</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/headsofpib.aspx'>Photo Gallery of PrDGs/PIOs</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/content/3714_5_Pib.gov.in.aspx'>WHO’S WHO AT PIB</a></li></ul></li><li class='has-sub'><a role='button' aria-haspopup='true' aria-expanded='false' aria-label='Press Releases' title='Press Releases' href='#' class='has-sub'>Press Releases</a><ul><li><a href='/allRel.aspx'>All Releases</a></li><li><a href='/allRel.aspx'>PMO Releases</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://archive.pib.gov.in/archive2/erelease.aspx'>All Releases 2004 to 2017</a></li></ul></li><li class='has-sub'><a role='button' aria-haspopup='true' aria-expanded='false' aria-label='Gallery' title='Gallery' href='#' >Gallery</a><ul><li><a href='/Photogallerynew.aspx'>Photos</a></li><li><a href='/VideoGallery.aspx?MenuId=843'>Videos</a></li><li><a href='/ViewAllEbooklet.aspx?MenuId=844'>E-Booklets</a></li><li><a href='/AllInfographics.aspx?MenuId=845'>InfoGraphics</a></li><li><a href='https://pib.gov.in/WebcastMore.aspx'>Webcast Videos</a></li><li><a href='https://pib.gov.in/Events.aspx'>All Events</a></li></ul></li><li class='has-sub'><a role='button' aria-haspopup='true' aria-expanded='false' aria-label='Research Unit' title='Research Unit' href='#' class='has-sub'>Research Unit</a><ul><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/ViewBackgrounder.aspx?MenuId=51'>Explainer</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/AllFactsheet.aspx?MenuId=12'>Factsheets</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/Viewfaq.aspx?MenuId=709'>FAQ</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/ViewFeatures.aspx?MenuId=5'>Features</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/akam_factsheet.aspx'>Amrit Yatra</a></li></ul></li><li class='has-sub'><a role='button' aria-haspopup='true' aria-expanded='false' aria-label='Media Facilition' title='Media Facilition' href='#' class='has-sub'>Media Facilition</a><ul><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/ViewAccriditionList.aspx?AccredationID=2725'>Accreditations</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/akam_factsheet.aspx#'>Facilities</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/AllMediaInvitation.aspx'>Media Invitations</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://accreditation.pib.gov.in/acridexsrch.aspx'>Media List</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://accreditation.pib.gov.in/jws/default.aspx'>JWS</a></li></ul></li><li class='has-sub'><a role='button' aria-haspopup='true' aria-expanded='false' aria-label='Archives' title='Archives' href='#' >Archives</a><ul><li><a target='_self' href='https://pib.gov.in/Aboutarchive.aspx'>About Archives</a></li><li><a target='_self' href='https://archive.pib.gov.in/archive/phase2/archiveministry.aspx?phase=3'>1947-2001</a></li><li><a target='_self' href='https://archive.pib.gov.in/newsite/archivepage.aspx'>2002-2003</a></li><li><a target='_self' href='https://archive.pib.gov.in/archive2/'>2004 Onwards</a></li></ul></li><li class='has-sub'><a role='button' aria-haspopup='true' aria-expanded='false' aria-label='Fact Check Unit' title='Fact Check Unit' href='#' class='has-sub'>Fact Check Unit</a><ul><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/aboutfactchecke.aspx'>About Check Unit</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://factcheck.pib.gov.in/'>Submit for Fact Check</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/FAQ_fact.aspx'>FAQ</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/FAQ_fact.aspx'>Fact Check in Number</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/sep/doc202391248201.pdf'>Fact Check Done</a></li><li><a  target='_blank' rel='noopener noreferrer' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/nov/doc20221124135101.pdf'>Fraudulent Websites</a></li></ul></li></ul>
+<style type="text/css">
+.mean-container a.meanmenu-reveal {
+	margin-right: 20px !important;
+    	width: 24px !important;
+	}
+    .menuchang {
+        background-image:url('images/new.png')  ;
+        background-repeat: no-repeat;
+        padding-right:5px;
+        background-position:top;
+    }
+     .fa-home_r::after {
+        content: url(https://static.pib.gov.in/WriteReadData/userfiles/f_hom.png);
+        position: relative;
+        z-index: 100000;
+        top: 0;
+        bottom: 0;
+    }
+	li a:hover .fa-home_r {
+        filter: invert(1);
+    }
+	.sf-menu a:focus{
+        color:#010102 ;
+    }
+	.sf-arrows>li:hover>.sf-with-ul:after, .sf-arrows>li>.sf-with-ul:focus:after
+	{ 
+		border-top-color:#000000 !important;
+	}
+	.sf-menu li:nth-child(7) a.sf-with-ul:hover:after, .sf-menu li:nth-child(7) a.sf-with-ul:focus:after
+	{
+    		border-top: 5px solid #000000 !important;
+	}
+
+	@media (max-width:375px) {
+	.mean-nav ul li li a {
+		font-size:11px !important;
+		}
+	}
+    </style>
+<script type="text/javascript">
+    // Guard variable to ensure this script never runs twice even if cloned
+    if (!window.topMenuAccessibilityInitialized) {
+        window.topMenuAccessibilityInitialized = true;
+
+        function initializeTopMenuAccessibility() {
+            var allMenuItems = document.querySelectorAll('.sf-menu li.has-sub');
+            var menuItems = [];
+
+            // Scope to the desktop nav only
+            for (var i = 0; i < allMenuItems.length; i++) {
+                if (!allMenuItems[i].closest('.mean-nav') && !allMenuItems[i].closest('.mean-container')) {
+                    menuItems.push(allMenuItems[i]);
+                }
+            }
+
+            menuItems.forEach(function (menuItem) {
+                var trigger = menuItem.querySelector('a');
+                var submenu = menuItem.querySelector('ul');
+                if (!trigger || !submenu) return;
+
+                // Setup ARIA attributes
+                trigger.setAttribute('role', 'button');
+                trigger.setAttribute('aria-haspopup', 'true');
+                trigger.setAttribute('aria-expanded', 'false');
+
+                if (!trigger.getAttribute('aria-label')) {
+                    var linkText = (trigger.textContent || '').trim();
+                    if (linkText.length > 0) trigger.setAttribute('aria-label', linkText);
+                }
+
+                // Sync ARIA expanded state with Superfish's 'sfHover' class
+                if (typeof MutationObserver !== 'undefined') {
+                    var observer = new MutationObserver(function (mutations) {
+                        mutations.forEach(function (mutation) {
+                            if (mutation.attributeName === 'class') {
+                                var isExpanded = menuItem.classList.contains('sfHover');
+                                trigger.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+                            }
+                        });
+                    });
+                    observer.observe(menuItem, { attributes: true });
+                }
+
+                // Keyboard navigation (Enter / Space to open/close)
+                trigger.addEventListener('keydown', function (event) {
+                    if (event.key === ' ' || event.key === 'Spacebar' || event.key === 'Enter') {
+                        if (trigger.getAttribute('href') === '#') {
+                            event.preventDefault();
+                        }
+                        event.stopImmediatePropagation();
+
+                        // Use Superfish's native methods so it doesn't break hover
+                        if (menuItem.classList.contains('sfHover')) {
+                            if (typeof jQuery !== 'undefined') jQuery(menuItem).superfish('hide');
+                        } else {
+                            if (typeof jQuery !== 'undefined') jQuery(menuItem).superfish('show');
+                        }
+                    }
+
+                    if (event.key === 'Escape') {
+                        event.preventDefault();
+                        if (typeof jQuery !== 'undefined') jQuery(menuItem).superfish('hide');
+                        trigger.focus();
+                    }
+                });
+            });
+
+            // Close on Escape anywhere
+            document.addEventListener('keydown', function (event) {
+                if (event.key === 'Escape') {
+                    if (typeof jQuery !== 'undefined') jQuery(menuItems).superfish('hide');
+                }
+            });
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializeTopMenuAccessibility);
+        } else {
+            initializeTopMenuAccessibility();
+        }
+    }
+
+
+
+
+
+    /* An "Advance Search" button was injected here into the meanmenu
+       bar on small screens. Two reasons it is gone:
+
+       1. It was the fourth entry point to the same search page. The
+          nav item was removed in TopMenu.ascx.cs, and DBIM 3.0 sections
+          5.4 and 9(v) put a real search field in the header instead -
+          see Usercontrol/Accessibility.ascx. That field and its
+          "Advanced search" link sit outside .pull-left, so they are
+          present on small screens too.
+
+       2. It did not run. The markup string carried loading="lazy" with
+          double quotes inside a double-quoted JavaScript string, which
+          closed the literal early and made the whole block a syntax
+          error. Because it sat in this same <script> element, it took
+          the menu ARIA and keyboard handling above down with it on
+          every page that renders this control. */
+</script>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+        
+        <main id="pageContent">
+            <div class="mean-container">
+            </div>
+
+            <!-- Menu Part End -->
+            <div class="clearfix">
+            </div>
+            
+
+    <div class="clearfix">
+    </div>
+    <section class="container" style="margin-top: 15px; border-radius: 4px; padding: 0">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0;" role="navigation" aria-label="Breadcrumb">
+            <ol class="breadcrumb" style="list-style: none; margin: 0;">
+
+                <li class='breadcrumb-item'><a href='/index.aspx' title="Home Page" class="active">Home </a></li><li class='breadcrumb-item active'><a href="#" aria-current="page">Terms &amp;amp; Conditions</a></li>
+
+            </ol>
+
+            <span class="pull-right">
+                
+
+<span class="print-icons">
+<input type="image" name="ctl00$ContentPlaceHolder1$Print1$print" id="ContentPlaceHolder1_Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+            </span>
+        </div>
+    </section>
+    <section class="pb40">
+        <div class="container">
+
+
+
+            <div class="clearfix"></div>
+
+
+            <div class="row pt20">
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="menus1">
+                        <nav aria-label="Side">
+
+
+                            <div id="about-us-content-left-menu"><h2>Terms &amp;amp; Conditions</h2><ul id='respMenu' role='presentation' class='ace-responsive-menu collapse hide-menu' data-menu-style=''><li><a   href="/Content/17_2_Tenders.aspx">Tenders</a></li><li><a  onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');"  target='_blank'  href=https://archive.pib.gov.in/newsite/archivepage.aspx title="Archives" >Archives</a></li><li><a   href="/Content/131_2_Terms-and-Conditions.aspx">Terms &amp; Conditions</a></li><li><a   href="/Content/23_2_Help.aspx">Help</a></li><li><a   href="/Content/132_2_Copyright-Policy.aspx">Copyright Policy</a></li><li><a   href="/Content/133_2_Privacy-Policy.aspx">Privacy Policy</a></li><li><a   href="/Content/134_2_Hyperlinking-Policy.aspx">Hyperlinking Policy</a></li><li><a  onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');"  target='_blank'  href=https://factcheck.pib.gov.in/feedbacklogin.aspx title="Feedback" >Feedback</a></li></ul></div>
+
+                        </nav>
+
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <div class="content-area">
+
+                        <div class="text-center">
+                            <h1 role="heading">
+                                Terms and Conditions</h1>
+                        </div>
+                        
+                        <p>
+                            <p>This website is designed, updated and maintained by Press Information  Bureau, Government of India. Though all efforts have been made to ensure the accuracy and currency of  the content on this website, the same should not be construed as a  statement of law or used for any legal purposes. In case of any  ambiguity or doubts, users are advised to verify/check with the Press  Information Bureau and/or other source(s), and to obtain appropriate  professional advice. Under no circumstances will Press Information Bureau be liable for any  expense, loss or damage including, without limitation, indirect or  consequential loss or damage, or any expense, loss or damage whatsoever  arising from use, or loss of use, of data, arising out of or in  connection with the use of this website. These terms and conditions shall be governed by and construed in  accordance with the Indian laws. Any dispute arising under these terms  and conditions shall be subject to the jurisdiction of the courts of  India.</p></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix">
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("table").each(function() {
+                if (!$(this).closest(".table-responsive").length) {
+                    $(this).wrap("<div class='table-responsive'></div>");
+                }
+            });
+		
+            $("#searchButton").click(function() {
+                triggerBrowserSearch();
+            });
+        });
+
+function triggerBrowserSearch() {
+    if (navigator.userAgent.indexOf("Firefox") != -1) {
+        // For Firefox
+        var event = new KeyboardEvent('keydown', { key: 'f', ctrlKey: true });
+        document.dispatchEvent(event);
+    } else {
+        // For other browsers (Chrome, Edge, Safari, etc.)
+        window.find(document.getElementById('searchInput').value);
+    }
+}
+		
+// search btn enable/disable
+const input = document.getElementById("searchInput");
+const button = document.getElementById("searchButton");
+
+input.addEventListener("input", function() {
+    if (input.value.trim() !== "") {
+        button.disabled = false;
+    } else {
+        button.disabled = true;
+    }
+});
+    </script>
+
+
+
+            <div class="container" style="padding: 5px 0; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px;">
+                <div id="mygovImgLink" role="link" tabindex="0" onkeydown="javascript:if(event.keyCode === 13) { window.open(&#39;https://cbpssubscriber.mygov.in/aff/To159l5GKG3cPNYR&#39;); }">
+                    <center>
+                        <img alt="Dynamic banner linking to Prime Minister content updates from MyGov, such as Mann ki Baat and other announcements." width="100%" height="80px" src="https://cbpssubscriber.mygov.in/assets/uploads/X0qP81f7lg3YqNFI"
+                            id="Img1" onclick="javascript:window.open('https://cbpssubscriber.mygov.in/aff/To159l5GKG3cPNYR')"
+                            style="cursor: pointer; margin-top: 10px;" onload="javascript:(function(){if(typeof _done == 'undefined' || !_done){this.setAttribute('src', this.getAttribute('src')+'?'+Math.floor((Math.random() * 100) + 1)); _done=true;}}).call(this)">
+                    </center>
+                </div>
+                <div tabindex="0" role="link" onkeydown="javascript:if(event.keyCode === 13) { window.open('https://www.india.gov.in/'); }">
+                    <center>
+                        <img alt="Visit National Portal of India (india.gov.in), the official Government of India web portal." width="100%" height="70%" src="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2024/sep/ph2024923399701.png"
+                            id="Img2" onclick="javascript:window.open('https://www.india.gov.in/')" style="cursor: pointer;" />
+                    </center>
+                </div>
+                <div tabindex="0" role="link" onkeydown="javascript:if(event.keyCode === 13) { window.open('https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/feb/doc2025217503701.pdf'); }">
+                    <center>
+                        <img style="object-fit: contain; max-height: 90px; cursor: pointer;" alt="View STQC (Standardisation Testing and Quality Certification) certificate PDF for PIB website.
+" width="100%" height="70%" src="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2025/feb/ph2025217503601.png"
+                            id="Img2" onclick="javascript:window.open('https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/feb/doc2025217503701.pdf')" style="cursor: pointer;" />
+                    </center>
+                </div>
+<div style="display: flex;justify-content:center; width: 100%;">           
+              <div style="margin-right: 5px;"> 
+                    <a href="https://play.google.com/store/apps/details?id=in.gov.pib" target="_blank" style="text-decoration: none;">
+                        <img src="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/apr/ph202648842801.jpeg" class="img-responsive" alt="Download PIB mobile application for android from google play">
+                    </a>
+            </div>
+             <div style="margin-left: 5px;">
+                    <a href="https://apps.apple.com/in/app/press-information-bureau-pib/id1234194630" target="_blank" style="text-decoration: none;">
+                        <img src="images/ios.png" class="img-responsive" alt="Download PIB mobile application for IOS from play store">
+                    </a>
+            </div>
+        </div>
+            </div>
+        </main>
+        
+
+<style type="text/css">
+    .nbs-flexisel-nav-left:before {
+        content: '\2B9C'; /* Unicode for leftwards arrow */
+    }
+
+
+    .nbs-flexisel-nav-right:before {
+        content: '\2B9E'; /* Unicode for rightwards arrow */
+    }
+
+    .nbs-flexisel-nav-right {
+	right:3px;
+        /*right: -22px;*/
+    }
+
+    .nbs-flexisel-nav-left {
+	left:4px;
+       /* left: -22px;*/
+    }
+
+    .nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+        /*padding: 3px 22px;*/
+        top: 23%;
+        /* was #bf0000 - a red that is in no DBIM 2.1 group. Key colour on
+           the white chip measures 8.33:1. */
+        color: var(--dbim-key, #0F5757);
+        font-size: 230%;
+	background: var(--dbim-inclusive, #FFFFFF);
+    }
+
+        /* The arrow above is a TEXT CHARACTER (B9C / B9E). DBIM 3.7(ii)
+           permits PNG, WEBP or SVG only, so it cannot stay one. The script
+           at the foot of this file swaps in the sprite's chevron and adds
+           .pib-nav-svg, which turns the character off. If that script does
+           not run - or the sprite is missing - the character remains and the
+           control is still visible, rather than an empty white box. */
+        .nbs-flexisel-nav-left.pib-nav-svg:before,
+        .nbs-flexisel-nav-right.pib-nav-svg:before {
+            content: none;
+        }
+
+        .nbs-flexisel-nav-left:focus,
+        .nbs-flexisel-nav-right:focus {
+            outline: 2px solid var(--dbim-key, #0F5757);
+            outline-offset: 2px;
+        }
+
+    .nbs-flexisel-item img:focus::after {
+        outline: 2px solid black;
+    }
+
+    .pp-icon-btn {
+        background-color: var(--dbim-key, #0F5757);
+        color: var(--dbim-inclusive, #FFFFFF); /* 8.33:1 on the key ground */
+        border: 1px solid var(--dbim-key, #0F5757);
+        width: 35px; /* Fixed width */
+        height: 35px; /* Fixed height */
+        border-radius: 4px; /* Slight curve */
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 1;
+        padding: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.2s;
+    }
+
+        .pp-icon-btn:hover, .pp-icon-btn:focus {
+            /* Pale ground with a key glyph, the same hover the consent
+               buttons use. `color` has to move with the background: the
+               glyph is an inline SVG on currentColor and a white one on a
+               pale ground would disappear. 7.11:1. */
+            background-color: var(--dbim-pale, #D9F2F2);
+            color: var(--dbim-key, #0F5757);
+            border-color: var(--dbim-key, #0F5757);
+            outline: 2px solid var(--dbim-key, #0F5757);
+        }
+    /* Pause Bars */
+</style>
+
+<section class="logos_scroller">
+    <div class="container">
+        <div class="carousel-controls">
+            <button type="button" id="btnCarouselToggle" class="pp-icon-btn" aria-label="Pause Slideshow">
+                <span id="ppIcon" aria-hidden="true"><svg aria-hidden="true" focusable="false" width="12" height="14" viewBox="0 0 12 14" fill="currentColor"><rect x="1" y="1" width="3.5" height="12" rx="1"/><rect x="7.5" y="1" width="3.5" height="12" rx="1"/></svg></span>
+                <!-- Default: Pause Icon -->
+            </button>
+        </div>
+        <div id="footerCarouselStatus" class="sr-only" role="status"></div>
+        <ul id="flexiselDemo3">
+            <li><a href='https://eci.gov.in/'target='_blank' rel='noopener noreferrer' onclick="return confirm('This link shall take you to an external website. Click OK to continue.Click Cancel to stop')" ><img  style='max-height:85px;' src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/eci_0.png' alt="Visit Election Commission of India (eci.gov.in), the constitutional authority responsible for conducting elections in India. "> </a></li><li><a href='https://egazette.gov.in/'target='_blank' rel='noopener noreferrer' onclick="return confirm('This link shall take you to an external website. Click OK to continue.Click Cancel to stop')" ><img  style='max-height:85px;' src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/e-gazette_0.png' alt="Visit e-Gazette of India (egazette.gov.in), the official platform for publishing government notifications, orders, and legal documents. "> </a></li><li><a href='https://pmnrf.gov.in/'target='_blank' rel='noopener noreferrer' onclick="return confirm('This link shall take you to an external website. Click OK to continue.Click Cancel to stop')" ><img  style='max-height:85px;' src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/pmnrf.png' alt="Visit Prime Minister’s National Relief Fund (PMNRF) website, providing assistance during disasters and emergencies. "> </a></li><li><a href='https://www.makeinindia.com/home'target='_blank' rel='noopener noreferrer' onclick="return confirm('This link shall take you to an external website. Click OK to continue.Click Cancel to stop')" ><img  style='max-height:85px;' src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/makeinindia_0.png' alt="Visit Make in India initiative website, promoting manufacturing and investment in India. "> </a></li><li><a href='https://pgportal.gov.in/'target='_blank' rel='noopener noreferrer' onclick="return confirm('This link shall take you to an external website. Click OK to continue.Click Cancel to stop')" ><img  style='max-height:85px;' src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/pg-portal_0.png' alt="File or track grievances on Public Grievance Portal (PG Portal), the Government of India’s grievance redress system. "> </a></li><li><a href='https://igod.gov.in/'target='_blank' rel='noopener noreferrer' onclick="return confirm('This link shall take you to an external website. Click OK to continue.Click Cancel to stop')" ><img  style='max-height:85px;' src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/goidirectory_0.png' alt="Browse Government of India Web Directory (IGOD), listing official government websites and services. "> </a></li><li><a href='https://shebox.wcd.gov.in/'target='_blank' rel='noopener noreferrer' onclick="return confirm('This link shall take you to an external website. Click OK to continue.Click Cancel to stop')" ><img  style='max-height:85px;' src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/shebox.png' alt="Report workplace sexual harassment complaints on SHe-Box portal, the Government of India’s online complaint system. "> </a></li><li><a href='https://sancharsaathi.gov.in/Home/index.jsp'target='_blank' rel='noopener noreferrer' onclick="return confirm('This link shall take you to an external website. Click OK to continue.Click Cancel to stop')" ><img  style='max-height:85px;' src='https://static.pib.gov.in/WriteReadData/RelatedLink/Images/sanchar-sathi.png' alt="Access Sanchar Saathi services for telecom security, including reporting lost or stolen mobile devices and checking connections. "> </a></li>
+
+        </ul>
+    </div>
+</section>
+
+
+<footer role="contentinfo">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class='col-md-8 col-xs-12 '><h4 role='heading' aria-level='2'>RTI and Contact Us</h4><ul class='ulfooter' ><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/content/3714_5_Pib.gov.in.aspx'>WHO IS WHO AT PIB</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/content/3663_5_pib.nic.in.aspx'>Telephone Nos of PIB Officers of Hqrs</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/content/3664_5_pib.nic.in.aspx'>Telephone Number of Regional Branch Offices of PIB</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/content/3691_5_pib.nic.in.aspx'> Public Grievance Officer</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://static.pib.gov.in/WriteReadData/CMS/offi.pdf'> CPIOs Appellate Authority List</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://static.pib.gov.in/WriteReadData/userfiles/UPDATED%20InformationManual.pdf'>Information Manual</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://static.pib.gov.in/WriteReadData/userfiles/file/2019211Citizencharter160FL2F.pdf'>Citizen Charter</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://pib.gov.in/content/3701_5_pib.gov.in.aspx'>Transparency Audit</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/may/doc2023531207101.pdf'>Allocation Budget</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/mar/doc2023324175901.pdf'>Internal Complaints Committee</a></li></ul><span class='more'><a href='/content/2453_5_more.aspx'>More</a></span></div><div class='col-md-4 col-xs-12 firstulfooter'><h4 role='heading' aria-level='2'>GOI Links</h4><ul class='ulfooter' ><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='http://mib.gov.in'>Ministry of Information and Broadcasting</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='http://agriculture.gov.in/'>Ministry of Agriculture</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='http://ministryoftextiles.gov.in/'>Ministry of Textiles</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://commerce.gov.in/'>Ministry of Commerce & Industry</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='https://mod.gov.in/'>Ministry of Defence</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='http://www.finmin.nic.in/'>Ministry of Finance</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='http://www.mohfw.nic.in/'>Ministry of Health and Family Welfare</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='http://mha.gov.in'>Ministry of Home Affairs</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='http://mohua.gov.in'>Ministry of Housing and Urban Affairs</a></li><li class='col-md-0'><a title='This link shall take you to an external website. Click OK to continue.Click Cancel to stop' onclick="javascript:return confirm( 'This link shall take you to an external website. Click OK to continue.Click Cancel to stop');" target='_blank' rel='noopener noreferrer' href='http://mohua.gov.in'>Ministry of Education</a></li></ul><span class='more'><a href='/content/2891_5_more.aspx'>More</a></span></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <ul>
+                <li><a  title='Tenders' href='/content/17_2_Tenders.aspx'>Tenders</a></li><li><a  title='Archives' href='https://archive.pib.gov.in/newsite/archivepage.aspx' target='_blank' rel='noopener noreferrer'>Archives</a></li><li><a  title='Terms & Conditions' href='/content/131_2_Terms-and-Conditions.aspx'>Terms & Conditions</a></li><li><a  title='Help' href='/content/23_2_Help.aspx'>Help</a></li><li><a  title='Copyright Policy' href='/content/132_2_Copyright-Policy.aspx'>Copyright Policy</a></li><li><a  title='Privacy Policy' href='/content/133_2_Privacy-Policy.aspx'>Privacy Policy</a></li><li><a  title='Hyperlinking Policy' href='/content/134_2_Hyperlinking-Policy.aspx'>Hyperlinking Policy</a></li><li><a  title='Feedback' href='https://factcheck.pib.gov.in/feedbacklogin.aspx' target='_blank' rel='noopener noreferrer'>Feedback</a></li>
+                
+                <li><a href='/SiteMap.aspx'
+                       title='Site Map'>Site Map</a></li>
+                
+                <li><a href='/headsofpib.aspx'
+                       title='Contact Us'>Contact Us</a></li>
+            </ul>
+
+            
+            <p class="dbim-lineage text-center">The website belongs to Press Information Bureau, Ministry of Information and Broadcasting, Government of India</p>
+
+            <p class="text-center"><span class="footer-nic">Site is hosted by National Informatics Centre (NIC). Information is provided and updated by Press Information Bureau “A” wing, Shastri Bhawan, Dr. Rajendra Prasad Road, New Delhi – 110001, Phone: 23389338.</span></p>
+            <div class="clearfix"></div>
+            <div class="pull-left">
+                
+                <b>Visitor Counter: </b><span>
+                    7611</span>
+            </div>
+            <div class="pull-right">
+                Last Updated On: <strong>
+                    <span id="ctl09_lblUpdated">18 Nov 2026 1:09 PM</span></strong>
+            </div>
+        </div>
+    </div>
+    
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+
+    <script type="text/javascript">
+        var pibCarouselPaused = false;
+        var pibCarouselTimer = null;
+
+        function getCarouselViewport() {
+            return document.querySelector('.nbs-flexisel-inner');
+        }
+
+        function getCarouselItems() {
+            return document.querySelectorAll('.nbs-flexisel-item');
+        }
+
+        function getPrevBtn() {
+            return document.querySelector('.nbs-flexisel-nav-left');
+        }
+
+        function getNextBtn() {
+            return document.querySelector('.nbs-flexisel-nav-right');
+        }
+
+        function refreshNavA11y() {
+            var prevBtn = getPrevBtn();
+            var nextBtn = getNextBtn();
+
+            if (prevBtn) {
+                prevBtn.setAttribute('tabindex', '0');
+                prevBtn.setAttribute('role', 'button');
+                prevBtn.setAttribute('aria-label', 'Previous Slide');
+            }
+
+            if (nextBtn) {
+                nextBtn.setAttribute('tabindex', '0');
+                nextBtn.setAttribute('role', 'button');
+                nextBtn.setAttribute('aria-label', 'Next Slide');
+            }
+
+            pibNavIcon(prevBtn, 'icon-chevron-left');
+            pibNavIcon(nextBtn, 'icon-chevron-right');
+        }
+
+        /* jquery.flexisel.js creates these two controls as EMPTY divs and the
+           stylesheet draws the arrow with a ::before character. This puts a
+           real SVG in instead - DBIM 3.7(ii).
+
+           Guarded twice: once on the sprite actually being present, and once
+           on the class, because refreshNavA11y() is re-run on a timer and
+           would otherwise stack an arrow on every pass. */
+        function pibNavIcon(btn, id) {
+            if (!btn || btn.className.indexOf('pib-nav-svg') > -1) { return; }
+            if (!document.getElementById('dbim-icon-sprite')) { return; }
+
+            var NS = 'http://www.w3.org/2000/svg';
+            var svg = document.createElementNS(NS, 'svg');
+            svg.setAttribute('class', 'dbim-icon');
+            svg.setAttribute('width', '24');
+            svg.setAttribute('height', '24');
+            svg.setAttribute('fill', 'currentColor');
+            svg.setAttribute('aria-hidden', 'true');
+            svg.setAttribute('focusable', 'false');
+
+            var use = document.createElementNS(NS, 'use');
+            use.setAttribute('href', '#' + id);
+            use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', '#' + id);
+
+            svg.appendChild(use);
+            btn.appendChild(svg);
+            btn.className += ' pib-nav-svg';
+        }
+
+        function scheduleFocusRefresh() {
+            clearTimeout(pibCarouselTimer);
+            pibCarouselTimer = setTimeout(function () {
+                manageCarouselFocus();
+                refreshNavA11y();
+            }, 500);
+        }
+
+        function isElementVisibleHorizontally(rect, viewportRect) {
+            return rect.left < viewportRect.right && rect.right > viewportRect.left;
+        }
+
+        function manageCarouselFocus() {
+            var viewport = getCarouselViewport();
+            if (!viewport) return;
+
+            var viewportRect = viewport.getBoundingClientRect();
+            var items = getCarouselItems();
+
+            // small tolerance for border/subpixel rounding
+            var tolerance = 4;
+
+            for (var i = 0; i < items.length; i++) {
+                var item = items[i];
+                var links = item.querySelectorAll('a');
+
+                for (var j = 0; j < links.length; j++) {
+                    var link = links[j];
+
+                    // skip hidden/renderless elements
+                    if (!link.offsetParent) {
+                        link.setAttribute('tabindex', '-1');
+                        link.setAttribute('aria-hidden', 'true');
+                        continue;
+                    }
+
+                    var rect = link.getBoundingClientRect();
+
+                    // Require FULL visibility inside the carousel viewport
+                    var fullyVisible =
+                        rect.left >= (viewportRect.left + tolerance) &&
+                        rect.right <= (viewportRect.right - tolerance) &&
+                        rect.width > 0 &&
+                        rect.height > 0;
+
+                    if (fullyVisible) {
+                        if (link.hasAttribute('data-old-tabindex')) {
+                            var oldTabindex = link.getAttribute('data-old-tabindex');
+                            if (oldTabindex === '') {
+                                link.removeAttribute('tabindex');
+                            } else {
+                                link.setAttribute('tabindex', oldTabindex);
+                            }
+                            link.removeAttribute('data-old-tabindex');
+                        } else if (link.getAttribute('tabindex') === '-1') {
+                            link.removeAttribute('tabindex');
+                        }
+
+                        link.removeAttribute('aria-hidden');
+                    } else {
+                        if (!link.hasAttribute('data-old-tabindex')) {
+                            var prev = link.getAttribute('tabindex');
+                            link.setAttribute('data-old-tabindex', prev === null ? '' : prev);
+                        }
+
+                        link.setAttribute('tabindex', '-1');
+                        link.setAttribute('aria-hidden', 'true');
+                    }
+                }
+            }
+
+            // If current focus is now on a hidden/offscreen link, move it safely
+            // Only redirect focus if the active element is inside the carousel container
+            var active = document.activeElement;
+            var carouselContainer = document.querySelector('.nbs-flexisel-container');
+            if (
+                active &&
+                active.tagName &&
+                active.tagName.toLowerCase() === 'a' &&
+                active.getAttribute('tabindex') === '-1' &&
+                carouselContainer &&
+                carouselContainer.contains(active)
+            ) {
+                var visibleLinks = document.querySelectorAll('.nbs-flexisel-item a:not([tabindex="-1"])');
+                if (visibleLinks.length > 0) {
+                    visibleLinks[0].focus();
+                } else {
+                    var nextBtn = getNextBtn();
+                    if (nextBtn) {
+                        nextBtn.focus();
+                    }
+                }
+            }
+        }
+
+        function setPausedState(paused) {
+            var btn = document.getElementById('btnCarouselToggle');
+            var iconSpan = document.getElementById('ppIcon');
+            var $carousel = $('#flexiselDemo3');
+
+            pibCarouselPaused = paused;
+
+            if (paused) {
+                $carousel.trigger('mouseenter');
+                if (iconSpan) {
+                    iconSpan.innerHTML = '<svg aria-hidden="true" focusable="false" width="12" height="14" viewBox="0 0 12 14" fill="currentColor"><path d="M2 1.5 L11 7 L2 12.5 Z"/></svg>';
+                }
+                if (btn) {
+                    btn.setAttribute('aria-label', 'Play Slideshow');
+                    btn.setAttribute('aria-pressed', 'true');
+                }
+            } else {
+                $carousel.trigger('mouseleave');
+                if (iconSpan) {
+                    iconSpan.innerHTML = '<svg aria-hidden="true" focusable="false" width="12" height="14" viewBox="0 0 12 14" fill="currentColor"><rect x="1" y="1" width="3.5" height="12" rx="1"/><rect x="7.5" y="1" width="3.5" height="12" rx="1"/></svg>';
+                }
+                if (btn) {
+                    btn.setAttribute('aria-label', 'Pause Slideshow');
+                    btn.setAttribute('aria-pressed', 'false');
+                }
+            }
+        }
+
+        function moveCarousel(direction) {
+            var prevBtn = getPrevBtn();
+            var nextBtn = getNextBtn();
+
+            if (pibCarouselPaused) {
+                setPausedState(false);
+
+                setTimeout(function () {
+                    if (direction === 'left' && prevBtn) {
+                        prevBtn.click();
+                    }
+                    if (direction === 'right' && nextBtn) {
+                        nextBtn.click();
+                    }
+
+                    setTimeout(function () {
+                        setPausedState(true);
+                        scheduleFocusRefresh();
+                    }, 400);
+                }, 50);
+            } else {
+                if (direction === 'left' && prevBtn) {
+                    prevBtn.click();
+                }
+                if (direction === 'right' && nextBtn) {
+                    nextBtn.click();
+                }
+
+                scheduleFocusRefresh();
+            }
+        }
+
+        function getFirstVisibleSlideLabel() {
+            var viewport = getCarouselViewport();
+            if (!viewport) return '';
+            var viewportRect = viewport.getBoundingClientRect();
+            var items = getCarouselItems();
+            for (var i = 0; i < items.length; i++) {
+                var link = items[i].querySelector('a');
+                if (!link || !link.offsetParent) continue;
+                var r = link.getBoundingClientRect();
+                if (r.left >= viewportRect.left && r.right <= viewportRect.right && r.width > 0) {
+                    var img = link.querySelector('img');
+                    if (img) { var alt = (img.getAttribute('alt') || img.getAttribute('title') || '').trim(); if (alt) return alt; }
+                    var txt = (link.textContent || '').trim(); if (txt) return txt;
+                }
+            }
+            return '';
+        }
+
+        function announceFooterSlideChange() {
+            var el = document.getElementById('footerCarouselStatus');
+            if (!el) return;
+            var label = getFirstVisibleSlideLabel();
+            var msg = 'Slide changed';
+            if (label) msg += ': ' + label;
+            el.textContent = '';
+            setTimeout(function () { el.textContent = msg; }, 100);
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var btn = document.getElementById('btnCarouselToggle');
+
+            setTimeout(function () {
+                refreshNavA11y();
+                manageCarouselFocus();
+            }, 700);
+
+            if (btn) {
+                btn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    setPausedState(!pibCarouselPaused);
+                    scheduleFocusRefresh();
+                });
+            }
+
+            document.addEventListener('keydown', function (e) {
+                var target = e.target;
+                if (!target) return;
+
+                var isPrev = target.classList.contains('nbs-flexisel-nav-left');
+                var isNext = target.classList.contains('nbs-flexisel-nav-right');
+                var key = e.key || e.keyCode;
+
+                if (isPrev || isNext) {
+                    if (key === 'Enter' || key === ' ' || key === 'Spacebar' || key === 13 || key === 32) {
+                        e.preventDefault();
+                        moveCarousel(isPrev ? 'left' : 'right');
+                        setTimeout(announceFooterSlideChange, 600);
+                    }
+                }
+            });
+
+            document.addEventListener('click', function (e) {
+                var target = e.target;
+                if (!target) return;
+
+                if (target.classList.contains('nbs-flexisel-nav-left') || target.classList.contains('nbs-flexisel-nav-right')) {
+                    if (pibCarouselPaused) {
+                        var direction = target.classList.contains('nbs-flexisel-nav-left') ? 'left' : 'right';
+                        moveCarousel(direction);
+                        return;
+                    }
+                    setTimeout(function () {
+                        scheduleFocusRefresh();
+                    }, 100);
+                    setTimeout(announceFooterSlideChange, 600);
+                }
+            });
+
+            window.addEventListener('resize', scheduleFocusRefresh);
+
+            var scroller = document.querySelector('.logos_scroller');
+            if (scroller) {
+                scroller.addEventListener('focusin', scheduleFocusRefresh);
+            }
+
+            if (window.MutationObserver) {
+                var carouselRoot = document.getElementById('flexiselDemo3');
+                if (carouselRoot) {
+                    var observer = new MutationObserver(function () {
+                        refreshNavA11y();
+                        scheduleFocusRefresh();
+                    });
+
+                    observer.observe(carouselRoot, {
+                        childList: true,
+                        subtree: true,
+                        attributes: true
+                    });
+                }
+            }
+
+            setPausedState(false);
+        });
+    </script>
+
+</footer>
+
+        
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("script_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+
+
+    
+    
+	    <script type="text/javascript" src="/js/jquery-3.7.1.min_all_js.js?v=1.3"></script>
+    
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+    
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('#main-nav nav').meanmenu()
+        });
+
+    </script>
+
+    <script type="text/javascript" src="/js/custom.js?v=0"></script>
+
+   
+    
+    <script type="text/javascript" src="/js/dbim-header.js?v=3"></script>
+
+
+
+
+    <style type="text/css">
+ .breadcrumb > .active {
+  color: #505050 !important;
+}
+        :focus-visible {
+            outline: 2px solid #000000 !important;
+            outline-offset: 2px !important;
+            /*box-shadow: 0 0 0 2px #000000 !important;*/
+        }
+
+        .s_padd {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+
+        .norecord {
+            color: #d70000 !important;
+        }
+
+        .link_ss {
+            /*background: #f99426;*/
+            background: var(--dbim-key, #0F5757);
+            color: #fff;
+            text-align: center;
+            font-size: 144%;
+            padding: 2px 2px;
+            border-radius: 7px;
+            text-decoration: none;
+            margin-top: 9px;
+            width: 40%;
+            border-bottom: 5px solid red;
+        }
+
+        .link_s {
+            background: black;
+            color: #fff;
+            text-align: center;
+            font-size: 144%;
+            padding: 2px 2px;
+            border-radius: 7px;
+            text-decoration: none;
+            margin-top: 9px;
+        }
+
+        .more a:focus {
+            color: #9CC2E3;
+        }
+
+        
+
+        @media only screen and (max-device-width:767px) {
+            .img_d {
+                display: none;
+            }
+
+            #pnlsearch {
+                display: none;
+            }
+
+            .navigation-bg {
+                display: none !important;
+            }
+
+            .link_ss {
+                width: 63% !important;
+            }
+        }
+
+        @media only screen and (min-device-width:768px) {
+            .img_d {
+                display: block !important;
+            }
+
+            .navigation-bg {
+                display: block !important;
+            }
+        }
+    </style>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#rmhover").click(function () {
+                $(this).fadeOut();
+                $("#rmpopup").fadeOut();
+            });
+
+            $("#rmclose").click(function () {
+                $("#rmhover").fadeOut();
+                $("#rmpopup").fadeOut();
+            });
+            setTimeout(function () { $("#rmhover").fadeOut() }, 15000);
+            setTimeout(function () { $("#rmpopup").fadeOut() }, 15000);
+
+        });
+    </script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            // 1. Get current params from URL
+            var urlParams = new URLSearchParams(window.location.search);
+            var reg = urlParams.get('reg');
+            var lang = urlParams.get('lang');
+
+            // 2. Only run if we have valid params
+            if (reg && lang) {
+                var links = document.getElementsByTagName("a");
+
+                for (var i = 0; i < links.length; i++) {
+                    var href = links[i].getAttribute("href");
+
+                    if (href) {
+                        // Check conditions:
+                        // 1. Is an .aspx page
+                        // 2. Does NOT already have 'reg='
+                        // 3. IS INTERNAL: Either does not start with 'http' OR contains 'pib.gov.in'
+
+                        var isAspx = href.indexOf(".aspx") > -1;
+                        var missingParams = href.indexOf("reg=") === -1;
+                        var isInternal = (href.indexOf("http") !== 0) || (href.indexOf("pib.gov.in") > -1);
+
+                        if (isAspx && missingParams && isInternal) {
+
+                            // Determine if we need '?' or '&'
+                            var separator = href.indexOf("?") > -1 ? "&" : "?";
+
+                            // Append params
+                            links[i].setAttribute("href", href + separator + "reg=" + reg + "&lang=" + lang);
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

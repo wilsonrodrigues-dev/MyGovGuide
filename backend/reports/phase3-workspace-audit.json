@@ -1,0 +1,31 @@
+{
+  "auditedAt": "2026-11-17T13:31:06.709Z",
+  "filesChecked": 189,
+  "preservedOriginalCount": 17,
+  "preserved": [
+    "backend/research/phase1/ASSET_REGISTRY.md",
+    "backend/research/phase1/DATASET_CLASSIFICATION_AND_RELEASE.md",
+    "backend/research/phase1/DATA_REQUIREMENTS.md",
+    "backend/research/phase1/FORMS_REGISTRY.json",
+    "backend/research/phase1/KARNATAKA_ORDERS_AUDIT.md",
+    "backend/research/phase1/OUTREACH_AND_EXTERNAL_APPROVALS.md",
+    "backend/research/phase1/PHASE1_CLOSURE_REPORT.md",
+    "backend/research/phase1/PHASE1_COMPLETION_REPORT.md",
+    "backend/research/phase1/PILOT_SOURCE_SELECTION.md",
+    "backend/research/phase1/QUALITY_AUDIT.md",
+    "backend/research/phase1/SCHEME_VERIFICATION_MATRIX.csv",
+    "backend/research/phase1/SCRAPING_FEASIBILITY.md",
+    "backend/research/phase1/SOURCE_PERMISSION_DECISIONS.csv",
+    "backend/research/phase1/SOURCE_REGISTRY.md",
+    "backend/research/phase1/VERIFIED_SCHEMES.json",
+    "backend/docs/specifications/MyGovGuide_Project_Handoff.md",
+    "backend/docs/specifications/MyGovGuide_Phase2_Blueprint.md"
+  ],
+  "credentialMatches": [],
+  "obsoleteApplicationFoldersPresent": {
+    "server": false,
+    "client": false
+  },
+  "obsoleteContainerArtifacts": [],
+  "brokenLinks": []
+}

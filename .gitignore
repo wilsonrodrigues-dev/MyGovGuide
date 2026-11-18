@@ -1,0 +1,14 @@
+node_modules/
+.npm-cache/
+.local/
+.env
+.env.*
+!.env.example
+backend/reports/*.log
+coverage/
+.DS_Store
+
+
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/

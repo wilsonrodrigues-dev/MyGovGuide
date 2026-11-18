@@ -1,0 +1,165 @@
+{
+  "preparedAt": "2026-11-18T08:38:58.332Z",
+  "preparedBy": "Codex official-document evidence research; not human approval",
+  "packets": [
+    {
+      "schemeId": "IN-FA-01",
+      "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238588&lang=1&reg=1",
+      "department": "Ministry of Agriculture and Farmers Welfare",
+      "category": "Farmer",
+      "benefits": "Source reports INR 6000 annual assistance to qualifying farmer families, split into three payments through DBT.",
+      "audience": "Farmer families meeting the scheme conditions; this packet is not an eligibility assessment.",
+      "application": "Consult the official PM-KISAN portal for registration/status and e-KYC guidance; the source does not establish a currently open application window.",
+      "applicationUrl": "https://pmkisan.gov.in/",
+      "documents": [],
+      "gaps": [
+        "Complete current operative eligibility/exclusions not reviewed",
+        "Document checklist not verified in this release",
+        "Current application window not verified",
+        "Release dated 2026-03-11; does not certify all later amendments"
+      ],
+      "quote": "financial assistance of ₹6,000 per year in three equal instalments",
+      "clause": "PIB PRID 2238588: annual assistance paragraph",
+      "publishedDate": "2026-03-11",
+      "rights": "PIB attributed accurate reuse policy; factual paraphrase only, no images or third-party material.",
+      "checkedAt": "2026-11-18T08:38:58.332Z",
+      "reviewState": "OWNER_APPROVED_FOR_AI_PREPARATION",
+      "publicationState": "INTERNAL",
+      "eligibilityRuleApproval": false,
+      "sourceVersionId": "version-c22abc23f2779d0d0ae58fda",
+      "contentApprovalId": "adb8396aa0a778acbcf9fe2e97b994352d0f98a84111efde572f538651d3a3a8",
+      "generationStatus": "REVIEW_PENDING"
+    },
+    {
+      "schemeId": "IN-ST-02",
+      "name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323830&lang=1&reg=3",
+      "department": "Ministry of Education, Department of School Education and Literacy",
+      "category": "Student",
+      "benefits": "Source reports an annual INR 12000 scholarship for selected qualifying students.",
+      "audience": "Meritorious students from economically weaker families continuing secondary education after class VIII, subject to selection and scheme rules.",
+      "application": "Selection is conducted by States/UTs; scholarship registration and disbursement use NSP. Confirm the current application window with the issuing authority.",
+      "applicationUrl": "https://scholarships.gov.in/",
+      "documents": [],
+      "gaps": [
+        "Required supporting documents are not specified in this release",
+        "Complete selection, renewal and income rules need operative-guideline review",
+        "October 31 registration date in this release is past; a later November 15 extension was found but its document could not be retrieved; no open deadline claimed"
+      ],
+      "quote": "eligible students receive a scholarship of ₹12,000 per annum.",
+      "clause": "PIB PRID 2323830: final scheme-description paragraph",
+      "publishedDate": "2026-10-15",
+      "rights": "PIB attributed accurate reuse policy; source-grounded factual paraphrase, not a verified ruleset.",
+      "checkedAt": "2026-11-18T08:38:58.332Z",
+      "reviewState": "OWNER_APPROVED_FOR_AI_PREPARATION",
+      "publicationState": "INTERNAL",
+      "eligibilityRuleApproval": false,
+      "sourceVersionId": "version-a943875f43676fbca614b430",
+      "contentApprovalId": "99ac04636daadc0da4d00372eac2a83042b75722cfefffa402c3047d1f322b6f",
+      "generationStatus": "REVIEW_PENDING"
+    },
+    {
+      "schemeId": "IN-WK-02",
+      "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "url": "https://financialservices.gov.in/pmjjby",
+      "department": "Department of Financial Services, Ministry of Finance",
+      "category": "Worker",
+      "benefits": "One-year renewable life cover of INR 200000 for death from any cause, subject to policy terms. Standard annual renewal premium INR 436; first-time mid-year entry has pro-rata options. A 30-day non-accidental-death lien applies on first entry.",
+      "audience": "Individual account holders of participating banks/post offices; entry age 18 to 50. Continued cover to age 55 is subject to renewal and policy conditions. No personal eligibility conclusion.",
+      "application": "Request enrolment with a participating bank/post office using its prescribed form and consent to premium auto-debit. Confirm applicable first-entry premium and terms.",
+      "applicationUrl": "https://financialservices.gov.in/pmjjby",
+      "documents": [
+        "Prescribed enrolment and auto-debit consent/declaration form"
+      ],
+      "gaps": [
+        "Bank-specific identity/KYC checklist not verified",
+        "Full insurance policy/claims exclusions and all amendments need editorial review",
+        "Official FAQ lists last updated 2026-01-05; retrieval alone is not certification of later policy changes"
+      ],
+      "quote": "Rs.2 lakh is payable on a subscriber’s death due to any cause.",
+      "clause": "DFS PMJJBY FAQ: benefit, premium, entry and enrolment sections",
+      "publishedDate": null,
+      "rights": "Public factual paraphrase with a short evidence quotation; no copied imagery/expression; human rights/currentness review required.",
+      "checkedAt": "2026-11-18T08:38:58.332Z",
+      "reviewState": "OWNER_APPROVED_FOR_AI_PREPARATION",
+      "publicationState": "INTERNAL",
+      "eligibilityRuleApproval": false,
+      "sourceVersionId": "version-7f296db84324dc299a527a1e",
+      "contentApprovalId": "2bd09de0ed1d71ce96e79adef90da3f1bd7364ae2e323899e2c2343a9d92f920",
+      "generationStatus": "REVIEW_PENDING"
+    },
+    {
+      "schemeId": "IN-WK-03",
+      "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "url": "https://financialservices.gov.in/pmsby",
+      "department": "Department of Financial Services, Ministry of Finance",
+      "category": "Worker",
+      "benefits": "Renewable annual accident insurance: INR 200000 for accidental death or specified total disability and INR 100000 for specified partial disability, subject to policy definitions. Annual premium INR 20 by consented auto-debit.",
+      "audience": "Individual account holders of participating banks/post offices, entry age 18 to 70, subject to policy conditions and one-account restriction; no eligibility verdict.",
+      "application": "Apply through a participating bank/post office using its prescribed enrolment/auto-debit consent form; verify coverage start and renewal conditions.",
+      "applicationUrl": "https://financialservices.gov.in/pmsby",
+      "documents": [
+        "Prescribed enrolment and auto-debit consent/declaration form"
+      ],
+      "gaps": [
+        "Bank-specific identity/KYC requirements not verified",
+        "Exact disability definitions, claim documents and latest policy amendments require editorial review",
+        "FAQ availability does not independently certify all current terms"
+      ],
+      "quote": "Premium payable is Rs.20/- per annum per member.",
+      "clause": "DFS PMSBY FAQ: benefits table, premium and enrolment",
+      "publishedDate": null,
+      "rights": "Public factual paraphrase and short evidence quotation; human rights/currentness review required.",
+      "checkedAt": "2026-11-18T08:38:58.332Z",
+      "reviewState": "OWNER_APPROVED_FOR_AI_PREPARATION",
+      "publicationState": "INTERNAL",
+      "eligibilityRuleApproval": false,
+      "sourceVersionId": "version-0b914b613cff9e680ca8e589",
+      "contentApprovalId": "9c8e2e94f2d8f1fc29026b6d41b1d72781bad820d9be653d515f499859ae29f2",
+      "generationStatus": "REVIEW_PENDING"
+    },
+    {
+      "schemeId": "IN-WO-02",
+      "name": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)",
+      "url": "https://pmuy.gov.in/Ujjwala2.html",
+      "department": "Ministry of Petroleum and Natural Gas / participating oil marketing companies",
+      "category": "Woman",
+      "benefits": "Application route for a new PMUY LPG connection. This page does not establish a specific cash grant, deposit subsidy or refill amount, so no monetary benefit is asserted.",
+      "audience": "Adult women in poor households, with the published age/no-existing-household-LPG and deprivation-declaration conditions; incomplete criteria, not an eligibility decision.",
+      "application": "Submit the prescribed application to a chosen participating distributor or use the official page links to participating oil-company portals.",
+      "applicationUrl": "https://pmuy.gov.in/Ujjwala2.html",
+      "documents": [
+        "KYC application form",
+        "Applicant identity evidence",
+        "Current-address evidence when required; migrant declaration alternative",
+        "Ration card or recognised family-composition evidence; migrant declaration alternative",
+        "Identity copies for adult family members as required",
+        "Passbook copy or cancelled cheque",
+        "Prescribed deprivation declaration"
+      ],
+      "gaps": [
+        "Page has no reliable current amendment/effective-date statement",
+        "Specific connection assistance/refill subsidy not verified",
+        "Original form annexures and full exceptions need human review",
+        "Site footer reserves rights: use factual paraphrases, do not copy protected expressive content"
+      ],
+      "quote": "The applicant must be a woman who has attained 18 years of age.",
+      "clause": "PMUY new connection page: application and document sections",
+      "publishedDate": null,
+      "rights": "Uncopyrightable factual summary and minimal verification quotation only; all-rights-reserved footer noted for human rights review; no images/forms copied.",
+      "checkedAt": "2026-11-18T08:38:58.332Z",
+      "reviewState": "OWNER_APPROVED_FOR_AI_PREPARATION",
+      "publicationState": "INTERNAL",
+      "eligibilityRuleApproval": false,
+      "sourceVersionId": "version-4c73bb8d362796b3bd5deee5",
+      "contentApprovalId": "c38d8e80a63e00e74f85d8219f957ab97e2a7650a8f70e36ec443a8358456425",
+      "generationStatus": "REVIEW_PENDING"
+    }
+  ],
+  "ownerDecision": {
+    "date": "2026-11-18",
+    "reply": "Approve these five packets for AI preparation only",
+    "scope": "Limited public facts, source attribution and explicit unknowns for AI preparation only; publication and eligibility remain pending."
+  }
+}

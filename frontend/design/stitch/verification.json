@@ -1,0 +1,107 @@
+{
+  "verifiedAt": "2026-11-17T13:27:01.757Z",
+  "listedCount": 10,
+  "generatedCount": 14,
+  "results": [
+    {
+      "resource": "projects/16872371074444001614/screens/ad79ff4eba8b4d0b98bdde7f287ab53f",
+      "status": "LISTED"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/da8595d6171d4f2891cf28fec1521252",
+      "status": "LISTED"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/7fbf63cc3aae4faabb5bd55f4c3fb98a",
+      "status": "LISTED"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/b8c540a220e945baaa6f4efc3d7b7990",
+      "status": "LISTED"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/c06ddfe531e2499fbeb4d962b38afc18",
+      "status": "LISTED"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/049049a8183848398c0b2b6be706b970",
+      "status": "READ_VERIFIED",
+      "responseKeys": [
+        "deviceType",
+        "height",
+        "htmlCode",
+        "name",
+        "screenType",
+        "screenshot",
+        "title",
+        "width"
+      ],
+      "artifact": "frontend/design/stitch/verified-screen-5.json"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/58e1395b6613416f81576fa172d2b12b",
+      "status": "LISTED"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/4945eb6222a94e44bf186154501e53b4",
+      "status": "LISTED"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/91a8c17e04004187b074315f535c5926",
+      "status": "READ_VERIFIED",
+      "responseKeys": [
+        "deviceType",
+        "height",
+        "htmlCode",
+        "name",
+        "screenType",
+        "screenshot",
+        "title",
+        "width"
+      ],
+      "artifact": "frontend/design/stitch/verified-screen-8.json"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/6c9c61c00f6b4d7caf7e149b82867fb2",
+      "status": "LISTED"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/2c897643928c4ba4b3fe8fee44563974",
+      "status": "READ_VERIFIED",
+      "responseKeys": [
+        "deviceType",
+        "height",
+        "htmlCode",
+        "name",
+        "screenType",
+        "screenshot",
+        "title",
+        "width"
+      ],
+      "artifact": "frontend/design/stitch/verified-screen-10.json"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/0a1fc9db38c5463e8b8c6017d06d7ea6",
+      "status": "READ_VERIFIED",
+      "responseKeys": [
+        "deviceType",
+        "height",
+        "htmlCode",
+        "name",
+        "screenType",
+        "screenshot",
+        "title",
+        "width"
+      ],
+      "artifact": "frontend/design/stitch/verified-screen-11.json"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/63b154894bf54a969665ef8528ce4678",
+      "status": "LISTED"
+    },
+    {
+      "resource": "projects/16872371074444001614/screens/c7b5ae99f8f64ed28e98dc27b0c858c6",
+      "status": "LISTED"
+    }
+  ]
+}

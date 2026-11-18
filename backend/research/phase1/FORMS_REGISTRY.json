@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "asOf": "2026-11-16",
+    "countDescriptions": "Mixed PDF forms, official application entry points, guidance and bank/office forms; not all are downloadable blank forms.",
+    "safeReuse": "Link rather than mirror unless licence is confirmed",
+    "actualPdfFormsVisuallyChecked": 5
+  },
+  "forms": [
+    {
+      "id": "FORM-01",
+      "linkedSchemeIds": [
+        "IN-WO-02"
+      ],
+      "formKind": "public_pdf_form",
+      "title": "PMUY Ujjwala KYC PDF",
+      "officialUrl": "https://pmuy.gov.in/documents/Ujjwala-KYC.pdf",
+      "fieldNamesObserved": [
+        "Name",
+        "Address",
+        "KYC identification sections"
+      ],
+      "verificationStatus": "PUBLIC_DOC_EXAMINED",
+      "scrapeClassification": "CHECK_DOCUMENT_REUSE_POLICY",
+      "notes": "Official PMUY FAQ-linked Ujjwala KYC application, Version 5.0; PDF visually inspected. A separate englishnew form also exists; version must be checked at launch.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-02",
+      "linkedSchemeIds": [
+        "IN-WO-02"
+      ],
+      "formKind": "public_pdf_form",
+      "title": "PAHAL/DBTL unified LPG form",
+      "officialUrl": "https://pmuy.gov.in/Unified_form_DBTL_Eng.pdf",
+      "fieldNamesObserved": [],
+      "verificationStatus": "PUBLIC_DOC_EXAMINED",
+      "scrapeClassification": "CHECK_DOCUMENT_REUSE_POLICY",
+      "notes": "Official PDF visually inspected. This is a DBTL/PAHAL-related form, not a substitute for an Ujjwala application.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-03",
+      "linkedSchemeIds": [
+        "IN-FA-01"
+      ],
+      "formKind": "authenticated_web_application",
+      "title": "PM-KISAN New Farmer Registration",
+      "officialUrl": "https://www.pmkisan.gov.in/RegistrationFormupdated.aspx",
+      "fieldNamesObserved": [
+        "Aadhaar number",
+        "Mobile number",
+        "State",
+        "Captcha"
+      ],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Aadhaar, mobile and CAPTCHA; link only, no automated extraction/submission.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-04",
+      "linkedSchemeIds": [
+        "IN-ST-01",
+        "IN-ST-02",
+        "IN-ST-03",
+        "IN-ST-04",
+        "IN-ST-05"
+      ],
+      "formKind": "authenticated_web_application",
+      "title": "National Scholarship Portal: Student OTR & Scholarship Applications",
+      "officialUrl": "https://scholarships.gov.in/Students",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "OTR mandatory. Personal/biometric flows excluded; only public instructions collected.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-05",
+      "linkedSchemeIds": [
+        "IN-FA-02"
+      ],
+      "formKind": "authenticated_web_application",
+      "title": "PMFBY Farmer Registration and Enrollment",
+      "officialUrl": "https://pmfby.gov.in/",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Use official portal and seasonal notices; not a static public PDF.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-06",
+      "linkedSchemeIds": [
+        "IN-WO-01"
+      ],
+      "formKind": "authenticated_web_application",
+      "title": "PMMVY Citizen Portal",
+      "officialUrl": "https://pmmvy.wcd.gov.in/",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Only provide official route; sensitive maternity/identity data must not be captured by MyGovGuide.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-07",
+      "linkedSchemeIds": [
+        "IN-FA-05"
+      ],
+      "formKind": "public_application_guidance",
+      "title": "e-NAM Farmer Registration Guidelines",
+      "officialUrl": "https://enam.gov.in/resources/registration-guideline",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Guidance describes APMC selection, email and KYC; not an actual downloadable application form.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-08",
+      "linkedSchemeIds": [
+        "IN-FA-03"
+      ],
+      "formKind": "external_financing_application",
+      "title": "JanSamarth Credit Application Portal",
+      "officialUrl": "https://www.jansamarth.in/home",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Official financing portal, may require account and bank review; not a public PDF form.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-09",
+      "linkedSchemeIds": [
+        "IN-WK-01"
+      ],
+      "formKind": "authenticated_web_application",
+      "title": "Maandhan PM-SYM Enrollment",
+      "officialUrl": "https://maandhan.in/",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Application/CSC route. Form fields and enrolment interface require live review.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-10",
+      "linkedSchemeIds": [
+        "IN-WK-02"
+      ],
+      "formKind": "bank_offline_form",
+      "title": "PMJJBY enrollment via bank/post office",
+      "officialUrl": "https://financialservices.gov.in/pmjjby",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Official information page only; printable enrolment/consent form URL not independently verified.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-11",
+      "linkedSchemeIds": [
+        "IN-WK-03"
+      ],
+      "formKind": "bank_offline_form",
+      "title": "PMSBY enrollment via bank/post office",
+      "officialUrl": "https://financialservices.gov.in/pmsby",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Official information page only; printable form URL not independently verified.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-12",
+      "linkedSchemeIds": [
+        "IN-WO-03"
+      ],
+      "formKind": "form_in_governing_rules",
+      "title": "SSA Account Opening Form-1 (referenced in regulations)",
+      "officialUrl": "https://www.nsiindia.gov.in/writereaddata/SchemeRules/SukanyaSamriddhiAccountSchemeRule.pdf",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Form-1 is referenced in official regulations; separate current blank form/download not independently checked.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-13",
+      "linkedSchemeIds": [
+        "IN-SR-02"
+      ],
+      "formKind": "form_in_governing_rules",
+      "title": "SCSS account opening paperwork",
+      "officialUrl": "https://www.nsiindia.gov.in/writereaddata/SchemeRules/SeniorCitizensSavingsSchemeRule.pdf",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Official scheme rules reference; current bank/post-office application form is not separately confirmed.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-14",
+      "linkedSchemeIds": [
+        "KA-WO-01",
+        "KA-WO-02",
+        "KA-ST-01",
+        "KA-GN-01"
+      ],
+      "formKind": "service_directory",
+      "title": "Karnataka Seva Sindhu service/application directory",
+      "officialUrl": "https://sevasindhu.karnataka.gov.in/",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Source for service discovery only; do not assume each named programme has an active online public form.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-15",
+      "linkedSchemeIds": [
+        "IN-FA-04"
+      ],
+      "formKind": "public_service_entry",
+      "title": "Soil Health Card Portal",
+      "officialUrl": "https://soilhealth.dac.gov.in/",
+      "fieldNamesObserved": [],
+      "verificationStatus": "OFFICIAL_LINK_IDENTIFIED",
+      "scrapeClassification": "METADATA_AND_GUIDANCE_ONLY",
+      "notes": "Public service page; user-specific reports and personal information excluded.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-16",
+      "linkedSchemeIds": [
+        "IN-WO-02"
+      ],
+      "formKind": "public_pdf_form",
+      "title": "Supplementary KYC and 14-point deprivation undertaking",
+      "officialUrl": "https://pmuy.gov.in/documents/Supplementary%20KYC.pdf",
+      "fieldNamesObserved": [],
+      "verificationStatus": "PUBLIC_DOC_EXAMINED",
+      "scrapeClassification": "CHECK_DOCUMENT_REUSE_POLICY",
+      "notes": "Public PDF form visually inspected. Relevant to Ujjwala 14-point declaration; reviewed for layout, not permission to republish.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-17",
+      "linkedSchemeIds": [
+        "IN-WO-02"
+      ],
+      "formKind": "public_pdf_form",
+      "title": "PMUY Migrant Self Declaration Annexure I",
+      "officialUrl": "https://pmuy.gov.in/documents/Annexure%20I.pdf",
+      "fieldNamesObserved": [],
+      "verificationStatus": "PUBLIC_DOC_EXAMINED",
+      "scrapeClassification": "CHECK_DOCUMENT_REUSE_POLICY",
+      "notes": "Public PDF form visually inspected. Family composition/address declaration for migrant applicants.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "id": "FORM-18",
+      "linkedSchemeIds": [
+        "IN-WO-02"
+      ],
+      "formKind": "public_pdf_form",
+      "title": "PMUY pre-installation check Annexure II",
+      "officialUrl": "https://pmuy.gov.in/documents/Annexure%20II.pdf",
+      "fieldNamesObserved": [],
+      "verificationStatus": "PUBLIC_DOC_EXAMINED",
+      "scrapeClassification": "CHECK_DOCUMENT_REUSE_POLICY",
+      "notes": "Public PDF form visually inspected. This is a mechanic/distributor inspection checklist, not a citizen-led application.",
+      "publishOriginalAsOwnAsset": false,
+      "personalApplicationDataInScope": false,
+      "reviewedAt": "2026-11-16"
+    }
+  ],
+  "brokenLinkDoNotUse": [
+    {
+      "url": "https://pmuy.gov.in/Declaration_for_new_connection.pdf",
+      "reason": "Returned unavailable/404 during research"
+    }
+  ]
+}

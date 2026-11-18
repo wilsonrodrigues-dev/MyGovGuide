@@ -1,0 +1,21 @@
+{
+  "health": {
+    "status": "ok",
+    "phase": 2,
+    "database": "connected"
+  },
+  "status": {
+    "counts": {
+      "Source": 36,
+      "Scheme": 25,
+      "FormTemplate": 18,
+      "Notice": 4,
+      "ScamAlert": 0,
+      "SourceVersion": 47,
+      "ChangeEvent": 0
+    },
+    "pendingReviews": 47,
+    "publicReleaseEnabled": false,
+    "eligibilityEngineEnabled": false
+  }
+}

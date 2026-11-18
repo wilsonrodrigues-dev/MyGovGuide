@@ -1,0 +1,13 @@
+{"time":"2026-11-18T10:15:34.546Z","event":"database","status":"connected"}
+{"time":"2026-11-18T10:15:34.588Z","event":"server_started","status":"ready"}
+Restarting 'src/server.js'
+Restarting 'src/server.js'
+{"time":"2026-11-18T10:21:53.130Z","event":"database","status":"connected"}
+{"time":"2026-11-18T10:21:53.180Z","event":"server_started","status":"ready"}
+Restarting 'src/server.js'
+Restarting 'src/server.js'
+{"time":"2026-11-18T10:24:22.652Z","event":"database","status":"connected"}
+{"time":"2026-11-18T10:24:22.656Z","event":"server_started","status":"ready"}
+Restarting 'src/server.js'
+{"time":"2026-11-18T10:24:47.379Z","event":"database","status":"connected"}
+{"time":"2026-11-18T10:24:47.383Z","event":"server_started","status":"ready"}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-17T18:20:18.832Z",
+  "database": "mygovguide_phase2",
+  "transactions": true,
+  "collectionsBefore": [
+    "reviewitems",
+    "notices",
+    "ingestionruns",
+    "schemes",
+    "scamalerts",
+    "sourceversions",
+    "reviewevents",
+    "schemefacts",
+    "eligibilityrulesets",
+    "changeevents",
+    "anonymoussessions",
+    "importrejections",
+    "sources",
+    "formtemplates"
+  ],
+  "countsBefore": {
+    "Source": 112,
+    "SourceVersion": 87,
+    "Scheme": 25,
+    "SchemeFact": 134,
+    "EligibilityRuleSet": 25,
+    "FormTemplate": 18,
+    "Notice": 16,
+    "ScamAlert": 12,
+    "ChangeEvent": 16,
+    "ReviewEvent": 0,
+    "ReviewItem": 87,
+    "ImportRejection": 12,
+    "IngestionRun": 12
+  },
+  "firstImport": {
+    "read": 137,
+    "created": 0,
+    "updated": 0,
+    "unchanged": 137,
+    "rejected": 0,
+    "pendingReview": 137,
+    "reviewItems": 0,
+    "changeEvents": 0,
+    "successful": 0,
+    "failed": 0,
+    "skipped": 0
+  },
+  "secondImport": {
+    "read": 137,
+    "created": 0,
+    "updated": 0,
+    "unchanged": 137,
+    "rejected": 0,
+    "pendingReview": 137,
+    "reviewItems": 0,
+    "changeEvents": 0,
+    "successful": 0,
+    "failed": 0,
+    "skipped": 0
+  },
+  "contentCollections": {
+    "ContentApproval": 0,
+    "AIJob": 0,
+    "AIArtifact": 0,
+    "SchemeSearchDocument": 0,
+    "ContentPublication": 0,
+    "AIDailyBudget": 0,
+    "AIWorkerSlot": 0,
+    "AIProviderState": 0
+  }
+}

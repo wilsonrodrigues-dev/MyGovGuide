@@ -1,0 +1,6 @@
+[
+  {"sourceId":"fixture-api","method":"api","url":"https://example.test/api","fixture":"api.json","title":"SYNTHETIC API"},
+  {"sourceId":"fixture-rss","method":"rss","url":"https://example.test/rss","fixture":"feed.xml","title":"SYNTHETIC RSS"},
+  {"sourceId":"fixture-html","method":"html","url":"https://example.test/html","fixture":"page.html","title":"SYNTHETIC HTML"},
+  {"sourceId":"fixture-pdf","method":"pdf","url":"https://example.test/pdf","fixture":"document.pdf","title":"SYNTHETIC PDF"}
+]

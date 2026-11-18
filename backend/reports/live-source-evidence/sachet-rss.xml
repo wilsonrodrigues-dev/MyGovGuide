@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>All India: CAP Disaster Alert Feeds</title>
+    <description>CAP Integrated Alert System Warning Updates</description>
+    <language>en</language>
+    <link>https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml</link>
+    <atom:link href="https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml" rel="self" type="application/rss+xml"/>
+    <copyright>public domain</copyright>
+    <pubDate>Wed, 18 Nov 2026 08:24:40 GMT</pubDate>
+    <item>
+      <title>IMD Guwahati has issued forecast for Light to Moderate Rain with thunderstorm which is very likely to occur at a few places over Biswanath in next 2 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794853111405010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794853111405010</guid>
+      <pubDate>Mon, 16 Nov 2026 18:23:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Thunderstorm with Lightning which is very likely to occur at a few places over Kamrup and Kamrup Metropolitan in next 3 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794850780088010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794850780088010</guid>
+      <pubDate>Mon, 16 Nov 2026 17:42:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Light Thunderstorms and light to moderate rain which is very likely to occur at many places over Baksa, Biswanath, Chirang, Dhemaji, Dibrugarh, Lakhimpur, Sonitpur, Tamulpur, Tinsukia and Udalguri in next 3 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794833494909010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794833494909010</guid>
+      <pubDate>Mon, 16 Nov 2026 12:54:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Light Thunderstorms and light to moderate rain which is very likely to occur at many places over Baksa, Dhemaji, Dibrugarh, Tamulpur, Tinsukia and Udalguri in next 3 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794822213748010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794822213748010</guid>
+      <pubDate>Mon, 16 Nov 2026 09:46:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Squally weather with strong surface wind 40-50 Kmph gusting to 60 kmph very likely along and off  Andaman and Nicobar coast. Sea conditions are very likely to be  rough. Fishermen are advised not to venture into the Andaman sea till 16-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794808686215038</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794808686215038</guid>
+      <pubDate>Mon, 16 Nov 2026 06:04:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>నవంబర్15 సా.4.0 నుంచి నవంబర్17 సా7.00 గంటల వరకు సముద్రంలో 1.3-1.4 మీటర్ల ఎత్తులో భారీఅలలు వచ్చే అవకాశం ఉంది.కావున ప్రజలు, మత్స్యకారులు,అప్రమత్తంగాఉండి బీచ్ లకు వెళ్లవద్దు -ఆంధ్రప్రదేశ్ ప్రభ</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794805423229008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1794805423229008</guid>
+      <pubDate>Mon, 16 Nov 2026 05:04:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain is very likely to occur at isolated places over Ariyalur, Cpattu, Chennai, Cuddalore, Kalla, Kanche, Mthurai, Npatinam, Namakkal, Perambalur, Pudukottai, Raman, Salem, Sivaganga, Tnjvur, Thiruvallur, Thiruvarur, Tirichi,Tmalai, Viluppuram, Karaikal, Pondicherry in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794791850683041</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794791850683041</guid>
+      <pubDate>Mon, 16 Nov 2026 01:20:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain is very likely to occur at isolated places over Ariyalur, Cpattu, Chennai, Cuddalore, Kalla, Kanche, Mthurai, Npatinam, Namakkal, Perambalur, Pudukottai, Raman, Salem, Sivaganga, Tnjvur, Thiruvallur, Thiruvarur, Tirichi,Tmalai, Viluppuram, Karaikal, Pondicherry in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794791847032007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794791847032007</guid>
+      <pubDate>Mon, 16 Nov 2026 01:17:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Light Thunderstorms with light to moderate rain which is very likely to occur at isolated places over Charaideo, Dhemaji, Dibrugarh, Lakhimpur, Sivasagar and Tinsukia in next 1-3 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794781934911010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794781934911010</guid>
+      <pubDate>Sun, 15 Nov 2026 22:35:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain is likely to occur at isolated places over Chengalpattu, Chennai, Dharmapuri, Namakkal, Perambalur, Pudukkottai, Salem, Thanjavur, Thiruvallur, Tiruchirappalli, Viluppuram districts in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794782079959007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794782079959007</guid>
+      <pubDate>Sun, 15 Nov 2026 22:34:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain is very likely to occur at isolated places over Kanniyakumari, Tirunelveli in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794777328423007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794777328423007</guid>
+      <pubDate>Sun, 15 Nov 2026 21:15:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to moderate Rain is likely to occur at isolated places over Ariyalur, Cuddalore, Namakkal, Perambalur, Salem, Thanjavur, Thiruvarur, Tiruchirappalli, Viluppuram in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794772193063007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794772193063007</guid>
+      <pubDate>Sun, 15 Nov 2026 19:49:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटो में कहीं-कहीं हल्की से मध्यम वर्षा/बर्फ़बारी (3000 मीटर व उससे अधिक ऊँचाई वाले क्षेत्रो के साथ गर्जन /आकाशीय बिजली चमकने / झोंकेदार हवाएं (३०-४० kmph) होने की संभावना है |</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794745524167009</link>
+      <author>controlroom@ndma.gov.in (IMD Dehradun)</author>
+      <guid isPermaLink="false">1794745524167009</guid>
+      <pubDate>Sun, 15 Nov 2026 12:34:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटो में कहीं-कहीं हल्की से मध्यम वर्षा/बर्फ़बारी (3000 मीटर व उससे अधिक ऊँचाई वाले क्षेत्रो के साथ गर्जन /आकाशीय बिजली चमकने / झोंकेदार हवाएं (३०-४० kmph) होने की संभावना है |</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794740880003009</link>
+      <author>controlroom@ndma.gov.in (IMD Dehradun)</author>
+      <guid isPermaLink="false">1794740880003009</guid>
+      <pubDate>Sun, 15 Nov 2026 11:10:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain is likely to occur at isolated places over Chengalpattu, Chennai, Cuddalore, Viluppuram, Pondicherry in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794738483089041</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794738483089041</guid>
+      <pubDate>Sun, 15 Nov 2026 10:30:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain is likely to occur at isolated places over Chengalpattu, Chennai, Cuddalore, Viluppuram, Pondicherry in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794738481839007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794738481839007</guid>
+      <pubDate>Sun, 15 Nov 2026 10:28:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 3 घंटो में कहीं-कहीं हल्की से मध्यम वर्षा/बर्फ़बारी (3000 मीटर व उससे अधिक ऊँचाई वाले क्षेत्रो के साथ गर्जन /आकाशीय बिजली चमकने / झोंकेदार हवाएं (३०-४० kmph) होने की संभावना है |</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794735414687009</link>
+      <author>controlroom@ndma.gov.in (IMD Dehradun)</author>
+      <guid isPermaLink="false">1794735414687009</guid>
+      <pubDate>Sun, 15 Nov 2026 09:39:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>[2026/11/15 13:10आपके क्षेत्र  में कहीं-कहीं गर्जन के साथ आकाशीय बिजली चमकने /झोंकेदार हवाएं (30-40 KMPH /हल्की से मध्यम वर्षा  /बर्फ़बारी (3000 मीटर व उससे अधिक ) क्षेत्रो में  की संभावना है |</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794728982581009</link>
+      <author>controlroom@ndma.gov.in (IMD Dehradun)</author>
+      <guid isPermaLink="false">1794728982581009</guid>
+      <pubDate>Sun, 15 Nov 2026 08:00:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>उक्त जनपदों में कहीं-कहीं गर्जन के साथ आकाशीय बिजली चमकने / झोंकेदार हवाएं (30-40 कि.मी प्रति घंटा) चलने की संभावना है |</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794728723301009</link>
+      <author>controlroom@ndma.gov.in (IMD Dehradun)</author>
+      <guid isPermaLink="false">1794728723301009</guid>
+      <pubDate>Sun, 15 Nov 2026 07:47:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain with Thunderstorm and Lightning is very likely to occur at isolated places over Chengalpattu, Chennai, Cuddalore, Mayiladuthurai, Nagapattinam, Viluppuram, Karaikal, Pondicherry in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794728624051041</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794728624051041</guid>
+      <pubDate>Sun, 15 Nov 2026 07:45:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain with Thunderstorm and Lightning is very likely to occur at isolated places over Chengalpattu, Chennai, Cuddalore, Mayiladuthurai, Nagapattinam, Viluppuram, Karaikal, Pondicherry in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794728622884007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794728622884007</guid>
+      <pubDate>Sun, 15 Nov 2026 07:43:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm, light to moderate rain with wind speed 30-40 Kmph is likely to occur at isolated places over Alwar, Deeg, Didwana-Kuchaman, Jaipur, Nagaur in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794725545573028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794725545573028</guid>
+      <pubDate>Sun, 15 Nov 2026 07:24:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Squally weather with strong surface wind 40-50 Kmph gusting to 60 kmph very likely along and off  Andaman and Nicobar coast. Sea conditions are very likely to be  rough. Fishermen are advised not to venture into the Andaman sea till 17-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794726140255038</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794726140255038</guid>
+      <pubDate>Sun, 15 Nov 2026 07:06:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm with Lightning/Gusty winds speed 30-40 kmph is likely to occur at isolated places over Alwar, Bharatpur, Deeg, Jhunjhunu, Khairthal-Tijara, Kotputli-Behror, Sikar in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794723722587028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794723722587028</guid>
+      <pubDate>Sun, 15 Nov 2026 06:49:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate with Thunderstorm and Lightning Rain is very likely to occur at isolated places over Cuddalore, Mayiladuthurai, Nagapattinam, Pudukkottai, Thanjavur, Thiruvarur, Viluppuram, Karaikal, Pondicherry in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794723398986041</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794723398986041</guid>
+      <pubDate>Sun, 15 Nov 2026 06:20:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate with Thunderstorm and Lightning Rain is very likely to occur at isolated places over Cuddalore, Mayiladuthurai, Nagapattinam, Pudukkottai, Thanjavur, Thiruvarur, Viluppuram, Karaikal, Pondicherry in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794723397006007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794723397006007</guid>
+      <pubDate>Sun, 15 Nov 2026 06:16:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm/Lightning, light to moderate rain with wind speed 30-40 Kmph is likely to occur at isolated places over Didwana-Kuchaman, Jaipur, Jhunjhunu, Kotputli-Behror, Nagaur, Sikar in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794712992001028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794712992001028</guid>
+      <pubDate>Sun, 15 Nov 2026 03:32:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm with Lightning, Light to Moderate Rain with Gusty wind(30-40kmph) is very likely to occur at a few places over Bikaner, Churu, Didwana-Kuchaman, Jhunjhunu, Jodhpur, Nagaur, Phalodi, Sikar in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794702917634028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794702917634028</guid>
+      <pubDate>Sun, 15 Nov 2026 00:50:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm with Lightning, Light to Moderate Rain with Gusty wind(30-40kmph) is very likely to occur at a few places over Bikaner, Churu, Didwana-Kuchaman, Hanumangarh, Jhunjhunu, Jodhpur, Nagaur, Phalodi, Sikar in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794691906311028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794691906311028</guid>
+      <pubDate>Sat, 14 Nov 2026 21:31:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm with Lightning, Light to Moderate Rain with Gusty wind(30-40kmph) is very likely to occur at a few places over Bikaner, Churu, Ganganagar, Hanumangarh, Jodhpur, Nagaur, Phalodi in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794682450167028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794682450167028</guid>
+      <pubDate>Sat, 14 Nov 2026 19:56:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm with Lightning, Light to Moderate Rain with Gusty wind(30-40kmph) is very likely to occur at a few places over Bikaner, Churu, Didwana-Kuchaman, Ganganagar, Hanumangarh, Jaisalmer, Jodhpur, Nagaur, Phalodi in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794668699487028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794668699487028</guid>
+      <pubDate>Sat, 14 Nov 2026 15:08:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm/Lightning, light to moderate rain with wind speed 30-40 Kmph is likely to occur at isolated places over Bikaner, Jaisalmer, Phalodi in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794666438454028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794666438454028</guid>
+      <pubDate>Sat, 14 Nov 2026 14:29:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm/Lightning, light to moderate rain with wind speed 30-40 Kmph is likely to occur at isolated places over Bikaner, Jaisalmer, Phalodi in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794656207045028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794656207045028</guid>
+      <pubDate>Sat, 14 Nov 2026 11:38:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>నవంబర్13సా.4.00 నుంచి నవంబర్15రా. 07.00 గంటల వరకు సముద్రంలో 3-6.2 మీటర్ల ఎత్తులో భారీఅలలు వచ్చే అవకాశం ఉంది.కావున ప్రజలు,మత్స్యకారులు,అప్రమత్తంగాఉండి బీచ్ లకు వెళ్లవద్దు-ఆంధ్రప్రదేశ్ ప్రభుత్వం</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794655829652008</link>
+      <author>controlroom@ndma.gov.in (Andhra Pradesh SDMA)</author>
+      <guid isPermaLink="false">1794655829652008</guid>
+      <pubDate>Sat, 14 Nov 2026 11:31:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light To Moderate  Rain with Light thunderstrom and Lightning is very likely to occur at isolated places over Chengalpattu, Chennai, Kanniyakumari, Thiruvallur in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794651799602007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794651799602007</guid>
+      <pubDate>Sat, 14 Nov 2026 10:23:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm/Lightning, light to moderate rain with wind speed 30-40 Kmph is likely to occur at isolated places over Bikaner, Ganganagar, Hanumangarh, Jaisalmer, Phalodi in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794645298737028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794645298737028</guid>
+      <pubDate>Sat, 14 Nov 2026 08:41:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Squally weather with strong surface wind 40-50 Kmph gusting to 60 kmph very likely along and off  Andaman and Nicobar coast. Sea conditions are very likely to be  rough. Fishermen are advised not to venture into the Andaman sea till 17-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794641510931038</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794641510931038</guid>
+      <pubDate>Sat, 14 Nov 2026 07:45:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Heavy  rain (07-11 cm) accompanied with thunderstorm and lightning are very likely to occur at one or two places over Andaman and Nicobar  Islands in the next 24 hours. People are advised to stay at safe places.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794641379977038</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794641379977038</guid>
+      <pubDate>Sat, 14 Nov 2026 07:42:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm/Lightning with light to moderate rain and strong surface wind 30-40 kmph is likely to occur at isolated places over Bikaner, Ganganagar, Hanumangarh, Jaisalmer, Phalodi in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794638215944028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794638215944028</guid>
+      <pubDate>Sat, 14 Nov 2026 06:41:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm with Lightning/Gusty winds speed 30-40 kmph is likely to occur at isolated places over Bikaner, Churu, Ganganagar, Hanumangarh, Jaisalmer, Jodhpur, Nagaur, Phalodi in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794635684561028</link>
+      <author>controlroom@ndma.gov.in (IMD Jaipur)</author>
+      <guid isPermaLink="false">1794635684561028</guid>
+      <pubDate>Sat, 14 Nov 2026 06:08:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with low danger level is likely to occur above 2800 meters over Ganderbal in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794567324681011</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1794567324681011</guid>
+      <pubDate>Fri, 13 Nov 2026 16:02:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with low danger level is likely to occur above 2600 meters over Bandipora, Kupwara in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794567325126011</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1794567325126011</guid>
+      <pubDate>Fri, 13 Nov 2026 15:59:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to moderate Rain with thunderstorm  is very likely to occur at isolated places over Kanniyakumari in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794576029043007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794576029043007</guid>
+      <pubDate>Fri, 13 Nov 2026 13:20:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Rain is very likely to occur at isolated places over Chennai, Kancheepuram, Ranipet, Thiruvallur in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794565244098007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794565244098007</guid>
+      <pubDate>Fri, 13 Nov 2026 10:20:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain is very likely to occur at isolated places over Chengalpattu in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794565243439007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794565243439007</guid>
+      <pubDate>Fri, 13 Nov 2026 10:20:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>अगले 24 घंटों में अंडमान एवं निकोबार  द्वीप समूह में एक या दो स्थानों पर गरज और बिजली के साथ भारी  वर्षा (07-11 सेमी) होने की संभावना है। लोगों को सुरक्षित स्थानों पर रहने की सलाह दी जाती है।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794554954326038</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794554954326038</guid>
+      <pubDate>Fri, 13 Nov 2026 07:32:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Squally weather with strong surface wind 40-50 Kmph gusting to 60 kmph very likely along and off  Andaman and Nicobar coast. Sea conditions are very likely to be  rough. Fishermen are advised not to venture into the Andaman sea till 16-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794554803589038</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794554803589038</guid>
+      <pubDate>Fri, 13 Nov 2026 07:30:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026/11/13 12:15 अगले ३ घंटो में, आपके क्षेत्र में कहीं-कहीं गर्जन के साथ आकाशीय बिजली चमकने/ बहुत हल्की से हल्की वर्षा होने की संभावना है|</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794552471979009</link>
+      <author>controlroom@ndma.gov.in (IMD Dehradun)</author>
+      <guid isPermaLink="false">1794552471979009</guid>
+      <pubDate>Fri, 13 Nov 2026 06:49:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lightning/Thunderstorms/Rainfall is Likely to occur over 17 districts of Jammu and Kashmir-Anantnag,Bandipora,Baramulla,Budgam,Doda,Ganderbal,Kishtwar,Kulgam,Kupwara,Poonch,Pulwama,Rajouri,Ramban,Reasi,Shopian,Srinagar,Udhampur.Please follow SDMA guidelines.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794508177874011</link>
+      <author>controlroom@ndma.gov.in (Jammu and Kashmir SDMA)</author>
+      <guid isPermaLink="false">1794508177874011</guid>
+      <pubDate>Thu, 12 Nov 2026 18:30:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain is likely to occur at isolated places over Tenkasi, Tirunelveli in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794490679196007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794490679196007</guid>
+      <pubDate>Thu, 12 Nov 2026 13:38:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain is likely to occur at isolated places over Kanniyakumari in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794480259134007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794480259134007</guid>
+      <pubDate>Thu, 12 Nov 2026 10:44:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Avalanche with low danger level is likely to occur above 2800 meters over Ganderbal in next 24 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794476828676011</link>
+      <author>controlroom@ndma.gov.in (DGRE Chandigarh)</author>
+      <guid isPermaLink="false">1794476828676011</guid>
+      <pubDate>Thu, 12 Nov 2026 10:02:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Very High Forest Fire Risk is likely to occur over forest area near you, in next 7 days.please be safe. Disaster Management Department Ranchi Jharkhand.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794472313619027</link>
+      <author>controlroom@ndma.gov.in (FSI)</author>
+      <guid isPermaLink="false">1794472313619027</guid>
+      <pubDate>Thu, 12 Nov 2026 09:04:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Very High Forest Fire Risk is likely to occur over forest area near you, in next 7 days.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794472313722020</link>
+      <author>controlroom@ndma.gov.in (FSI)</author>
+      <guid isPermaLink="false">1794472313722020</guid>
+      <pubDate>Thu, 12 Nov 2026 08:31:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Squally weather with strong surface wind 40-50 Kmph gusting to 60 kmph very likely along and off  Andaman and Nicobar coast. Sea conditions are very likely to be  rough. Fishermen are advised not to venture into the Andaman sea till 16-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794464405414038</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794464405414038</guid>
+      <pubDate>Thu, 12 Nov 2026 06:57:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Heavy  rain (07-11 cm) accompanied with thunderstorm and lightning are very likely to occur at one or two places over Andaman and Nicobar Islands in the next 24 hours. People are advised to stay at safe places</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794464241647038</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794464241647038</guid>
+      <pubDate>Thu, 12 Nov 2026 06:29:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Thunderstorms with Hail which is very likely to occur at isolated places over Karbi Anglong in next 2 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794464325012010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794464325012010</guid>
+      <pubDate>Thu, 12 Nov 2026 06:24:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to moderate Rain with thunderstorm and lightning is likely to occur at isolated places over Kanniyakumari, Mayiladuthurai, Ramanathapuram, Thoothukkudi, Tirunelveli in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794447373524007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794447373524007</guid>
+      <pubDate>Thu, 12 Nov 2026 01:36:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain with thunderstorm and lightning is likely to occur at isolated places over Coimbatore, Dindigul, Kanniyakumari, Karur, Mayiladuthurai, Nagapattinam, Ramanathapuram, Tenkasi, The Nilgiris, Viluppuram, Karaikal in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794437676709041</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794437676709041</guid>
+      <pubDate>Wed, 11 Nov 2026 22:57:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain with thunderstorm and lightning is likely to occur at isolated places over Coimbatore, Dindigul, Kanniyakumari, Karur, Mayiladuthurai, Nagapattinam, Ramanathapuram, Tenkasi, The Nilgiris, Viluppuram, Karaikal in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794437673962007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794437673962007</guid>
+      <pubDate>Wed, 11 Nov 2026 22:54:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Rain with thunderstorm and lightning is likely to occur at isolated places over Namakkal, Perambalur, Salem, Tiruchirappalli in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794437673006007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794437673006007</guid>
+      <pubDate>Wed, 11 Nov 2026 22:54:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Thunderstorm with Lightning along with one or two spells of light to moderate rain which is very likely to occur at isolated places over Dhemaji, Dibrugarh andTinsukia in next 1-3 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794436340824010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794436340824010</guid>
+      <pubDate>Wed, 11 Nov 2026 22:35:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm  lightning accompanied with light to moderate rain. very likely to affect over some parts of Birbhum, Murshidabad, Nadia, East Burdwan districts during next 2-3 hours from 03:07, 12-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794433128856017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794433128856017</guid>
+      <pubDate>Wed, 11 Nov 2026 21:40:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm  lightning accompanied with light to moderate rain. very likely to affect over some parts of East Burdwan district during next 2-3 hours from 02:17, 12-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794429981316017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794429981316017</guid>
+      <pubDate>Wed, 11 Nov 2026 20:50:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to moderate Rain with thunderstorm and lightning is likely to occur at isolated places over Cuddalore, Mayiladuthurai, Nagapattinam, Namakkal, Perambalur, Ramanathapuram, Salem, Thanjavur, Thiruvarur, Karaikal in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794425985471041</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794425985471041</guid>
+      <pubDate>Wed, 11 Nov 2026 19:46:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to moderate Rain with thunderstorm and lightning is likely to occur at isolated places over Cuddalore, Mayiladuthurai, Nagapattinam, Namakkal, Perambalur, Ramanathapuram, Salem, Thanjavur, Thiruvarur, Karaikal in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794425982814007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794425982814007</guid>
+      <pubDate>Wed, 11 Nov 2026 19:39:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm  lightning accompanied with light to moderate rain. very likely to affect over some parts of Murshidabad district during next 1-2 hours from 00:50, 12-11-2026..</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794424850211017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794424850211017</guid>
+      <pubDate>Wed, 11 Nov 2026 19:23:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Thunderstorm  lightning accompanied with intense rain. very likely to affect over some parts of Birbhum district during next 2-3 hours from 00:41, 12-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794424313724017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794424313724017</guid>
+      <pubDate>Wed, 11 Nov 2026 19:13:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm  lightning accompanied with light to moderate rain. very likely to affect over some parts of North 24 Parganas, South 24 Parganas districts during next 2-3 hours from 00:20, 12-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794422995522017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794422995522017</guid>
+      <pubDate>Wed, 11 Nov 2026 18:51:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm  lightning accompanied with light to moderate rain. very likely to affect over some parts of Birbhum, West Burdwan districts during next 2-3 hours from 00:14, 12-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794422625486017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794422625486017</guid>
+      <pubDate>Wed, 11 Nov 2026 18:45:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>IMD Guwahati has issued forecast for Thunderstorm with Lightning with light to moderate rain which is very likely to occur at a few places over Charaideo and Sivasagar in next 1-3 hours. Issued in Public Interest by ASDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794415559286010</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794415559286010</guid>
+      <pubDate>Wed, 11 Nov 2026 16:48:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm with Lightning with light to moderate rain is very likely to occur at a few places over Charaideo, Sivasagar in next 1-3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794415560086025</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794415560086025</guid>
+      <pubDate>Wed, 11 Nov 2026 16:46:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm accompanied with rain surface wind (30-40 kmph) is likely to occur at isolated places over Deoghar, Dumka, Jamtara in next 3 hours. Disaster Management Department Ranchi Jharkhand</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794410070787027</link>
+      <author>controlroom@ndma.gov.in (IMD Ranchi)</author>
+      <guid isPermaLink="false">1794410070787027</guid>
+      <pubDate>Wed, 11 Nov 2026 16:24:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm accompanied with rain  surface wind (30-40 kmph) is likely to occur at isolated places over Giridih, Hazaribagh in next 3 hours. Disaster Management Department Ranchi Jharkhand.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794408267099027</link>
+      <author>controlroom@ndma.gov.in (IMD Ranchi)</author>
+      <guid isPermaLink="false">1794408267099027</guid>
+      <pubDate>Wed, 11 Nov 2026 16:23:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to moderate  Rain with Thunderstorm and lightning  is likely to occur at isolated places over Coimbatore, Cuddalore, Mayiladuthurai, Ramanathapuram, Tenkasi in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794413723678007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794413723678007</guid>
+      <pubDate>Wed, 11 Nov 2026 16:15:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>হালকা থেকে মাঝারি বৃষ্টির সঙ্গে বজ্রপাত ও বজ্রবিদ্যুৎ সহ ঝড়ের সম্ভাবনা। ১১-১১-২০২৬ তারিখে রাত ২১:৩৫ থেকে আগামী ২-৩ ঘণ্টার মধ্যে মালদা জেলার কিছু অংশে প্রভাব পড়ার সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794413364886017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794413364886017</guid>
+      <pubDate>Wed, 11 Nov 2026 16:13:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>নদীয়া জেলার কিছু অংশে রাত ৮:৫৩ থেকে আগামী ২-৩ ঘণ্টার মধ্যে বজ্রপাতসহ মাঝারি ধরনের বৃষ্টি ও তীব্র বৃষ্টির সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794410655133017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794410655133017</guid>
+      <pubDate>Wed, 11 Nov 2026 15:27:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>লকা বজ্রবিদ্যুৎ সহ হালকা থেকে মাঝারি বৃষ্টি। আগামী ২-৩ ঘণ্টায় পূর্ব বর্ধমান, নদীয়া, হুগলি, উত্তর ২৪ পরগনা জেলার কিছু অংশে প্রভাব পড়ার সম্ভাবনা (রাত ৮:১০ থেকে)।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794408148451017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794408148451017</guid>
+      <pubDate>Wed, 11 Nov 2026 14:43:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm  lightning accompanied with light to moderate rain. very likely to affect over some parts of Jalpaiguri, Coochbehar, Alipurduar districts during next 2-3 hours from 20:05, 11-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794407605024017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794407605024017</guid>
+      <pubDate>Wed, 11 Nov 2026 14:34:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm with Lightning along with light to moderate rain is very likely to occur at a few places over Longleng, Mon, Noklak, Shamator, Tuensang, Zunheboto in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794405112044025</link>
+      <author>controlroom@ndma.gov.in (IMD Guwahati)</author>
+      <guid isPermaLink="false">1794405112044025</guid>
+      <pubDate>Wed, 11 Nov 2026 13:51:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light to Moderate Rain with thunderstorm and lightning is likely to occur at isolated places over Cuddalore, Mayiladuthurai, Ramanathapuram in next 3 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794403796943007</link>
+      <author>controlroom@ndma.gov.in (IMD Chennai)</author>
+      <guid isPermaLink="false">1794403796943007</guid>
+      <pubDate>Wed, 11 Nov 2026 13:29:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>১১-১১-২০২৬ সন্ধ্যা ৬:৩৪ থেকে আগামী ২-৩ ঘণ্টায় হুগলি জেলার কিছু অংশে বজ্রবিদ্যুৎসহ হালকা থেকে মাঝারি বৃষ্টির প্রবল সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794402456051017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794402456051017</guid>
+      <pubDate>Wed, 11 Nov 2026 13:09:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>উত্তর দিনাজপুর জেলার কিছু অংশে আজ সন্ধ্যা ৬টা থেকে পরবর্তী ২-৩ ঘণ্টার মধ্যে বজ্রবিদ্যুৎ ও তীব্র বৃষ্টিসহ মাঝারি ঝড়ের সম্ভাবনা রয়েছে। সতর্ক থাকুন।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794400544097017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794400544097017</guid>
+      <pubDate>Wed, 11 Nov 2026 12:37:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moderate Rain with thunderstorms and lightning is very likely to continue at a few places over Gomati, Sepahijala and West Tripura in next 1 to 2 hours.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794393210079015</link>
+      <author>controlroom@ndma.gov.in (IMD Agartala)</author>
+      <guid isPermaLink="false">1794393210079015</guid>
+      <pubDate>Wed, 11 Nov 2026 10:35:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>আজ বিকেল ১৫:৫০ থেকে পরবর্তী ২-৩ ঘণ্টায় জলপাইগুড়ি জেলার কিছু অংশে বজ্রবিদ্যুৎসহ তীব্র বৃষ্টির সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794392730071017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794392730071017</guid>
+      <pubDate>Wed, 11 Nov 2026 10:26:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>উত্তর ২৪ পরগনা ও নদীয়া জেলার কিছু অংশে ১৫:৪০ (১১-১১-২০২৬) থেকে পরবর্তী ২-৩ ঘণ্টার মধ্যে হালকা থেকে মাঝারি বজ্রবিদ্যুৎ সহ হালকা থেকে মাঝারি বৃষ্টির সম্ভাবনা।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794392304121017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794392304121017</guid>
+      <pubDate>Wed, 11 Nov 2026 10:19:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>পূর্ব মেদিনীপুর জেলার কিছু অংশে আগামী ২-৩ ঘণ্টার মধ্যে (বিকেল ৩:৩৪ থেকে) বজ্রপাত ও বিদ্যুৎ চমকানোসহ হালকা থেকে মাঝারি বৃষ্টির সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794391698959017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794391698959017</guid>
+      <pubDate>Wed, 11 Nov 2026 10:10:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>১১/১১/২০২৬ বিকেল ৩:৩০ থেকে আগামী ২-৩ ঘণ্টা দক্ষিণ ২৪ পরগনা জেলার কিছু অংশে বজ্রবিদ্যুৎসহ মাঝারি ঝড় ও প্রবল বৃষ্টির সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794391504767017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794391504767017</guid>
+      <pubDate>Wed, 11 Nov 2026 10:08:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>দার্জিলিং ও কালিম্পং জেলার কিছু অংশে আগামী ২-৩ ঘণ্টায় বজ্রপাতসহ মাঝারি থেকে তীব্র বৃষ্টির সম্ভাবনা (সময়: দুপুর ৩:২৫, ১১/১১/২০২৬)।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794391334068017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794391334068017</guid>
+      <pubDate>Wed, 11 Nov 2026 10:05:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>১১/১১/২০২৬ দুপুর ৩:১৮ থেকে আগামী ২-৩ ঘণ্টায় দক্ষিণ দিনাজপুর, মালদা ও উত্তর দিনাজপুরের কিছু অংশে বজ্রবিদ্যুৎসহ হালকা থেকে মাঝারি এবং কোথাও ভারী বৃষ্টির সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794391029778017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794391029778017</guid>
+      <pubDate>Wed, 11 Nov 2026 09:59:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Light Thunderstorm and lightning accompanied with light to moderate rain, snowfall (at higher altitude) very likely to continue over some parts of Mangan, Gangtok, Pakyong, Gyalshing, Soreng, Namchi districts during next 2-3 hours from 15:15, 11-11-2026.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794389806879037</link>
+      <author>controlroom@ndma.gov.in (IMD Gangtok)</author>
+      <guid isPermaLink="false">1794389806879037</guid>
+      <pubDate>Wed, 11 Nov 2026 09:49:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Heavy Rain is Likely to occur over 4 districts of Jammu and Kashmir. Please follow SDMA guidelines.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794389306217011</link>
+      <author>controlroom@ndma.gov.in (Jammu and Kashmir SDMA)</author>
+      <guid isPermaLink="false">1794389306217011</guid>
+      <pubDate>Wed, 11 Nov 2026 09:29:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>দার্জিলিং জেলার কিছু অংশে দুপুর ২:৪৯ থেকে পরবর্তী ২-৩ ঘণ্টার মধ্যে হালকা থেকে মাঝারি বজ্রবিদ্যুৎ ও বিদ্যুৎ চমকানো সহ হালকা থেকে মাঝারি বৃষ্টির প্রবল সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794389225351017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794389225351017</guid>
+      <pubDate>Wed, 11 Nov 2026 09:28:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>বেলা ২:৪১ থেকে পরবর্তী ২-৩ ঘণ্টায় দক্ষিণ ২৪ পরগনা জেলার কিছু অংশে হালকা থেকে মাঝারি বৃষ্টিসহ বজ্রবিদ্যুৎ ও ঝড় হওয়ার সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794389077372017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794389077372017</guid>
+      <pubDate>Wed, 11 Nov 2026 09:26:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>দুপুর ২:৪১ থেকে পরবর্তী ২-৩ ঘণ্টায় দক্ষিণ ২৪ পরগনা জেলার কিছু অংশে হালকা থেকে মাঝারি বৃষ্টিসহ বজ্রবিদ্যুৎ ও হালকা থেকে মাঝারি ঝড়ের সম্ভাবনা।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794388708984017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794388708984017</guid>
+      <pubDate>Wed, 11 Nov 2026 09:21:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Heavy  rain (07-11 cm) accompanied with thunderstorm and lightning are very likely to occur at one or two places over Andaman and Nicobar Islands in the next 24 hours. People are advised to stay at safe places.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794377277619038</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794377277619038</guid>
+      <pubDate>Wed, 11 Nov 2026 06:23:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thunderstorm/Lightning accompanied with Light to Moderate Rain and Gusty winds with possibility of Hailstorm is very likely to occur  at isolated places over Eastern West Khasi Hills, East Khasi Hills, Ri Bhoi, West Jaintia Hills, West Khasi Hills in next 24 hours. Citizens are to be cautious. IMD, SDMA.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794375480207035</link>
+      <author>controlroom@ndma.gov.in (IMD Shillong)</author>
+      <guid isPermaLink="false">1794375480207035</guid>
+      <pubDate>Wed, 11 Nov 2026 06:01:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>আগামী ২-৩ ঘণ্টায় কলকাতা, হাওড়া, দক্ষিণ ২৪ পরগনা ও পূর্ব মেদিনীপুরের কিছু অংশে হালকা থেকে মাঝারি বৃষ্টি বা বজ্রসহ বৃষ্টির সম্ভাবনা রয়েছে।</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1794370676002017</link>
+      <author>controlroom@ndma.gov.in (IMD Kolkata)</author>
+      <guid isPermaLink="false">1794370676002017</guid>
+      <pubDate>Wed, 11 Nov 2026 04:21:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Very High Forest Fire Risk is likely to occur over forest area near you, in next 7 days.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1793874925336014</link>
+      <author>controlroom@ndma.gov.in (FSI)</author>
+      <guid isPermaLink="false">1793874925336014</guid>
+      <pubDate>Thu, 05 Nov 2026 12:27:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Very High Forest Fire Risk is likely to occur over forest area near you, in next 7 days.</title>
+      <description/>
+      <category>Met</category>
+      <link>https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1793874925396020</link>
+      <author>controlroom@ndma.gov.in (FSI)</author>
+      <guid isPermaLink="false">1793874925396020</guid>
+      <pubDate>Thu, 05 Nov 2026 10:35:27 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

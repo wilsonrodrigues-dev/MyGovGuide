@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "synthetic": true,
+    "warning": "NOT Phase 1 research; contract fixture only"
+  },
+  "sources": [
+    {
+      "id": "synthetic-source",
+      "title": "SYNTHETIC source",
+      "url": "https://example.test/research"
+    }
+  ]
+}

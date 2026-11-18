@@ -1,0 +1,86 @@
+{
+  "at": "2026-11-18T09:03:50.137Z",
+  "database": "mygovguide_phase2",
+  "counts": {
+    "Source": 119,
+    "SourceVersion": 192,
+    "Scheme": 25,
+    "SchemeFact": 164,
+    "EligibilityRuleSet": 25,
+    "FormTemplate": 18,
+    "Notice": 116,
+    "ScamAlert": 12,
+    "ChangeEvent": 21,
+    "ReviewEvent": 5,
+    "ReviewItem": 210,
+    "ImportRejection": 12,
+    "IngestionRun": 17
+  },
+  "contentCounts": {
+    "ContentApproval": 5,
+    "AIJob": 15,
+    "AIArtifact": 15,
+    "SchemeSearchDocument": 0,
+    "ContentPublication": 0,
+    "AIDailyBudget": 0,
+    "AIWorkerSlot": 1,
+    "AIProviderState": 0
+  },
+  "sources": [
+    {
+      "id": "live-ndma-sachet-rss",
+      "authorizationStatus": "APPROVED",
+      "enabled": true,
+      "lastSuccessfulCollection": "2026-11-18T08:36:25.517Z",
+      "httpCache": {
+        "url": "https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml",
+        "etag": "W/\"62234-1794990280234\"",
+        "lastModified": "Wed, 18 Nov 2026 08:24:40 GMT"
+      }
+    },
+    {
+      "id": "live-cbdt-press-rss",
+      "authorizationStatus": "REVOKED",
+      "enabled": false,
+      "lastCollectionError": "HTTP 403 from guarded transport; disabled without bypass. Preflight HTTP200 is not a successful worker run."
+    }
+  ],
+  "liveNoticeCount": 100,
+  "liveNoticeVersions": 100,
+  "genuineLiveJobs": 2,
+  "approvedRuleSets": 0,
+  "publishedSchemes": 0,
+  "fiveSchemeFacts": 5,
+  "artifacts": {
+    "count": 15,
+    "reviewPending": 15,
+    "valid": 15,
+    "byLanguage": {
+      "en": 5,
+      "hi": 5,
+      "kn": 5
+    },
+    "tokens": {
+      "input": 16980,
+      "output": 20387,
+      "total": 37367
+    },
+    "allInternal": true
+  },
+  "originalRegistryApprovals": 0,
+  "researchFiles": 17,
+  "unchangedResearch": 17,
+  "secretScan": {
+    "shareableFiles": 385,
+    "configuredSecretMatches": [],
+    "privateEnvIgnored": true
+  },
+  "runtimeConfiguration": {
+    "liveEnabled": true,
+    "geminiModel": "gemini-3.5-flash-lite",
+    "freeTierConfirmed": true,
+    "paidUseApproved": false,
+    "paidBudget": 0,
+    "nativeDatabaseSelected": true
+  }
+}

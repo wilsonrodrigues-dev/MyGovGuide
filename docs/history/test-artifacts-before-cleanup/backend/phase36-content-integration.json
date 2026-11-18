@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-17T19:06:16.878Z",
+  "database": "mygovguide_phase2_test_content_1794942373157",
+  "mode": "SYNTHETIC_ISOLATED_MOCK_PROVIDER",
+  "liveGovernmentRuns": 0,
+  "realGenerationCalls": 0,
+  "costUsd": 0,
+  "languages": [
+    "en",
+    "hi",
+    "kn"
+  ],
+  "queries": 37,
+  "artifacts": 5,
+  "audits": 19,
+  "rawEvidencePreserved": true,
+  "syntheticExcludedFromPublic": true
+}

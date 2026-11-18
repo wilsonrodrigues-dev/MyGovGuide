@@ -1,0 +1,23 @@
+{
+  "id": "run-c63f5264-90d0-45e4-ac0a-2958609899ff",
+  "original": {},
+  "mode": "DRY_RUN",
+  "startedAt": "2026-11-17T14:10:33.358Z",
+  "counters": {
+    "read": 0,
+    "created": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "rejected": 0,
+    "pendingReview": 0,
+    "reviewItems": 0,
+    "changeEvents": 0,
+    "successful": 0,
+    "failed": 0,
+    "skipped": 0
+  },
+  "sources": [],
+  "runErrors": [],
+  "finishedAt": "2026-11-17T14:10:33.359Z",
+  "outcome": "NO_OP"
+}

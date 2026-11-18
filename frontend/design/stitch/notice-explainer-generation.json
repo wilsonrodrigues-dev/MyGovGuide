@@ -1,0 +1,396 @@
+{
+  "_meta": {
+    "ui": {
+      "resourceUri": "ui://stitch.googleapis.com/project-viewer",
+      "visibility": [
+        "model"
+      ]
+    }
+  },
+  "content": [
+    {
+      "text": "{\"projectId\":\"16872371074444001614\",\"sessionId\":\"713482339882222264\",\"outputComponents\":[{\"design\":{\"screens\":[{\"screenshot\":{\"name\":\"projects/16872371074444001614/files/d31054d00c4f45fb85b87f1a32c9e276\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/d31054d00c4f45fb85b87f1a32c9e276:download\"},\"htmlCode\":{\"name\":\"projects/16872371074444001614/files/e85b0a79051e4dd49fbb35b2ad526dad\",\"downloadUrl\":\"https://stitch.googleapis.com/v1/projects/16872371074444001614/files/e85b0a79051e4dd49fbb35b2ad526dad:download\",\"mimeType\":\"text/html\"},\"id\":\"4945eb6222a94e44bf186154501e53b4\",\"generatedBy\":\"figaro_agent\",\"width\":\"2560\",\"height\":\"4002\",\"title\":\"MyGovGuide — Notice Explainer\",\"prompt\":\"Create the 'Notice Explainer' screen (Understand a Notice / ಸುತ್ತೋಲೆ ವಿವರಣೆ) for MyGovGuide, adhering strictly to the 'Calm Civic Editorial' design system and visual continuity established across existing screens.\\n\\nKey Visual & Design System Constraints:\\n- Colors: Warm paper background (#F8F7F2 / surface-container-lowest), deep forest ink (#183C32 / text-on-surface), primary civic green (#256653), calm sage tint (#E8EFE6), delicate hairline borders (#DDE4DA).\\n- Typography: Newsreader / restrained serif for English headlines, Noto Sans for clean citizen copy with Kannada (ಕನ್ನಡ) & Hindi (हिंदी) bilingual script support.\\n- Shapes & Controls: 12px card radius (rounded-xl), 8px spacing grid, 48px tactile input controls and buttons.\\n- Header & Branding: Exact MyGovGuide brand header with leaf/book book icon, tagline 'Government Information, In Your Language', bilingual breadcrumb navigation (Gazette Repository \\u003e Notice Explainer / ಸುತ್ತೋಲೆ ವಿವರಣೆ), language switcher (EN, ಕನ್ನಡ, हिंदी), notification, and citizen preferences indicator.\\n- Footer: Standard civic disclosure footer ('Independent Civic Guidance Project. Sourced directly from official Karnataka and Union gazettes. Not affiliated with any commercial entity.') with Citizen Charter and Helpdesk links.\\n\\nScreen Specific Content & Layout:\\n1. Top Prototype/Reference Banner:\\n   - Restrained banner: 'Design Reference & Future Specification Example — Not An Approved Live Application | 100% Anonymous: Zero PII Collected'\\n2. Hero & Contextual Heading:\\n   - Eyebrow: 'Gazette & Circular Clarifier (ಸುತ್ತೋಲೆ ಮತ್ತು ಅಧಿಸೂಚನೆ ಸರಳ ವಿವರಣೆ)'\\n   - Headline: 'Understand official government circulars in plain words.'\\n   - Subhead: 'Paste public circular excerpts or official notification text to receive a plain-language civic summary without legalese or broker fees. Audio assistance available in Kannada, Hindi, and English.'\\n3. Core Interaction Area — Notice Input Panel:\\n   - Text Paste Box: Generous, clean textarea with clear typography, placeholder: 'Paste the body text, gazette notification paragraph, or order clauses here (e.g. Karnataka Gazette Notification No. ED 240, circular terms, scholarship eligibility clauses)...'\\n   - Controls strip underneath:\\n     - Clear character counter ('0 / 2,000 characters suggested for optimal clause clarity')\\n     - Quick Sample snippet buttons to try: 'Sample: Scholarship Renewal Circular', 'Sample: Domicile Verification Order', 'Sample: Land Record Mutation Clause'\\n     - Target language selector pill group: Kannada (ಕನ್ನಡ - default selected), English, Hindi (हिंदी)\\n     - Target reading level selector: 'Simple Everyday Citizen (ಸರಳ ಕನ್ನಡ)' vs 'Statutory Clause-by-Clause'\\n4. Primary Action & Phased Disclosure:\\n   - Call to Action button (min-h-[48px]): 'Explain Notice in Plain Language (ವಿವರಣೆ ಪಡೆಯಿರಿ)'\\n   - Phased Delivery Notice directly adjacent/below CTA: Clean editorial advisory badge: 'Notice Explainer Service is in Phased Review (ಮುಂದಿನ ಹಂತದಲ್ಲಿ ಲಭ್ಯ). In compliance with civic accuracy standards, automated clause summarization is undergoing volunteer legal auditing. No automated interpretation will be generated on this prototype screen.'\\n   - Strictly NO fake AI output or fabricated summaries.\\n5. Strict Privacy & Civic Guidelines Panel (Zero PII & Scam Protection):\\n   - Box with shield icon: 'Citizen Privacy Protocol — Zero PII Ingestion'\\n   - Bullets: 'Do NOT paste Aadhaar numbers, PAN details, bank account numbers, or personal identifying numbers.', 'MyGovGuide does not accept document uploads or file attachments.', 'Processing runs strictly statutorily; no prompt data is stored or linked to your identity.'\\n6. Procedural Side Guide / Help Column:\\n   - Card 1: 'How Gazette Circulars are Structured' (Explaining Preamble, Operative Clauses, Statutory Deadlines, and Competent Signatory).\\n   - Card 2: 'Beware of Unofficial Circulars' (Advice on verifying against Karnataka Gazette Archive, recognizing forged stamps, reporting fake fee notices).\\n   - Card 3: 'Need Human Procedural Verification?' (State Janaspandana helpline 1902 / 080-22340578, working hours Mon-Sat 10 AM - 5:30 PM).\\n\\nStrict Exclusions:\\n- No active file upload, drag-and-drop file zones, camera captures, or KYC requests.\\n- No invented live fake AI outputs or fabricated parsed output tables.\\n- No SaaS analytics dashboards, user charts, or commercial gradients.\\n- Keep the clean, authoritative, calm civic editorial look matching Screen 2, Screen 4, Screen 6, and Screen 10.\",\"name\":\"projects/16872371074444001614/screens/4945eb6222a94e44bf186154501e53b4\",\"theme\":{\"colorMode\":\"LIGHT\",\"font\":\"NEWSREADER\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#256653\",\"headlineFont\":\"NEWSREADER\",\"bodyFont\":\"NOTO_SANS\",\"labelFont\":\"NOTO_SANS\",\"namedColors\":{\"on_error\":\"#ffffff\",\"secondary_container\":\"#dbe2d9\",\"on_secondary\":\"#ffffff\",\"primary_container\":\"#256653\",\"surface_container_low\":\"#d5fced\",\"secondary_fixed_dim\":\"#c1c8c0\",\"surface_variant\":\"#c4ebdc\",\"tertiary_fixed_dim\":\"#ffb77c\",\"surface_bright\":\"#e6fff4\",\"tertiary_fixed\":\"#ffdcc2\",\"on_surface_variant\":\"#404945\",\"error_container\":\"#ffdad6\",\"outline\":\"#707974\",\"primary\":\"#004e3c\",\"inverse_on_surface\":\"#d2f9ea\",\"surface_dim\":\"#bbe2d4\",\"on_error_container\":\"#93000a\",\"tertiary\":\"#693700\",\"error\":\"#ba1a1a\",\"on_tertiary_fixed_variant\":\"#6d3900\",\"inverse_primary\":\"#93d4bc\",\"tertiary_container\":\"#8b4b04\",\"primary_fixed_dim\":\"#93d4bc\",\"on_secondary_fixed\":\"#171d18\",\"on_secondary_container\":\"#5d645d\",\"primary_fixed\":\"#aef0d7\",\"background\":\"#e6fff4\",\"surface_tint\":\"#296956\",\"on_secondary_fixed_variant\":\"#414942\",\"outline_variant\":\"#bfc9c3\",\"on_primary_container\":\"#a0e1c9\",\"on_tertiary_container\":\"#ffc99f\",\"on_tertiary\":\"#ffffff\",\"on_background\":\"#002018\",\"on_tertiary_fixed\":\"#2e1500\",\"surface_container\":\"#cff6e8\",\"on_primary_fixed\":\"#002118\",\"surface_container_high\":\"#c9f1e2\",\"surface_container_lowest\":\"#ffffff\",\"surface_container_highest\":\"#c4ebdc\",\"inverse_surface\":\"#12362d\",\"on_surface\":\"#002018\",\"on_primary_fixed_variant\":\"#06513f\",\"on_primary\":\"#ffffff\",\"secondary_fixed\":\"#dde4dc\",\"surface\":\"#e6fff4\",\"secondary\":\"#596059\"},\"colorVariant\":\"FIDELITY\",\"overridePrimaryColor\":\"#256653\",\"overrideSecondaryColor\":\"#e8efe6\",\"overrideTertiaryColor\":\"#b56d29\",\"overrideNeutralColor\":\"#183c32\",\"spacingScale\":2,\"typography\":{\"label-md\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"13px\",\"fontWeight\":\"500\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0.02em\"},\"display\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"40px\",\"fontWeight\":\"500\",\"lineHeight\":\"48px\",\"letterSpacing\":\"-0.02em\"},\"headline-md\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"24px\",\"fontWeight\":\"500\",\"lineHeight\":\"32px\"},\"headline-sm\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"20px\",\"fontWeight\":\"600\",\"lineHeight\":\"28px\"},\"headline-lg\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"32px\",\"fontWeight\":\"500\",\"lineHeight\":\"40px\",\"letterSpacing\":\"-0.01em\"},\"display-mobile\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"32px\",\"fontWeight\":\"500\",\"lineHeight\":\"40px\",\"letterSpacing\":\"-0.01em\"},\"body-md\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"16px\",\"fontWeight\":\"400\",\"lineHeight\":\"24px\"},\"label-sm\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"11px\",\"fontWeight\":\"600\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.04em\"},\"body-lg\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"18px\",\"fontWeight\":\"400\",\"lineHeight\":\"28px\"},\"headline-lg-mobile\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"26px\",\"fontWeight\":\"500\",\"lineHeight\":\"34px\",\"letterSpacing\":\"0em\"},\"body-sm\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"14px\",\"fontWeight\":\"400\",\"lineHeight\":\"20px\"},\"label-lg\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"15px\",\"fontWeight\":\"600\",\"lineHeight\":\"20px\",\"letterSpacing\":\"0.01em\"}},\"spacing\":{\"space-sm\":\"0.5rem\",\"margin-md\":\"2rem\",\"gutter-md\":\"1.5rem\",\"margin\":\"1rem\",\"gutter-lg\":\"2rem\",\"space-lg\":\"1.5rem\",\"gutter\":\"1rem\",\"space-xs\":\"0.25rem\",\"space-md\":\"1rem\",\"margin-lg\":\"3rem\",\"space-xl\":\"2rem\"},\"headlineFontFamily\":\"Newsreader\",\"bodyFontFamily\":\"Noto Sans\",\"labelFontFamily\":\"Noto Sans\"},\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\",\"screenMetadata\":{\"agentType\":\"PRO_AGENT\",\"status\":\"COMPLETE\"},\"designSystem\":{\"name\":\"assets/f4f532eee653402a9fea5b48978c8032\",\"designSystem\":{\"displayName\":\"Calm Civic Editorial\",\"styleGuidelines\":\"## Brand & Style\\n\\nThis design system is crafted for public service delivery with a non-dashboard, high-dignity editorial disposition. It rejects the cold, telemetry-heavy aesthetics of SaaS dashboards and the flashy, deceptive patterns of consumer tech. Instead, it positions civic interactions as thoughtful, patient conversations rooted in archival permanence and clarity.\\n\\n### Core Tenets\\n- **Civic Dignity & Calm:** The UI treats every interaction—whether checking pension eligibility, downloading a land record (Bhoomi/RTC), or filing a civic grievance—with stillness and respect.\\n- **Editorial Legibility:** Layouts follow reading-first publication paradigms rather than widget-dense cockpits. Information unfolds sequentially rather than clamoring for simultaneous attention.\\n- **Rooted & Tactile:** Replaces synthetic drop shadows, neon accents, and artificial gradients with physical metaphors of heavy rag paper, deliberate ink-weights, and quiet border lines.\\n\\n### Visual Style\\nA hybrid of **Warm Editorial Publishing** and **Structured Public-Sector Functionalism**. Visual structures rely on warm bone/paper backgrounds, deep green-tinted ink lettering, sharp informational hierarchy, and hairline dividing rules that echo printed gazettes and citizen charters.\\n\\n## Layout & Spacing\\n\\nThe layout model is driven by vertical narrative flow rather than grid complexity. It models a sequential citizen desk or guidance manifesto.\\n\\n### Spacing Engine\\n- Built on a strict **8px baseline unit** (`0.5rem = 8px`, `1rem = 16px`, `1.5rem = 24px`, `2rem = 32px`).\\n- Form elements, interactive cards, and action bars align vertically to this rhythm to ensure natural reading tempo.\\n\\n### Breakpoints & Layout Composition\\n- **Mobile (`\\u003c 640px`):** Single conversational column. Screen margins are locked at `1rem` (16px). Stacked elements use `space-md` gaps. Sticky bottom action zones maintain accessibility within single-handed reach.\\n- **Tablet (`640px - 1024px`):** Centered narrative column capped at 680px width, flanked by contextual assistive notes (e.g., required paperwork reminders, office timings) in a quiet secondary column.\\n- **Desktop (`\\u003e 1024px`):** Maximum application width is strictly capped at `960px` centered. Avoiding wide edge-to-edge layouts prevents clinical dashboard fragmentation and keeps visual focus unified.\\n\\n### Touch & Accessibility Standards\\n- All interactive controls (buttons, selection rows, dropdown toggles, language switchers) enforce a **hard minimum target height of 48px**, with 8px clearance from adjacent interactive boundaries.\\n\\n## Elevation & Depth\\n\\nThis system intentionally rejects floating multi-tier drop shadows, 3D skeuomorphism, and blurred frosted glass. Depth is achieved via **tonal stratification and physical hairline framing**.\\n\\n### Stacking Architecture\\n1. **Canvas Layer (`#F8F7F2`):** Base paper plane representing the public record space.\\n2. **Structural Surfaces (`#FFFFFF`):** Foreground cards and modules resting flat on the canvas, bounded by a 1px solid border in `#DDE4DA`.\\n3. **Elevated Sheet / Modal:** Used strictly for interactive dialogues or document inspection. Instead of generic black shadows, it uses a soft, warm contact shadow:\\n   `box-shadow: 0 4px 16px -2px rgba(24, 60, 50, 0.08), 0 1px 3px 0 rgba(24, 60, 50, 0.04);`\\n4. **Active/Focus Planes:** Visual priority is indicated through a 2px high-contrast inset or outset rule of `#256653`, not by raising the component toward the user.\\n\\n## Components\\n\\n### Buttons & Triggers\\n- **Primary Button:** Background `#256653`, text `#FFFFFF`, 0 border, minimum height 48px, horizontal padding `1.5rem`, border-radius 8px. Font: Noto Sans Medium (15px). Hover/Focus state: `#183C32`.\\n- **Secondary / Back Action:** Background transparent, text `#256653`, 1.5px border `#256653`. Never use low-contrast grey buttons for navigation.\\n- **Destructive/Critical Action:** Background `#FFFFFF`, text `#B56D29`, 1.5px border `#B56D29`.\\n\\n### Chips & Badges\\n- **Status Tag (Approved/Active):** Background `#E8EFE6`, text `#183C32`, 1px border `#DDE4DA`, border-radius `9999px`, padding `0.25rem 0.75rem`.\\n- **Attention Tag (Required Action):** Background `#FFF7EE`, text `#B56D29`, 1px border `rgba(181, 109, 41, 0.25)`, border-radius `9999px`.\\n- **Category Filter Chip:** Unselected: `#FFFFFF` with 1px border `#DDE4DA`; Selected: `#256653` with text `#FFFFFF`.\\n\\n### Conversational Cards\\n- Container built with `#FFFFFF` background, 1px solid border `#DDE4DA`, and `12px` border-radius.\\n- Cards feature explicit vertical padding (`1.5rem`) and distinct internal sections separated by 1px rules.\\n- Card titles utilize `Newsreader` (20px or 24px) in `#183C32`.\\n\\n### Form Fields & Inputs\\n- **Base Style:** Minimum height 48px, background `#FFFFFF`, border 1.5px solid `#DDE4DA`, border-radius 8px, typography `Noto Sans` (16px), color `#183C32`.\\n- **Active Focus:** Border transitions to `#256653` with a 1px solid `#256653` outer ring (no hazy glowing blue box-shadows).\\n- **Helper & Validation Labels:** Persistent placement below the field. Error text in `#B56D29` paired with an icon; never communicate state with color alone.\\n\\n### Selection Controls (Radio & Checkbox)\\n- Custom circular radios and rounded checkboxes with 22px × 22px frame for touch accessibility.\\n- Selected state fills with `#256653` displaying a crisp white mark.\\n- Group options are rendered inside distinct card-row containers with 1px border `#DDE4DA`, making tap zones large and explicit.\\n\\n### Specialized Public Service Components\\n- **Document Checklist Item:** A two-part component featuring document title in English & Kannada, validity criteria, and a two-state switch (\\\"I have this\\\" / \\\"I need help obtaining this\\\").\\n- **Official Office Card:** Details field officer title, jurisdiction bounds, office physical hours, and direct official landline/complaint portal link.\\n- **Language Switcher Strip:** Sticky, high-contrast banner allowing immediate one-tap switching between Kannada, English, and Hindi, persisting across the user journey.\",\"theme\":{\"colorMode\":\"LIGHT\",\"font\":\"NEWSREADER\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#256653\",\"headlineFont\":\"NEWSREADER\",\"bodyFont\":\"NOTO_SANS\",\"labelFont\":\"NOTO_SANS\",\"namedColors\":{\"secondary_fixed\":\"#dde4dc\",\"primary_fixed_dim\":\"#93d4bc\",\"secondary\":\"#596059\",\"surface_tint\":\"#296956\",\"inverse_surface\":\"#12362d\",\"secondary_container\":\"#dbe2d9\",\"background\":\"#e6fff4\",\"secondary_fixed_dim\":\"#c1c8c0\",\"tertiary\":\"#693700\",\"surface_container_highest\":\"#c4ebdc\",\"on_primary_fixed\":\"#002118\",\"surface_bright\":\"#e6fff4\",\"primary\":\"#004e3c\",\"outline\":\"#707974\",\"surface_container_low\":\"#d5fced\",\"tertiary_fixed\":\"#ffdcc2\",\"primary_container\":\"#256653\",\"on_surface\":\"#002018\",\"surface_dim\":\"#bbe2d4\",\"on_primary\":\"#ffffff\",\"on_error\":\"#ffffff\",\"outline_variant\":\"#bfc9c3\",\"on_secondary\":\"#ffffff\",\"error\":\"#ba1a1a\",\"inverse_primary\":\"#93d4bc\",\"tertiary_fixed_dim\":\"#ffb77c\",\"on_tertiary_fixed_variant\":\"#6d3900\",\"surface\":\"#e6fff4\",\"on_tertiary\":\"#ffffff\",\"on_surface_variant\":\"#404945\",\"inverse_on_surface\":\"#d2f9ea\",\"primary_fixed\":\"#aef0d7\",\"error_container\":\"#ffdad6\",\"surface_container\":\"#cff6e8\",\"on_error_container\":\"#93000a\",\"on_primary_container\":\"#a0e1c9\",\"on_tertiary_fixed\":\"#2e1500\",\"on_secondary_container\":\"#5d645d\",\"surface_container_high\":\"#c9f1e2\",\"on_tertiary_container\":\"#ffc99f\",\"on_background\":\"#002018\",\"surface_container_lowest\":\"#ffffff\",\"surface_variant\":\"#c4ebdc\",\"on_primary_fixed_variant\":\"#06513f\",\"tertiary_container\":\"#8b4b04\",\"on_secondary_fixed\":\"#171d18\",\"on_secondary_fixed_variant\":\"#414942\"},\"designMd\":\"---\\nname: Calm Civic Editorial\\ncolors:\\n  surface: '#e6fff4'\\n  surface-dim: '#bbe2d4'\\n  surface-bright: '#e6fff4'\\n  surface-container-lowest: '#ffffff'\\n  surface-container-low: '#d5fced'\\n  surface-container: '#cff6e8'\\n  surface-container-high: '#c9f1e2'\\n  surface-container-highest: '#c4ebdc'\\n  on-surface: '#002018'\\n  on-surface-variant: '#404945'\\n  inverse-surface: '#12362d'\\n  inverse-on-surface: '#d2f9ea'\\n  outline: '#707974'\\n  outline-variant: '#bfc9c3'\\n  surface-tint: '#296956'\\n  primary: '#004e3c'\\n  on-primary: '#ffffff'\\n  primary-container: '#256653'\\n  on-primary-container: '#a0e1c9'\\n  inverse-primary: '#93d4bc'\\n  secondary: '#596059'\\n  on-secondary: '#ffffff'\\n  secondary-container: '#dbe2d9'\\n  on-secondary-container: '#5d645d'\\n  tertiary: '#693700'\\n  on-tertiary: '#ffffff'\\n  tertiary-container: '#8b4b04'\\n  on-tertiary-container: '#ffc99f'\\n  error: '#ba1a1a'\\n  on-error: '#ffffff'\\n  error-container: '#ffdad6'\\n  on-error-container: '#93000a'\\n  primary-fixed: '#aef0d7'\\n  primary-fixed-dim: '#93d4bc'\\n  on-primary-fixed: '#002118'\\n  on-primary-fixed-variant: '#06513f'\\n  secondary-fixed: '#dde4dc'\\n  secondary-fixed-dim: '#c1c8c0'\\n  on-secondary-fixed: '#171d18'\\n  on-secondary-fixed-variant: '#414942'\\n  tertiary-fixed: '#ffdcc2'\\n  tertiary-fixed-dim: '#ffb77c'\\n  on-tertiary-fixed: '#2e1500'\\n  on-tertiary-fixed-variant: '#6d3900'\\n  background: '#e6fff4'\\n  on-background: '#002018'\\n  surface-variant: '#c4ebdc'\\ntypography:\\n  display:\\n    fontFamily: Newsreader\\n    fontSize: 40px\\n    fontWeight: '500'\\n    lineHeight: 48px\\n    letterSpacing: -0.02em\\n  display-mobile:\\n    fontFamily: Newsreader\\n    fontSize: 32px\\n    fontWeight: '500'\\n    lineHeight: 40px\\n    letterSpacing: -0.01em\\n  headline-lg:\\n    fontFamily: Newsreader\\n    fontSize: 32px\\n    fontWeight: '500'\\n    lineHeight: 40px\\n    letterSpacing: -0.01em\\n  headline-lg-mobile:\\n    fontFamily: Newsreader\\n    fontSize: 26px\\n    fontWeight: '500'\\n    lineHeight: 34px\\n    letterSpacing: 0em\\n  headline-md:\\n    fontFamily: Newsreader\\n    fontSize: 24px\\n    fontWeight: '500'\\n    lineHeight: 32px\\n  headline-sm:\\n    fontFamily: Newsreader\\n    fontSize: 20px\\n    fontWeight: '600'\\n    lineHeight: 28px\\n  body-lg:\\n    fontFamily: Noto Sans\\n    fontSize: 18px\\n    fontWeight: '400'\\n    lineHeight: 28px\\n  body-md:\\n    fontFamily: Noto Sans\\n    fontSize: 16px\\n    fontWeight: '400'\\n    lineHeight: 24px\\n  body-sm:\\n    fontFamily: Noto Sans\\n    fontSize: 14px\\n    fontWeight: '400'\\n    lineHeight: 20px\\n  label-lg:\\n    fontFamily: Noto Sans\\n    fontSize: 15px\\n    fontWeight: '600'\\n    lineHeight: 20px\\n    letterSpacing: 0.01em\\n  label-md:\\n    fontFamily: Noto Sans\\n    fontSize: 13px\\n    fontWeight: '500'\\n    lineHeight: 18px\\n    letterSpacing: 0.02em\\n  label-sm:\\n    fontFamily: Noto Sans\\n    fontSize: 11px\\n    fontWeight: '600'\\n    lineHeight: 16px\\n    letterSpacing: 0.04em\\nrounded:\\n  sm: 0.25rem\\n  DEFAULT: 0.5rem\\n  md: 0.75rem\\n  lg: 1rem\\n  xl: 1.5rem\\n  full: 9999px\\nspacing:\\n  gutter: 1rem\\n  gutter-md: 1.5rem\\n  gutter-lg: 2rem\\n  margin: 1rem\\n  margin-md: 2rem\\n  margin-lg: 3rem\\n  space-xs: 0.25rem\\n  space-sm: 0.5rem\\n  space-md: 1rem\\n  space-lg: 1.5rem\\n  space-xl: 2rem\\n---\\n\\n## Brand & Style\\n\\nThis design system is crafted for public service delivery with a non-dashboard, high-dignity editorial disposition. It rejects the cold, telemetry-heavy aesthetics of SaaS dashboards and the flashy, deceptive patterns of consumer tech. Instead, it positions civic interactions as thoughtful, patient conversations rooted in archival permanence and clarity.\\n\\n### Core Tenets\\n- **Civic Dignity & Calm:** The UI treats every interaction—whether checking pension eligibility, downloading a land record (Bhoomi/RTC), or filing a civic grievance—with stillness and respect.\\n- **Editorial Legibility:** Layouts follow reading-first publication paradigms rather than widget-dense cockpits. Information unfolds sequentially rather than clamoring for simultaneous attention.\\n- **Rooted & Tactile:** Replaces synthetic drop shadows, neon accents, and artificial gradients with physical metaphors of heavy rag paper, deliberate ink-weights, and quiet border lines.\\n\\n### Visual Style\\nA hybrid of **Warm Editorial Publishing** and **Structured Public-Sector Functionalism**. Visual structures rely on warm bone/paper backgrounds, deep green-tinted ink lettering, sharp informational hierarchy, and hairline dividing rules that echo printed gazettes and citizen charters.\\n\\n## Colors\\n\\nThe palette is anchored in organic, civic materials: archival paper, botanical dyes, and deep vegetable ink.\\n\\n### Semantic Color Assignments\\n- **Canvas / Paper (`#F8F7F2`):** The primary warm background. Never pure cold white (`#FFFFFF`). Eliminates eye fatigue in prolonged reading sessions and reinforces physical paper permanence.\\n- **Card Surface (`#FFFFFF`):** Reserved for elevated conversational containers, document stages, and interactive modular sheets.\\n- **Deep Forest Ink (`#183C32`):** Primary text color, authoritative headlines, and highest-contrast structural accents. Used instead of pure `#000000` to prevent harsh synthetic contrast.\\n- **Forest Primary (`#256653`):** Primary action triggers, key active links, verified checkmarks, and formal navigational state indicators.\\n- **Muted Green Pill/Accent (`#E8EFE6`):** Low-stress background for status pills, conversational question cards, category metadata, and active segment backgrounds.\\n- **Amber Civic Alert/Tag (`#B56D29`):** Grounded warm ochre for critical notices, mandatory document checklists, and pending processing statuses. Never shrill neon warning tones.\\n- **Subtle Warm Border (`#DDE4DA`):** Hairline structure for cards, dividers, field borders, and step indicators.\\n- **Muted Text (`#4E675E`):** Secondary metadata, timestamps, field hints, and non-blocking subtext. Maintains a compliant contrast ratio above 4.5:1 against both `#F8F7F2` and `#FFFFFF`.\\n\\nDark mode is deliberately omitted; public access kiosks, daylight outdoors usage, and printed readability take absolute priority.\\n\\n## Typography\\n\\nThe typography system pairs the intellectual gravitas of an archival serif with the universal functional clarity of multilingual sans-serif type.\\n\\n### Type Pairings & Script Harmonization\\n- **Headlines (`Newsreader`):** Provides a calm, deliberate literary tone reminiscent of printed state gazettes and historic publications. Used for page titles, conversational prompts, and major section intros.\\n- **Body & Controls (`Noto Sans`):** Selected for its flawless multi-script support across English, Kannada (`Noto Sans Kannada`), and Hindi (`Noto Sans Devanagari`). When rendering Indic scripts, optical sizes and line-heights automatically scale up by 10% to accommodate complex vowel signs (matras) and conjunct forms.\\n\\n### Hierarchy & Typesetting Guidelines\\n- Keep body prose constrained to a maximum line-length of 66 characters to preserve readability for elder citizens.\\n- Never use all-caps for strings exceeding 3 words.\\n- In bilingual/trilingual display modes (e.g., Kannada primary + English secondary subtitle), maintain visual balance by rendering the secondary script at `body-sm` (`#4E675E`) immediately underneath the primary node.\\n\\n## Layout & Spacing\\n\\nThe layout model is driven by vertical narrative flow rather than grid complexity. It models a sequential citizen desk or guidance manifesto.\\n\\n### Spacing Engine\\n- Built on a strict **8px baseline unit** (`0.5rem = 8px`, `1rem = 16px`, `1.5rem = 24px`, `2rem = 32px`).\\n- Form elements, interactive cards, and action bars align vertically to this rhythm to ensure natural reading tempo.\\n\\n### Breakpoints & Layout Composition\\n- **Mobile (`\\u003c 640px`):** Single conversational column. Screen margins are locked at `1rem` (16px). Stacked elements use `space-md` gaps. Sticky bottom action zones maintain accessibility within single-handed reach.\\n- **Tablet (`640px - 1024px`):** Centered narrative column capped at 680px width, flanked by contextual assistive notes (e.g., required paperwork reminders, office timings) in a quiet secondary column.\\n- **Desktop (`\\u003e 1024px`):** Maximum application width is strictly capped at `960px` centered. Avoiding wide edge-to-edge layouts prevents clinical dashboard fragmentation and keeps visual focus unified.\\n\\n### Touch & Accessibility Standards\\n- All interactive controls (buttons, selection rows, dropdown toggles, language switchers) enforce a **hard minimum target height of 48px**, with 8px clearance from adjacent interactive boundaries.\\n\\n## Elevation & Depth\\n\\nThis system intentionally rejects floating multi-tier drop shadows, 3D skeuomorphism, and blurred frosted glass. Depth is achieved via **tonal stratification and physical hairline framing**.\\n\\n### Stacking Architecture\\n1. **Canvas Layer (`#F8F7F2`):** Base paper plane representing the public record space.\\n2. **Structural Surfaces (`#FFFFFF`):** Foreground cards and modules resting flat on the canvas, bounded by a 1px solid border in `#DDE4DA`.\\n3. **Elevated Sheet / Modal:** Used strictly for interactive dialogues or document inspection. Instead of generic black shadows, it uses a soft, warm contact shadow:\\n   `box-shadow: 0 4px 16px -2px rgba(24, 60, 50, 0.08), 0 1px 3px 0 rgba(24, 60, 50, 0.04);`\\n4. **Active/Focus Planes:** Visual priority is indicated through a 2px high-contrast inset or outset rule of `#256653`, not by raising the component toward the user.\\n\\n## Shapes\\n\\nThe geometric personality balances bureaucratic trustworthiness with friendly civic accessibility.\\n\\n### Curvature Tokens\\n- **Default Elements (`12px` / `0.75rem`):** Applied to content cards, citizen workflow steps, input fields, and persistent bottom trays. Soft enough to feel humane and welcoming, sharp enough to convey institutional reliability.\\n- **Small Interactive Items (`8px` / `0.5rem`):** Applied to buttons, input pickers, and inline notification boxes.\\n- **Full Pills (`9999px`):** Used exclusively for status indicators, metadata tags, language switch selectors, and progress step counter badges.\\n- **Dividers & Rules:** Continuous 1px lines (`#DDE4DA`) with no soft gradient terminations.\\n\\n## Components\\n\\n### Buttons & Triggers\\n- **Primary Button:** Background `#256653`, text `#FFFFFF`, 0 border, minimum height 48px, horizontal padding `1.5rem`, border-radius 8px. Font: Noto Sans Medium (15px). Hover/Focus state: `#183C32`.\\n- **Secondary / Back Action:** Background transparent, text `#256653`, 1.5px border `#256653`. Never use low-contrast grey buttons for navigation.\\n- **Destructive/Critical Action:** Background `#FFFFFF`, text `#B56D29`, 1.5px border `#B56D29`.\\n\\n### Chips & Badges\\n- **Status Tag (Approved/Active):** Background `#E8EFE6`, text `#183C32`, 1px border `#DDE4DA`, border-radius `9999px`, padding `0.25rem 0.75rem`.\\n- **Attention Tag (Required Action):** Background `#FFF7EE`, text `#B56D29`, 1px border `rgba(181, 109, 41, 0.25)`, border-radius `9999px`.\\n- **Category Filter Chip:** Unselected: `#FFFFFF` with 1px border `#DDE4DA`; Selected: `#256653` with text `#FFFFFF`.\\n\\n### Conversational Cards\\n- Container built with `#FFFFFF` background, 1px solid border `#DDE4DA`, and `12px` border-radius.\\n- Cards feature explicit vertical padding (`1.5rem`) and distinct internal sections separated by 1px rules.\\n- Card titles utilize `Newsreader` (20px or 24px) in `#183C32`.\\n\\n### Form Fields & Inputs\\n- **Base Style:** Minimum height 48px, background `#FFFFFF`, border 1.5px solid `#DDE4DA`, border-radius 8px, typography `Noto Sans` (16px), color `#183C32`.\\n- **Active Focus:** Border transitions to `#256653` with a 1px solid `#256653` outer ring (no hazy glowing blue box-shadows).\\n- **Helper & Validation Labels:** Persistent placement below the field. Error text in `#B56D29` paired with an icon; never communicate state with color alone.\\n\\n### Selection Controls (Radio & Checkbox)\\n- Custom circular radios and rounded checkboxes with 22px × 22px frame for touch accessibility.\\n- Selected state fills with `#256653` displaying a crisp white mark.\\n- Group options are rendered inside distinct card-row containers with 1px border `#DDE4DA`, making tap zones large and explicit.\\n\\n### Specialized Public Service Components\\n- **Document Checklist Item:** A two-part component featuring document title in English & Kannada, validity criteria, and a two-state switch (\\\"I have this\\\" / \\\"I need help obtaining this\\\").\\n- **Official Office Card:** Details field officer title, jurisdiction bounds, office physical hours, and direct official landline/complaint portal link.\\n- **Language Switcher Strip:** Sticky, high-contrast banner allowing immediate one-tap switching between Kannada, English, and Hindi, persisting across the user journey.\",\"colorVariant\":\"FIDELITY\",\"overridePrimaryColor\":\"#256653\",\"overrideSecondaryColor\":\"#e8efe6\",\"overrideTertiaryColor\":\"#b56d29\",\"overrideNeutralColor\":\"#183c32\",\"spacingScale\":2,\"typography\":{\"display-mobile\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"32px\",\"fontWeight\":\"500\",\"lineHeight\":\"40px\",\"letterSpacing\":\"-0.01em\"},\"display\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"40px\",\"fontWeight\":\"500\",\"lineHeight\":\"48px\",\"letterSpacing\":\"-0.02em\"},\"label-md\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"13px\",\"fontWeight\":\"500\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0.02em\"},\"headline-md\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"24px\",\"fontWeight\":\"500\",\"lineHeight\":\"32px\"},\"headline-sm\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"20px\",\"fontWeight\":\"600\",\"lineHeight\":\"28px\"},\"headline-lg\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"32px\",\"fontWeight\":\"500\",\"lineHeight\":\"40px\",\"letterSpacing\":\"-0.01em\"},\"label-lg\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"15px\",\"fontWeight\":\"600\",\"lineHeight\":\"20px\",\"letterSpacing\":\"0.01em\"},\"body-sm\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"14px\",\"fontWeight\":\"400\",\"lineHeight\":\"20px\"},\"body-lg\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"18px\",\"fontWeight\":\"400\",\"lineHeight\":\"28px\"},\"label-sm\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"11px\",\"fontWeight\":\"600\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.04em\"},\"body-md\":{\"fontFamily\":\"Noto Sans\",\"fontSize\":\"16px\",\"fontWeight\":\"400\",\"lineHeight\":\"24px\"},\"headline-lg-mobile\":{\"fontFamily\":\"Newsreader\",\"fontSize\":\"26px\",\"fontWeight\":\"500\",\"lineHeight\":\"34px\",\"letterSpacing\":\"0em\"}},\"spacing\":{\"space-xl\":\"2rem\",\"gutter\":\"1rem\",\"margin-lg\":\"3rem\",\"space-xs\":\"0.25rem\",\"space-md\":\"1rem\",\"space-lg\":\"1.5rem\",\"margin\":\"1rem\",\"gutter-lg\":\"2rem\",\"gutter-md\":\"1.5rem\",\"space-sm\":\"0.5rem\",\"margin-md\":\"2rem\"},\"headlineFontFamily\":\"Newsreader\",\"bodyFontFamily\":\"Noto Sans\",\"labelFontFamily\":\"Noto Sans\"}},\"version\":\"1\"}}],\"theme\":{}}},{\"text\":\"I have designed the **Notice Explainer** screen (MyGovGuide — Notice Explainer) for **MyGovGuide**, following the established **Calm Civic Editorial** design system.\\n\\n### Key Highlights of the Design:\\n- **Design System Fidelity**: Implements the warm paper background (`#F8F7F2`), deep forest ink (`#183C32`), primary civic green (`#256653`), calm sage accents (`#E8EFE6`), delicate hairline borders (`#DDE4DA`), and rounded 12px card geometry with 48px tactile interactive controls.\\n- **Editorial Typography & Hierarchy**: Restrained Newsreader serif headers paired with bilingual Kannada (`ಕನ್ನಡ`) and English typography throughout the navigation, section labels, and guidance tooltips.\\n- **Text-Paste Panel**: A generous, uncluttered text-paste interface with character counting, three representative official notification sample snippets (e.g., Scholarship Renewal Circular, Land Mutation Clause), and language selector controls (Kannada, English, Hindi).\\n- **Phased Rollout & Transparency**: Strictly avoids fabricated AI interpretations. Clearly discloses that the automated summarization engine is in phased review (`ಮುಂದಿನ ಹಂತದಲ್ಲಿ ಲಭ್ಯ`) subject to civic verification standards.\\n- **Citizen Privacy & Anti-Scam Advisory**: Features an explicit *Zero PII Ingestion* protocol advising citizens never to input Aadhaar, PAN, or account identifiers, with no document uploads requested.\\n- **Contextual Procedural Guidance**: Includes a structured reference column explaining how gazette circulars are legally drafted, how to detect unofficial or circulating fake orders, and direct landline contact details for the official Janaspandana helpline.\"},{\"suggestion\":\"Create the mobile responsive version of the Notice Explainer screen\"},{\"suggestion\":\"Design an interactive sample viewer showing how an authenticated gazette clause is broken down into plain language\"},{\"suggestion\":\"Build the Official Gazette Archive search and index screen\"}]}",
+      "type": "text"
+    }
+  ],
+  "structuredContent": {
+    "outputComponents": [
+      {
+        "design": {
+          "screens": [
+            {
+              "designSystem": {
+                "designSystem": {
+                  "displayName": "Calm Civic Editorial",
+                  "styleGuidelines": "## Brand & Style\n\nThis design system is crafted for public service delivery with a non-dashboard, high-dignity editorial disposition. It rejects the cold, telemetry-heavy aesthetics of SaaS dashboards and the flashy, deceptive patterns of consumer tech. Instead, it positions civic interactions as thoughtful, patient conversations rooted in archival permanence and clarity.\n\n### Core Tenets\n- **Civic Dignity & Calm:** The UI treats every interaction—whether checking pension eligibility, downloading a land record (Bhoomi/RTC), or filing a civic grievance—with stillness and respect.\n- **Editorial Legibility:** Layouts follow reading-first publication paradigms rather than widget-dense cockpits. Information unfolds sequentially rather than clamoring for simultaneous attention.\n- **Rooted & Tactile:** Replaces synthetic drop shadows, neon accents, and artificial gradients with physical metaphors of heavy rag paper, deliberate ink-weights, and quiet border lines.\n\n### Visual Style\nA hybrid of **Warm Editorial Publishing** and **Structured Public-Sector Functionalism**. Visual structures rely on warm bone/paper backgrounds, deep green-tinted ink lettering, sharp informational hierarchy, and hairline dividing rules that echo printed gazettes and citizen charters.\n\n## Layout & Spacing\n\nThe layout model is driven by vertical narrative flow rather than grid complexity. It models a sequential citizen desk or guidance manifesto.\n\n### Spacing Engine\n- Built on a strict **8px baseline unit** (`0.5rem = 8px`, `1rem = 16px`, `1.5rem = 24px`, `2rem = 32px`).\n- Form elements, interactive cards, and action bars align vertically to this rhythm to ensure natural reading tempo.\n\n### Breakpoints & Layout Composition\n- **Mobile (`< 640px`):** Single conversational column. Screen margins are locked at `1rem` (16px). Stacked elements use `space-md` gaps. Sticky bottom action zones maintain accessibility within single-handed reach.\n- **Tablet (`640px - 1024px`):** Centered narrative column capped at 680px width, flanked by contextual assistive notes (e.g., required paperwork reminders, office timings) in a quiet secondary column.\n- **Desktop (`> 1024px`):** Maximum application width is strictly capped at `960px` centered. Avoiding wide edge-to-edge layouts prevents clinical dashboard fragmentation and keeps visual focus unified.\n\n### Touch & Accessibility Standards\n- All interactive controls (buttons, selection rows, dropdown toggles, language switchers) enforce a **hard minimum target height of 48px**, with 8px clearance from adjacent interactive boundaries.\n\n## Elevation & Depth\n\nThis system intentionally rejects floating multi-tier drop shadows, 3D skeuomorphism, and blurred frosted glass. Depth is achieved via **tonal stratification and physical hairline framing**.\n\n### Stacking Architecture\n1. **Canvas Layer (`#F8F7F2`):** Base paper plane representing the public record space.\n2. **Structural Surfaces (`#FFFFFF`):** Foreground cards and modules resting flat on the canvas, bounded by a 1px solid border in `#DDE4DA`.\n3. **Elevated Sheet / Modal:** Used strictly for interactive dialogues or document inspection. Instead of generic black shadows, it uses a soft, warm contact shadow:\n   `box-shadow: 0 4px 16px -2px rgba(24, 60, 50, 0.08), 0 1px 3px 0 rgba(24, 60, 50, 0.04);`\n4. **Active/Focus Planes:** Visual priority is indicated through a 2px high-contrast inset or outset rule of `#256653`, not by raising the component toward the user.\n\n## Components\n\n### Buttons & Triggers\n- **Primary Button:** Background `#256653`, text `#FFFFFF`, 0 border, minimum height 48px, horizontal padding `1.5rem`, border-radius 8px. Font: Noto Sans Medium (15px). Hover/Focus state: `#183C32`.\n- **Secondary / Back Action:** Background transparent, text `#256653`, 1.5px border `#256653`. Never use low-contrast grey buttons for navigation.\n- **Destructive/Critical Action:** Background `#FFFFFF`, text `#B56D29`, 1.5px border `#B56D29`.\n\n### Chips & Badges\n- **Status Tag (Approved/Active):** Background `#E8EFE6`, text `#183C32`, 1px border `#DDE4DA`, border-radius `9999px`, padding `0.25rem 0.75rem`.\n- **Attention Tag (Required Action):** Background `#FFF7EE`, text `#B56D29`, 1px border `rgba(181, 109, 41, 0.25)`, border-radius `9999px`.\n- **Category Filter Chip:** Unselected: `#FFFFFF` with 1px border `#DDE4DA`; Selected: `#256653` with text `#FFFFFF`.\n\n### Conversational Cards\n- Container built with `#FFFFFF` background, 1px solid border `#DDE4DA`, and `12px` border-radius.\n- Cards feature explicit vertical padding (`1.5rem`) and distinct internal sections separated by 1px rules.\n- Card titles utilize `Newsreader` (20px or 24px) in `#183C32`.\n\n### Form Fields & Inputs\n- **Base Style:** Minimum height 48px, background `#FFFFFF`, border 1.5px solid `#DDE4DA`, border-radius 8px, typography `Noto Sans` (16px), color `#183C32`.\n- **Active Focus:** Border transitions to `#256653` with a 1px solid `#256653` outer ring (no hazy glowing blue box-shadows).\n- **Helper & Validation Labels:** Persistent placement below the field. Error text in `#B56D29` paired with an icon; never communicate state with color alone.\n\n### Selection Controls (Radio & Checkbox)\n- Custom circular radios and rounded checkboxes with 22px × 22px frame for touch accessibility.\n- Selected state fills with `#256653` displaying a crisp white mark.\n- Group options are rendered inside distinct card-row containers with 1px border `#DDE4DA`, making tap zones large and explicit.\n\n### Specialized Public Service Components\n- **Document Checklist Item:** A two-part component featuring document title in English & Kannada, validity criteria, and a two-state switch (\"I have this\" / \"I need help obtaining this\").\n- **Official Office Card:** Details field officer title, jurisdiction bounds, office physical hours, and direct official landline/complaint portal link.\n- **Language Switcher Strip:** Sticky, high-contrast banner allowing immediate one-tap switching between Kannada, English, and Hindi, persisting across the user journey.",
+                  "theme": {
+                    "bodyFont": "NOTO_SANS",
+                    "bodyFontFamily": "Noto Sans",
+                    "colorMode": "LIGHT",
+                    "colorVariant": "FIDELITY",
+                    "customColor": "#256653",
+                    "designMd": "---\nname: Calm Civic Editorial\ncolors:\n  surface: '#e6fff4'\n  surface-dim: '#bbe2d4'\n  surface-bright: '#e6fff4'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#d5fced'\n  surface-container: '#cff6e8'\n  surface-container-high: '#c9f1e2'\n  surface-container-highest: '#c4ebdc'\n  on-surface: '#002018'\n  on-surface-variant: '#404945'\n  inverse-surface: '#12362d'\n  inverse-on-surface: '#d2f9ea'\n  outline: '#707974'\n  outline-variant: '#bfc9c3'\n  surface-tint: '#296956'\n  primary: '#004e3c'\n  on-primary: '#ffffff'\n  primary-container: '#256653'\n  on-primary-container: '#a0e1c9'\n  inverse-primary: '#93d4bc'\n  secondary: '#596059'\n  on-secondary: '#ffffff'\n  secondary-container: '#dbe2d9'\n  on-secondary-container: '#5d645d'\n  tertiary: '#693700'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#8b4b04'\n  on-tertiary-container: '#ffc99f'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#aef0d7'\n  primary-fixed-dim: '#93d4bc'\n  on-primary-fixed: '#002118'\n  on-primary-fixed-variant: '#06513f'\n  secondary-fixed: '#dde4dc'\n  secondary-fixed-dim: '#c1c8c0'\n  on-secondary-fixed: '#171d18'\n  on-secondary-fixed-variant: '#414942'\n  tertiary-fixed: '#ffdcc2'\n  tertiary-fixed-dim: '#ffb77c'\n  on-tertiary-fixed: '#2e1500'\n  on-tertiary-fixed-variant: '#6d3900'\n  background: '#e6fff4'\n  on-background: '#002018'\n  surface-variant: '#c4ebdc'\ntypography:\n  display:\n    fontFamily: Newsreader\n    fontSize: 40px\n    fontWeight: '500'\n    lineHeight: 48px\n    letterSpacing: -0.02em\n  display-mobile:\n    fontFamily: Newsreader\n    fontSize: 32px\n    fontWeight: '500'\n    lineHeight: 40px\n    letterSpacing: -0.01em\n  headline-lg:\n    fontFamily: Newsreader\n    fontSize: 32px\n    fontWeight: '500'\n    lineHeight: 40px\n    letterSpacing: -0.01em\n  headline-lg-mobile:\n    fontFamily: Newsreader\n    fontSize: 26px\n    fontWeight: '500'\n    lineHeight: 34px\n    letterSpacing: 0em\n  headline-md:\n    fontFamily: Newsreader\n    fontSize: 24px\n    fontWeight: '500'\n    lineHeight: 32px\n  headline-sm:\n    fontFamily: Newsreader\n    fontSize: 20px\n    fontWeight: '600'\n    lineHeight: 28px\n  body-lg:\n    fontFamily: Noto Sans\n    fontSize: 18px\n    fontWeight: '400'\n    lineHeight: 28px\n  body-md:\n    fontFamily: Noto Sans\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: 24px\n  body-sm:\n    fontFamily: Noto Sans\n    fontSize: 14px\n    fontWeight: '400'\n    lineHeight: 20px\n  label-lg:\n    fontFamily: Noto Sans\n    fontSize: 15px\n    fontWeight: '600'\n    lineHeight: 20px\n    letterSpacing: 0.01em\n  label-md:\n    fontFamily: Noto Sans\n    fontSize: 13px\n    fontWeight: '500'\n    lineHeight: 18px\n    letterSpacing: 0.02em\n  label-sm:\n    fontFamily: Noto Sans\n    fontSize: 11px\n    fontWeight: '600'\n    lineHeight: 16px\n    letterSpacing: 0.04em\nrounded:\n  sm: 0.25rem\n  DEFAULT: 0.5rem\n  md: 0.75rem\n  lg: 1rem\n  xl: 1.5rem\n  full: 9999px\nspacing:\n  gutter: 1rem\n  gutter-md: 1.5rem\n  gutter-lg: 2rem\n  margin: 1rem\n  margin-md: 2rem\n  margin-lg: 3rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 1rem\n  space-lg: 1.5rem\n  space-xl: 2rem\n---\n\n## Brand & Style\n\nThis design system is crafted for public service delivery with a non-dashboard, high-dignity editorial disposition. It rejects the cold, telemetry-heavy aesthetics of SaaS dashboards and the flashy, deceptive patterns of consumer tech. Instead, it positions civic interactions as thoughtful, patient conversations rooted in archival permanence and clarity.\n\n### Core Tenets\n- **Civic Dignity & Calm:** The UI treats every interaction—whether checking pension eligibility, downloading a land record (Bhoomi/RTC), or filing a civic grievance—with stillness and respect.\n- **Editorial Legibility:** Layouts follow reading-first publication paradigms rather than widget-dense cockpits. Information unfolds sequentially rather than clamoring for simultaneous attention.\n- **Rooted & Tactile:** Replaces synthetic drop shadows, neon accents, and artificial gradients with physical metaphors of heavy rag paper, deliberate ink-weights, and quiet border lines.\n\n### Visual Style\nA hybrid of **Warm Editorial Publishing** and **Structured Public-Sector Functionalism**. Visual structures rely on warm bone/paper backgrounds, deep green-tinted ink lettering, sharp informational hierarchy, and hairline dividing rules that echo printed gazettes and citizen charters.\n\n## Colors\n\nThe palette is anchored in organic, civic materials: archival paper, botanical dyes, and deep vegetable ink.\n\n### Semantic Color Assignments\n- **Canvas / Paper (`#F8F7F2`):** The primary warm background. Never pure cold white (`#FFFFFF`). Eliminates eye fatigue in prolonged reading sessions and reinforces physical paper permanence.\n- **Card Surface (`#FFFFFF`):** Reserved for elevated conversational containers, document stages, and interactive modular sheets.\n- **Deep Forest Ink (`#183C32`):** Primary text color, authoritative headlines, and highest-contrast structural accents. Used instead of pure `#000000` to prevent harsh synthetic contrast.\n- **Forest Primary (`#256653`):** Primary action triggers, key active links, verified checkmarks, and formal navigational state indicators.\n- **Muted Green Pill/Accent (`#E8EFE6`):** Low-stress background for status pills, conversational question cards, category metadata, and active segment backgrounds.\n- **Amber Civic Alert/Tag (`#B56D29`):** Grounded warm ochre for critical notices, mandatory document checklists, and pending processing statuses. Never shrill neon warning tones.\n- **Subtle Warm Border (`#DDE4DA`):** Hairline structure for cards, dividers, field borders, and step indicators.\n- **Muted Text (`#4E675E`):** Secondary metadata, timestamps, field hints, and non-blocking subtext. Maintains a compliant contrast ratio above 4.5:1 against both `#F8F7F2` and `#FFFFFF`.\n\nDark mode is deliberately omitted; public access kiosks, daylight outdoors usage, and printed readability take absolute priority.\n\n## Typography\n\nThe typography system pairs the intellectual gravitas of an archival serif with the universal functional clarity of multilingual sans-serif type.\n\n### Type Pairings & Script Harmonization\n- **Headlines (`Newsreader`):** Provides a calm, deliberate literary tone reminiscent of printed state gazettes and historic publications. Used for page titles, conversational prompts, and major section intros.\n- **Body & Controls (`Noto Sans`):** Selected for its flawless multi-script support across English, Kannada (`Noto Sans Kannada`), and Hindi (`Noto Sans Devanagari`). When rendering Indic scripts, optical sizes and line-heights automatically scale up by 10% to accommodate complex vowel signs (matras) and conjunct forms.\n\n### Hierarchy & Typesetting Guidelines\n- Keep body prose constrained to a maximum line-length of 66 characters to preserve readability for elder citizens.\n- Never use all-caps for strings exceeding 3 words.\n- In bilingual/trilingual display modes (e.g., Kannada primary + English secondary subtitle), maintain visual balance by rendering the secondary script at `body-sm` (`#4E675E`) immediately underneath the primary node.\n\n## Layout & Spacing\n\nThe layout model is driven by vertical narrative flow rather than grid complexity. It models a sequential citizen desk or guidance manifesto.\n\n### Spacing Engine\n- Built on a strict **8px baseline unit** (`0.5rem = 8px`, `1rem = 16px`, `1.5rem = 24px`, `2rem = 32px`).\n- Form elements, interactive cards, and action bars align vertically to this rhythm to ensure natural reading tempo.\n\n### Breakpoints & Layout Composition\n- **Mobile (`< 640px`):** Single conversational column. Screen margins are locked at `1rem` (16px). Stacked elements use `space-md` gaps. Sticky bottom action zones maintain accessibility within single-handed reach.\n- **Tablet (`640px - 1024px`):** Centered narrative column capped at 680px width, flanked by contextual assistive notes (e.g., required paperwork reminders, office timings) in a quiet secondary column.\n- **Desktop (`> 1024px`):** Maximum application width is strictly capped at `960px` centered. Avoiding wide edge-to-edge layouts prevents clinical dashboard fragmentation and keeps visual focus unified.\n\n### Touch & Accessibility Standards\n- All interactive controls (buttons, selection rows, dropdown toggles, language switchers) enforce a **hard minimum target height of 48px**, with 8px clearance from adjacent interactive boundaries.\n\n## Elevation & Depth\n\nThis system intentionally rejects floating multi-tier drop shadows, 3D skeuomorphism, and blurred frosted glass. Depth is achieved via **tonal stratification and physical hairline framing**.\n\n### Stacking Architecture\n1. **Canvas Layer (`#F8F7F2`):** Base paper plane representing the public record space.\n2. **Structural Surfaces (`#FFFFFF`):** Foreground cards and modules resting flat on the canvas, bounded by a 1px solid border in `#DDE4DA`.\n3. **Elevated Sheet / Modal:** Used strictly for interactive dialogues or document inspection. Instead of generic black shadows, it uses a soft, warm contact shadow:\n   `box-shadow: 0 4px 16px -2px rgba(24, 60, 50, 0.08), 0 1px 3px 0 rgba(24, 60, 50, 0.04);`\n4. **Active/Focus Planes:** Visual priority is indicated through a 2px high-contrast inset or outset rule of `#256653`, not by raising the component toward the user.\n\n## Shapes\n\nThe geometric personality balances bureaucratic trustworthiness with friendly civic accessibility.\n\n### Curvature Tokens\n- **Default Elements (`12px` / `0.75rem`):** Applied to content cards, citizen workflow steps, input fields, and persistent bottom trays. Soft enough to feel humane and welcoming, sharp enough to convey institutional reliability.\n- **Small Interactive Items (`8px` / `0.5rem`):** Applied to buttons, input pickers, and inline notification boxes.\n- **Full Pills (`9999px`):** Used exclusively for status indicators, metadata tags, language switch selectors, and progress step counter badges.\n- **Dividers & Rules:** Continuous 1px lines (`#DDE4DA`) with no soft gradient terminations.\n\n## Components\n\n### Buttons & Triggers\n- **Primary Button:** Background `#256653`, text `#FFFFFF`, 0 border, minimum height 48px, horizontal padding `1.5rem`, border-radius 8px. Font: Noto Sans Medium (15px). Hover/Focus state: `#183C32`.\n- **Secondary / Back Action:** Background transparent, text `#256653`, 1.5px border `#256653`. Never use low-contrast grey buttons for navigation.\n- **Destructive/Critical Action:** Background `#FFFFFF`, text `#B56D29`, 1.5px border `#B56D29`.\n\n### Chips & Badges\n- **Status Tag (Approved/Active):** Background `#E8EFE6`, text `#183C32`, 1px border `#DDE4DA`, border-radius `9999px`, padding `0.25rem 0.75rem`.\n- **Attention Tag (Required Action):** Background `#FFF7EE`, text `#B56D29`, 1px border `rgba(181, 109, 41, 0.25)`, border-radius `9999px`.\n- **Category Filter Chip:** Unselected: `#FFFFFF` with 1px border `#DDE4DA`; Selected: `#256653` with text `#FFFFFF`.\n\n### Conversational Cards\n- Container built with `#FFFFFF` background, 1px solid border `#DDE4DA`, and `12px` border-radius.\n- Cards feature explicit vertical padding (`1.5rem`) and distinct internal sections separated by 1px rules.\n- Card titles utilize `Newsreader` (20px or 24px) in `#183C32`.\n\n### Form Fields & Inputs\n- **Base Style:** Minimum height 48px, background `#FFFFFF`, border 1.5px solid `#DDE4DA`, border-radius 8px, typography `Noto Sans` (16px), color `#183C32`.\n- **Active Focus:** Border transitions to `#256653` with a 1px solid `#256653` outer ring (no hazy glowing blue box-shadows).\n- **Helper & Validation Labels:** Persistent placement below the field. Error text in `#B56D29` paired with an icon; never communicate state with color alone.\n\n### Selection Controls (Radio & Checkbox)\n- Custom circular radios and rounded checkboxes with 22px × 22px frame for touch accessibility.\n- Selected state fills with `#256653` displaying a crisp white mark.\n- Group options are rendered inside distinct card-row containers with 1px border `#DDE4DA`, making tap zones large and explicit.\n\n### Specialized Public Service Components\n- **Document Checklist Item:** A two-part component featuring document title in English & Kannada, validity criteria, and a two-state switch (\"I have this\" / \"I need help obtaining this\").\n- **Official Office Card:** Details field officer title, jurisdiction bounds, office physical hours, and direct official landline/complaint portal link.\n- **Language Switcher Strip:** Sticky, high-contrast banner allowing immediate one-tap switching between Kannada, English, and Hindi, persisting across the user journey.",
+                    "font": "NEWSREADER",
+                    "headlineFont": "NEWSREADER",
+                    "headlineFontFamily": "Newsreader",
+                    "labelFont": "NOTO_SANS",
+                    "labelFontFamily": "Noto Sans",
+                    "namedColors": {
+                      "background": "#e6fff4",
+                      "error": "#ba1a1a",
+                      "error_container": "#ffdad6",
+                      "inverse_on_surface": "#d2f9ea",
+                      "inverse_primary": "#93d4bc",
+                      "inverse_surface": "#12362d",
+                      "on_background": "#002018",
+                      "on_error": "#ffffff",
+                      "on_error_container": "#93000a",
+                      "on_primary": "#ffffff",
+                      "on_primary_container": "#a0e1c9",
+                      "on_primary_fixed": "#002118",
+                      "on_primary_fixed_variant": "#06513f",
+                      "on_secondary": "#ffffff",
+                      "on_secondary_container": "#5d645d",
+                      "on_secondary_fixed": "#171d18",
+                      "on_secondary_fixed_variant": "#414942",
+                      "on_surface": "#002018",
+                      "on_surface_variant": "#404945",
+                      "on_tertiary": "#ffffff",
+                      "on_tertiary_container": "#ffc99f",
+                      "on_tertiary_fixed": "#2e1500",
+                      "on_tertiary_fixed_variant": "#6d3900",
+                      "outline": "#707974",
+                      "outline_variant": "#bfc9c3",
+                      "primary": "#004e3c",
+                      "primary_container": "#256653",
+                      "primary_fixed": "#aef0d7",
+                      "primary_fixed_dim": "#93d4bc",
+                      "secondary": "#596059",
+                      "secondary_container": "#dbe2d9",
+                      "secondary_fixed": "#dde4dc",
+                      "secondary_fixed_dim": "#c1c8c0",
+                      "surface": "#e6fff4",
+                      "surface_bright": "#e6fff4",
+                      "surface_container": "#cff6e8",
+                      "surface_container_high": "#c9f1e2",
+                      "surface_container_highest": "#c4ebdc",
+                      "surface_container_low": "#d5fced",
+                      "surface_container_lowest": "#ffffff",
+                      "surface_dim": "#bbe2d4",
+                      "surface_tint": "#296956",
+                      "surface_variant": "#c4ebdc",
+                      "tertiary": "#693700",
+                      "tertiary_container": "#8b4b04",
+                      "tertiary_fixed": "#ffdcc2",
+                      "tertiary_fixed_dim": "#ffb77c"
+                    },
+                    "overrideNeutralColor": "#183c32",
+                    "overridePrimaryColor": "#256653",
+                    "overrideSecondaryColor": "#e8efe6",
+                    "overrideTertiaryColor": "#b56d29",
+                    "roundness": "ROUND_EIGHT",
+                    "spacing": {
+                      "gutter": "1rem",
+                      "gutter-lg": "2rem",
+                      "gutter-md": "1.5rem",
+                      "margin": "1rem",
+                      "margin-lg": "3rem",
+                      "margin-md": "2rem",
+                      "space-lg": "1.5rem",
+                      "space-md": "1rem",
+                      "space-sm": "0.5rem",
+                      "space-xl": "2rem",
+                      "space-xs": "0.25rem"
+                    },
+                    "spacingScale": 2,
+                    "typography": {
+                      "body-lg": {
+                        "fontFamily": "Noto Sans",
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "lineHeight": "28px"
+                      },
+                      "body-md": {
+                        "fontFamily": "Noto Sans",
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "lineHeight": "24px"
+                      },
+                      "body-sm": {
+                        "fontFamily": "Noto Sans",
+                        "fontSize": "14px",
+                        "fontWeight": "400",
+                        "lineHeight": "20px"
+                      },
+                      "display": {
+                        "fontFamily": "Newsreader",
+                        "fontSize": "40px",
+                        "fontWeight": "500",
+                        "letterSpacing": "-0.02em",
+                        "lineHeight": "48px"
+                      },
+                      "display-mobile": {
+                        "fontFamily": "Newsreader",
+                        "fontSize": "32px",
+                        "fontWeight": "500",
+                        "letterSpacing": "-0.01em",
+                        "lineHeight": "40px"
+                      },
+                      "headline-lg": {
+                        "fontFamily": "Newsreader",
+                        "fontSize": "32px",
+                        "fontWeight": "500",
+                        "letterSpacing": "-0.01em",
+                        "lineHeight": "40px"
+                      },
+                      "headline-lg-mobile": {
+                        "fontFamily": "Newsreader",
+                        "fontSize": "26px",
+                        "fontWeight": "500",
+                        "letterSpacing": "0em",
+                        "lineHeight": "34px"
+                      },
+                      "headline-md": {
+                        "fontFamily": "Newsreader",
+                        "fontSize": "24px",
+                        "fontWeight": "500",
+                        "lineHeight": "32px"
+                      },
+                      "headline-sm": {
+                        "fontFamily": "Newsreader",
+                        "fontSize": "20px",
+                        "fontWeight": "600",
+                        "lineHeight": "28px"
+                      },
+                      "label-lg": {
+                        "fontFamily": "Noto Sans",
+                        "fontSize": "15px",
+                        "fontWeight": "600",
+                        "letterSpacing": "0.01em",
+                        "lineHeight": "20px"
+                      },
+                      "label-md": {
+                        "fontFamily": "Noto Sans",
+                        "fontSize": "13px",
+                        "fontWeight": "500",
+                        "letterSpacing": "0.02em",
+                        "lineHeight": "18px"
+                      },
+                      "label-sm": {
+                        "fontFamily": "Noto Sans",
+                        "fontSize": "11px",
+                        "fontWeight": "600",
+                        "letterSpacing": "0.04em",
+                        "lineHeight": "16px"
+                      }
+                    }
+                  }
+                },
+                "name": "assets/f4f532eee653402a9fea5b48978c8032",
+                "version": "1"
+              },
+              "deviceType": "DESKTOP",
+              "generatedBy": "figaro_agent",
+              "height": "4002",
+              "htmlCode": {
+                "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/e85b0a79051e4dd49fbb35b2ad526dad:download",
+                "mimeType": "text/html",
+                "name": "projects/16872371074444001614/files/e85b0a79051e4dd49fbb35b2ad526dad"
+              },
+              "id": "4945eb6222a94e44bf186154501e53b4",
+              "name": "projects/16872371074444001614/screens/4945eb6222a94e44bf186154501e53b4",
+              "prompt": "Create the 'Notice Explainer' screen (Understand a Notice / ಸುತ್ತೋಲೆ ವಿವರಣೆ) for MyGovGuide, adhering strictly to the 'Calm Civic Editorial' design system and visual continuity established across existing screens.\n\nKey Visual & Design System Constraints:\n- Colors: Warm paper background (#F8F7F2 / surface-container-lowest), deep forest ink (#183C32 / text-on-surface), primary civic green (#256653), calm sage tint (#E8EFE6), delicate hairline borders (#DDE4DA).\n- Typography: Newsreader / restrained serif for English headlines, Noto Sans for clean citizen copy with Kannada (ಕನ್ನಡ) & Hindi (हिंदी) bilingual script support.\n- Shapes & Controls: 12px card radius (rounded-xl), 8px spacing grid, 48px tactile input controls and buttons.\n- Header & Branding: Exact MyGovGuide brand header with leaf/book book icon, tagline 'Government Information, In Your Language', bilingual breadcrumb navigation (Gazette Repository > Notice Explainer / ಸುತ್ತೋಲೆ ವಿವರಣೆ), language switcher (EN, ಕನ್ನಡ, हिंदी), notification, and citizen preferences indicator.\n- Footer: Standard civic disclosure footer ('Independent Civic Guidance Project. Sourced directly from official Karnataka and Union gazettes. Not affiliated with any commercial entity.') with Citizen Charter and Helpdesk links.\n\nScreen Specific Content & Layout:\n1. Top Prototype/Reference Banner:\n   - Restrained banner: 'Design Reference & Future Specification Example — Not An Approved Live Application | 100% Anonymous: Zero PII Collected'\n2. Hero & Contextual Heading:\n   - Eyebrow: 'Gazette & Circular Clarifier (ಸುತ್ತೋಲೆ ಮತ್ತು ಅಧಿಸೂಚನೆ ಸರಳ ವಿವರಣೆ)'\n   - Headline: 'Understand official government circulars in plain words.'\n   - Subhead: 'Paste public circular excerpts or official notification text to receive a plain-language civic summary without legalese or broker fees. Audio assistance available in Kannada, Hindi, and English.'\n3. Core Interaction Area — Notice Input Panel:\n   - Text Paste Box: Generous, clean textarea with clear typography, placeholder: 'Paste the body text, gazette notification paragraph, or order clauses here (e.g. Karnataka Gazette Notification No. ED 240, circular terms, scholarship eligibility clauses)...'\n   - Controls strip underneath:\n     - Clear character counter ('0 / 2,000 characters suggested for optimal clause clarity')\n     - Quick Sample snippet buttons to try: 'Sample: Scholarship Renewal Circular', 'Sample: Domicile Verification Order', 'Sample: Land Record Mutation Clause'\n     - Target language selector pill group: Kannada (ಕನ್ನಡ - default selected), English, Hindi (हिंदी)\n     - Target reading level selector: 'Simple Everyday Citizen (ಸರಳ ಕನ್ನಡ)' vs 'Statutory Clause-by-Clause'\n4. Primary Action & Phased Disclosure:\n   - Call to Action button (min-h-[48px]): 'Explain Notice in Plain Language (ವಿವರಣೆ ಪಡೆಯಿರಿ)'\n   - Phased Delivery Notice directly adjacent/below CTA: Clean editorial advisory badge: 'Notice Explainer Service is in Phased Review (ಮುಂದಿನ ಹಂತದಲ್ಲಿ ಲಭ್ಯ). In compliance with civic accuracy standards, automated clause summarization is undergoing volunteer legal auditing. No automated interpretation will be generated on this prototype screen.'\n   - Strictly NO fake AI output or fabricated summaries.\n5. Strict Privacy & Civic Guidelines Panel (Zero PII & Scam Protection):\n   - Box with shield icon: 'Citizen Privacy Protocol — Zero PII Ingestion'\n   - Bullets: 'Do NOT paste Aadhaar numbers, PAN details, bank account numbers, or personal identifying numbers.', 'MyGovGuide does not accept document uploads or file attachments.', 'Processing runs strictly statutorily; no prompt data is stored or linked to your identity.'\n6. Procedural Side Guide / Help Column:\n   - Card 1: 'How Gazette Circulars are Structured' (Explaining Preamble, Operative Clauses, Statutory Deadlines, and Competent Signatory).\n   - Card 2: 'Beware of Unofficial Circulars' (Advice on verifying against Karnataka Gazette Archive, recognizing forged stamps, reporting fake fee notices).\n   - Card 3: 'Need Human Procedural Verification?' (State Janaspandana helpline 1902 / 080-22340578, working hours Mon-Sat 10 AM - 5:30 PM).\n\nStrict Exclusions:\n- No active file upload, drag-and-drop file zones, camera captures, or KYC requests.\n- No invented live fake AI outputs or fabricated parsed output tables.\n- No SaaS analytics dashboards, user charts, or commercial gradients.\n- Keep the clean, authoritative, calm civic editorial look matching Screen 2, Screen 4, Screen 6, and Screen 10.",
+              "screenMetadata": {
+                "agentType": "PRO_AGENT",
+                "status": "COMPLETE"
+              },
+              "screenType": "DESIGN",
+              "screenshot": {
+                "downloadUrl": "https://stitch.googleapis.com/v1/projects/16872371074444001614/files/d31054d00c4f45fb85b87f1a32c9e276:download",
+                "name": "projects/16872371074444001614/files/d31054d00c4f45fb85b87f1a32c9e276"
+              },
+              "theme": {
+                "bodyFont": "NOTO_SANS",
+                "bodyFontFamily": "Noto Sans",
+                "colorMode": "LIGHT",
+                "colorVariant": "FIDELITY",
+                "customColor": "#256653",
+                "font": "NEWSREADER",
+                "headlineFont": "NEWSREADER",
+                "headlineFontFamily": "Newsreader",
+                "labelFont": "NOTO_SANS",
+                "labelFontFamily": "Noto Sans",
+                "namedColors": {
+                  "background": "#e6fff4",
+                  "error": "#ba1a1a",
+                  "error_container": "#ffdad6",
+                  "inverse_on_surface": "#d2f9ea",
+                  "inverse_primary": "#93d4bc",
+                  "inverse_surface": "#12362d",
+                  "on_background": "#002018",
+                  "on_error": "#ffffff",
+                  "on_error_container": "#93000a",
+                  "on_primary": "#ffffff",
+                  "on_primary_container": "#a0e1c9",
+                  "on_primary_fixed": "#002118",
+                  "on_primary_fixed_variant": "#06513f",
+                  "on_secondary": "#ffffff",
+                  "on_secondary_container": "#5d645d",
+                  "on_secondary_fixed": "#171d18",
+                  "on_secondary_fixed_variant": "#414942",
+                  "on_surface": "#002018",
+                  "on_surface_variant": "#404945",
+                  "on_tertiary": "#ffffff",
+                  "on_tertiary_container": "#ffc99f",
+                  "on_tertiary_fixed": "#2e1500",
+                  "on_tertiary_fixed_variant": "#6d3900",
+                  "outline": "#707974",
+                  "outline_variant": "#bfc9c3",
+                  "primary": "#004e3c",
+                  "primary_container": "#256653",
+                  "primary_fixed": "#aef0d7",
+                  "primary_fixed_dim": "#93d4bc",
+                  "secondary": "#596059",
+                  "secondary_container": "#dbe2d9",
+                  "secondary_fixed": "#dde4dc",
+                  "secondary_fixed_dim": "#c1c8c0",
+                  "surface": "#e6fff4",
+                  "surface_bright": "#e6fff4",
+                  "surface_container": "#cff6e8",
+                  "surface_container_high": "#c9f1e2",
+                  "surface_container_highest": "#c4ebdc",
+                  "surface_container_low": "#d5fced",
+                  "surface_container_lowest": "#ffffff",
+                  "surface_dim": "#bbe2d4",
+                  "surface_tint": "#296956",
+                  "surface_variant": "#c4ebdc",
+                  "tertiary": "#693700",
+                  "tertiary_container": "#8b4b04",
+                  "tertiary_fixed": "#ffdcc2",
+                  "tertiary_fixed_dim": "#ffb77c"
+                },
+                "overrideNeutralColor": "#183c32",
+                "overridePrimaryColor": "#256653",
+                "overrideSecondaryColor": "#e8efe6",
+                "overrideTertiaryColor": "#b56d29",
+                "roundness": "ROUND_EIGHT",
+                "spacing": {
+                  "gutter": "1rem",
+                  "gutter-lg": "2rem",
+                  "gutter-md": "1.5rem",
+                  "margin": "1rem",
+                  "margin-lg": "3rem",
+                  "margin-md": "2rem",
+                  "space-lg": "1.5rem",
+                  "space-md": "1rem",
+                  "space-sm": "0.5rem",
+                  "space-xl": "2rem",
+                  "space-xs": "0.25rem"
+                },
+                "spacingScale": 2,
+                "typography": {
+                  "body-lg": {
+                    "fontFamily": "Noto Sans",
+                    "fontSize": "18px",
+                    "fontWeight": "400",
+                    "lineHeight": "28px"
+                  },
+                  "body-md": {
+                    "fontFamily": "Noto Sans",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "24px"
+                  },
+                  "body-sm": {
+                    "fontFamily": "Noto Sans",
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "lineHeight": "20px"
+                  },
+                  "display": {
+                    "fontFamily": "Newsreader",
+                    "fontSize": "40px",
+                    "fontWeight": "500",
+                    "letterSpacing": "-0.02em",
+                    "lineHeight": "48px"
+                  },
+                  "display-mobile": {
+                    "fontFamily": "Newsreader",
+                    "fontSize": "32px",
+                    "fontWeight": "500",
+                    "letterSpacing": "-0.01em",
+                    "lineHeight": "40px"
+                  },
+                  "headline-lg": {
+                    "fontFamily": "Newsreader",
+                    "fontSize": "32px",
+                    "fontWeight": "500",
+                    "letterSpacing": "-0.01em",
+                    "lineHeight": "40px"
+                  },
+                  "headline-lg-mobile": {
+                    "fontFamily": "Newsreader",
+                    "fontSize": "26px",
+                    "fontWeight": "500",
+                    "letterSpacing": "0em",
+                    "lineHeight": "34px"
+                  },
+                  "headline-md": {
+                    "fontFamily": "Newsreader",
+                    "fontSize": "24px",
+                    "fontWeight": "500",
+                    "lineHeight": "32px"
+                  },
+                  "headline-sm": {
+                    "fontFamily": "Newsreader",
+                    "fontSize": "20px",
+                    "fontWeight": "600",
+                    "lineHeight": "28px"
+                  },
+                  "label-lg": {
+                    "fontFamily": "Noto Sans",
+                    "fontSize": "15px",
+                    "fontWeight": "600",
+                    "letterSpacing": "0.01em",
+                    "lineHeight": "20px"
+                  },
+                  "label-md": {
+                    "fontFamily": "Noto Sans",
+                    "fontSize": "13px",
+                    "fontWeight": "500",
+                    "letterSpacing": "0.02em",
+                    "lineHeight": "18px"
+                  },
+                  "label-sm": {
+                    "fontFamily": "Noto Sans",
+                    "fontSize": "11px",
+                    "fontWeight": "600",
+                    "letterSpacing": "0.04em",
+                    "lineHeight": "16px"
+                  }
+                }
+              },
+              "title": "MyGovGuide — Notice Explainer",
+              "width": "2560"
+            }
+          ],
+          "theme": {}
+        }
+      },
+      {
+        "text": "I have designed the **Notice Explainer** screen (MyGovGuide — Notice Explainer) for **MyGovGuide**, following the established **Calm Civic Editorial** design system.\n\n### Key Highlights of the Design:\n- **Design System Fidelity**: Implements the warm paper background (`#F8F7F2`), deep forest ink (`#183C32`), primary civic green (`#256653`), calm sage accents (`#E8EFE6`), delicate hairline borders (`#DDE4DA`), and rounded 12px card geometry with 48px tactile interactive controls.\n- **Editorial Typography & Hierarchy**: Restrained Newsreader serif headers paired with bilingual Kannada (`ಕನ್ನಡ`) and English typography throughout the navigation, section labels, and guidance tooltips.\n- **Text-Paste Panel**: A generous, uncluttered text-paste interface with character counting, three representative official notification sample snippets (e.g., Scholarship Renewal Circular, Land Mutation Clause), and language selector controls (Kannada, English, Hindi).\n- **Phased Rollout & Transparency**: Strictly avoids fabricated AI interpretations. Clearly discloses that the automated summarization engine is in phased review (`ಮುಂದಿನ ಹಂತದಲ್ಲಿ ಲಭ್ಯ`) subject to civic verification standards.\n- **Citizen Privacy & Anti-Scam Advisory**: Features an explicit *Zero PII Ingestion* protocol advising citizens never to input Aadhaar, PAN, or account identifiers, with no document uploads requested.\n- **Contextual Procedural Guidance**: Includes a structured reference column explaining how gazette circulars are legally drafted, how to detect unofficial or circulating fake orders, and direct landline contact details for the official Janaspandana helpline."
+      },
+      {
+        "suggestion": "Create the mobile responsive version of the Notice Explainer screen"
+      },
+      {
+        "suggestion": "Design an interactive sample viewer showing how an authenticated gazette clause is broken down into plain language"
+      },
+      {
+        "suggestion": "Build the Official Gazette Archive search and index screen"
+      }
+    ],
+    "projectId": "16872371074444001614",
+    "sessionId": "713482339882222264"
+  }
+}

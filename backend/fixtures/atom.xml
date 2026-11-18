@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>SYNTHETIC Atom feed</title><id>urn:fixture:feed</id><updated>2026-01-01T00:00:00Z</updated><entry><title>SYNTHETIC Atom item</title><id>urn:fixture:item</id><link href="https://example.test/atom/item-1"/><updated>2026-01-01T00:00:00Z</updated><summary>Informational fixture only.</summary></entry></feed>

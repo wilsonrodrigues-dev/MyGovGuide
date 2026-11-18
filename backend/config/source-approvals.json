@@ -1,0 +1,50 @@
+[
+  {
+    "sourceId": "live-cbdt-press-rss",
+    "url": "https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/rss",
+    "host": "www.incometaxindia.gov.in",
+    "enabled": false,
+    "method": "rss",
+    "entityType": "Notice",
+    "approvedPaths": [
+      "/press-release-rss-feed/-/asset_publisher/bxhj/rss"
+    ],
+    "sourceTermsUrl": "https://www.incometaxindia.gov.in/copyright-policy",
+    "rightsBasis": "Official RSS subscription page expressly invites automatic updates in an RSS reader/news app. Copyright policy permits accurate attributed reproduction, excluding third-party copyrighted material. Only feed text metadata; no linked documents or images are fetched.",
+    "robotsUrl": "https://www.incometaxindia.gov.in/robots.txt",
+    "robotsObservedAt": "2026-11-18T08:32:10.985Z",
+    "robotsAllowed": true,
+    "rateLimit": {
+      "minIntervalMs": 30000,
+      "maxRequests": 2
+    },
+    "reviewedBy": "Codex source-policy assessment under owner instruction, 18 November 2026",
+    "approvalEvidence": "Verified official tax-feeds instructions, copyright-policy and current robots: the exact public press-release RSS path without query is not disallowed. wm host redirects to canonical www host; only canonical www endpoint is approved. No credentials needed. Evidence receipts: tax-policy-review.json, other-official-source-policy.json, tax-feed-inspection.json.",
+    "approvalExpiry": "2026-11-25T08:32:10.985Z",
+    "testPlan": "Two genuine worker collection runs; verify official asset IDs, publication dates, raw hashes, Notice-only classification and repeat idempotency. All records internal/review-pending; dated feed is not currentness approval."
+  },
+  {
+    "sourceId": "live-ndma-sachet-rss",
+    "url": "https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml",
+    "host": "sachet.ndma.gov.in",
+    "enabled": true,
+    "method": "rss",
+    "entityType": "Notice",
+    "approvedPaths": [
+      "/cap_public_website/rss/rss_india.xml"
+    ],
+    "sourceTermsUrl": "https://sachet.ndma.gov.in/WebsitePolicy",
+    "rightsBasis": "Official NDMA CapFeed page expressly invites applications/aggregators to consume RSS. C-DOT agency integration guide documents efficient feed consumption; official Vikaspedia National Disaster Alert Portal explains redistribution/broadcast by subscribed agencies. Scope: attributed unmodified RSS headline/summary/date/link, internal pending review; no website mirroring or CAP/image fetch.",
+    "robotsUrl": "https://sachet.ndma.gov.in/robots.txt",
+    "robotsObservedAt": "2026-11-18T08:35:51.133Z",
+    "robotsAllowed": true,
+    "rateLimit": {
+      "minIntervalMs": 30000,
+      "maxRequests": 2
+    },
+    "reviewedBy": "Codex source-policy assessment under owner instruction, 18 November 2026",
+    "approvalEvidence": "Official CapFeed subscription instructions + Integration_Guide_For_Agencies.pdf; WMO register confirms this NDMA endpoint; official Vikaspedia permits subscribed agencies to disseminate alerts. Robots HTTP404 (not a denial); RFC9309 2.3.1.3 permits access in absence of robots, but explicit RSS service is the authorization basis. No credentials; no CAP document traversal. Evidence: other-official-source-policy.json, sachet-feed-test.json.",
+    "approvalExpiry": "2026-11-25T08:35:51.133Z",
+    "testPlan": "Two genuine worker collection runs; verify official asset IDs, publication dates, raw hashes, Notice-only classification and repeat idempotency. All records internal/review-pending; dated feed is not currentness approval."
+  }
+]

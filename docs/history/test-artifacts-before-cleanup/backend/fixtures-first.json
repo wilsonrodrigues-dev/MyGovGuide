@@ -1,0 +1,44 @@
+{
+  "id": "run-c1eaa1e0-da3e-4f9b-b82d-f0551afd0e20",
+  "original": {},
+  "mode": "FIXTURES",
+  "startedAt": "2026-11-16T16:50:08.864Z",
+  "counters": {
+    "read": 4,
+    "created": 4,
+    "updated": 0,
+    "unchanged": 0,
+    "rejected": 0,
+    "pendingReview": 4,
+    "reviewItems": 4,
+    "changeEvents": 0,
+    "successful": 4,
+    "failed": 0,
+    "skipped": 0
+  },
+  "sources": [
+    {
+      "sourceId": "fixture-rss",
+      "status": "SUCCESS",
+      "records": 1
+    },
+    {
+      "sourceId": "fixture-api",
+      "status": "SUCCESS",
+      "records": 1
+    },
+    {
+      "sourceId": "fixture-html",
+      "status": "SUCCESS",
+      "records": 1
+    },
+    {
+      "sourceId": "fixture-pdf",
+      "status": "SUCCESS",
+      "records": 1
+    }
+  ],
+  "runErrors": [],
+  "finishedAt": "2026-11-16T16:50:09.096Z",
+  "outcome": "SUCCESS"
+}

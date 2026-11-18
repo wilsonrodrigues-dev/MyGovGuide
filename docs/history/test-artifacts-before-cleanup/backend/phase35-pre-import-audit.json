@@ -1,0 +1,853 @@
+{
+  "importRun": "import-8d5dc998-d6b4-4df4-948a-67e351da5b6e",
+  "importCounters": {
+    "read": 137,
+    "created": 82,
+    "updated": 4,
+    "unchanged": 39,
+    "rejected": 12,
+    "pendingReview": 125,
+    "reviewItems": 16,
+    "changeEvents": 4,
+    "successful": 0,
+    "failed": 0,
+    "skipped": 0
+  },
+  "changes": [
+    {
+      "id": "change-3f90b8a46bc6de3e31b1371e",
+      "entityType": "Scheme",
+      "entityId": "KA-WO-01",
+      "fields": [
+        "sourceIds"
+      ],
+      "old": {
+        "title": "Gruha Lakshmi",
+        "department": "Government of Karnataka / Women and Child Development",
+        "state": "Karnataka",
+        "governmentLevel": "STATE",
+        "beneficiaryCategories": [
+          "Woman"
+        ],
+        "programmeType": "state_cash_support",
+        "description": "Current ration-card head status and exclusion conditions need governing order and active portal confirmation.",
+        "benefits": "State support for eligible women heads of families.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "observedWindow": null,
+          "url": null
+        },
+        "sourceUrl": "https://sevasindhu.karnataka.gov.in/",
+        "sourceEdition": "Current official webpage consulted; amendments may apply",
+        "supportingOfficialUrls": [
+          "https://fpibengaluru.karnataka.gov.in/"
+        ],
+        "observedPublicationDate": null,
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "documentReferences": [],
+        "languages": [],
+        "eligibilityConditions": "Current ration-card head status and exclusion conditions need governing order and active portal confirmation.",
+        "observedFacts": {},
+        "sourceIds": [
+          "reference-c8926064836c33f8a4c8622b"
+        ],
+        "originalText": "Current ration-card head status and exclusion conditions need governing order and active portal confirmation.",
+        "historicalAliases": []
+      },
+      "next": {
+        "title": "Gruha Lakshmi",
+        "department": "Government of Karnataka / Women and Child Development",
+        "state": "Karnataka",
+        "governmentLevel": "STATE",
+        "beneficiaryCategories": [
+          "Woman"
+        ],
+        "programmeType": "state_cash_support",
+        "description": "Current ration-card head status and exclusion conditions need governing order and active portal confirmation.",
+        "benefits": "State support for eligible women heads of families.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "observedWindow": null,
+          "url": null
+        },
+        "sourceUrl": "https://sevasindhu.karnataka.gov.in/",
+        "sourceEdition": "Current official webpage consulted; amendments may apply",
+        "supportingOfficialUrls": [
+          "https://fpibengaluru.karnataka.gov.in/"
+        ],
+        "observedPublicationDate": null,
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "documentReferences": [],
+        "languages": [],
+        "eligibilityConditions": "Current ration-card head status and exclusion conditions need governing order and active portal confirmation.",
+        "observedFacts": {},
+        "sourceIds": [
+          "K02"
+        ],
+        "originalText": "Current ration-card head status and exclusion conditions need governing order and active portal confirmation.",
+        "historicalAliases": []
+      },
+      "createdAt": "2026-11-17T14:26:45.490Z"
+    },
+    {
+      "id": "change-f12bd33ee633aba3b1e52623",
+      "entityType": "Scheme",
+      "entityId": "KA-WO-02",
+      "fields": [
+        "sourceIds"
+      ],
+      "old": {
+        "title": "Shakti Scheme (Karnataka)",
+        "department": "Government of Karnataka / Transport",
+        "state": "Karnataka",
+        "governmentLevel": "STATE",
+        "beneficiaryCategories": [
+          "Woman"
+        ],
+        "programmeType": "public_service",
+        "description": "Resident, identity, eligible route/service and exclusions must be verified from transport authority.",
+        "benefits": "Eligible women and specified beneficiaries can use designated state bus services.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "observedWindow": null,
+          "url": null
+        },
+        "sourceUrl": "https://sevasindhu.karnataka.gov.in/",
+        "sourceEdition": "Current official webpage consulted; amendments may apply",
+        "supportingOfficialUrls": [
+          "https://fpibengaluru.karnataka.gov.in/"
+        ],
+        "observedPublicationDate": null,
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "documentReferences": [],
+        "languages": [],
+        "eligibilityConditions": "Resident, identity, eligible route/service and exclusions must be verified from transport authority.",
+        "observedFacts": {},
+        "sourceIds": [
+          "reference-c8926064836c33f8a4c8622b"
+        ],
+        "originalText": "Resident, identity, eligible route/service and exclusions must be verified from transport authority.",
+        "historicalAliases": []
+      },
+      "next": {
+        "title": "Shakti Scheme (Karnataka)",
+        "department": "Government of Karnataka / Transport",
+        "state": "Karnataka",
+        "governmentLevel": "STATE",
+        "beneficiaryCategories": [
+          "Woman"
+        ],
+        "programmeType": "public_service",
+        "description": "Resident, identity, eligible route/service and exclusions must be verified from transport authority.",
+        "benefits": "Eligible women and specified beneficiaries can use designated state bus services.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "observedWindow": null,
+          "url": null
+        },
+        "sourceUrl": "https://sevasindhu.karnataka.gov.in/",
+        "sourceEdition": "Current official webpage consulted; amendments may apply",
+        "supportingOfficialUrls": [
+          "https://fpibengaluru.karnataka.gov.in/"
+        ],
+        "observedPublicationDate": null,
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "documentReferences": [],
+        "languages": [],
+        "eligibilityConditions": "Resident, identity, eligible route/service and exclusions must be verified from transport authority.",
+        "observedFacts": {},
+        "sourceIds": [
+          "K02"
+        ],
+        "originalText": "Resident, identity, eligible route/service and exclusions must be verified from transport authority.",
+        "historicalAliases": []
+      },
+      "createdAt": "2026-11-17T14:26:45.594Z"
+    },
+    {
+      "id": "change-b0b9f73c95fd677bf6c0058f",
+      "entityType": "Scheme",
+      "entityId": "KA-GN-01",
+      "fields": [
+        "sourceIds"
+      ],
+      "old": {
+        "title": "Gruha Jyothi",
+        "department": "Government of Karnataka / Energy",
+        "state": "Karnataka",
+        "governmentLevel": "STATE",
+        "beneficiaryCategories": [
+          "General"
+        ],
+        "programmeType": "utility_benefit",
+        "description": "Consumer account, residential connection and consumption calculations require exact current energy department order.",
+        "benefits": "Karnataka household electricity-support programme.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "observedWindow": null,
+          "url": null
+        },
+        "sourceUrl": "https://sevasindhu.karnataka.gov.in/",
+        "sourceEdition": "Current official webpage consulted; amendments may apply",
+        "supportingOfficialUrls": [],
+        "observedPublicationDate": null,
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "documentReferences": [],
+        "languages": [],
+        "eligibilityConditions": "Consumer account, residential connection and consumption calculations require exact current energy department order.",
+        "observedFacts": {},
+        "sourceIds": [
+          "reference-c8926064836c33f8a4c8622b"
+        ],
+        "originalText": "Consumer account, residential connection and consumption calculations require exact current energy department order.",
+        "historicalAliases": []
+      },
+      "next": {
+        "title": "Gruha Jyothi",
+        "department": "Government of Karnataka / Energy",
+        "state": "Karnataka",
+        "governmentLevel": "STATE",
+        "beneficiaryCategories": [
+          "General"
+        ],
+        "programmeType": "utility_benefit",
+        "description": "Consumer account, residential connection and consumption calculations require exact current energy department order.",
+        "benefits": "Karnataka household electricity-support programme.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "observedWindow": null,
+          "url": null
+        },
+        "sourceUrl": "https://sevasindhu.karnataka.gov.in/",
+        "sourceEdition": "Current official webpage consulted; amendments may apply",
+        "supportingOfficialUrls": [],
+        "observedPublicationDate": null,
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "documentReferences": [],
+        "languages": [],
+        "eligibilityConditions": "Consumer account, residential connection and consumption calculations require exact current energy department order.",
+        "observedFacts": {},
+        "sourceIds": [
+          "K02"
+        ],
+        "originalText": "Consumer account, residential connection and consumption calculations require exact current energy department order.",
+        "historicalAliases": []
+      },
+      "createdAt": "2026-11-17T14:26:45.685Z"
+    },
+    {
+      "id": "change-c30c458bfa1db7c78689ee0a",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-14",
+      "fields": [
+        "sourceIds"
+      ],
+      "old": {
+        "title": "Karnataka Seva Sindhu service/application directory",
+        "department": "",
+        "state": "UNKNOWN",
+        "governmentLevel": "UNKNOWN",
+        "beneficiaryCategories": [],
+        "programmeType": "UNKNOWN",
+        "description": "Source for service discovery only; do not assume each named programme has an active online public form.",
+        "benefits": null,
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "observedWindow": null,
+          "url": null
+        },
+        "sourceUrl": "https://sevasindhu.karnataka.gov.in/",
+        "sourceEdition": null,
+        "supportingOfficialUrls": [],
+        "observedPublicationDate": null,
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "documentReferences": [],
+        "languages": [],
+        "eligibilityConditions": null,
+        "observedFacts": {},
+        "sourceIds": [
+          "reference-c8926064836c33f8a4c8622b"
+        ],
+        "formKind": "INSTRUCTIONS_ONLY",
+        "observedFields": [],
+        "linkedSchemeIds": [
+          "KA-WO-01",
+          "KA-WO-02",
+          "KA-ST-01",
+          "KA-GN-01"
+        ],
+        "officialLinks": [
+          "https://sevasindhu.karnataka.gov.in/"
+        ]
+      },
+      "next": {
+        "title": "Karnataka Seva Sindhu service/application directory",
+        "department": "",
+        "state": "UNKNOWN",
+        "governmentLevel": "UNKNOWN",
+        "beneficiaryCategories": [],
+        "programmeType": "UNKNOWN",
+        "description": "Source for service discovery only; do not assume each named programme has an active online public form.",
+        "benefits": null,
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "observedWindow": null,
+          "url": null
+        },
+        "sourceUrl": "https://sevasindhu.karnataka.gov.in/",
+        "sourceEdition": null,
+        "supportingOfficialUrls": [],
+        "observedPublicationDate": null,
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "documentReferences": [],
+        "languages": [],
+        "eligibilityConditions": null,
+        "observedFacts": {},
+        "sourceIds": [
+          "K02"
+        ],
+        "formKind": "INSTRUCTIONS_ONLY",
+        "observedFields": [],
+        "linkedSchemeIds": [
+          "KA-WO-01",
+          "KA-WO-02",
+          "KA-ST-01",
+          "KA-GN-01"
+        ],
+        "officialLinks": [
+          "https://sevasindhu.karnataka.gov.in/"
+        ]
+      },
+      "createdAt": "2026-11-17T14:26:46.839Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-f930b1d8100a060f40ce4fcb",
+      "entityType": "Scheme",
+      "entityId": "IN-ST-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-3b1e9e7020f9ed47d6217a98"
+    },
+    {
+      "id": "review-f146fd0d50e0afba8fce26c8",
+      "entityType": "Scheme",
+      "entityId": "IN-ST-02",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-4bc1565f94c38974321f55f8"
+    },
+    {
+      "id": "review-5fc1a41cb930142cc695c531",
+      "entityType": "Scheme",
+      "entityId": "IN-ST-03",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-190c8e9789bb78953d64d126"
+    },
+    {
+      "id": "review-ded40116126a79e45ee24839",
+      "entityType": "Scheme",
+      "entityId": "IN-ST-04",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-b22998f36a9929d5cfa8c43c"
+    },
+    {
+      "id": "review-7818bc41bffb74bd0d15a256",
+      "entityType": "Scheme",
+      "entityId": "IN-ST-05",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-685e7a8e129d7f4fbbce09c4"
+    },
+    {
+      "id": "review-3c2f1289de561a9f47dea59e",
+      "entityType": "Scheme",
+      "entityId": "IN-FA-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-a17e165fc304dafb5f57e5b6"
+    },
+    {
+      "id": "review-1451a9380acfa9b833bffd35",
+      "entityType": "Scheme",
+      "entityId": "IN-FA-02",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-131b708f2c627a1877d87d24"
+    },
+    {
+      "id": "review-1e22efedb4b6c242385477cd",
+      "entityType": "Scheme",
+      "entityId": "IN-FA-03",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-cac467a95895a17dc231ee26"
+    },
+    {
+      "id": "review-14b2e5d349ba3b8edd382eca",
+      "entityType": "Scheme",
+      "entityId": "IN-FA-04",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-bbff1a6b7bc8169eb52b4bb5"
+    },
+    {
+      "id": "review-ca566f680d36c40d76e4e809",
+      "entityType": "Scheme",
+      "entityId": "IN-FA-05",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-9662542032e98d9bba46fdfa"
+    },
+    {
+      "id": "review-7a9947b983c3da4c02dd1772",
+      "entityType": "Scheme",
+      "entityId": "IN-WO-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-79af59f07c2d1eb96f81cc92"
+    },
+    {
+      "id": "review-810d538114b1dbeab87bb7e3",
+      "entityType": "Scheme",
+      "entityId": "IN-WO-02",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-fa7318dab5987e17f0e8423b"
+    },
+    {
+      "id": "review-63bee128716563cadf503584",
+      "entityType": "Scheme",
+      "entityId": "IN-WO-03",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-9ea195d189dcc89d977e814c"
+    },
+    {
+      "id": "review-e5e3648a9448d074d92cf27d",
+      "entityType": "Scheme",
+      "entityId": "IN-WO-04",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-b39badd8bc3446285623ad06"
+    },
+    {
+      "id": "review-1f066a3e04f20233bc19e7fc",
+      "entityType": "Scheme",
+      "entityId": "IN-WK-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-93f179f9d5fe507233ee3f1b"
+    },
+    {
+      "id": "review-cb1180710012cd85d3eacd62",
+      "entityType": "Scheme",
+      "entityId": "IN-WK-02",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-1767dcb7a5483e141cffef22"
+    },
+    {
+      "id": "review-859647a2e27fb12f0e2135a8",
+      "entityType": "Scheme",
+      "entityId": "IN-WK-03",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-23313cfe3edefdeccaa13719"
+    },
+    {
+      "id": "review-ee15ac5765a87c2ab6498306",
+      "entityType": "Scheme",
+      "entityId": "IN-SR-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-4cd872812cba1560240e197c"
+    },
+    {
+      "id": "review-9bb809d60331a689e1559447",
+      "entityType": "Scheme",
+      "entityId": "IN-SR-02",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-ff4dd15cd3c31204b5abc53a"
+    },
+    {
+      "id": "review-0ca8c5964b2059adbe92e57b",
+      "entityType": "Scheme",
+      "entityId": "IN-SR-03",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-cefba32bf0985c3e564bfe38"
+    },
+    {
+      "id": "review-e4b67ed35d48f1dc2293288a",
+      "entityType": "Scheme",
+      "entityId": "KA-WO-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-3853cf88d20c3982af2358a5"
+    },
+    {
+      "id": "review-607d8295b87ade6f938363ee",
+      "entityType": "Scheme",
+      "entityId": "KA-WO-02",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-fc4b1f2247c5d60a09556ac8"
+    },
+    {
+      "id": "review-4e7c419208f25fae59cd1496",
+      "entityType": "Scheme",
+      "entityId": "KA-ST-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-358115f7a1dfafedd069bde6"
+    },
+    {
+      "id": "review-9ae28cd78399ce6ab4389749",
+      "entityType": "Scheme",
+      "entityId": "KA-GN-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-255e51b855226ef36caf73ac"
+    },
+    {
+      "id": "review-4efb3cc34ffecd5dd14ef75c",
+      "entityType": "Scheme",
+      "entityId": "KA-GN-02",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-05283f23374b8ef299913abf"
+    },
+    {
+      "id": "review-c0933cd82360335b737f7073",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-65a21e095911e42b557e9054"
+    },
+    {
+      "id": "review-18bfe5c0af5087cb750c70e1",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-02",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-5a540ca96a8a33a787aa6b71"
+    },
+    {
+      "id": "review-47c33b50e42bd33694838059",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-03",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-c7eeae105e1a59943c372ae6"
+    },
+    {
+      "id": "review-5d9827e01bdd725d93b77020",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-04",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-ce8f4f127ebd1fda59263853"
+    },
+    {
+      "id": "review-574872b61ffcc2de6cd1c235",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-05",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-78d0c0c98218ff97db5449f0"
+    },
+    {
+      "id": "review-c38138d086a845227b54de03",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-06",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-1ef0e8a4fd6460e38b839bb8"
+    },
+    {
+      "id": "review-7ef5524c13f33408d5612131",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-07",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-7de967925d3de4d42038389e"
+    },
+    {
+      "id": "review-a3adf0d68002adc37b3dce43",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-08",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-4a467a45e7a535cb2555248d"
+    },
+    {
+      "id": "review-4a331b7608c400fb441a02d2",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-09",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-df3e99a85cbc502e45ab4afc"
+    },
+    {
+      "id": "review-589236527a1ff555eee2ff0a",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-10",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-c49454aeaf4aa38834680d85"
+    },
+    {
+      "id": "review-1109dddabb1de650610abb05",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-11",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-c361755843c61e17178e66ab"
+    },
+    {
+      "id": "review-584c219fd32faa7fc6f17298",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-12",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-a562d20f52089a0943451f10"
+    },
+    {
+      "id": "review-a8d633c334363ba36e4461f1",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-13",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-5e4939ec08bbc100c1236161"
+    },
+    {
+      "id": "review-410f1d019683f1c6ba81828c",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-14",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-c53d6258e900eab735e898c3"
+    },
+    {
+      "id": "review-885fd2659be92155121f84ca",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-15",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-a00674c0c6ca3b6831570475"
+    },
+    {
+      "id": "review-f3fa3a064680c063dabba518",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-16",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-f063b837ba5b81390631bf98"
+    },
+    {
+      "id": "review-e0c5a5d3fac607c0e5a21277",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-17",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-3bab2f80c09739cafcfbdccd"
+    },
+    {
+      "id": "review-d95af1ab3624a6eaec13bdcd",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-18",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-afd41196a905c1698f6749f2"
+    },
+    {
+      "id": "review-8d859ba86fa1a29d2bfb0612",
+      "entityType": "Notice",
+      "entityId": "collected-506f167ab1019a3490a50896",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-77baaf23bf7203f760185051"
+    },
+    {
+      "id": "review-85df6044d756bbd0cff6bd8e",
+      "entityType": "Notice",
+      "entityId": "fixture-api-notice",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-82e4fa17562aee7efbfb1650"
+    },
+    {
+      "id": "review-a89e980f765552c874c0f937",
+      "entityType": "Notice",
+      "entityId": "collected-021277c6b557339d3d242c2b",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-afb3125649693cce533ab7d1"
+    },
+    {
+      "id": "review-43b9edf59732528b89dc7ba5",
+      "entityType": "Notice",
+      "entityId": "collected-ef8881908ae8a880c1b9b6bd",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-a7d34654a65ec591f838b169"
+    },
+    {
+      "id": "review-f64386073dc0b28d3dbbda39",
+      "entityType": "Scheme",
+      "entityId": "KA-WO-01",
+      "reason": "SOURCE_CONTENT_CHANGED",
+      "versionId": "version-354242d8702972f50be1e594"
+    },
+    {
+      "id": "review-7cce7473038e5b7c923922a2",
+      "entityType": "Scheme",
+      "entityId": "KA-WO-02",
+      "reason": "SOURCE_CONTENT_CHANGED",
+      "versionId": "version-19b4462fe048469cece57167"
+    },
+    {
+      "id": "review-b35e6999118d90b959e450b3",
+      "entityType": "Scheme",
+      "entityId": "KA-GN-01",
+      "reason": "SOURCE_CONTENT_CHANGED",
+      "versionId": "version-f077fcb01d8a9f228b90b8ed"
+    },
+    {
+      "id": "review-01afd8670a053fd1c19b72ff",
+      "entityType": "FormTemplate",
+      "entityId": "FORM-14",
+      "reason": "SOURCE_CONTENT_CHANGED",
+      "versionId": "version-45335d5eda02dcb6f2a509a9"
+    },
+    {
+      "id": "review-79200c1ec44c6b28f9ba12e7",
+      "entityType": "Notice",
+      "entityId": "N-01",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-29225808a9d3d88f562ed196"
+    },
+    {
+      "id": "review-5d80cf0a82bd347125c03580",
+      "entityType": "Notice",
+      "entityId": "N-02",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-17bf438082feda5b02009887"
+    },
+    {
+      "id": "review-53e4deded88d4b7b6b7c2bc1",
+      "entityType": "Notice",
+      "entityId": "N-03",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-e095cf1194d5b8ba660b9440"
+    },
+    {
+      "id": "review-e64a65d2f8a555fe5ab2e21f",
+      "entityType": "Notice",
+      "entityId": "N-04",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-acde117853c0d6930fff8f0d"
+    },
+    {
+      "id": "review-9b12b23a61c3b8d6adab7255",
+      "entityType": "Notice",
+      "entityId": "N-05",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-5d0b0177dd2afed9f91414da"
+    },
+    {
+      "id": "review-d5a018b00815a3a7cec533da",
+      "entityType": "Notice",
+      "entityId": "N-06",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-24b1eed390522b35960bae07"
+    },
+    {
+      "id": "review-f1bd08513065f041a0dcfc36",
+      "entityType": "Notice",
+      "entityId": "N-07",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-6a6f0ab53f6e6ac92511be3f"
+    },
+    {
+      "id": "review-0942b09aa720b6b5b1979be5",
+      "entityType": "Notice",
+      "entityId": "N-08",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-192753e22c38e4814720c779"
+    },
+    {
+      "id": "review-bc22c90d19650eeaaee730d1",
+      "entityType": "Notice",
+      "entityId": "N-09",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-66ae8e666f5bc6a20771e7de"
+    },
+    {
+      "id": "review-30df5a386d4448decf683812",
+      "entityType": "Notice",
+      "entityId": "N-10",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-88e3052a11b5e3b62cfb87f5"
+    },
+    {
+      "id": "review-81110eea57a81756eda2e0aa",
+      "entityType": "Notice",
+      "entityId": "N-11",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-b2aab690eb9be9e352b7a18c"
+    },
+    {
+      "id": "review-ee1e50031d6ba9c06ecf32c5",
+      "entityType": "Notice",
+      "entityId": "N-12",
+      "reason": "INITIAL_RESEARCH_REVIEW",
+      "versionId": "version-b94758dfef45545ecf009568"
+    }
+  ],
+  "rejections": [
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-01",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-02",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-03",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-04",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-05",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-06",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-07",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-08",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-09",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-10",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-11",
+      "reason": "Record validation, reference or database write failed"
+    },
+    {
+      "filename": "NOTICES_AND_ALERTS.json",
+      "id": "A-12",
+      "reason": "Record validation, reference or database write failed"
+    }
+  ]
+}
