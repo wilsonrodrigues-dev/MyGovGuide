@@ -4,11 +4,16 @@ node_modules/
 .env
 .env.*
 !.env.example
-backend/reports/*.log
 coverage/
 .DS_Store
+*.log
+*.tmp
+*.bak
 
-
+backend/reports/*
+!backend/reports/.gitkeep
+frontend/reports/*
+!frontend/reports/.gitkeep
 frontend/dist/
 frontend/test-results/
 frontend/playwright-report/

@@ -1,18 +1,18 @@
 import mongoose from 'mongoose';
 const { Schema } = mongoose, mixed = Schema.Types.Mixed;
 function define(name, fields, indexes = []) {
-  const schema = new Schema({ _id: String, ...fields }, { timestamps: true, strict: 'throw', autoIndex: false, autoCreate: false, minimize: false });
+  const schema = new Schema({ _id: String, automatedValidation:mixed, ...fields }, { timestamps: true, strict: 'throw', autoIndex: false, autoCreate: false, minimize: false });
   for (const [keys, options] of indexes) schema.index(keys, options);
   return mongoose.models[name] || mongoose.model(name, schema);
 }
-export const ContentApproval = define('ContentApproval', { schemeId: String, sourceVersionId: String, sourceHash: String, factsHash: String, facts: mixed,
+export const ContentApproval = define('ContentApproval', { entityType:String,entityId:String,schemeId: String, sourceVersionId: String, sourceHash: String, factsHash: String, facts: mixed,
   excerpt: String, clauseRefs: [String], evidenceUrl: String, rightsBasis: String, evidence: String, reviewer: String, verifiedAt: Date, validUntil: Date,
   dataClass: { type: String, enum: ['CURATED_PUBLIC', 'LIVE', 'SYNTHETIC'] }, sourceIds: [String] });
-export const AIJob = define('AIJob', { schemeId: String, approvalId: String, sourceVersionId: String, sourceHash: String, language: String,
+export const AIJob = define('AIJob', { entityType:String,entityId:String,schemeId: String, approvalId: String, sourceVersionId: String, sourceHash: String, language: String,
   task: String, promptVersion: String, provider: String, model: String, dedupeKey: String, state: String, attempts: { type: Number, default: 0 },
   leaseToken: { type: String, select: false }, leaseUntil: Date, nextRetry: Date, errorCode: String, error: String, artifactId: String, finishedAt: Date,
   requestedBy: String, dataClass: String, usage: mixed, providerAttempts: [mixed], costBoundUsd: Number, actualProvider: String, actualModel: String }, [[{ dedupeKey: 1 }, { unique: true }], [{ state: 1, nextRetry: 1, createdAt: 1 }, {}]]);
-export const AIArtifact = define('AIArtifact', { schemeId: String, jobId: String, approvalId: String, sourceVersionId: String, sourceHash: String,
+export const AIArtifact = define('AIArtifact', { entityType:String,entityId:String,schemeId: String, jobId: String, approvalId: String, sourceVersionId: String, sourceHash: String,
   language: String, task: String, promptVersion: String, provider: String, model: String, dataClass: String,
   output: mixed, validation: mixed, usage: mixed, attempts: [mixed], costUsd: Number, state: String, stale: { type: Boolean, default: false },
   revision: { type: Number, default: 1 }, editor: String, reviewEvidence: String, reviewedAt: Date, previousArtifactId: String }, [[{ schemeId: 1, sourceVersionId: 1, language: 1, state: 1 }, {}]]);

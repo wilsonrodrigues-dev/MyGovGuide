@@ -35,7 +35,10 @@
     "db:inspect": "npm run db:inspect -w backend",
     "ai:check": "npm run ai:check -w backend",
     "ai:validate": "npm run ai:validate -w backend",
-    "db:migrate:content": "npm run db:migrate:content -w backend"
+    "db:migrate:content": "npm run db:migrate:content -w backend",
+    "db:migrate:identities": "npm run db:migrate:identities -w backend",
+    "reviews:prepare": "npm run reviews:prepare -w backend",
+    "reviews:triage": "npm run reviews:triage -w backend"
   },
   "engines": {
     "node": ">=24.0.0 <25"

@@ -30,7 +30,7 @@ test('review → EN/HI/KN preparation → editor → indexed search vertical sli
   const result=await collect(store,[source],{offline:true,fixtureRoot:dir});assert.equal(result.counters.created,1);assert.equal(result.counters.failed,0);
   const scheme=await store.get('Scheme',fixtureScheme.id);versionId=scheme.currentVersionId;original=await store.get('SourceVersion',versionId);
   assert.equal(scheme.status,'RESEARCH_ONLY');await assert.rejects(enqueueAI(scheme.id,['en'],'test'));
-  for(const url of ['/metrics','/providers','/schemes','/jobs','/artifacts'])assert.equal((await api(prefix+url,'GET',null,true)).status,401);
+  for(const url of ['/metrics','/providers','/schemes','/jobs','/artifacts','/editorial-review'])assert.equal((await api(prefix+url,'GET',null,true)).status,401);
   const login=await api('/api/admin/auth/login','POST',{username:'editor@example.test',password},true);assert.equal(login.status,200);cookie=login.headers.get('set-cookie').split(';')[0];
   await ingest(store,'Notice',{id:'collected-legacy-fixture',title:'Legacy offline fixture',sourceIds:[source.sourceId],sourceUrl:fixtureScheme.sourceUrl,original:{legacyOfflineTest:true},normalized:{description:'Legacy fixture predates explicit provenance flags.'}});
   const origins=(await(await api(prefix+'/metrics')).json()).recordOrigins;
@@ -49,11 +49,27 @@ test('review → EN/HI/KN preparation → editor → indexed search vertical sli
   const parallel=await Promise.all([runAIOnce({router:mockRouter(),config:mockConfig}),runAIOnce({router:mockRouter(),config:mockConfig}),runAIOnce({router:mockRouter(),config:mockConfig})]);
   while(await AIJob.exists({state:'QUEUED'}))await runAIOnce({router:mockRouter(),config:mockConfig});
   const artifacts=await AIArtifact.find().lean();assert.equal(artifacts.length,3);assert.deepEqual(new Set(artifacts.map(a=>a.language)),new Set(['en','hi','kn']));assert.ok(artifacts.every(a=>a.state==='REVIEW_PENDING'&&a.validation.ok&&a.provider==='MOCK_OFFLINE'));
+  const batch=await api(`${prefix}/preparation-batches`,'POST',{schemeIds:[fixtureScheme.id,fixtureScheme.id],languages:['en','hi','kn']});assert.equal(batch.status,202);assert.equal((await batch.json()).items.length,1);assert.equal(await AIJob.countDocuments(),3,'Batch preparation reuses current jobs');
+  assert.equal((await api(`${prefix}/preparation-batches`,'POST',{schemeIds:Array.from({length:6},(_,i)=>'unapproved-'+i),languages:['en']})).status,400);
+  const blockedBatch=await api(`${prefix}/preparation-batches`,'POST',{schemeIds:['unapproved-missing'],languages:['en']});assert.equal(blockedBatch.status,409);assert.equal((await blockedBatch.json()).publicationActions,0);
   assert.equal(await SchemeSearchDocument.countDocuments({published:true}),0,'Generation and storage never publish content');
   assert.equal((await store.get('Scheme',fixtureScheme.id)).publicationStatus,'INTERNAL');
   assert.deepEqual((await store.get('SourceVersion',versionId)).original,original.original);assert.equal((await store.get('SourceVersion',versionId)).contentHash,original.contentHash);
   assert.equal((await (await api('/api/content/search?q=scholarship','GET',null,true)).json()).items.length,0);
   artifactIds=artifacts.map(a=>a._id);
+ });
+ await t.test('one consolidated review classifies current revisions and rejects missing attestation, stale snapshots and blocked evidence without decisions',async()=>{
+  const before=await AIArtifact.countDocuments({state:'APPROVED'}),result=await(await api(prefix+'/editorial-review')).json();assert.equal(result.total,1);const row=result.items[0];assert.equal(row.readiness,'READY_FOR_EDITORIAL_REVIEW');assert.equal(row.publicationReady,false);assert.equal(row.languages.length,3);assert.ok(row.languages.every(a=>a.validation.ok&&a.sha256&&a.output.keywords.length));assert.equal(result.publicationActions,0);
+  const decision={action:'APPROVE_AND_PUBLISH',selections:[{schemeId:row.schemeId,snapshot:row.snapshot}],evidence:'Synthetic consolidated review decision in isolated database only.',personallyReviewed:true};
+  assert.equal((await api(prefix+'/editorial-review/decisions','POST',{...decision,personallyReviewed:false})).status,400);
+  assert.equal((await api(prefix+'/editorial-review/decisions','POST',{...decision,selections:[{schemeId:row.schemeId,snapshot:'0'.repeat(64)}]})).status,409);
+  const currentFacts=structuredClone(approval.facts);await ContentApproval.updateOne({_id:approval._id},{$set:{'facts.observedFacts.publicationBlocked':true}});
+  const blocked=(await(await api(prefix+'/editorial-review')).json()).items[0];assert.equal(blocked.readiness,'BLOCKED_CURRENT_EVIDENCE');assert.equal(blocked.readyForEditorialReview,false);assert.equal((await api(prefix+'/editorial-review/decisions','POST',decision)).status,409);
+  await ContentApproval.updateOne({_id:approval._id},{$set:{facts:currentFacts}});
+  const originalArtifact=await AIArtifact.findById(artifactIds[0]).lean(),bad=structuredClone(originalArtifact.output);bad.benefits=['INR 999999'];await AIArtifact.updateOne({_id:originalArtifact._id},{$set:{output:bad}});
+  const invalid=(await(await api(prefix+'/editorial-review')).json()).items[0];assert.equal(invalid.readiness,'CORRECTIONS_REQUIRED');assert.equal(invalid.readyForEditorialReview,false);
+  await AIArtifact.updateOne({_id:originalArtifact._id},{$set:{output:{language:originalArtifact.language,title:'Malformed isolated test output'}}});const malformed=(await(await api(prefix+'/editorial-review')).json()).items[0];assert.equal(malformed.readiness,'CORRECTIONS_REQUIRED');assert.equal(malformed.languages.find(a=>a.artifactId===originalArtifact._id).output,null,'Malformed structured output is retained as raw evidence, not rendered as a valid explanation');await AIArtifact.updateOne({_id:originalArtifact._id},{$set:{output:originalArtifact.output}});
+  assert.equal(await AIArtifact.countDocuments({state:'APPROVED'}),before);assert.equal(await SchemeSearchDocument.countDocuments({published:true}),0);
  });
  await t.test('publication requires separate artifact review; edits retain history; rejection is audited',async()=>{
   assert.equal((await api(`${prefix}/schemes/${fixtureScheme.id}/publication`,'POST',{artifactIds,evidence:'Synthetic publish test evidence before editor approval.'})).status,409);
@@ -64,6 +80,9 @@ test('review → EN/HI/KN preparation → editor → indexed search vertical sli
   for(const id of artifactIds)assert.equal((await api(`${prefix}/artifacts/${id}/review`,'POST',{action:'APPROVE',evidence:'Synthetic editor reviewed language, keywords and exact source facts.'})).status,200);
   const approvedArtifacts=await AIArtifact.find({_id:{$in:artifactIds}}).lean();
   const englishId=approvedArtifacts.find(a=>a.language==='en')._id,hindiId=approvedArtifacts.find(a=>a.language==='hi')._id;
+  const factSnapshot=await ContentApproval.findById(approval._id).lean();await ContentApproval.updateOne({_id:approval._id},{$set:{'facts.observedFacts.publicationBlocked':true}});
+  const blockedPublication=await api(`${prefix}/schemes/${fixtureScheme.id}/publication`,'POST',{artifactIds:[englishId],evidence:'Historical-only fact packet must never publish.'});assert.equal(blockedPublication.status,409);assert.match((await blockedPublication.json()).error.message,/refreshed current official evidence/);
+  await ContentApproval.updateOne({_id:approval._id},{$set:{facts:factSnapshot.facts}});
   assert.equal((await api(`${prefix}/schemes/${fixtureScheme.id}/publication`,'POST',{artifactIds:[hindiId],evidence:'A translation alone must not bypass the reviewed English baseline.'})).status,409);
   assert.equal((await api(`${prefix}/schemes/${fixtureScheme.id}/publication`,'POST',{artifactIds:[englishId],evidence:'Synthetic reviewed English is available while translations remain unselected.'})).status,200);
   assert.equal(await SchemeSearchDocument.countDocuments({published:true}),1);
@@ -72,7 +91,8 @@ test('review → EN/HI/KN preparation → editor → indexed search vertical sli
   assert.ok(await AdminAudit.countDocuments({action:'AI_ARTIFACT_REJECTED'}));
  });
  await t.test('AI failure preserves the previous publication and retry recovers an expired lease',async()=>{
-  const [job]=await enqueueAI(fixtureScheme.id,['en'],'test-editor',{config:{GEMINI_MODEL:'mock-failure-model'}});
+  const before=await AIJob.countDocuments(),cached=await enqueueAI(fixtureScheme.id,['en'],'test-editor',{config:{GEMINI_MODEL:'different-model-must-not-regenerate-valid-output'}});assert.equal(cached[0].cached,true);assert.equal(await AIJob.countDocuments(),before);
+  const [job]=await enqueueAI(fixtureScheme.id,['en'],'test-editor',{config:{GEMINI_MODEL:'mock-failure-model'},regenerate:true});
   const failed=await runAIOnce({router:{generate:async()=>{throw Object.assign(new Error('mock unavailable'),{code:'PROVIDER_TEMPORARY'});}}});
   assert.equal(failed.state,'DEFERRED');assert.equal((await store.get('Scheme',fixtureScheme.id)).publicationStatus,'PUBLISHED');assert.equal(await SchemeSearchDocument.countDocuments({published:true}),3);
   await AIJob.updateOne({_id:job._id},{$set:{state:'RUNNING',leaseUntil:new Date(0),leaseToken:'dead-worker',attempts:1}});
@@ -91,7 +111,7 @@ test('review → EN/HI/KN preparation → editor → indexed search vertical sli
  await t.test('source change withdraws derived/search data and stale artifact approval cannot restore it',async()=>{
   const current=await store.get('Scheme',fixtureScheme.id);
   const update={id:current.id,title:current.title,sourceIds:current.sourceIds,sourceUrl:current.sourceUrl,original:{...current.original,update:'SYNTHETIC new source edition'},normalized:{...original.normalized,benefits:'INR 7000 per year'}};
-  await enqueueAI(current.id,['en'],'test-editor',{config:{GEMINI_MODEL:'mock-inflight-change-model'}});
+  await enqueueAI(current.id,['en'],'test-editor',{config:{GEMINI_MODEL:'mock-inflight-change-model'},regenerate:true});
   const artifactsBefore=await AIArtifact.countDocuments();
   const inFlight=await runAIOnce({router:{generate:async(snapshot,language)=>{await ingest(store,'Scheme',update,{state:'Karnataka',beneficiaryCategories:['Student']});return mockRouter().generate(snapshot,language);}}});
   assert.equal(inFlight.state,'FAILED');assert.equal(await AIArtifact.countDocuments(),artifactsBefore,'Obsolete response cannot commit after source change');
@@ -99,6 +119,20 @@ test('review → EN/HI/KN preparation → editor → indexed search vertical sli
   assert.equal((await store.get('Scheme',current.id)).approvedVersionId,versionId);assert.deepEqual((await store.get('SourceVersion',versionId)).original,original.original);
   assert.equal((await api(`${prefix}/artifacts/${artifactIds[0]}/review`,'POST',{action:'APPROVE',evidence:'Stale output must remain unavailable.'})).status,409);
   assert.equal((await (await api(`${prefix}/search-preview?q=scholarship`)).json()).items.length,0);
+ });
+ await t.test('one explicit consolidated decision publishes multiple inspected synthetic schemes and excludes incomplete research',async()=>{
+  const ids=['synthetic-consolidated-one','synthetic-consolidated-two'];
+  for(const id of ids){await ingest(store,'Scheme',{id,title:fixtureScheme.title+' '+id,sourceIds:['synthetic-ai-source'],sourceUrl:fixtureScheme.sourceUrl,original:{...fixtureScheme,synthetic:true},normalized:{...original.normalized,description:fixtureScheme.description}},{state:'Karnataka',beneficiaryCategories:['Student'],schemeStatus:'ACTIVE'});const s=await store.get('Scheme',id);
+   await approveFacts(id,{sourceVersionId:s.currentVersionId,excerpt:fixtureScheme.description,clauseRefs:['Synthetic clause 1'],evidenceUrl:fixtureScheme.sourceUrl,rightsBasis:'SYNTHETIC TEST rights only; no real government content',evidence:'Isolated synthetic human-fact decision for consolidated endpoint coverage.',verifiedAt:new Date().toISOString(),validUntil:new Date(Date.now()+86400000).toISOString(),publicNonSensitive:true,factsChecked:true,rightsChecked:true},'test-editor');
+   await enqueueAI(id,['en','hi','kn'],'test-editor');while(await AIJob.exists({state:'QUEUED'}))await runAIOnce({router:mockRouter(),config:mockConfig});
+  }
+  const rows=(await(await api(prefix+'/editorial-review?limit=100')).json()).items;
+  assert.equal(rows.find(r=>r.schemeId===fixtureScheme.id).readiness,'FACT_REVIEW_REQUIRED','Changed source requires fresh fact review, not old derivative approval');
+  const selected=rows.filter(r=>ids.includes(r.schemeId));assert.equal(selected.length,2);assert.ok(selected.every(r=>r.readyForEditorialReview));
+  const body={action:'APPROVE_AND_PUBLISH',selections:selected.map(r=>({schemeId:r.schemeId,snapshot:r.snapshot})),personallyReviewed:true,evidence:'Explicit simulated editorial approval of these two inspected synthetic schemes only.'};
+  const decision=await api(prefix+'/editorial-review/decisions','POST',body);assert.equal(decision.status,200,await decision.clone().text());const result=await decision.json();assert.equal(result.complete,true);assert.equal(result.publicationActions,2);assert.equal(result.generationCalls,0);
+  assert.equal(await AIArtifact.countDocuments({schemeId:{$in:ids},state:'APPROVED'}),6);assert.equal(await SchemeSearchDocument.countDocuments({schemeId:{$in:ids},published:true}),6);assert.equal((await(await api(prefix+'/editorial-review')).json()).items.some(r=>ids.includes(r.schemeId)),false);
+  assert.equal((await api(prefix+'/editorial-review/decisions','POST',body)).status,409,'Replaying a stale pending decision must not create duplicate publication events');
  });
  await t.test('durable daily budget reservation is atomic across competing requests',async()=>{
   const config={AI_PAID_USE_APPROVED:'true',AI_MAX_COST_PER_DAY:0.01};const results=await Promise.allSettled([reserveBudget(0.006,config),reserveBudget(0.006,config)]);assert.equal(results.filter(x=>x.status==='fulfilled').length,1);assert.ok((await AIDailyBudget.findOne().lean()).committedUsd<=0.01);

@@ -8,5 +8,6 @@ import '@fontsource/noto-sans-devanagari/devanagari-400.css';
 import '@fontsource/noto-sans-devanagari/devanagari-600.css';
 import './i18n/index.js';
 import './styles.css';
+import './citizen.css';
 import App from './App.jsx';
 createRoot(document.getElementById('root')).render(<App />);

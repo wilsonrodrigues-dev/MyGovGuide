@@ -1,3 +1,7 @@
+import {sanitizeEvent} from '../services/realtime/events.js';
+import {operationalSummary} from '../services/verification/operationalSummary.js';
+import contentWorkbenchRouter from './contentWorkbench.js';
+import {attachedEvidence} from '../services/verification/attachedEvidence.js';
 import express from "express";
 import { randomUUID } from "node:crypto";
 import rateLimit from "express-rate-limit";
@@ -19,7 +23,14 @@ import { hash } from "../utils/hash.js";
 import { MongoStore, scopedStore } from "../services/ingestion/store.js";
 import { review } from "../services/verification/review.js";
 import contentAdmin from "./contentAdmin.js";
+import formsAdmin from './formsAdmin.js';
+import reviewEvidence from './reviewEvidence.js';
+import adminContentCatalog from './adminContentCatalog.js';
 import { AIArtifact, AIJob, ContentApproval } from "../models/content.js";
+import {verifyIdentityMapping} from '../services/ingestion/schemeIdentity.js';
+import {sourceCoverage} from '../services/admin/sourceCoverage.js';
+import {recentEvents} from '../services/realtime/events.js';
+import {discoverOfficialSources} from '../services/ingestion/discovery.js';
 
 const router = express.Router();
 const loginLimit = rateLimit({
@@ -56,7 +67,33 @@ router.get('/auth/session',(req,res)=>res.json({user:{username:req.admin.usernam
 router.post('/auth/logout',(req,res)=>{revokeSession(req.adminToken);res.clearCookie(cookieName,{...cookieOptions,maxAge:undefined});res.json({ok:true});});
 // Authentication is independent of MongoDB; dashboard data still needs MongoDB.
 router.use((_req,res,next)=>mongoose.connection.readyState===1?next():res.status(503).json({error:{code:'DATABASE_UNAVAILABLE',message:'Database unavailable'}}));
+router.get('/source-coverage',asyncRoute(async(req,res)=>res.json(await sourceCoverage(req.query))));
+router.post('/source-discovery',asyncRoute(async(req,res)=>{const value=z.object({schemeId:z.string().min(1).max(180),sourceGroup:z.enum(['JAN_SURAKSHA','PIB','NDMA','I4C'])}).strict().parse(req.body);res.json(await discoverOfficialSources(value.schemeId,value.sourceGroup));}));
 router.use('/content',contentAdmin);
+router.use('/forms',formsAdmin);
+router.use('/review-evidence',reviewEvidence);
+router.use('/content-catalog',adminContentCatalog);
+router.use('/content-workbench',contentWorkbenchRouter);
+router.get('/scheme-collection',asyncRoute(async(req,res)=>{
+ const value=z.object({page:z.coerce.number().int().min(1).max(10000).default(1),limit:z.coerce.number().int().min(1).max(100).default(25),sourceId:z.string().max(180).optional(),classification:z.enum(['NEW','UNCHANGED','UPDATED']).optional()}).strict().parse(req.query);
+ const filter={};if(value.sourceId)filter.$or=[{lastCollectionSourceId:value.sourceId},{sourceIds:value.sourceId}];if(value.classification)filter.lastCollectionStatus=value.classification;
+ const [schemes,total,sources]=await Promise.all([models.Scheme.find(filter).sort({lastCheckedAt:-1,_id:1}).skip((value.page-1)*value.limit).limit(value.limit).lean(),models.Scheme.countDocuments(filter),models.Source.find().select('id title url original.synthetic authorizationStatus').lean()]);
+ const items=schemes.map(s=>({id:s.id,canonicalId:s.canonicalId||s.id,title:s.title,sourceIds:s.sourceIds,sourceId:s.lastCollectionSourceId||s.sourceIds[0],sourceUrl:s.sourceUrl,lastCheckedAt:s.lastCheckedAt||null,lastChangedAt:s.lastChangedAt||null,classification:s.lastCollectionStatus||'NO_COLLECTED_OBSERVATION',reviewStatus:s.status,publicationStatus:s.publicationStatus}));
+ res.json({items,total,page:value.page,limit:value.limit,sources:sources.map(s=>({id:s.id,title:s.title,url:s.url,synthetic:s.original?.synthetic===true,authorizationStatus:s.authorizationStatus}))});
+}));
+router.get('/scheme-collection/:id/history',asyncRoute(async(req,res)=>{
+ const scheme=await models.Scheme.findById(req.params.id).select('id title currentVersionId publicationStatus status').lean();if(!scheme)fail('Scheme not found',404);
+ const page=z.coerce.number().int().min(1).max(10000).default(1).parse(req.query.page),limit=20;
+ const [items,total,changes]=await Promise.all([models.CollectionObservation.find({schemeId:scheme.id}).sort({checkedAt:-1,_id:1}).skip((page-1)*limit).limit(limit).lean(),models.CollectionObservation.countDocuments({schemeId:scheme.id}),models.ChangeEvent.find({entityType:'Scheme',entityId:scheme.id}).sort({createdAt:-1}).limit(20).lean()]);res.json({scheme,items,total,page,limit,changes});
+}));
+router.get('/scheme-identities/pending',asyncRoute(async(req,res)=>{
+ const page=z.coerce.number().int().min(1).max(10000).default(1).parse(req.query.page),limit=20,filter={queueStatus:'PENDING'};
+ const [items,total]=await Promise.all([models.IdentityReviewCandidate.find(filter).sort({lastCheckedAt:-1,_id:1}).skip((page-1)*limit).limit(limit).lean(),models.IdentityReviewCandidate.countDocuments(filter)]);res.json({items,total,page,limit});
+}));
+router.post('/scheme-identities/:id/verify',asyncRoute(async(req,res)=>{
+ const body=z.object({schemeId:z.string().min(1).max(180),observationId:z.string().min(1).max(180),evidence:z.string().trim().min(10).max(2000),confirmed:z.literal(true)}).strict().parse(req.body);
+ try{const result=await verifyIdentityMapping(new MongoStore(),req.params.id,body,req.admin.username);res.json(result);}catch(error){fail(error.name==='Error'&&/identity|canonical|Pending identity|evidence changed/i.test(error.message)?error.message:'Identity mapping stopped safely; inspect current evidence and history.',409);}
+}));
 router.get(
   "/stats",
   asyncRoute(async (_req, res) => {
@@ -85,9 +122,6 @@ router.get(
         ),
       )
     ).reduce((a, b) => a + b, 0);
-    counts.pendingReviews = await models.ReviewItem.countDocuments({
-      queueStatus: "PENDING",
-    });
     const totals = await models.IngestionRun.aggregate([
       {
         $group: {
@@ -128,6 +162,7 @@ router.get(
       },
     ]);
     res.json({
+      operational: await operationalSummary(),
       counts,
       totals: totals[0] || {},
       outcomes,
@@ -388,7 +423,7 @@ router.post(
   "/jobs",
   asyncRoute(async (req, res) => {
     const value = z
-      .object({ sourceId: identifier, mode: z.enum(["FIXTURE", "LIVE"]) })
+      .object({ sourceId: identifier, mode: z.enum(["FIXTURE", "LIVE"]),maxRecords:z.number().int().min(1).max(10000).optional() })
       .strict()
       .parse(req.body);
     const job = await enqueue({ ...value, actor: req.admin._id });
@@ -396,6 +431,7 @@ router.post(
     res.status(202).json(job);
   }),
 );
+router.get('/jobs/:id/summary',asyncRoute(async(req,res)=>{const job=await CollectionJob.findById(req.params.id).select('-leaseToken -activeKey').lean();if(!job)fail('Execution not found',404);const run=job.runId?await models.IngestionRun.findById(job.runId).lean():null;const source=await models.Source.findById(job.sourceId).select('id title url authorizationStatus approval.approvalExpiry').lean();const events=await recentEvents({runId:job._id,afterSequence:0,limit:100});const versions=run?await models.SourceVersion.find({'original.collectionProvenance.runId':run.id}).select('id entityId entityType contentHash').limit(3).lean():[];res.set('Content-Disposition','attachment; filename=collection-'+job._id.replace(/[^a-z0-9-]/gi,'')+'.json').json(sanitizeEvent({exportedAt:new Date().toISOString(),job,source,run,sourceVersions:versions,events,interpretation:'Persisted execution summary; not a new live fetch. Staged records are not automatically approved or published.'}));}));
 router.get(
   "/runs",
   asyncRoute(async (req, res) =>
@@ -565,7 +601,7 @@ router.post(
     const value = z
       .object({
         status: z.enum(["REVIEW_REQUIRED", "REJECTED"]),
-        evidence: z.string().trim().min(10).max(4000),
+        evidence: z.string().trim().max(4000).default(''),
         notes: z.string().max(4000).optional(),
       })
       .strict()
@@ -592,6 +628,7 @@ router.post(
           "Review the current version; this queue item refers to older evidence",
           409,
         );
+      value.evidence=attachedEvidence({entityType:item.entityType,entityId:item.entityId,versionId:item.versionId,sourceUrl:current.sourceUrl},value.evidence);
       const decision = {
         ...value,
         reviewer: req.admin.username,
@@ -672,6 +709,17 @@ router.get(
       sourcePolicy: "Deny by default; myScheme excluded",
       phase: "3.5",
     });
+  }),
+);
+router.get(
+  "/events",
+  asyncRoute(async (req, res) => {
+    const value = z.object({
+      after: z.string().max(40).optional(),
+      runId:z.string().max(180).optional(),afterSequence:z.coerce.number().int().min(0).optional(),
+      limit: z.coerce.number().int().min(1).max(100).default(50),
+    }).strict().parse(req.query);
+    res.json({ items: await recentEvents(value) });
   }),
 );
 router.get(

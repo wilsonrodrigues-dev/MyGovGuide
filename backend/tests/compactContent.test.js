@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {generateCompactContent} from '../src/services/content/compactContract.js';
+const approval={facts:{title:'Synthetic contract test',requiredDocuments:['Any one of the accepted identity alternatives']},clauseRefs:['TEST'],excerpt:'Internally authored synthetic evidence for the compact contract.'};
+const base={language:'en',title:'Synthetic',summary:'Synthetic summary',whoItMayHelp:'Synthetic audience',benefits:[],howToApply:{steps:[],links:[]},limitations:['Synthetic test only'],aliases:[],keywords:['test'],romanized:[]};
+test('compact generation preserves a group of alternative documents as one source-bound requirement',async()=>{
+ const result=await generateCompactContent({generate:async(a,l,c)=>{assert.deepEqual(c.schema.properties.documents.required,['0']);assert.match(c.makePrompt(a,l),/retain alternatives together/);return{output:{...base,documents:{0:{label:'One accepted ID',explanation:'Select an accepted alternative.'}}}};}},approval,'en');assert.equal(result.output.documents.length,1);assert.equal(result.output.documents[0].name,approval.facts.requiredDocuments[0]);
+ await assert.rejects(generateCompactContent({generate:async()=>({output:{...base,documents:{0:{label:'ID',explanation:'ID'},1:{label:'Another',explanation:'Unsupported split'}}}})},approval,'en'),{code:'MODEL_DOCUMENT_COVERAGE_INVALID'});
+});

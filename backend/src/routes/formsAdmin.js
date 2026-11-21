@@ -1,0 +1,24 @@
+import {Router} from 'express';
+import {models} from '../models/index.js';
+import {FormDocument,FormGuidanceArtifact,FormPreparationJob,FormReviewEvent} from '../models/forms.js';
+import {formCatalog} from '../services/forms/catalog.js';
+import {reviewFormFacts,enqueueFormPreparation,publishFormGuidance} from '../services/forms/workflow.js';
+import {requireTrustedMutation} from '../middleware/citizenSecurity.js';
+import {imagekitHealth,reviewDisplayRights,hostOfficialPdf,viewerDelivery} from '../services/forms/imagekit.js';
+import {z} from 'zod';
+import {bindingMatches,validateDraft} from '../services/forms/drafts.js';
+import {validateFormOutput} from '../services/forms/contracts.js';
+const router=Router(),run=fn=>(req,res,next)=>Promise.resolve(fn(req,res)).catch(next);
+router.use(requireTrustedMutation);
+router.get('/',run(async(_req,res)=>res.json(await formCatalog())));
+router.get('/storage-status',run(async(_req,res)=>res.json(imagekitHealth())));
+router.get('/:id',run(async(req,res)=>{
+ const form=await models.FormTemplate.findById(req.params.id).lean();if(!form)return res.status(404).json({error:{code:'FORM_NOT_FOUND',message:'Form not found'}});
+ const [documents,artifacts,jobs,events]=await Promise.all([FormDocument.find({formId:form.id}).sort({retrievedAt:-1,_id:-1}).lean(),FormGuidanceArtifact.find({formId:form.id}).lean(),FormPreparationJob.find({formId:form.id}).lean(),FormReviewEvent.find({formId:form.id}).sort({createdAt:-1}).limit(50).lean()]);const doc=documents[0];res.json({form,documents,artifacts:artifacts.map(a=>({...a,currentVersionMatches:!!doc&&a.documentId===doc._id&&a.validation?.ok&&(a.binding?bindingMatches(a.binding,doc)&&validateDraft(a.output,doc,a.language).ok:validateFormOutput(a.output,doc,a.language).ok)})),jobs,events,viewer:viewerDelivery(doc)});
+}));
+router.post('/:id/fact-review',run(async(req,res)=>res.json(await reviewFormFacts(req.params.id,req.body,req.admin.username))));
+router.post('/:id/prepare',run(async(req,res)=>res.status(202).json({items:await enqueueFormPreparation(req.params.id,req.admin.username)})));
+router.post('/:id/publication',run(async(req,res)=>res.json(await publishFormGuidance(req.params.id,req.body,req.admin.username))));
+router.post('/:id/display-rights',run(async(req,res)=>res.json(await reviewDisplayRights(req.params.id,req.body,req.admin.username))));
+router.post('/:id/imagekit',run(async(req,res)=>{const {documentId}=z.object({documentId:z.string()}).strict().parse(req.body);res.json(await hostOfficialPdf(req.params.id,documentId,req.admin.username));}));
+export default router;

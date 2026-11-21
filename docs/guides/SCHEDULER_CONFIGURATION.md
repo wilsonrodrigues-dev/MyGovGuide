@@ -1,5 +1,10 @@
 # Persisted scheduler
 
+## Incremental checks
+
+Existing manual jobs and schedules use the same extended collector. An authorized API can opt into a reviewed cursor/offset/updated-since contract; source approval/expiry checks still run at enqueue, execution and commit. Only a complete successful source transaction advances the watermark. Failed or interrupted pagination retries from the prior committed checkpoint. Expired job recovery marks its abandoned ingestion run failed; an idempotent retry creates no duplicate scheme/version. No schedule was activated for this change. See the [collection audit](../history/INCREMENTAL_SCHEME_COLLECTION_REPORT.md) and [contract guide](SCRAPING_OPERATIONS_GUIDE.md).
+
+
 Start `npm run worker` as a dedicated native Node process. It runs both the job consumer and schedule dispatcher. The web API does not execute scraping in browser requests. Multiple workers are supported through MongoDB compare-and-set claims, transactions and unique keys.
 
 The dashboard stores schedules in `collectionschedules`: name, enabled, frequency, local time, weekday, five-field cron, IANA timezone, source IDs, fixture/live mode, revision, next run, last dispatch and last outcome. Default timezone is `Asia/Kolkata`. Daily/twice-daily/weekly presets generate the cron expression from local time. Twice daily uses the selected hour and twelve hours later. Weekly uses the selected weekday. CUSTOM uses the supplied deterministic five-field expression.

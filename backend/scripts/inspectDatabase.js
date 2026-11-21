@@ -7,7 +7,7 @@ import { importResearch } from '../src/services/ingestion/importResearch.js';
 import { MongoStore } from '../src/services/ingestion/store.js';
 import { phase1Dir } from '../src/config/env.js';
 try {
-  await connectDB(); await requireTransactions();
+  await connectDB(undefined, { allowLegacyReadOnly: true }); await requireTransactions();
   const collections = await mongoose.connection.db.listCollections({}, { nameOnly: true }).toArray();
   const counts = {};
   for (const c of collections) counts[c.name] = await mongoose.connection.db.collection(c.name).countDocuments();

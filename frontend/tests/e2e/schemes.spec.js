@@ -16,3 +16,9 @@ test('scheme detail never substitutes research after a missing publication and r
  await page.route('**/api/content/search?**',route=>route.fulfill({status:503,json:{error:{code:'DATABASE_UNAVAILABLE'}}}));await page.goto('/schemes');await expect(page.getByRole('alert')).toContainText('Scheme information is temporarily unavailable.');
  await page.route('**/api/content/search?**',route=>route.fulfill({json:{items:[]}}));await page.getByRole('button',{name:'Try again',exact:true}).click();await expect(page.getByText('No reviewed schemes match this search.')).toBeVisible();
 });
+test('catalog next and previous pages retain query filters and filter changes reset the page',async({page})=>{
+ await page.route('**/api/content/search?**',route=>{const q=new URL(route.request().url()).searchParams,p=Number(q.get('page')||1);return route.fulfill({json:{items:[{id:'page-'+p,title:'Reviewed page '+p,summary:'Browser pagination contract response only.',language:'en',state:'All India'}],page:p,total:25,totalPages:3,hasNext:p<3}});});
+ await page.goto('/schemes?q=farmer&state=Karnataka&category=Farmer');await expect(page.getByRole('heading',{name:'Reviewed page 1'})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Previous',exact:true})).toBeDisabled();await page.getByRole('button',{name:'Next',exact:true}).click();await expect(page.getByRole('heading',{name:'Reviewed page 2'})).toBeVisible();expect(new URL(page.url()).searchParams.get('q')).toBe('farmer');expect(new URL(page.url()).searchParams.get('category')).toBe('Farmer');
+ await page.getByRole('button',{name:'Previous',exact:true}).click();await expect(page.getByRole('heading',{name:'Reviewed page 1'})).toBeVisible();await page.getByRole('button',{name:'Show all schemes',exact:true}).click();await expect(page).toHaveURL(/\/schemes$/);await expect(page.getByRole('heading',{name:'Reviewed page 1'})).toBeVisible();
+});

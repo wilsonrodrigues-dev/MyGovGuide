@@ -10,7 +10,7 @@ The local restructuring, UI foundation, onboarding, personalized Home, multiling
 - Backend implementation, scripts, fixtures, tests and reports are in backend/. Original research is in backend/research/phase1; the original handoff/blueprint are in backend/docs/specifications; technical documentation is in backend/docs/.
 - Native MongoDB keeps the existing database name `mygovguide_phase2`, replica set, port 27018 and root .local/mongo-test storage. The service on 27017 and existing databases were not deleted or reconfigured.
 - The previous container setup file and operational instructions were removed. Native MongoDB is the supported local setup.
-- All **17 original research/specification files passed byte-for-byte SHA-256 preservation checks**. [Move evidence](../../backend/reports/restructure-preservation.json) and [final workspace audit](../../backend/reports/phase3-workspace-audit.json) record the checks.
+- All **17 original research/specification files passed byte-for-byte SHA-256 preservation checks**. [Move evidence](test-artifacts-before-cleanup/backend/restructure-preservation.json) and [final workspace audit](test-artifacts-before-cleanup/backend/phase3-workspace-audit.json) record the checks.
 - The original 59 Phase 2 tests were rerun after the move before frontend feature work began. Five original substantive MongoDB scenarios passed; the missing-package scenario was skipped honestly. [Part A verification](RESTRUCTURE_VERIFICATION.md).
 
 ## Implemented Phase 3 functionality
@@ -58,7 +58,7 @@ No session secret or client ownership UUID is stored in localStorage. Unsynced l
 | Source release gates | Zero approved live sources and zero approved rule sets |
 | Workspace audit | Original bytes preserved, no obsolete application folders/container artifacts, no configured credential value found in source |
 
-Actual evidence: [component output](../../backend/reports/phase3-component-tests.txt), [integration output](../../backend/reports/phase3-integration-tests.txt), [profile DB evidence](../../backend/reports/profile-integration.json), [build output](../../frontend/reports/build.txt), [browser JSON](../../frontend/reports/e2e-results.json), [browser output](../../frontend/reports/e2e-run.txt), [screenshots ](../../frontend/reports/screenshots/), [current data status](../../backend/reports/phase2-status.json).
+Actual evidence: [component output](test-artifacts-before-cleanup/backend/phase3-component-tests.txt), [integration output](test-artifacts-before-cleanup/backend/phase3-integration-tests.txt), [profile DB evidence](../../backend/reports/profile-integration.json), [build output](test-artifacts-before-cleanup/frontend/build.txt), [browser JSON](../../frontend/reports/e2e-results.json), [browser output](test-artifacts-before-cleanup/frontend/e2e-run.txt), [screenshots ](../../frontend/reports/screenshots/), [current data status](../../backend/reports/phase2-status.json).
 
 Browser checks cover onboarding validation, real API persistence, state/category edits, language switching/reload, all action routes and search, keyboard radios/skip link, honest loading/error/retry states, offline-to-online sync and Unicode rendering. Backend scenarios exercise ownership isolation, UUID/ID rejection, CSRF, origin checks, cookie attributes, hash storage, expiry/revocation and the preview release gate.
 

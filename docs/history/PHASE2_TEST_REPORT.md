@@ -30,7 +30,7 @@ Date: 16 November 2026, Asia/Kolkata. Results are actual local execution, not pr
 | `npm run report:phase2` | Generated runtime/input audit, source logs and project tree |
 | `npm run db:local` | Existing isolated replica set detected without reconfiguration; native startup/restart also checked |
 
-Actual runner output: [unit-tests.txt](../../backend/reports/unit-tests.txt), [integration-tests.txt](../../backend/reports/integration-tests.txt). Database evidence: [mongo-integration.json](../../backend/reports/mongo-integration.json), [phase2-status.json](../../backend/reports/phase2-status.json), [api-smoke.json](../../backend/reports/api-smoke.json).
+Actual runner output: [unit-tests.txt](test-artifacts-before-cleanup/backend/unit-tests.txt), [integration-tests.txt](test-artifacts-before-cleanup/backend/integration-tests.txt). Database evidence: [mongo-integration.json](../../backend/reports/mongo-integration.json), [phase2-status.json](../../backend/reports/phase2-status.json), [api-smoke.json](test-artifacts-before-cleanup/backend/api-smoke.json).
 
 ## Covered behavior
 

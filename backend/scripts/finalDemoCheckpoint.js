@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';import path from 'node:path';import {projectRoot} from '../src/config/env.js';
+const file=path.join(projectRoot,'backend/reports/final-demo-progress.json');
+export async function checkpoint(stage,update){let value;try{value=JSON.parse(await fs.readFile(file,'utf8'));}catch(error){if(error.code!=='ENOENT')throw error;value={version:1,task:'Final six-stage implementation',stages:Array.from({length:6},(_,i)=>({stage:i+1,status:'NOT_STARTED',completed:[],components:[],recordsProcessed:0,tests:[],blockers:[],nextOperation:null}))};}Object.assign(value.stages[stage-1],update,{updatedAt:new Date().toISOString()});value.updatedAt=new Date().toISOString();await fs.writeFile(file,JSON.stringify(value,null,2)+'\n');return value;}

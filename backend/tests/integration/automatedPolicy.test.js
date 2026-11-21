@@ -1,0 +1,18 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {connectDB,disconnectDB} from '../../src/config/db.js';import {models,initModels} from '../../src/models/index.js';
+import {FormDocument,FormGuidanceArtifact,FormReviewEvent} from '../../src/models/forms.js';
+import {draftBinding,expandDraft,validateDraft} from '../../src/services/forms/drafts.js';
+import {hash} from '../../src/utils/hash.js';import {automaticallyPublishForm} from '../../src/services/forms/workflow.js';import {formDetail} from '../../src/services/forms/catalog.js';
+test('source-bound machine form publication serves trilingual guidance without human approval and invalidates tampering',{skip:!process.env.MONGODB_TEST_URI},async()=>{
+ const u=new URL(process.env.MONGODB_TEST_URI);assert.match(u.pathname,/^\/mygovguide_phase2_test/);u.pathname='/mygovguide_phase2_test_auto_policy_'+Date.now();await connectDB(u.href);await initModels();
+ try{
+ await models.FormTemplate.create({_id:'SYNTHETIC-AUTO-FORM',id:'SYNTHETIC-AUTO-FORM',title:'SYNTHETIC blank form',sourceUrl:'https://example.test/blank.pdf',sourceIds:['SYNTHETIC-SOURCE'],formKind:'PDF_FORM',original:{synthetic:true}});
+ let d=await FormDocument.create({_id:'SYNTHETIC-DOC',formId:'SYNTHETIC-AUTO-FORM',url:'https://example.test/blank.pdf',sha256:'a'.repeat(64),sourceVersionId:'SYNTHETIC-VERSION',pages:1,httpStatus:200,retrievedAt:new Date(),expiresAt:new Date(Date.now()+86400000),fields:[{id:'name',label:'Name',page:1,role:'APPLICANT',requirement:'UNKNOWN',sourceQuote:'Name',evidenceRefs:[{url:'https://example.test/blank.pdf',documentHash:'a'.repeat(64),page:1,quote:'Name'}]}]});d=d.toObject();d.preparation={mode:'SOURCE_GROUNDED_DRAFT',sourceVerified:true,...draftBinding(d),evidence:[{synthetic:true}],blockers:[]};await FormDocument.updateOne({_id:d._id},{$set:{preparation:d.preparation}});
+ const payload={documentId:d._id,sha256:d.sha256,fields:d.fields,originalPageTexts:[{page:1,text:'Name'}]};await models.SourceVersion.create({_id:d.sourceVersionId,id:d.sourceVersionId,sourceId:'SYNTHETIC-SOURCE',entityType:'FormDocument',entityId:d.formId,payload,contentHash:hash(payload),retrievedAt:new Date(),original:{synthetic:true}});
+ for(const language of ['en','hi','kn']){const prose={en:'The name requested in the original.',hi:'मूल में माँगा गया नाम लिखें।',kn:'ಮೂಲದಲ್ಲಿ ಕೇಳಿರುವ ಹೆಸರು ಬರೆಯಿರಿ.'}[language],output=expandDraft({fields:[{id:'name',meaning:prose,whatToEnter:prose,needsVerification:true}]},{...d,title:'SYNTHETIC form'},language);await FormGuidanceArtifact.create({_id:'SYNTHETIC-'+language,formId:d.formId,documentId:d._id,language,binding:draftBinding(d),promptVersion:'TEST',provider:'SYNTHETIC_NO_NETWORK',model:'TEST',output,validation:validateDraft(output,d,language)});}
+ assert.equal((await formDetail(d.formId)).guidance,null);await automaticallyPublishForm(d.formId);
+ for(const language of ['en','hi','kn']){const p=await formDetail(d.formId,language);assert.equal(p.guidance.language,language);assert.equal(p.verification,'AUTOMATED_SOURCE_VALIDATION');assert.equal(p.preparation.citizenReady,true);}
+ assert.equal((await FormDocument.findById(d._id)).factReview?.at,undefined);const events=await FormReviewEvent.find().lean();assert.equal(events.length,1);assert.equal(events[0].action,'AUTOMATED_FIELD_GUIDANCE_RELEASED');assert.match(events[0].actor,/^SYSTEM:/);await automaticallyPublishForm(d.formId);assert.equal(await FormReviewEvent.countDocuments(),1);
+ await FormGuidanceArtifact.updateOne({_id:'SYNTHETIC-kn'},{$set:{'output.fields.0.whatToEnter':'Tampered instruction'}});assert.equal((await formDetail(d.formId,'kn')).guidance,null);
+ }finally{await disconnectDB();}
+});

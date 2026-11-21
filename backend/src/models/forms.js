@@ -1,0 +1,20 @@
+import mongoose from 'mongoose';
+const {Schema}=mongoose;
+const options={timestamps:true,strict:'throw',autoCreate:false,autoIndex:false};
+const field=new Schema({id:{type:String,required:true},label:{type:String,required:true},page:{type:Number,required:true},requirement:{type:String,enum:['REQUIRED','OPTIONAL','CONDITIONAL','UNKNOWN'],default:'UNKNOWN'},condition:String,instruction:String,sourceQuote:{type:String,required:true},role:String,evidenceRefs:{type:[Schema.Types.Mixed],default:undefined},coordinates:Schema.Types.Mixed},{_id:false,strict:'throw'});
+const documentSchema=new Schema({_id:String,formId:{type:String,required:true,index:true},url:{type:String,required:true},sha256:{type:String,required:true},edition:String,identifiers:[String],pages:Number,retrievedAt:Date,expiresAt:Date,httpStatus:Number,textHash:String,fields:[field],warnings:[String],purpose:String,applicationUrl:String,documents:[String],status:{type:String,enum:['DOCUMENT_CHECKED','FACTS_APPROVED','REJECTED'],default:'DOCUMENT_CHECKED'},factReview:{actor:String,evidence:String,rightsBasis:String,at:Date},previousDocumentId:String,sourceVersionId:String,displayPermissions:Schema.Types.Mixed,imagekit:Schema.Types.Mixed},options);
+documentSchema.index({formId:1,sha256:1},{unique:true});
+documentSchema.add({preparation:Schema.Types.Mixed,automatedValidation:Schema.Types.Mixed});
+const artifactSchema=new Schema({_id:String,formId:{type:String,required:true,index:true},documentId:{type:String,required:true,index:true},language:{type:String,enum:['en','hi','kn'],required:true},promptVersion:String,provider:String,model:String,output:Schema.Types.Mixed,validation:Schema.Types.Mixed,usage:Schema.Types.Mixed,generationParts:[Schema.Types.Mixed],status:{type:String,enum:['REVIEW_PENDING','APPROVED','REJECTED','VALIDATION_FAILED'],default:'REVIEW_PENDING'},review:{actor:String,evidence:String,at:Date}},options);
+artifactSchema.index({documentId:1,language:1,promptVersion:1},{unique:true});
+artifactSchema.add({binding:Schema.Types.Mixed,automatedValidation:Schema.Types.Mixed});
+artifactSchema.path('status').enum('AUTOMATED_VALIDATED');
+const jobSchema=new Schema({_id:String,formId:String,documentId:String,language:{type:String,enum:['en','hi','kn']},state:{type:String,enum:['QUEUED','RUNNING','REVIEW_PENDING','FAILED','DEFERRED','STALE'],default:'QUEUED'},attempts:{type:Number,default:0},parts:[Schema.Types.Mixed],nextRetryAt:Date,leaseUntil:Date,leaseToken:String,error:String,providerAttempts:[Schema.Types.Mixed],artifactId:String,requestedBy:String},options);
+jobSchema.index({state:1,nextRetryAt:1,leaseUntil:1});
+jobSchema.add({binding:Schema.Types.Mixed,generationMode:String,promptVersion:String,rejectedParts:{type:[Schema.Types.Mixed],default:undefined}});
+const eventSchema=new Schema({_id:String,formId:String,documentId:String,artifactIds:[String],action:String,actor:String,evidence:String},options);
+export const FormDocument=mongoose.models.FormDocument||mongoose.model('FormDocument',documentSchema);
+export const FormGuidanceArtifact=mongoose.models.FormGuidanceArtifact||mongoose.model('FormGuidanceArtifact',artifactSchema);
+export const FormPreparationJob=mongoose.models.FormPreparationJob||mongoose.model('FormPreparationJob',jobSchema);
+export const FormReviewEvent=mongoose.models.FormReviewEvent||mongoose.model('FormReviewEvent',eventSchema);
+export async function initFormModels(){for(const model of [FormDocument,FormGuidanceArtifact,FormPreparationJob,FormReviewEvent]){await model.createCollection();await model.createIndexes();}}

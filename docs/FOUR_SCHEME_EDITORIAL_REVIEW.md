@@ -1,5 +1,7 @@
 # Four prepared schemes — editorial review packet
 
+**Owner decision recorded, 18 November 2026:** “Approve all 12 artifacts and publication.” The identified revisions were approved and published through the existing admin workflow; see [the actual execution receipt](../backend/reports/four-scheme-publications.json). The pending wording below preserves the packet originally presented for that decision. No eligibility rules were approved.
+
 18 November 2026. **No approval or publication performed.** Official evidence was rechecked through the cited public documents; these are factual paraphrases, not automated source authorization or personal eligibility decisions. All existing outputs passed structured validation; that is not human translation acceptance. Two NMMSS revisions correct missing timing caveats and an inaccurate Kannada keyword; no Gemini regeneration.
 
 ## IN-ST-02 — National Means-cum-Merit Scholarship Scheme (NMMSS)

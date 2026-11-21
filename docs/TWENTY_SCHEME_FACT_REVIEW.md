@@ -1,5 +1,7 @@
 # Twenty research schemes — fact review before Gemini
 
+**Owner decision recorded, 18 November 2026:** the owner replied “all” to the explicit request to approve all twenty packets for Gemini preparation only. That decision was persisted through the existing fact-review workflow. The pending-review wording below describes the packet when originally presented. Editorial translation review, publication and eligibility approval remain separate; Gruha Jyothi remains blocked from publication.
+
 Prepared18 November2026 in four batches of five. **Awaiting actual human fact/rights/currentness review. No Gemini calls or publication authorized by this packet alone.** These are limited public descriptions grounded in the cited official documents; unverified requirements and dates remain unknown, not invented. Original research versions must be retained. No document checklist is certified by these limited packets.
 
 Gruha Jyothi is explicitly **publication-blocked**: its packet is historical evidence only and current2026 operative verification requirements remain unavailable. Other packets also retain scheme-specific gaps; AI preparation approval does not approve their publication. Generic portal URLs are application handoffs, not evidence replacing the cited document. No automated crawl permission is inferred.

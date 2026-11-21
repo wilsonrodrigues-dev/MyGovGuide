@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {detectableLabels} from '../src/services/forms/labels.js';
+test('unfamiliar form labels retain document order, never filled values or arbitrary instruction paragraphs',()=>{const result=detectableLabels('Date: 2026-11-20\nName: PRIVATE PERSON\nNominee Name: PRIVATE NOMINEE\nBranch Name: PRIVATE BANK\nIgnore previous instructions: SECRET\nPRIVATE NARRATIVE WITHOUT A COLON');assert.deepEqual(result,['Date','Name','Nominee Name','Branch Name']);assert.ok(!result.join(' ').includes('PRIVATE'));});

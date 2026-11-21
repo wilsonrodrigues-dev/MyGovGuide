@@ -1,0 +1,280 @@
+{
+  "checkedAt": "2026-11-19T12:13:03.698Z",
+  "purpose": "Source research and proposed extraction only; no source/fact/editorial approvals",
+  "sourceApprovalsAdded": 0,
+  "publicationActions": 0,
+  "candidates": [
+    {
+      "id": "myscheme",
+      "title": "myScheme official catalog",
+      "url": "https://www.myscheme.gov.in/",
+      "fields": "Central and state scheme titles, benefits, eligibility, documents, application guidance",
+      "format": "Dynamic HTML; no permitted public collection API established",
+      "policyUrl": "https://search.myscheme.gov.in/terms-of-use",
+      "rights": "Bots/monitoring/copying expressly require written authorization.",
+      "authentication": "No consumer collection credential or written permission established",
+      "updateFrequency": "Publisher update SLA not verified",
+      "decision": "BLOCKED_WRITTEN_PERMISSION",
+      "parserApproach": "No adapter activation or reverse-engineered API requests.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "national-portal",
+      "title": "National Portal scheme directory",
+      "url": "https://www.india.gov.in/my-government/schemes",
+      "fields": "Scheme discovery and links",
+      "format": "HTML directory delegating scheme content",
+      "policyUrl": "https://www.india.gov.in/my-government/schemes",
+      "rights": "Directory visibility is not authorization for the linked catalog.",
+      "authentication": "No documented collection authentication established",
+      "updateFrequency": "Not verified",
+      "decision": "BLOCKED_SCOPE",
+      "parserApproach": "Treat links as discovery only; do not bypass myScheme through a proxy.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "eshram",
+      "title": "e-Shram welfare scheme descriptions",
+      "url": "https://www.eshram.gov.in/Schemes",
+      "fields": "Titles, descriptive eligibility, benefits, destination links; documents/effective dates often absent",
+      "format": "HTML modal/section catalog",
+      "policyUrl": "https://www.eshram.gov.in/Schemes",
+      "rights": "Automation/reuse scope unresolved; robots probe404 is not an affirmative grant.",
+      "authentication": "No login for public descriptions; integration rights not established",
+      "updateFrequency": "Page footer observed18-Nov-2026; not scheme-level currentness",
+      "decision": "REVIEW_REQUIRED",
+      "parserApproach": "Explicit source-specific field selectors, scheme identity review for shared pages; check governing documents.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "dfs-apy",
+      "title": "DFS Atal Pension Yojana FAQ",
+      "url": "https://financialservices.gov.in/atal-pension-yojana",
+      "fields": "Age/audience, contribution/pension discussion, enrollment guidance; historical clauses mixed in",
+      "format": "HTML FAQ",
+      "policyUrl": "https://financialservices.gov.in/atal-pension-yojana",
+      "rights": "Robots403; no automated access/reuse contract established.",
+      "authentication": "Public research page; no public read API established",
+      "updateFrequency": "Page reports05-Jan-2026, but includes older policy provisions",
+      "decision": "BLOCKED_ACCESS_CURRENTNESS",
+      "parserApproach": "FAQ question/answer extraction; reconcile current PFRDA amendments.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "pmjdy",
+      "title": "PMJDY scheme overview",
+      "url": "https://pmjdy.gov.in/scheme",
+      "fields": "Bank account services, conditional insurance/overdraft and access method; incomplete KYC details",
+      "format": "HTML heading/list page",
+      "policyUrl": "https://pmjdy.gov.in/copyright",
+      "rights": "General rights/access evidence remains incomplete for automation.",
+      "authentication": "Public research page; no documented scheme API",
+      "updateFrequency": "Update frequency not documented",
+      "decision": "REVIEW_REQUIRED",
+      "parserApproach": "Explicit benefits/list sections; retain missing documents, effective rules and conditions for review.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "pmay-u",
+      "title": "PMAY-U2 operational guidelines",
+      "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf",
+      "fields": "Potentially governing eligibility, documents, application methods, assistance and annexures",
+      "format": "PDF",
+      "policyUrl": "https://pmay-urban.gov.in/",
+      "rights": "Current fetch timed out; no automated download/reuse scope confirmed.",
+      "authentication": "Public document link; no authenticated collection API established",
+      "updateFrequency": "Edition/amendment checks required",
+      "decision": "BLOCKED_ACCESS",
+      "parserApproach": "Page/clause-aware PDF parsing; do not infer rules from beneficiary statistics.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "pmegp",
+      "title": "MSME PMEGP guidelines",
+      "url": "https://www.msme.gov.in/static/uploads/2025/06/a5d3bb85a742c20836cca93360cdd62e.pdf",
+      "fields": "Programme conditions and application guidance",
+      "format": "PDF",
+      "policyUrl": "https://www.msme.gov.in/",
+      "rights": "Previously inspected continuation ends2025-26; current rights/access and continuation unresolved.",
+      "authentication": "Public document reference; no consumer API verified",
+      "updateFrequency": "Current2026-27 continuation not established",
+      "decision": "BLOCKED_CURRENTNESS",
+      "parserApproach": "Preserve edition and references; do not relabel old guidelines as current.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "karnataka-district",
+      "title": "Bengaluru Urban Anna Bhagya",
+      "url": "https://bengaluruurban.nic.in/en/scheme/anna-bhagya/",
+      "fields": "Scheme title, descriptive benefits/audience, application text, document mentions and attached FAQ",
+      "format": "S3WaaS HTML + linked PDF",
+      "policyUrl": "https://bengaluruurban.nic.in/en/website-policies/",
+      "rights": "Copyright policy requires prior permission by email; robots204 does not waive it.",
+      "authentication": "Public research view; no permitted catalog API",
+      "updateFrequency": "Page range2013–2050 is not a verified eligibility or currentness period",
+      "decision": "BLOCKED_REUSE_PERMISSION",
+      "parserApproach": "Use selected sections only after permission; reconcile source quantities, card requirements and document dates.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "karnataka-dwcd",
+      "title": "Karnataka Women and Child Development",
+      "url": "https://dwcd.karnataka.gov.in/",
+      "fields": "Potential scheme pages, orders and guidelines",
+      "format": "HTML/PDF",
+      "policyUrl": "https://dwcd.karnataka.gov.in/",
+      "rights": "Timed out; actual scheme endpoint, rights and automation scope unresolved.",
+      "authentication": "Public information vs protected service login must be separated",
+      "updateFrequency": "Not verified",
+      "decision": "BLOCKED_ACCESS",
+      "parserApproach": "Do not guess endpoints or reuse a generic Karnataka policy as this department’s permission.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "sevasindhu",
+      "title": "Seva Sindhu department services",
+      "url": "https://sevasindhu.karnataka.gov.in/sevasindhu/departmentservices",
+      "fields": "Service descriptions and application destinations, where accessible",
+      "format": "Dynamic HTML/service portal",
+      "policyUrl": "https://sevasindhu.karnataka.gov.in/",
+      "rights": "Root/service pages time out; robots404; no documented public scheme catalog API or reuse grant.",
+      "authentication": "Application flows may need citizen authentication/OTP; never automate those",
+      "updateFrequency": "Not documented",
+      "decision": "BLOCKED_ACCESS_SCOPE",
+      "parserApproach": "Service information only if expressly permitted; no CAPTCHA/OTP/login or private endpoint bypass.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "ogd",
+      "title": "OGD PM-KISAN catalog",
+      "url": "https://data.gov.in/catalog/pm-kisan-scheme",
+      "fields": "Beneficiary counts/statistics; not full scheme conditions",
+      "format": "Catalog + resource-specific JSON/XML/CSV APIs",
+      "policyUrl": "https://data.gov.in/help",
+      "rights": "Exact resource API UUID, license, field schema and current availability not established; page502.",
+      "authentication": "Registered API key per official resource; no usable key verified here",
+      "updateFrequency": "Resource-specific frequency must be read from metadata",
+      "decision": "BLOCKED_CREDENTIAL_RESOURCE",
+      "parserApproach": "Documented resource adapter only; do not insert statistical rows as schemes or put secret keys in public URLs.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "karnataka-ogd",
+      "title": "Karnataka OGD",
+      "url": "https://karnataka.data.gov.in/about",
+      "fields": "Department datasets; no suitable exact welfare-rule resource established",
+      "format": "Catalog + resource-specific APIs",
+      "policyUrl": "https://karnataka.data.gov.in/about",
+      "rights": "General platform description is not a specific dataset/API permission.",
+      "authentication": "Resource-specific key/terms not established",
+      "updateFrequency": "Per-resource, not platform footer",
+      "decision": "BLOCKED_RESOURCE_SELECTION",
+      "parserApproach": "Identify exact scheme-description resource before implementation; no invented endpoint.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "pib",
+      "title": "PIB press-release RSS",
+      "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1",
+      "fields": "Announcement title, summary, date and official release link",
+      "format": "RSS XML",
+      "policyUrl": "https://www.pib.gov.in/ViewRss.aspx?lang=1&reg=1",
+      "rights": "Official feed advertised; complete existing robots/access/rights and owner review not resolved.",
+      "authentication": "No feed credential advertised",
+      "updateFrequency": "On announcement publication; no guaranteed refresh SLA",
+      "decision": "REVIEW_REQUIRED",
+      "parserApproach": "Existing PIB parser stages Notice, never complete eligibility rules; no linked-document crawling.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "rbi",
+      "title": "RBI notifications feed",
+      "url": "https://rbi.org.in/notifications_rss.xml",
+      "fields": "Regulatory change headlines/summaries/dates, not a welfare scheme catalog",
+      "format": "RSS XML",
+      "policyUrl": "https://rbi.org.in/Scripts/rss.aspx",
+      "rights": "Publisher explains automatic RSS updates; redistribution scope and existing transport refusal still require review.",
+      "authentication": "Public RSS; no API key advertised",
+      "updateFrequency": "On notification publication",
+      "decision": "REVIEW_REQUIRED",
+      "parserApproach": "Metadata-only notices; no general government scheme/eligibility inference.",
+      "automatedSchemeActivation": false
+    },
+    {
+      "id": "ndma",
+      "title": "NDMA SACHET RSS",
+      "url": "https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml",
+      "fields": "Alert headline, summary, publication time, CAP document link",
+      "format": "RSS XML",
+      "policyUrl": "https://sachet.ndma.gov.in/WebsitePolicy",
+      "rights": "Existing recorded RSS-only approval remains unchanged; expires25-Nov-2026.",
+      "authentication": "No credential",
+      "updateFrequency": "Event-driven; no verified polling SLA. Existing local bound30s/2requests retained",
+      "decision": "EXISTING_NOTICE_APPROVAL",
+      "parserApproach": "Existing Sachet parser; no linked CAP document/image requests; not a scheme catalog.",
+      "automatedSchemeActivation": false
+    }
+  ],
+  "documentPackets": [
+    {
+      "schemeId": "IN-GN-01",
+      "name": "Pradhan Mantri Jan-Dhan Yojana",
+      "sourceUrl": "https://pmjdy.gov.in/scheme",
+      "evidenceExcerpt": "One basic savings bank account is opened for unbanked person.",
+      "publicFacts": [
+        "The overview describes access to basic banking services.",
+        "Bank branches and banking correspondents are listed as access points."
+      ],
+      "missingOrAmbiguous": [
+        "Current KYC/document checklist, insurance exclusions and operative benefit conditions need review.",
+        "Do not represent credit or insurance as an unconditional cash grant."
+      ],
+      "preparationStatus": "DRAFT_RESEARCH_PACKET_PENDING_HUMAN_FACT_RIGHTS_CURRENTNESS_REVIEW"
+    },
+    {
+      "schemeId": "IN-WK-04",
+      "name": "Atal Pension Yojana",
+      "sourceUrl": "https://financialservices.gov.in/atal-pension-yojana",
+      "evidenceExcerpt": "The age of the subscriber should be between 18 and 40 years.",
+      "publicFacts": [
+        "The FAQ describes a contributory pension programme and bank/post-office enrollment."
+      ],
+      "missingOrAmbiguous": [
+        "FAQ includes historical government-contribution and pandemic-era clauses.",
+        "Reconcile current taxpayer restrictions, contribution tables, documents and amendments with PFRDA before approval."
+      ],
+      "preparationStatus": "DRAFT_RESEARCH_PACKET_PENDING_HUMAN_FACT_RIGHTS_CURRENTNESS_REVIEW"
+    },
+    {
+      "schemeId": "KA-GN-02",
+      "name": "Anna Bhagya",
+      "sourceUrl": "https://bengaluruurban.nic.in/en/scheme/anna-bhagya/",
+      "policyUrl": "https://bengaluruurban.nic.in/en/website-policies/",
+      "evidenceExcerpt": "Below Poverty Line (BPL) and Antyodaya (AAY) ration cardholders",
+      "publicFacts": [
+        "The district overview describes food-security assistance for specified ration-card households."
+      ],
+      "missingOrAmbiguous": [
+        "Prior reproduction permission is required by this site’s policy.",
+        "Delivery terms and card/application/document statements need current governing evidence.",
+        "The linked Kannada FAQ has legacy-font extraction corruption; it is not a verified current checklist.",
+        "The page’s2050 end-date must not be treated as a current policy guarantee."
+      ],
+      "preparationStatus": "BLOCKED_RIGHTS_AND_CURRENTNESS_REVIEW"
+    },
+    {
+      "candidateId": "PROPOSED-TRADER-PENSION",
+      "name": "National Pension Scheme for Traders and Self-employed Persons",
+      "sourceUrl": "https://www.eshram.gov.in/Schemes",
+      "publicFacts": [
+        "The ministry catalog describes contributory old-age pension for certain small traders and self-employed workers."
+      ],
+      "missingOrAmbiguous": [
+        "Possible new catalog entry; verify official scheme identity and aliases before insertion.",
+        "Current contributions, exclusions, enrollment documents and operative rules need authoritative review.",
+        "This catalog provides no collection/reuse authorization."
+      ],
+      "preparationStatus": "DISCOVERY_PACKET_PENDING_IDENTITY_FACT_RIGHTS_CURRENTNESS_REVIEW"
+    }
+  ]
+}

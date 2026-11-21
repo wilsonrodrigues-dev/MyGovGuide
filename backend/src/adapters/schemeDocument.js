@@ -1,0 +1,22 @@
+import {load} from 'cheerio';
+import {z} from 'zod';
+import {hash} from '../utils/hash.js';
+const selector=z.string().min(1).max(240),field=z.object({selector,multiple:z.boolean().default(false)}).strict();
+const contract=z.object({recordSelector:selector,titleSelector:selector,sourceLinkSelector:selector.optional(),applicationLinkSelector:selector.optional(),state:z.string().max(80).default('UNKNOWN'),fields:z.object({department:field.optional(),benefits:field.optional(),eligibilityConditions:field.optional(),requiredDocuments:field.optional(),applicationMethod:field.optional(),effectiveDate:field.optional(),amendmentReferences:field.optional()}).strict()}).strict();
+const compact=text=>text.replace(/\s+/gu,' ').trim();
+// Extraction configuration is part of the existing reviewed source contract.
+// This parser never discovers/fetches links, approves facts or activates a source.
+export function parseSchemeDocument(buffer,source){
+ const plan=contract.parse(source.adapterOptions?.schemeDocument),$=load(buffer.toString('utf8'));$('script,style,nav,footer,header').remove();
+ const records=$(plan.recordSelector).toArray();if(!records.length||records.length>1000)throw Error('Scheme document structure changed or bounded record count exceeded');
+ return records.map(node=>{const scope=$(node),titleNodes=scope.find(plan.titleSelector),titleValues=[...new Set(titleNodes.toArray().map(n=>compact($(n).text())).filter(Boolean))];if(titleValues.length!==1)throw Error('Scheme title missing or ambiguous; source extraction stopped');
+  const evidence={},flags=[],result={title:titleValues[0],state:plan.state};
+  for(const key of ['department','benefits','eligibilityConditions','requiredDocuments','applicationMethod','effectiveDate','amendmentReferences']){const spec=plan.fields[key],values=spec?[...new Set(scope.find(spec.selector).toArray().map(n=>compact($(n).text())).filter(Boolean))]:[];if(values.some(v=>v.length>50000))throw Error('Scheme field exceeds evidence bound');evidence[key]={selector:spec?.selector||null,values};if(!values.length){flags.push({field:key,status:'MISSING_IN_SELECTED_EVIDENCE'});result[key]=spec?.multiple?[]:null;}else if(!spec.multiple&&values.length>1){flags.push({field:key,status:'AMBIGUOUS_MULTIPLE_VALUES'});result[key]=null;}else result[key]=spec.multiple?values:values[0];}
+  const links=plan.sourceLinkSelector?scope.find(plan.sourceLinkSelector).toArray().map(n=>$(n).attr('href')).filter(Boolean):[];if(links.length>1)throw Error('Ambiguous scheme evidence URL');const sourceUrl=new URL(links[0]||source.url,source.url);if(sourceUrl.protocol!=='https:'||sourceUrl.username||sourceUrl.password)throw Error('Unsafe scheme evidence URL');
+  const apply=plan.applicationLinkSelector?scope.find(plan.applicationLinkSelector).toArray().map(n=>$(n).attr('href')).filter(Boolean):[];let applicationUrl=null;if(apply.length>1)flags.push({field:'applicationUrl',status:'AMBIGUOUS_MULTIPLE_VALUES'});else if(apply.length===1){const u=new URL(apply[0],source.url);if(u.protocol!=='https:'||u.username||u.password)throw Error('Unsafe application evidence URL');applicationUrl=u.href;}else flags.push({field:'applicationUrl',status:'MISSING_IN_SELECTED_EVIDENCE'});
+  const effective=typeof result.effectiveDate==='string'?result.effectiveDate:null,validDate=effective&&/^\d{4}-\d\d-\d\d$/.test(effective)&&!Number.isNaN(Date.parse(effective))&&new Date(effective).toISOString().slice(0,10)===effective;
+  if(effective&&!validDate)flags.push({field:'effectiveDate',status:'DATE_REQUIRES_INTERPRETATION'});
+  const excerpt=compact(scope.text());if(excerpt.length>120000)throw Error('Scheme evidence excerpt exceeds extraction bound');
+  return{...result,sourceUrl:sourceUrl.href,description:excerpt,requiredDocuments:Array.isArray(result.requiredDocuments)?result.requiredDocuments:result.requiredDocuments?[result.requiredDocuments]:[],applicationInfo:{steps:Array.isArray(result.applicationMethod)?result.applicationMethod:result.applicationMethod?[result.applicationMethod]:[],url:applicationUrl},dates:validDate?{effectiveFrom:effective}:{},documentReferences:Array.isArray(result.amendmentReferences)?result.amendmentReferences:result.amendmentReferences?[result.amendmentReferences]:[],keyFacts:{effectiveDateEvidence:result.effectiveDate,fieldUncertainties:flags},extraction:{parser:'reviewed-scheme-document-v1',documentHash:hash(buffer.toString('utf8')),excerpt,fields:evidence,flags,currentness:'REVIEW_REQUIRED',eligibility:'DESCRIPTIVE_EVIDENCE_NOT_APPROVED_RULES'}};
+ });
+}

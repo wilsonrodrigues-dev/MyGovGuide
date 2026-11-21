@@ -10,16 +10,36 @@ dotenv.config({ path: path.join(serverRoot, '.env'), quiet: true });
 const schema = z.object({
   PORT: z.coerce.number().int().min(1).max(65535).default(3001),
   HOST: z.string().default('127.0.0.1'),
-  CLIENT_ORIGINS: z.string().default('http://127.0.0.1:5173,http://localhost:5173,http://127.0.0.1:4173,http://localhost:4173'),
+  CLIENT_ORIGINS: z.preprocess(v => v ?? process.env.CLIENT_ORIGIN,
+    z.string().default('http://127.0.0.1:5173,http://localhost:5173,http://127.0.0.1:4173,http://localhost:4173')),
   MONGODB_URI: z.preprocess(v => v === '' ? undefined : v,
     z.string().regex(/^mongodb(?:\+srv)?:\/\//).default('mongodb://127.0.0.1:27018/mygovguide_phase2?directConnection=true')),
+  MONGODB_DB_NAME: z.preprocess(v => v === '' ? undefined : v, z.string().regex(/^[\w-]+$/).optional()),
+  LEGACY_MONGODB_DB_NAME: z.preprocess(v => v === '' ? undefined : v, z.string().regex(/^[\w-]+$/).optional()),
+  DATABASE_READ_ONLY:z.enum(['true','false']).default('false'),
+  DENY_LEGACY_DB_WRITES: z.enum(['true', 'false']).default('true'),
   ENABLE_LIVE_COLLECTION: z.enum(['true', 'false']).default('false'),
+  TAVILY_API_KEY:z.string().optional(),
+  TAVILY_ENABLED:z.enum(['true','false']).default('false'),
+  TAVILY_FREE_TIER_CONFIRMED:z.enum(['true','false']).default('false'),
   MONGODB_DNS_SERVERS: z.string().default('').refine(value => !value.trim() || value.split(',').every(server => isIP(server.trim()) !== 0), 'Use comma-separated DNS server IP addresses'),
   GEMINI_API_KEY_PRIMARY: z.string().optional(),
   GEMINI_API_KEY_SECONDARY: z.string().optional(),
   GEMINI_MODEL: z.string().max(120).default(''),
   GEMINI_FREE_TIER_CONFIRMED: z.enum(['true','false']).default('false'),
   GEMINI_SECONDARY_AUTHORIZED: z.enum(['true','false']).default('false'),
+  GEMINI_SECONDARY_PROJECT_RELATION: z.enum(['shared','independent','unknown']).default('shared'),
+  GROQ_API_KEY_PRIMART: z.string().optional(),
+  GROQ_API_KEY_PRIMARY: z.string().optional(),
+  GROQ_MODEL: z.string().max(120).default('openai/gpt-oss-120b'),
+  GROQ_FREE_TIER_CONFIRMED: z.enum(['true','false']).default('false'),
+  GROQ_INPUT_COST_PER_MILLION: z.coerce.number().nonnegative().default(0),
+  GROQ_OUTPUT_COST_PER_MILLION: z.coerce.number().nonnegative().default(0),
+  IMAGEKIT_API: z.string().optional(),
+  IMAGEKIT_PRIVATE_KEY: z.string().optional(),
+  IMAGEKIT_URL_ENDPOINT: z.string().default(''),
+  IMAGEKIT_UPLOADS_ENABLED: z.enum(['true','false']).default('false'),
+  IMAGEKIT_FREE_TIER_CONFIRMED: z.enum(['true','false']).default('false'),
   AI_PAID_USE_APPROVED: z.enum(['true','false']).default('false'),
   AI_MAX_COST_PER_DAY: z.coerce.number().min(0).max(100).default(0),
   AI_MAX_RETRIES: z.coerce.number().int().min(0).max(2).default(2),
@@ -36,16 +56,26 @@ const schema = z.object({
 const parsed = schema.safeParse(process.env);
 if (!parsed.success) throw new Error('Invalid environment configuration. Check backend/.env.example; secret values are not logged.');
 export const env = parsed.data;
-export function validateDatabaseUris(appUri, testUri) {
+export function resolveDatabaseName(uri, explicitName) {
+  const parsedUri = new URL(uri);
+  const fromUri = decodeURIComponent(parsedUri.pathname.replace(/^\/+/, ''));
+  // An explicit database path in MONGODB_URI wins, so read-only inspection
+  // overrides cannot silently write to the configured application database.
+  const name = fromUri || explicitName;
+  if (typeof name !== 'string' || !/^[\w-]+$/.test(name) || /^(admin|local|config)$/.test(name)) throw new Error('Use an explicitly named application database.');
+  return name;
+}
+export function validateDatabaseUris(appUri, testUri, appDbName) {
   try {
     const app = new URL(appUri);
-    if (!/^\/[\w-]+$/.test(app.pathname) || /^\/(admin|local|config)$/.test(app.pathname)) throw new Error();
+    const appName = resolveDatabaseName(appUri, appDbName);
     if (testUri) {
       const test = new URL(testUri);
-      if (!/^\/mygovguide_phase2_test(?:_[\w-]+)?$/.test(test.pathname) || (app.host === test.host && app.pathname === test.pathname)) throw new Error();
+      const testName = decodeURIComponent(test.pathname.replace(/^\/+/, ''));
+      if (!/^mygovguide_phase2_test(?:_[\w-]+)?$/.test(testName) || (app.host === test.host && appName === testName)) throw new Error();
     }
   } catch { throw new Error('Use an explicitly named application database and a separate mygovguide_phase2_test database. Connection values are not logged.'); }
 }
-validateDatabaseUris(env.MONGODB_URI, env.MONGODB_TEST_URI);
+validateDatabaseUris(env.MONGODB_URI, env.MONGODB_TEST_URI, env.MONGODB_DB_NAME);
 export const phase1Dir = path.resolve(serverRoot, process.env.PHASE1_DATA_DIR || 'research/phase1');
 export const approvalFile = path.resolve(serverRoot, process.env.SOURCE_APPROVAL_FILE || 'config/source-approvals.json');

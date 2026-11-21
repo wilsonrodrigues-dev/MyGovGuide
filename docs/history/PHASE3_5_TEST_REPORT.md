@@ -6,15 +6,15 @@ Date: 17 November 2026. Native Windows, Node 24, MongoDB replica set on port 270
 
 | Check | Result | Evidence |
 | --- | --- | --- |
-| Backend unit/component tests | 72 passed, zero failed/skipped | `backend/reports/phase35-unit-tests.txt` |
+| Backend unit/component tests | 72 passed, zero failed/skipped | `docs/history/test-artifacts-before-cleanup/backend/phase35-unit-tests.txt` |
 | Frontend contract tests | 4 passed, zero failed/skipped | Same combined report |
-| Database integration | 22 passed test nodes including 3 parents; 19 substantive child scenarios, zero failed/skipped | `backend/reports/phase35-integration-tests.txt` |
-| Desktop/mobile Edge browser suite | 14 passed: 12 existing citizen journeys and 2 complete admin journeys | `frontend/reports/phase35-e2e.txt`, `frontend/reports/e2e-results.json` |
-| Admin after final responsive table adjustment | 2 passed | `frontend/reports/phase35-admin-e2e.txt` |
-| Production frontend build | Passed; admin JS/CSS split from citizen bundle | `frontend/reports/phase35-build.txt` |
+| Database integration | 22 passed test nodes including 3 parents; 19 substantive child scenarios, zero failed/skipped | `docs/history/test-artifacts-before-cleanup/backend/phase35-integration-tests.txt` |
+| Desktop/mobile Edge browser suite | 14 passed: 12 existing citizen journeys and 2 complete admin journeys | `docs/history/test-artifacts-before-cleanup/frontend/phase35-e2e.txt`, `frontend/reports/e2e-results.json` |
+| Admin after final responsive table adjustment | 2 passed | `docs/history/test-artifacts-before-cleanup/frontend/phase35-admin-e2e.txt` |
+| Production frontend build | Passed; admin JS/CSS split from citizen bundle | `docs/history/test-artifacts-before-cleanup/frontend/phase35-build.txt` |
 | Dependency audit | Install audit reports zero vulnerabilities after targeted patched dependencies | Lockfile and final install result |
-| Research preservation | All 17 original files match their original SHA-256 manifest | `backend/reports/phase35-final-audit.json` |
-| Secret scan | No private configured password/session-secret matches in 209 scanned source/document/report files; ignored private env excluded | `backend/reports/phase35-secret-scan.json` |
+| Research preservation | All 17 original files match their original SHA-256 manifest | `docs/history/test-artifacts-before-cleanup/backend/phase35-final-audit.json` |
+| Secret scan | No private configured password/session-secret matches in 209 scanned source/document/report files; ignored private env excluded | `docs/history/test-artifacts-before-cleanup/backend/phase35-secret-scan.json` |
 | Atlas | BLOCKED: DNS/connection failed, no writes | Sanitized `db:inspect` result; database guide |
 | Genuine government live collection | NOT RUN: no source with complete verified access evidence | Policy probes and source approval log |
 

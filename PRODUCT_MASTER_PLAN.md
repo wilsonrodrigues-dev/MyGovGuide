@@ -1,12 +1,14 @@
 # MyGovGuide — Product Master Plan (Canonical Specification)
 
+**Active owner amendment — 21 November 2026:** The Final Real Data Completion and Citizen Feature Correction instruction supersedes earlier routine mandatory-human-review and three-scheme/demo-only limits. Process the entire existing scheme/form/notice/scam inventory through targeted authoritative research, source-version preservation, evidence/factual/translation validation and automatic publication of sufficiently supported content. Machine decisions must use a distinct automated validator identity and version-bound audit metadata, never a fabricated human approval or government certification. Incomplete/contradictory operative rules still cannot produce eligibility verdicts. External access/rehosting permissions, source restrictions, privacy, zero-paid entitlement and legacy-database safeguards remain mandatory. No bulk scraping or collection-monitor changes. Record resumable per-record outcomes in `backend/reports/citizen-data-completion-progress.json`. Older human-review wording below describes the superseded workflow wherever it conflicts with this amendment.
+
 Implementation evidence for the authorized section 17 scope is recorded separately in [PHASE3_6_COMPLETION_REPORT.md](docs/history/PHASE3_6_COMPLETION_REPORT.md) and [PHASE3_6_TRACEABILITY.md](docs/history/PHASE3_6_TRACEABILITY.md). Those reports do not change this product specification or claim completion of future citizen phases.
 
 **Version:** 2.3 — Theme and Phase 3.6 data-to-content implementation locked  
 **Date:** 17 November 2026  
 **Project:** MyGovGuide  
 **Tagline:** *Government Information, In Your Language*  
-**Technology:** JavaScript-only MERN web application (React/Vite frontend, Express/Node backend, MongoDB/Mongoose); Google Gemini for supported AI tasks; browser speech services with evaluated Indian-language fallback  
+**Technology:** JavaScript-only MERN web application (React/Vite frontend, Express/Node backend, MongoDB/Mongoose); Google Gemini with optional entitled Groq fallback for reviewed public AI tasks; browser speech services with evaluated Indian-language fallback  
 **Initial geography:** Karnataka, with discoverable central-government schemes and extensibility to other states  
 **Status:** **Product specification locked; limited Phase 3.6 implementation authorized for admin data operations + evidence-gated AI content processing + design-theme refresh.** The full citizen-feature roadmap remains unchanged. Government data approval, production release, and some external-provider connectivity remain unresolved. This is not proof of implementations.
 
@@ -535,7 +537,7 @@ AI_MAX_RETRIES=2
 
 The **two Gemini keys can be useful for credential replacement or isolation if they have genuinely distinct, authorized configurations**; they do not double quota when issued from the same project. Gemini applies rate limits per **project**, not per key. Do not create key/project rotations to evade rate limits or provider restrictions.
 
-**Active provider decision (18 November 2026): Google Gemini only.** No independent AI fallback is planned or authorized. The owner subsequently authorized removal of the retired provider implementation/configuration and bounded free-only Gemini validation. Primary and secondary Gemini credentials remain private; metadata availability alone does not establish free project entitlement.
+**Active provider decision (19 November 2026, owner supersedes Gemini-only decision): Gemini primary, expressly authorized Gemini secondary, then Groq.** Reuse validated versioned artifacts before generation. Shared or unknown Gemini project quota must not be bypassed by rotating keys; quota fallback to an independently entitled provider is permitted. Groq supports the supplied private `GROQ_API_KEY_PRIMART` spelling and optional `GROQ_API_KEY_PRIMARY` alias. Fallback is for service/quota/credential unavailability, never to bypass source permissions, factual validation or a provider's permission denial. Each provider requires confirmed account-level free entitlement; paid usage remains unapproved. Private citizen forms never enter this public-content chain. Human fact/rights/currentness and exact editorial review requirements remain unchanged. See [current provider and Forms operation](docs/guides/AI_PROCESSING_RUNBOOK.md).
 
 **Router behavior:**
 1. Before request: use cache; check approved source/content, task data classification, per-provider capability, circuit state and daily cost budget.
@@ -543,7 +545,7 @@ The **two Gemini keys can be useful for credential replacement or isolation if t
 3. On 429: respect `Retry-After`/quota backoff; **do not retry another key in the same Google project as a quota workaround**. Queue the task for later.
 4. On 401/403: stop use of the broken key and alert admin; secondary key only if genuinely valid/authorized for that operation; never bypass permission denial.
 5. On 400/invalid prompt/schema: repair request or fail; do not blindly fail over.
-6. If Gemini remains unavailable, defer the job and show current reviewed cached content or the original-text fallback. Do not activate a different provider.
+6. If Gemini remains unavailable, use the authorized, free-entitled Groq adapter under the same public-content contract. If that provider is unavailable or unconfigured, defer without regenerating validated chunks. Never bypass factual validation or permission denial.
 7. **Every provider returns to the same Zod/JSON validation and fact checking.** Check dates, money, thresholds, document names, official URLs; compare against approved source facts; high-risk output requires human review.
 8. Store by `contentId + sourceVersionHash + lang + taskType + promptVersion + provider + modelVersion`. Keep idempotent records. Mark the chosen provider for audit.
 9. If all providers fail, return cached **current-version approved** content or a useful original-text fallback, never fabricated text.
@@ -679,6 +681,10 @@ AI_MAX_CONCURRENT_JOBS=2
 
 ### 17.4 Canonical operational pipeline, approval gates and persistence
 
+**Owner-directed blank-form draft exception, 21 November 2026:** the Forms Help task permits source-grounded EN/HI/KN draft preparation before publication review for the five existing official blank forms. Preparation requires an identified PDF, preserved source evidence, an explicit field inventory and automated validation bound to the PDF, inventory and immutable source version. This exception does not record human fact/rights/currentness approval, grant embedding/rehosting rights, or make unreviewed derivatives verified public guidance. Private citizen uploads remain excluded from this public-content pipeline. Genuine publication and currentness blockers must remain explicit.
+
+**Owner-approved admin simplification, 20 November 2026:** normal content decisions attach existing database source URLs, document/extracted-fact references, source versions and exact language revisions automatically. Supporting-evidence typing is not mandatory. The normal journey is Content → Preview → Approve & Publish, Keep Pending or Reject, with an optional rejection note. A confirmed action may complete required editorial approval and publication in one transaction when existing fact/rights/currentness and validated language prerequisites are satisfied. Source permissions, missing facts and eligibility rules are never inferred. Live bulk publication requires the exact eligible record/revision list and explicit administrator confirmation. Routine/historical handling appends dispositions without deleting observations or rewriting previous decisions. Dashboard counts describe content/worklist groups, with raw observation totals retained separately for audit.
+
 **Never simplify first and discard the original.** The durable sequence is:
 
 1. **Source authorization gate:** determine which official endpoint and exact method/path may be queried; reject unapproved sources before a network request.
@@ -726,7 +732,7 @@ Extend `/admin` with:
 
 **Admin login update — 18 November 2026:** The owner requested environment username/password comparison without database authentication or admin CSRF tokens. The existing admin now uses private backend ADMIN_USERNAME/ADMIN_PASSWORD and in-memory login sessions. Citizen authentication and source/publication/spending gates remain unchanged. Dashboard data operations still require MongoDB. [Change and verification](docs/history/ENV_ADMIN_LOGIN_CHANGE.md).
 
-**Citizen session update — 18 November 2026:** The owner requested removal of all remaining CSRF-token authentication. Citizen APIs no longer generate/return/require a separate request token and frontend requests no longer store or attach one. Owning HttpOnly cookies, hashed citizen-session storage, expiry, preference validation and origin checks remain. Current implementation/results are consolidated in [whole-project status](docs/PROJECT_STATUS_REPORT.md); this is a report, not another master plan or implementation phase.
+**Citizen session update — 18 November 2026:** The owner requested removal of all remaining CSRF-token authentication. Citizen APIs no longer generate/return/require a separate request token and frontend requests no longer store or attach one. Owning HttpOnly cookies, hashed citizen-session storage, expiry, preference validation and origin checks remain. Current implementation/results are consolidated in [whole-project status](docs/history/PROJECT_STATUS_REPORT_2026_11_19.md); this is a report, not another master plan or implementation phase.
 
 
 **Real-data execution evidence — 18 November 2026:** The owner authorized real-source collection and explicitly approved five limited public fact packets for AI preparation only. Scoped NDMA RSS ingestion stored 100 notices; repeat ETag HTTP304 added no duplicates. Five schemes produced 15 validated review-pending multilingual artifacts, with no publication, eligibility approval or paid requests. Source restrictions remain effective; no new implementation phase or citizen scope was added. [Exact execution report](docs/history/REAL_DATA_COLLECTION_REPORT.md), [owner-reviewed fact packets](docs/FIVE_SCHEME_FACT_REVIEW.md).
@@ -736,3 +742,9 @@ Extend `/admin` with:
 
 
 **Owner-authorized data-to-citizen slice — 18 November 2026:** The owner requested Atlas lineage audit, first actual editorial publication, existing React scheme discovery/detail integration and permitted API investigation. After reviewing the concrete PM-KISAN packet, the owner explicitly approved all three revisions and publication. One real trilingual scheme now serves from Atlas through existing publication gates; NDMA execution was separately restored after evidence checks. No new AI calls, eligibility approvals, dashboard or unrelated feature phase. [Completion report and scope limits](docs/history/ATLAS_DATA_TO_CITIZEN_COMPLETION_REPORT.md). This targeted F2 implementation supersedes earlier blanket deferral only for the requested scheme discovery/detail slice.
+
+
+**Owner-authorized first citizen UI milestone — 19 November2026:** The owner explicitly authorized the supplied citizen UI prompt and Civic Editorial blueprint: language-first manual/optional guided onboarding, exact ordered Home, existing published scheme discovery/details, and a shared user-activated allowlisted voice widget. Citizen colors use ink/cobalt/warm-paper/lavender scoped to citizen pages; admin retains its existing Civic Blue theme. This targeted scope supersedes earlier blanket citizen/voice deferral only for these screens/actions. Uploads, eligibility engines, verified center maps, accounts/notifications, new source permissions, paid APIs and automatic editorial publication remain excluded. [Implementation and actual verification](docs/history/CITIZEN_UI_MILESTONE_REPORT.md).
+
+
+**Owner-authorized Forms milestone — 19 November 2026:** The owner authorized F4 catalog/upload/identification/field-guidance implementation, scheme links, contextual voice and an extension of the existing admin review workspace, preserving Atlas and other services. This supersedes earlier upload deferral only for this Forms scope. The subsequent explicit owner decision keeps all four form packets pending until fact, rights and currentness review is resolved. No real form Gemini generation, fact/publication approval, source authorization or paid use is granted. [Implemented routes, actual evidence, tests and limitations](docs/history/FORMS_MILESTONE_REPORT.md).

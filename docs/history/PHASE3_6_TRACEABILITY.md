@@ -1,6 +1,6 @@
 # Phase 3.6 implementation inventory and traceability
 
-Authority: Product Master Plan v2.3, section 17, and CODEX_PHASE3_6_PROMPT.md. Repository inspected before changes: existing backend/frontend, all persistence models, admin routes/UI, source adapters and transport, review/ingestion services, native worker/scheduler, tests and historical reports. Baseline source/research/test hashes are in `backend/reports/phase36-baseline.json`. The original 72 backend and 4 frontend checks passed before implementation.
+Authority: Product Master Plan v2.3, section 17, and CODEX_PHASE3_6_PROMPT.md. Repository inspected before changes: existing backend/frontend, all persistence models, admin routes/UI, source adapters and transport, review/ingestion services, native worker/scheduler, tests and historical reports. Baseline source/research/test hashes are in `docs/history/test-artifacts-before-cleanup/backend/phase36-baseline.json`. The original 72 backend and 4 frontend checks passed before implementation.
 
 | Requirement | Existing foundation retained | Phase 3.6 implementation / proof |
 | --- | --- | --- |

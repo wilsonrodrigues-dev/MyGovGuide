@@ -1,0 +1,6 @@
+const text={
+account:['The official one-account restriction has not been fully included in the reviewed rules.','समीक्षित नियमों में आधिकारिक एक-खाता प्रतिबंध पूरा शामिल नहीं है।','ಪರಿಶೀಲಿಸಿದ ನಿಯಮಗಳಲ್ಲಿ ಅಧಿಕೃತ ಒಂದೇ ಖಾತೆಯ ನಿರ್ಬಂಧ ಸಂಪೂರ್ಣವಾಗಿ ಸೇರಿಲ್ಲ.'],
+source:['The complete current official conditions and their source version still need verification.','पूर्ण वर्तमान आधिकारिक शर्तों और उनके स्रोत संस्करण का सत्यापन बाकी है।','ಸಂಪೂರ್ಣ ಪ್ರಸ್ತುತ ಅಧಿಕೃತ ಷರತ್ತುಗಳು ಮತ್ತು ಮೂಲ ಆವೃತ್ತಿಯ ಪರಿಶೀಲನೆ ಬಾಕಿಯಿದೆ.'],
+review:['The complete requirements and questions still need an explicit human review.','पूर्ण आवश्यकताओं और प्रश्नों की स्पष्ट मानवीय समीक्षा बाकी है।','ಸಂಪೂರ್ಣ ಅವಶ್ಯಕತೆಗಳು ಮತ್ತು ಪ್ರಶ್ನೆಗಳ ಸ್ಪಷ್ಟ ಮಾನವ ಪರಿಶೀಲನೆ ಬಾಕಿಯಿದೆ.'],
+dates:['The applicable dates or age boundary have not been verified well enough for this check.','इस जाँच के लिए लागू तिथियाँ या आयु-सीमा पर्याप्त रूप से सत्यापित नहीं हैं।','ಈ ಪರಿಶೀಲನೆಗೆ ಅನ್ವಯಿಸುವ ದಿನಾಂಕಗಳು ಅಥವಾ ವಯಸ್ಸಿನ ಮಿತಿ ಸಾಕಷ್ಟು ಪರಿಶೀಲಿಸಲ್ಪಟ್ಟಿಲ್ಲ.']};
+export function eligibilityGap(code,language){const key=code==='ONE_ACCOUNT_RESTRICTION_NOT_MODELED'?'account':/DATED|EXPIRED/.test(code)?'dates':/REVIEW|APPROV|TRANSLAT|QUESTION/.test(code)?'review':'source';return text[key][({en:0,hi:1,kn:2})[language]??0];}

@@ -37,7 +37,8 @@ async function stop(child) {
 }
 try {
   if (await available('http://127.0.0.1:3011/api/health') || await available('http://127.0.0.1:4173')) throw new Error('Test ports 3011/4173 are already in use; no existing server was stopped');
-  const testEnv = await prepareE2e({contentFixture:process.argv.includes('content.spec.js')});
+  const formsFixture=process.argv.some(x=>['forms.spec.js','formsViewer.spec.js'].includes(x));
+  const testEnv = {...await prepareE2e({contentFixture:process.argv.some(x=>['content.spec.js','approval.spec.js'].includes(x)),formsFixture}),...(formsFixture?{MYGOVGUIDE_E2E_FORMS_FIXTURE:'true'}:{})};
   const api = start(path.join(backend, 'src/server.js'), [], backend, { ...testEnv, PORT: '3011' });
   await ready('http://127.0.0.1:3011/api/health', api);
   start(path.join(backend, 'scripts/worker.js'), [], backend, testEnv);
@@ -46,9 +47,9 @@ try {
   await ready('http://127.0.0.1:4173', preview);
   const testPackage = require.resolve('@playwright/test/package.json');
   const args=process.argv.slice(2);
-  const tests = start(path.join(path.dirname(testPackage), 'cli.js'), ['test', ...(args.length?args:['--grep-invert','@content-fixture'])], frontend, { ...testEnv, MYGOVGUIDE_E2E_SERVERS: 'external' });
+  const tests = start(path.join(path.dirname(testPackage), 'cli.js'), ['test', ...(args.length?args:['--grep-invert','@content-fixture|@forms-fixture|@forms-viewer'])], frontend, { ...testEnv, MYGOVGUIDE_E2E_SERVERS: 'external' });
   process.exitCode = await new Promise(resolve => tests.once('exit', code => resolve(code ?? 1)));
-  await copyFile(path.join(frontend,'reports/e2e-results.json'),path.join(frontend,args.includes('content.spec.js')?'reports/phase36-content-e2e.json':'reports/phase36-regression-e2e.json'));
+  await copyFile(path.join(frontend,'reports/e2e-results.json'),path.join(frontend,formsFixture?'reports/forms-e2e.json':args.includes('content.spec.js')?'reports/phase36-content-e2e.json':'reports/phase36-regression-e2e.json'));
   if(!args.length&&process.exitCode===0){
     for(const child of [...children].reverse())await stop(child);
     const content=start(fileURLToPath(import.meta.url),['content.spec.js'],frontend,{});

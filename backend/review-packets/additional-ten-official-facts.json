@@ -1,0 +1,221 @@
+{
+  "at": "2026-11-18T15:43:55.969Z",
+  "humanDecision": "PENDING; no approval fabricated",
+  "packets": [
+    {
+      "id": "IN-GN-01",
+      "name": "Pradhan Mantri Jan-Dhan Yojana (PMJDY)",
+      "category": "General",
+      "department": "Department of Financial Services, Ministry of Finance",
+      "url": "https://pmjdy.gov.in/scheme",
+      "quote": "There is no requirement to maintain any minimum balance in PMJDY accounts.",
+      "benefits": "PMJDY provides basic banking access for unbanked people, including a basic savings account without a minimum-balance requirement. Associated insurance and overdraft facilities have separate conditions.",
+      "gaps": [
+        "KYC, account-opening requirements and current conditions for overdraft and insurance need operative-document review.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "documents": [],
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-aa379b33765f4a59c12e0e23"
+    },
+    {
+      "id": "IN-GN-02",
+      "name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY)",
+      "category": "General",
+      "department": "National Health Authority, Ministry of Health and Family Welfare",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160081&id=160081&lang=2&reg=48",
+      "quote": "public health assurance scheme and covers secondary and tertiary care.",
+      "benefits": "AB PM-JAY supports cashless hospital care for covered beneficiaries through participating hospitals. Coverage depends on the relevant beneficiary category, verified enrolment, treatment package and implementation arrangements.",
+      "gaps": [
+        "State-specific coverage, senior-citizen category conditions, verification documents, exclusions and current hospital packages need review; no individual coverage decision is made.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "documents": [],
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-beabb255ff31157385560c6a"
+    },
+    {
+      "id": "IN-GN-03",
+      "name": "Pradhan Mantri Awaas Yojana-Gramin (PMAY-G)",
+      "category": "General",
+      "department": "Department of Rural Development, Ministry of Rural Development",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1",
+      "quote": "providing 4.95 Crore pucca houses with basic amenities",
+      "benefits": "PMAY-G supports rural housing for qualifying households without adequate housing. Assistance and basic amenities depend on official beneficiary selection and local implementation.",
+      "gaps": [
+        "The source is a January2026 year-end announcement, not a complete governing guideline. Current selection lists, land conditions, assistance amounts, application steps and documents need review.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "documents": [],
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-5acf0db3d77139893df74ba4"
+    },
+    {
+      "id": "IN-GN-04",
+      "name": "Pradhan Mantri Awas Yojana-Urban 2.0 (PMAY-U 2.0)",
+      "category": "General",
+      "department": "Ministry of Housing and Urban Affairs",
+      "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf",
+      "quote": "to construct, purchase or rent a house at an affordable cost.",
+      "benefits": "PMAY-U 2.0 supports qualifying urban households through different construction, purchase, rental and interest-subsidy arrangements. The applicable route and assistance depend on the scheme vertical and local implementation.",
+      "gaps": [
+        "Income bands, property-ownership exclusions, beneficiary family definition, current amendments and vertical-specific document/application requirements need exact-clause review.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "documents": [],
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-e7c3dc24afb438bdab0ac568"
+    },
+    {
+      "id": "IN-FA-06",
+      "name": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+      "category": "Farmer",
+      "department": "Department of Agriculture and Farmers Welfare",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2309204&lang=1&reg=6",
+      "quote": "a voluntary and contributory old-age pension scheme",
+      "benefits": "PM-KMY is a contribution-based pension programme for qualifying small and marginal farmers. Subscriber contributions and government matching support form part of the pension arrangement; it is distinct from PM-KISAN income support.",
+      "documents": [
+        "Aadhaar card",
+        "Bank account details",
+        "Mobile number for OTP verification"
+      ],
+      "gaps": [
+        "Entry-age and land-record cutoffs, exclusions, contribution schedules and spouse/exit rules need operative review. The short checklist is reported in the announcement and is not certified complete.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-0c684a50e1d5578c7abb66bb"
+    },
+    {
+      "id": "IN-WK-04",
+      "name": "Atal Pension Yojana (APY)",
+      "category": "Worker",
+      "department": "Department of Financial Services, Ministry of Finance",
+      "url": "https://financialservices.gov.in/atal-pension-yojana",
+      "quote": "The age of the subscriber should be between 18 and 40 years.",
+      "benefits": "APY provides a contribution-based retirement pension arrangement. Contributions and the pension option depend on entry age and scheme rules; it is not a free cash grant.",
+      "gaps": [
+        "The FAQ includes older provisions. Current income-taxpayer restrictions, entry conditions, contribution tables, nominee and exit rules require reconciliation with current PFRDA documents.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "documents": [],
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-fa2472c4749698cd2c624098"
+    },
+    {
+      "id": "IN-EN-01",
+      "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+      "category": "Entrepreneur",
+      "department": "Department of Financial Services, Ministry of Finance",
+      "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "quote": "providing access to institutional collateral free credit to micro enterprises.",
+      "benefits": "PMMY supports eligible micro-enterprises with institutional business credit, including term-loan or working-capital needs. It is repayable borrowing rather than an unconditional subsidy.",
+      "gaps": [
+        "Lender appraisal, current loan categories including Tarun Plus, repayment terms, interest and documentation require current operative/lender review. No credit approval or rate is promised.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "documents": [],
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-647429f304ad3d86c074435b"
+    },
+    {
+      "id": "IN-EN-02",
+      "name": "Prime Minister Street Vendor AtmaNirbhar Nidhi (PM SVANidhi)",
+      "category": "Entrepreneur",
+      "department": "Ministry of Housing and Urban Affairs / Department of Financial Services",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303797&lang=2&reg=48",
+      "quote": "provide collateral-free working capital loans to urban street vendors",
+      "benefits": "PM SVANidhi supports qualifying street vendors through working-capital credit and related financial-inclusion measures. Repayment and vendor-verification conditions apply.",
+      "gaps": [
+        "The August2026 announcement reports the restructured scheme; old loan limits must not be reused. Current tranches, vendor documents, municipal coverage, rates and application steps need review.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "documents": [],
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-e82de0e3e0db0b5aa2fc5d20"
+    },
+    {
+      "id": "IN-EN-03",
+      "name": "PM Vishwakarma",
+      "category": "Entrepreneur",
+      "department": "Ministry of Micro, Small and Medium Enterprises",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=159998&lang=1&reg=1",
+      "quote": "recognition, skill upgradation, toolkit incentive, credit support, incentive for digital transactions and marketing support.",
+      "benefits": "PM Vishwakarma combines recognition, training, tools, conditional credit and marketing support for qualifying traditional artisans and craftspeople. Each component has its own requirements.",
+      "gaps": [
+        "Covered trades, family restrictions, prior-loan exclusions, current registration availability, component conditions and documents require governing-guideline review. A registration target being met is not proof that new applications are open.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "documents": [],
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-b9da38d5027dfe6724184f2f"
+    },
+    {
+      "id": "IN-EN-04",
+      "name": "Prime Minister Employment Generation Programme (PMEGP)",
+      "category": "Entrepreneur",
+      "department": "Ministry of Micro, Small and Medium Enterprises / KVIC",
+      "url": "https://www.msme.gov.in/static/uploads/2025/06/a5d3bb85a742c20836cca93360cdd62e.pdf",
+      "quote": "for generation of employment opportunities through establishment of micro enterprises in non-farm sector",
+      "benefits": "The cited PMEGP guidelines describe credit-linked support for new non-farm micro-enterprises. Bank lending, beneficiary contribution and subsidy conditions apply; the programme is not an unconditional cash payment.",
+      "publicationBlocked": true,
+      "gaps": [
+        "The retrieved guidelines explicitly cover continuation through2025-26. Current2026-27 continuation/amendment evidence is required before publication; a statistics dashboard alone is insufficient. Project limits, subsidy percentages, training and documents need current review.",
+        "Human fact, rights and currentness review is pending. This is official-document research, not approved scheme content.",
+        "Complete current eligibility, exclusions, operative amendments and document requirements are not certified.",
+        "No open application window, personal eligibility or guaranteed approval is asserted."
+      ],
+      "checkedAt": "2026-11-18T15:43:55.969Z",
+      "documents": [],
+      "evidenceMode": "MANUAL_OFFICIAL_DOCUMENT_RESEARCH",
+      "humanFactReview": "PENDING",
+      "proposedRights": "Limited factual paraphrase with short attributed verification excerpt only; no forms/images or full-page mirroring. Rights and currentness need human review; no collection permission granted.",
+      "sourceVersionId": "version-03b002b87a75cc8ac8765918"
+    }
+  ]
+}

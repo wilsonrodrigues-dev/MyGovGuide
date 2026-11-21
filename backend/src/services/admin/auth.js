@@ -15,9 +15,15 @@ export function createSession() {
  for(const [id,s]of sessions)if(s.expiresAt<=Date.now())sessions.delete(id);
  const token=randomBytes(32).toString('base64url');sessions.set(digest(token),{expiresAt:Date.now()+cookieOptions.maxAge,credentialVersion:credentialVersion()});return token;
 }
+export function sessionFromToken(token) {
+ const session=token&&sessions.get(digest(token));
+ if(!adminConfigured()||!session||session.expiresAt<=Date.now()||session.credentialVersion!==credentialVersion()){revokeSession(token);return null;}
+ return session;
+}
+export function adminFromToken(token) {return sessionFromToken(token)?{_id:'environment-admin',username:env.ADMIN_USERNAME}:null;}
 export function authenticate(req,res,next) {
- const token=tokenFrom(req),session=token&&sessions.get(digest(token));
- if(!adminConfigured()||!session||session.expiresAt<=Date.now()||session.credentialVersion!==credentialVersion()){revokeSession(token);return res.status(401).json({error:{code:'ADMIN_AUTH_REQUIRED',message:'Administrator sign-in required'}});}
- req.admin={_id:'environment-admin',username:env.ADMIN_USERNAME};req.adminToken=token;next();
+ const token=tokenFrom(req),admin=adminFromToken(token);
+ if(!admin)return res.status(401).json({error:{code:'ADMIN_AUTH_REQUIRED',message:'Administrator sign-in required'}});
+ req.admin=admin;req.adminToken=token;next();
 }
 export async function audit(actor,action,target,details={},session){await AdminAudit.create([{_id:randomUUID(),actor,action,target,details}],{session});}

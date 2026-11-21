@@ -3,9 +3,14 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createAdapter,IncomeTaxRssAdapter,SachetRssAdapter} from '../src/adapters/index.js';
 import {MemoryStore} from '../src/services/ingestion/store.js';
+import {collect} from '../src/services/ingestion/collect.js';
+import {fileURLToPath} from 'node:url';
 const ndma={sourceId:'recorded-ndma',url:'https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml',method:'rss',entityType:'Scheme'};
 const tax={sourceId:'recorded-cbdt',url:'https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/rss',method:'rss',entityType:'Scheme'};
 const capture=name=>readFile(new URL('../fixtures/captured/'+name,import.meta.url));
+test('bounded recorded RSS rehearsal reports all parsed records but commits only the cap and repeats unchanged',async()=>{
+ const store=new MemoryStore(),source={...ndma,sourceId:'TEST-RECORDED-CAP',fixture:'ndma-2026-11-18.xml'};const options={offline:true,fixtureRoot:fileURLToPath(new URL('../fixtures/captured/',import.meta.url)),maxRecords:3};const first=await collect(store,[source],options);assert.equal(first.outcome,'SUCCESS');assert.equal(first.sources[0].parsedRecords,100);assert.equal(first.sources[0].records,3);assert.equal(first.sources[0].truncated,true);assert.equal(first.counters.created,3);const repeat=await collect(store,[source],options);assert.equal(repeat.counters.created,0);assert.equal(repeat.counters.unchanged,3);assert.equal((await store.list('Notice')).length,3);assert.equal((await store.list('SourceVersion')).length,3);await assert.rejects(collect(store,[source],{...options,maxRecords:0}),/Invalid bounded/);
+});
 test('recorded genuine NDMA RSS parses stable official IDs and observed dates; replay is not a live request',async()=>{
  const adapter=createAdapter(ndma);assert.ok(adapter instanceof SachetRssAdapter);
  const rows=await adapter.parse(await capture('ndma-2026-11-18.xml'));assert.equal(rows.length,100);assert.equal(new Set(rows.map(x=>x.id)).size,100);

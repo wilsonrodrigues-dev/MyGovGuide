@@ -29,10 +29,14 @@
     "db:inspect": "node scripts/inspectDatabase.js",
     "ai:check": "node scripts/providerCheck.js",
     "ai:validate": "node scripts/validateGemini.js",
-    "db:migrate:content": "node scripts/migrateContent.js"
+    "db:migrate:content": "node scripts/migrateContent.js",
+    "db:migrate:identities": "node scripts/migrateSchemeIdentity.js",
+    "reviews:prepare": "node scripts/reviewEvidence.js",
+    "reviews:triage": "node scripts/reviewEvidence.js --handle-safe"
   },
   "dependencies": {
     "@google/genai": "3.4.0",
+    "@tesseract.js-data/eng": "1.0.0",
     "cheerio": "1.1.2",
     "cors": "2.8.6",
     "cron-parser": "^5.10.6",
@@ -45,6 +49,11 @@
     "mongoose": "8.24.10",
     "pdf-parse": "2.4.5",
     "rss-parser": "3.13.0",
+    "socket.io": "4.8.1",
+    "tesseract.js": "7.0.0",
     "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "socket.io-client": "4.8.1"
   }
 }

@@ -27,7 +27,7 @@ Two full imports each produced: **137 read, 137 unchanged, 0 created, 0 updated,
 
 The real local application content collections contain **zero ContentApprovals, AIJobs, AIArtifacts, SearchDocuments or ContentPublications**. No research scheme was silently approved or published. Test artifacts live only in timestamped isolated test databases. All 17 baseline research files remain byte-identical; the final credential scan found no configured private values in scanned source/docs/reports. The ignored `.env` remains private and was not printed. Previously exposed credentials still require rotation; no old secret is reproduced here.
 
-Evidence: `backend/reports/phase36-baseline.json`, `phase36-local-migration.json`, `phase36-final-audit.json`.
+Evidence: `docs/history/test-artifacts-before-cleanup/backend/phase36-baseline.json`, `phase36-local-migration.json`, `phase36-final-audit.json`.
 
 ## AI results and costs
 
@@ -62,12 +62,12 @@ Evidence: `backend/reports/phase36-source-policy-check.json`, `phase36-ogd-polic
 
 | Check | Final result | Artifact |
 | --- | --- | --- |
-| Backend unit/component | **82 passed**, no failures/skips | `backend/reports/phase36-unit-tests.txt` |
+| Backend unit/component | **82 passed**, no failures/skips | `docs/history/test-artifacts-before-cleanup/backend/phase36-unit-tests.txt` |
 | Frontend contracts/actual token AA contrast | **4 passed**, no failures/skips | Same report |
-| Database integration | **31 passed test nodes**, including 4 parent suites / 27 substantive child scenarios, no failures/skips | `backend/reports/phase36-integration-tests.txt` |
+| Database integration | **31 passed test nodes**, including 4 parent suites / 27 substantive child scenarios, no failures/skips | `docs/history/test-artifacts-before-cleanup/backend/phase36-integration-tests.txt` |
 | Existing citizen/admin + Civic Blue viewport journeys | **16 passed** | `frontend/reports/phase36-regression-e2e.json` |
 | Synthetic editor/publication/search browser journeys | **2 passed**, desktop/mobile, no skips | `frontend/reports/phase36-content-e2e.json` |
-| Production build | Passed | `frontend/reports/phase36-build.txt` |
+| Production build | Passed | `docs/history/test-artifacts-before-cleanup/frontend/phase36-build.txt` |
 | Production dependency audit | **0 vulnerabilities** | Final `npm audit --omit=dev` result |
 | Full dependency audit | **3 high findings in one development-tool chain**, unresolved upstream | See below |
 

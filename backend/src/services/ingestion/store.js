@@ -14,14 +14,20 @@ async function references(store, value, session) {
 }
 export function scopedStore(store, session) {
   return { get: (type, id) => store.get(type, id, session), list: (type, filter) => store.list(type, filter, session),
-    put: (type, value) => store.put(type, value, session), transaction: work => work(session) };
+    put: (type, value) => store.put(type, value, session), touch: (type,id,fields)=>store.touch(type,id,fields,session), findSchemes:args=>store.findSchemes(args,session), transaction: work => work(session) };
 }
 
 export class MongoStore {
   async get(type, id, session) { return models[type].findById(id).session(session || null).lean(); }
   async list(type, filter = {}, session) { return models[type].find(filter).session(session || null).lean(); }
+  async findSchemes({id,url,name,title},session){return models.Scheme.find({$or:[{_id:id},{identityUrls:url},{sourceUrl:url},{identityName:name},{title}]}).session(session||null).lean();}
+  async touch(type,id,fields,session){
+    if(!Object.keys(fields).every(k=>['lastCheckedAt','lastChangedAt','lastCollectionStatus','lastCollectionSourceId','lastCollectionRunId','canonicalId','identityName','identityUrls'].includes(k)))throw Error('Metadata update is outside allowed fields');
+    await models[type].updateOne({_id:id},{$set:fields},{session,runValidators:true});
+  }
   async put(type, value, session) {
-    if (['SourceVersion', 'ReviewEvent'].includes(type) && await this.get(type, value.id, session)) throw new Error('Historical versions and review events are immutable');
+    if (['SourceVersion', 'ReviewEvent','CollectionObservation'].includes(type) && await this.get(type, value.id, session)) throw new Error('Historical versions and review events are immutable');
+    if(type==='SchemeIdentity'){const old=await this.get(type,value.id,session);if(old&&old.schemeId!==value.schemeId)throw Error('Canonical identity is already bound to another scheme');}
     const doc = new models[type]({ ...value, _id: value.id });
     await doc.validate();
     await references(this, value, session);
@@ -46,11 +52,14 @@ export class MongoStore {
 export class MemoryStore {
   constructor() { this.tables = {}; }
   async get(type, id) { return structuredClone(this.tables[type]?.[id] || null); }
+  async findSchemes({id,url,name,title}){return structuredClone(Object.values(this.tables.Scheme||{}).filter(s=>s.id===id||s.identityUrls?.includes(url)||s.sourceUrl===url||s.identityName===name||s.title===title));}
   async list(type, filter = {}) {
-    return structuredClone(Object.values(this.tables[type] || {}).filter(v => Object.entries(filter).every(([k, val]) => v[k] === val)));
+    return structuredClone(Object.values(this.tables[type] || {}).filter(v => Object.entries(filter).every(([k, val]) => Array.isArray(v[k])?v[k].includes(val):v[k] === val)));
   }
+  async touch(type,id,fields){const old=await this.get(type,id);if(old)this.tables[type][id]={...old,...structuredClone(fields)};}
   async put(type, value) {
-    if (['SourceVersion', 'ReviewEvent'].includes(type) && await this.get(type, value.id)) throw new Error('Historical versions and review events are immutable');
+    if (['SourceVersion', 'ReviewEvent','CollectionObservation'].includes(type) && await this.get(type, value.id)) throw new Error('Historical versions and review events are immutable');
+    if(type==='SchemeIdentity'){const old=await this.get(type,value.id);if(old&&old.schemeId!==value.schemeId)throw Error('Canonical identity is already bound to another scheme');}
     await new models[type]({ ...value, _id: value.id }).validate();
     await references(this, value);
     this.tables[type] ||= {}; this.tables[type][value.id] = structuredClone(value); return value;

@@ -1,0 +1,227 @@
+.assistant-page {
+  max-width: 1240px;
+  margin: auto;
+  padding: 2rem 1.2rem 4rem;
+}
+.assistant-page h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  max-width: 850px;
+}
+.assistant-page .intro {
+  max-width: 760px;
+  color: var(--muted-foreground, #536271);
+  line-height: 1.8;
+}
+.assistant-panel {
+  background: #fff;
+  border: 1px solid #d8e1e6;
+  border-radius: 14px;
+  padding: 1.25rem;
+  margin: 1rem 0;
+  min-width: 0;
+}
+.assistant-page textarea,
+.assistant-page select,
+.assistant-page input[type="number"] {
+  display: block;
+  width: 100%;
+  border: 1px solid #a7b4bf;
+  border-radius: 7px;
+  padding: 0.7rem;
+  margin: 0.5rem 0 1rem;
+  background: white;
+  color: #172b40;
+}
+.assistant-page textarea {
+  min-height: 170px;
+  resize: vertical;
+}
+.assistant-page button,
+.assistant-page .action-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid #b5c4cf;
+  border-radius: 7px;
+  background: #f7f9fa;
+  margin: 0.25rem;
+  color: #183a58;
+  cursor: pointer;
+  text-decoration: none;
+}
+.assistant-page button.primary,
+.assistant-page .action-link {
+  background: #145687;
+  color: #fff;
+  border-color: #145687;
+}
+.assistant-page button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.assistant-page label.consent {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+.assistant-page label.consent input {
+  margin-top: 0.4rem;
+  flex-shrink: 0;
+}
+.assistant-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.25rem;
+}
+.assistant-page .notice-warning {
+  padding: 0.8rem 1rem;
+  background: #fff7e5;
+  border-left: 4px solid #b58124;
+  border-radius: 4px;
+  line-height: 1.7;
+}
+.notice-lines {
+  max-height: 600px;
+  overflow: auto;
+}
+.notice-line {
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  border-bottom: 1px solid #e4e9ee;
+  padding: 0.6rem;
+  overflow-wrap: anywhere;
+}
+.notice-line.selected {
+  background: #e6f2ff;
+  border-left: 3px solid #1c679f;
+}
+.notice-line small {
+  display: block;
+  color: #5c6b7c;
+}
+.notice-image {
+  max-width: 100%;
+  max-height: 650px;
+  object-fit: contain;
+}
+.assistant-page .source-quote {
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  overflow-wrap: anywhere;
+  border-left: 3px solid #c6d4df;
+  padding-left: 0.7rem;
+}
+.assistant-tabs {
+  display: none;
+}
+.assistant-page .fact-list {
+  max-height: 300px;
+  overflow: auto;
+}
+.assistant-page .check-item {
+  border-bottom: 1px solid #e0e7ed;
+  padding: 1rem 0.25rem;
+}
+.assistant-page .check-item.selected {
+  background: #eef5fc;
+}
+.assistant-page .check-item label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+.assistant-page .check-item small {
+  display: block;
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.4rem;
+}
+.assistant-page .result-row {
+  border-left: 4px solid #718294;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+  background: #f7f9fb;
+}
+.assistant-page .result-row.MET {
+  border-color: #2c7959;
+}
+.assistant-page .result-row.UNMET {
+  border-color: #ad4343;
+}
+.assistant-page .question-steps {
+  font-size: 0.9rem;
+  color: #52677a;
+}
+.assistant-page .question {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.assistant-page .answer-buttons button[aria-pressed="true"] {
+  background: #145687;
+  color: white;
+}
+.assistant-page .scheme-choice {
+  max-width: 650px;
+}
+.assistant-page .library-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.assistant-page .small {
+  font-size: 0.9rem;
+  color: #52677a;
+}
+.assistant-page a {
+  overflow-wrap: anywhere;
+}
+.assistant-page .question-view {
+  max-width: 750px;
+}
+.assistant-page fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.assistant-page .provider-status {
+  font-family: inherit;
+  overflow-wrap: anywhere;
+}
+.assistant-page .pdf-viewer {
+  max-width: 100%;
+}
+@media (max-width: 760px) {
+  .assistant-page {
+    padding: 1rem 0.9rem 3rem;
+  }
+  .assistant-columns {
+    display: block;
+  }
+  .assistant-tabs {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #f8fafc;
+    z-index: 3;
+  }
+  .assistant-columns .mobile-hidden {
+    display: none;
+  }
+  .assistant-panel {
+    padding: 1rem;
+  }
+  .assistant-page h1 {
+    font-size: 1.8rem;
+  }
+  .assistant-page button {
+    font-size: 0.95rem;
+  }
+  .assistant-page .notice-lines {
+    max-height: 400px;
+  }
+}

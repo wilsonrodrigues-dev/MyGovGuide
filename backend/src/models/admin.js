@@ -11,7 +11,7 @@ export const AdminSession = model('AdminSession', { userId: String, tokenHash: {
 export const AdminAudit = model('AdminAudit', { actor: String, action: String, target: String, details: mixed });
 export const AdapterConfig = model('AdapterConfig', { approval: mixed, configHash: String, validatedHash: String, validatedAt: Date, enabled: { type: Boolean, default: false } });
 export const CollectionJob = model('CollectionJob', {
-  sourceId: String, mode: { type: String, enum: ['FIXTURE', 'LIVE'] }, trigger: String, actor: String,
+  sourceId: String, mode: { type: String, enum: ['FIXTURE', 'LIVE'] }, maxRecords:Number,trigger: String, actor: String,
   state: String, activeKey: String, scheduledKey: String, leaseToken: String, leaseUntil: Date,
   attempts: { type: Number, default: 0 }, cancelRequested: { type: Boolean, default: false },
   startedAt: Date, finishedAt: Date, runId: String, counters: mixed, error: String, progress: String
@@ -21,7 +21,11 @@ export const CollectionSchedule = model('CollectionSchedule', {
   timezone: String, sourceIds: [String], mode: String, revision: Number, nextRun: Date, lastRun: Date, lastOutcome: String
 });
 export const WorkerHeartbeat = model('WorkerHeartbeat', { lastSeen: Date, state: String });
-export const adminModels = { AdminUser, AdminSession, AdminAudit, AdapterConfig, CollectionJob, CollectionSchedule, WorkerHeartbeat };
+export const AdminEvent = model('AdminEvent', { type: String, payload: mixed, runId:String,sequence:Number,at: Date, expiresAt: Date }, [[{ at: 1 }, {}], [{runId:1,sequence:1},{}],[{sequence:1},{unique:true,sparse:true}], [{ expiresAt: 1 }, { expireAfterSeconds: 0 }]]);
+export const AdminEventCounter=model('AdminEventCounter',{value:{type:Number,default:0}});
+export const DiscoveryBudget=model('DiscoveryBudget',{calls:{type:Number,default:0}});
+export const DiscoveryLookup=model('DiscoveryLookup',{schemeId:String,sourceGroup:String,queryHash:String,state:String,results:[mixed],error:String,usage:mixed});
+export const adminModels = { AdminUser, AdminSession, AdminAudit, AdapterConfig, CollectionJob, CollectionSchedule, WorkerHeartbeat, AdminEvent,AdminEventCounter,DiscoveryBudget,DiscoveryLookup };
 export async function initAdminModels() {
   for (const Model of Object.values(adminModels)) { await Model.createCollection(); await Model.createIndexes(); }
 }

@@ -3,9 +3,10 @@ import { hash, stableId, changedFields } from '../../utils/hash.js';
 import { flagConflict } from '../verification/review.js';
 import { scopedStore } from '../ingestion/store.js';
 import { assertPublicResearch } from '../../validators/privacy.js';
+import {factChanges} from './material.js';
 
 export const counters = () => ({ read: 0, created: 0, updated: 0, unchanged: 0, rejected: 0, pendingReview: 0,
-  reviewItems: 0, changeEvents: 0, successful: 0, failed: 0, skipped: 0 });
+  reviewItems: 0, identityReview: 0, changeEvents: 0, successful: 0, failed: 0, skipped: 0 });
 export function addCounters(a, b) { for (const key of Object.keys(a)) a[key] += b[key] || 0; return a; }
 
 export async function ingest(store, type, candidate, extra = {}) {
@@ -21,6 +22,7 @@ export async function ingest(store, type, candidate, extra = {}) {
     const contentHash = hash(content);
     const tally = counters(); tally.read = 1;
     if (old?.contentHash === contentHash) {
+      await store.touch(type,parsed.id,{lastCheckedAt:new Date().toISOString()},session);
       tally.unchanged = 1; tally.pendingReview = old.status === 'RESEARCH_ONLY' || old.status === 'REVIEW_REQUIRED' ? 1 : 0;
       return tally;
     }
@@ -45,7 +47,7 @@ export async function ingest(store, type, candidate, extra = {}) {
         id: eventId, original: {}, entityType: type, entityId: parsed.id, sourceIds: parsed.sourceIds,
         oldHash: old.contentHash, newHash: contentHash, oldVersionId: old.currentVersionId,
         newVersionId: versionId, changedFields: fields,
-        summary: `${parsed.title}: changed ${fields.join(', ')}; human review required.`
+        summary: `${parsed.title}: changed ${fields.join(', ')}; human review required.`,factChanges:factChanges(prior?.payload||old.normalized,content)
       }, session);
       tally.changeEvents = 1; tally.updated = 1;
     } else tally.created = 1;
@@ -53,11 +55,11 @@ export async function ingest(store, type, candidate, extra = {}) {
     // Preserve approved fields; new observations remain in immutable SourceVersion.
     await store.put(type, trusted ? {
       ...old, status: 'REVIEW_REQUIRED', publicationStatus: 'WITHDRAWN', cacheStale: true,
-      contentHash, currentVersionId: versionId, revision, lastCheckedAt: new Date().toISOString(),
+      contentHash, currentVersionId: versionId, revision, lastCheckedAt: new Date().toISOString(),lastChangedAt:new Date().toISOString(),
       ...(type === 'Scheme' ? { simplifiedText: {} } : {})
     } : {
       ...parsed, ...extra, status: old && old.status !== 'RESEARCH_ONLY' ? 'REVIEW_REQUIRED' : 'RESEARCH_ONLY',
-      contentHash, currentVersionId: versionId, revision, lastCheckedAt: new Date().toISOString(),
+      contentHash, currentVersionId: versionId, revision, lastCheckedAt: new Date().toISOString(),lastChangedAt:new Date().toISOString(),
       cacheStale: true, publicationStatus: 'INTERNAL', ...(type === 'Scheme' ? { simplifiedText: {} } : {})
     }, session);
     if (type === 'Scheme') {

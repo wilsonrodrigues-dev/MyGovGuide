@@ -10,11 +10,11 @@ Earlier decisions follow unchanged.
 
 No automation approvals were added. PIB RSS directory/copyright policy were reachable during limited policy review, but `/robots.txt` was HTTP 200 HTML reporting an unavailable page; no valid automation allowance was established. `https://www.data.gov.in/robots.txt` returned `User-agent: *` with `Disallow: /`. Do not collect datasets or RSS from that host. Official [OGD help](https://data.gov.in/help) documents API-key access; a separately authorized API host/resource, private key and applicable dataset license still need review. myScheme remains excluded pending written permission.
 
-Source-specific PIB parsing and conditional HTTP behavior are fixture-tested only. AI fact review does not authorize collection. Current results are in [Phase 3.6 completion](../../../docs/history/PHASE3_6_COMPLETION_REPORT.md) and `backend/reports/phase36-source-policy-check.json`. Government live runs remain zero.
+Source-specific PIB parsing and conditional HTTP behavior are fixture-tested only. AI fact review does not authorize collection. Current results are in [Phase 3.6 completion](../../../docs/history/PHASE3_6_COMPLETION_REPORT.md). The generated source-policy receipt was removed during the 21 November 2026 cleanup and remains in the local recovery branch. Government live runs remain zero.
 
 ## Phase 3.5 update — 17 November 2026
 
-All four research JSON files are now supplied. The registry's 70 original permission decisions remain deny-only. No source has been activated, and the live approval file remains empty. Current evidence and bounded direct probes are documented in [collection operations](../../../docs/guides/SCRAPING_OPERATIONS_GUIDE.md) and `backend/reports/phase35-policy-probes.json`.
+All four research JSON files are now supplied. The registry's 70 original permission decisions remain deny-only. No source has been activated, and the live approval file remains empty. Current evidence and bounded direct probes are documented in [collection operations](../../../docs/guides/SCRAPING_OPERATIONS_GUIDE.md); the raw pre-cleanup receipts remain in the local recovery branch.
 
 PIB's copyright policy permits attributed accurate reuse of its own material with third-party exclusions, but `/robots.txt` returned an HTML unavailable page rather than a usable policy. The RSS index redirected to a region/language URL. This is insufficient evidence to approve unattended access. The candidate PIB RSS parser has synthetic format tests only. data.gov.in remains an investigation candidate without an established suitable endpoint and access evidence. myScheme remains excluded by its written-authorization requirement.
 
@@ -106,11 +106,11 @@ Live configuration: backend/config/source-approvals.json is empty. ENABLE_LIVE_C
 
 ## Supplemental URL identities
 
-The partial importer creates stable deny-only Source identities for actual official URLs in supplied research. These are labelled SUPPLEMENTAL_RESEARCH_REFERENCE; they do not substitute for the missing 70-entry SOURCE_REGISTRY.json. Current database counts appear in backend/reports/phase2-status.json. No field-name labels in form metadata are citizen application data.
+The partial importer creates stable deny-only Source identities for actual official URLs in supplied research. These are labelled SUPPLEMENTAL_RESEARCH_REFERENCE; they do not substitute for the missing 70-entry SOURCE_REGISTRY.json. Current database counts are generated at runtime; the pre-cleanup receipt remains in the local recovery branch. No field-name labels in form metadata are citizen application data.
 
 ## Before activation
 
 Obtain source-specific access and reuse evidence; review host, exact paths, method, robots URL/observation/permission, terms, rights basis, API agreement if relevant, reviewer, expiry, rate limit and test plan. Add the reviewed record to the approval file and call the internal approveSource service to record a matching database decision. Validate with registry:validate, inspect collect:dry-run, and set ENABLE_LIVE_COLLECTION=true only after both approvals match. Scheduling remains commented out.
 
 
-**18 November 2026, after Atlas migration:** Current NDMA robots404/feed-policy200 checked; same exact RSS scope and original 25 November expiry retained. Config was separately saved, validated and activated in Atlas. Two genuine jobs: 200/100 unchanged, then304/no writes. No schedules created. Other sources remain inactive. [Receipts](../../reports/atlas-ndma-collection.json).
+**18 November 2026, after Atlas migration:** Current NDMA robots404/feed-policy200 checked; same exact RSS scope and original 25 November expiry retained. Config was separately saved, validated and activated in Atlas. Two genuine jobs: 200/100 unchanged, then304/no writes. No schedules created. Other sources remain inactive. The collection receipts were removed during the 21 November 2026 cleanup and remain in the local recovery branch.

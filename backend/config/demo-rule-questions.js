@@ -1,0 +1,12 @@
+const copy={
+age:['What is your age in completed years?','आपकी आयु पूरे वर्षों में कितनी है?','ನಿಮ್ಮ ಪೂರ್ಣ ವಯಸ್ಸು ಎಷ್ಟು?'],
+hasBankAccount:['Do you have the required participating bank or post-office account?','क्या आपके पास आवश्यक सहभागी बैंक या डाकघर खाता है?','ಅಗತ್ಯವಾದ ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್ ಅಥವಾ ಅಂಚೆ ಖಾತೆ ಇದೆಯೇ?'],
+autoDebitConsent:['Do you consent to the applicable premium being debited automatically?','क्या आप लागू प्रीमियम की स्वचालित कटौती के लिए सहमत हैं?','ಅನ್ವಯಿಸುವ ಪ್ರೀಮಿಯಂ ಸ್ವಯಂಚಾಲಿತ ಕಡಿತಕ್ಕೆ ಒಪ್ಪುತ್ತೀರಾ?'],
+alreadyEnrolled:['Are you already enrolled in this scheme through another account?','क्या आप दूसरे खाते से पहले ही इस योजना में शामिल हैं?','ಬೇರೆ ಖಾತೆಯ ಮೂಲಕ ಈ ಯೋಜನೆಯಲ್ಲಿ ಈಗಾಗಲೇ ಸೇರಿದ್ದೀರಾ?'],
+individualAccount:['Is this your individual account, including an eligible joint account, rather than an institutional account?','क्या यह संस्थागत खाते के बजाय आपका व्यक्तिगत या पात्र संयुक्त खाता है?','ಇದು ಸಂಸ್ಥೆಯ ಖಾತೆಯ ಬದಲಾಗಿ ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಅಥವಾ ಅರ್ಹ ಜಂಟಿ ಖಾತೆಯೇ?'],
+bankInIndia:['Is the participating bank account with a branch in India?','क्या सहभागी बैंक खाते की शाखा भारत में है?','ಭಾಗವಹಿಸುವ ಬ್ಯಾಂಕ್ ಖಾತೆಯ ಶಾಖೆ ಭಾರತದಲ್ಲಿದೆಯೇ?'],
+sufficientBalance:['Is the account open with sufficient balance for the applicable premium?','क्या खाता चालू है और लागू प्रीमियम के लिए पर्याप्त शेष है?','ಖಾತೆ ಸಕ್ರಿಯವಾಗಿದ್ದು ಅನ್ವಯಿಸುವ ಪ್ರೀಮಿಯಂಗೆ ಸಾಕಷ್ಟು ಹಣವಿದೆಯೇ?'],
+indianCitizen:['Are you an Indian citizen?','क्या आप भारतीय नागरिक हैं?','ನೀವು ಭಾರತೀಯ ನಾಗರಿಕರೇ?'],
+incomeTaxPayer:['Are you now, or have you previously been, an income-tax payer as defined by the governing notification?','क्या अधिसूचना की परिभाषा के अनुसार आप अभी या पहले आयकरदाता रहे हैं?','ಅಧಿಸೂಚನೆಯ ವ್ಯಾಖ್ಯಾನದ ಪ್ರಕಾರ ಈಗ ಅಥವಾ ಹಿಂದೆ ಆದಾಯ ತೆರಿಗೆ ಪಾವತಿದಾರರಾಗಿದ್ದೀರಾ?'],
+contributionConsent:['Do you agree to the applicable periodic contributions through the designated account?','क्या आप निर्धारित खाते से लागू नियमित अंशदान के लिए सहमत हैं?','ನಿಗದಿತ ಖಾತೆಯಿಂದ ಅನ್ವಯಿಸುವ ನಿಯಮಿತ ಕೊಡುಗೆಗಳಿಗೆ ಒಪ್ಪುತ್ತೀರಾ?']};
+export const ruleQuestion=(field,type='boolean')=>({field,type,...(type==='number'?{min:0,max:120}:{}),label:Object.fromEntries(['en','hi','kn'].map((l,i)=>[l,copy[field][i]])),why:{en:'This proposed question is linked to the attached official evidence. It remains pending complete human review.',hi:'यह प्रस्तावित प्रश्न संलग्न आधिकारिक साक्ष्य से जुड़ा है। पूर्ण मानवीय समीक्षा लंबित है।',kn:'ಈ ಪ್ರಸ್ತಾವಿತ ಪ್ರಶ್ನೆ ಲಗತ್ತಿಸಿದ ಅಧಿಕೃತ ಸಾಕ್ಷ್ಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದೆ. ಸಂಪೂರ್ಣ ಮಾನವ ಪರಿಶೀಲನೆ ಬಾಕಿಯಿದೆ.'}});

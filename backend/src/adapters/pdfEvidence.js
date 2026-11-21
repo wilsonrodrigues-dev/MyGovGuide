@@ -1,0 +1,2 @@
+// A nonempty text layer is not proof that its language or clauses were decoded.
+export function pdfEvidenceWarnings(text){const warnings=['STRUCTURED_SCHEME_FIELDS_REQUIRE_SOURCE_SPECIFIC_CLAUSE_REVIEW'];const letters=[...text].filter(c=>/\p{L}/u.test(c)).length,legacy=(text.match(/[ÀÃ¤ªÐÊ¦]/g)||[]).length;if(letters>20&&legacy/letters>.08)warnings.push('POSSIBLE_LEGACY_FONT_ENCODING_REQUIRES_LANGUAGE_REVIEW');return warnings;}

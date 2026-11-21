@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { adminApi as api, errorText } from "./api.js";
 import {BatchPreparation} from './BatchPreparation.jsx';
+import {ConsolidatedEditorialReview} from './ConsolidatedEditorialReview.jsx';
 function Pill({ children }) {
   return <span className="ad-badge">{children}</span>;
 }
@@ -58,12 +59,12 @@ export function PipelineStatus() {
           </strong>
         </article>
         <article>
-          <span>AI failed / blocked</span>
+          <span>Unresolved AI failed / blocked</span>
           <strong>
-            {data.jobs
+            {Math.max(0,data.jobs
               .filter((x) => ["FAILED", "BLOCKED"].includes(x._id.state))
-              .reduce((n, x) => n + x.count, 0)}
-          </strong>
+              .reduce((n, x) => n + x.count, 0)-(data.historicalFailures||0))}
+          </strong><small>{data.historicalFailures||0} earlier failures have current validated output; history retained.</small>
         </article>
         {["en", "hi", "kn"].map((language) => (
           <article key={language}>
@@ -178,7 +179,7 @@ export function PipelineStatus() {
 }
 export function ContentWorkspace({ reviewMode = false }) {
   const [schemes, setSchemes] = useState([]),
-    [schemeId, setSchemeId] = useState(""),
+    [schemeId, setSchemeId] = useState(()=>new URLSearchParams(window.location.search).get("schemeId")||""),
     [detail, setDetail] = useState(null),
     [health, setHealth] = useState(null),
     [jobs, setJobs] = useState([]),
@@ -285,7 +286,7 @@ export function ContentWorkspace({ reviewMode = false }) {
     }, "Artifact decision recorded.");
   }
   async function reviewSelected(){
-    if(!batchAttested||batchReason.trim().length<10||!reviewSelection.length)return;
+    if(!batchAttested||false||!reviewSelection.length)return;
     await action(async()=>{
       try{for(const id of reviewSelection){await api.post(`/content/artifacts/${id}/review`,{action:'APPROVE',evidence:batchReason});}}
       finally{setReviewSelection([]);setBatchAttested(false);await load();}
@@ -315,6 +316,7 @@ export function ContentWorkspace({ reviewMode = false }) {
         </p>
       )}
       <p role="status">{message}</p>
+      {reviewMode&&<ConsolidatedEditorialReview onComplete={load}/>}
       {health && (
         <section className="ad-panel">
           <div className="ad-panel-heading">
@@ -337,12 +339,13 @@ export function ContentWorkspace({ reviewMode = false }) {
                 </Pill>
               </p>
               <small>
-                Two keys share project quota. A 429 never switches credentials.
+                Secondary project relation: {health.gemini.secondaryProjectRelation}. Shared quota failures never rotate keys.
               </small>
             </div>
             <div>
               <h3>Generation controls</h3>
-              <p>Gemini only. Unavailable jobs wait for recovery.</p>
+              <p>Gemini primary → authorized secondary → free-entitled Groq. Shared project quotas are respected.</p>
+              {health.groq&&<p>Groq: {health.groq.configured?'Configured':'Missing'} · {health.groq.model} · {health.groq.generationAllowed?'Entitlement configured':'Blocked: confirm account free-tier entitlement'}</p>}
               <p>
                 Daily budget: ${health.dailyBudgetUsd} · Paid use:{" "}
                 {health.paidUseApproved
@@ -457,16 +460,14 @@ export function ContentWorkspace({ reviewMode = false }) {
                   Reuse rights and restrictions
                   <input
                     required
-                    minLength={10}
+                    
                     value={rights}
                     onChange={(e) => setRights(e.target.value)}
                   />
                 </label>
                 <label>
-                  Review evidence and currentness notes
+                  Optional currentness notes
                   <textarea
-                    required
-                    minLength={10}
                     value={evidence}
                     onChange={(e) => setEvidence(e.target.value)}
                   />
@@ -623,9 +624,9 @@ export function ContentWorkspace({ reviewMode = false }) {
               Synthetic test records remain excluded from public reads.
             </p>
             <label>
-              Publication decision evidence
+              Optional publication note
               <textarea
-                minLength={10}
+                
                 value={publishReason}
                 onChange={(e) => setPublishReason(e.target.value)}
                 rows={3}
@@ -635,7 +636,7 @@ export function ContentWorkspace({ reviewMode = false }) {
               <button
                 className="ad-primary"
                 disabled={
-                  busy || !chosen.en || publishReason.trim().length < 10
+                  busy || !chosen.en || false
                 }
                 onClick={() =>
                   action(
@@ -651,7 +652,7 @@ export function ContentWorkspace({ reviewMode = false }) {
                 Publish selected versions
               </button>
               <button
-                disabled={busy || publishReason.trim().length < 10}
+                disabled={busy || false}
                 onClick={() =>
                   action(
                     () =>
@@ -679,7 +680,7 @@ export function ContentWorkspace({ reviewMode = false }) {
           </section>
           <section className="ad-panel">
             <h2>Indexed language preview</h2>
-            <details><summary>Record selected editorial decisions</summary><p>Inspect each current language revision and its source before selecting it. These decisions do not publish content or approve eligibility rules.</p><label>Selected-artifact review evidence<textarea value={batchReason} onChange={e=>setBatchReason(e.target.value)} minLength={10}/></label><label className="ad-check"><input type="checkbox" checked={batchAttested} onChange={e=>setBatchAttested(e.target.checked)}/>I have personally reviewed every selected language revision, keyword and source caveat.</label><button disabled={busy||!batchAttested||batchReason.trim().length<10||!reviewSelection.length} onClick={reviewSelected}>Approve {reviewSelection.length} selected inspected artifacts</button></details>
+            <details><summary>Record selected editorial decisions</summary><p>Inspect each current language revision and its source before selecting it. These decisions do not publish content or approve eligibility rules.</p><label>Optional selected-artifact note<textarea value={batchReason} onChange={e=>setBatchReason(e.target.value)} /></label><label className="ad-check"><input type="checkbox" checked={batchAttested} onChange={e=>setBatchAttested(e.target.checked)}/>I have personally reviewed every selected language revision, keyword and source caveat.</label><button disabled={busy||!batchAttested||false||!reviewSelection.length} onClick={reviewSelected}>Approve {reviewSelection.length} selected inspected artifacts</button></details>
             <form
               className="ad-filters"
               onSubmit={(e) => {
@@ -824,17 +825,17 @@ export function ContentWorkspace({ reviewMode = false }) {
             </div>
           </div>
           <label>
-            Editor decision evidence
+            Optional editor note
             <textarea
               rows={3}
-              minLength={10}
+              
               value={reason}
               onChange={(e) => setReason(e.target.value)}
             />
           </label>
           <div className="ad-actions">
             <button
-              disabled={busy || reason.trim().length < 10 || artifact.stale}
+              disabled={busy || false || artifact.stale}
               onClick={() => review("EDIT")}
             >
               Save as a new draft revision
@@ -843,7 +844,7 @@ export function ContentWorkspace({ reviewMode = false }) {
               className="ad-primary"
               disabled={
                 busy ||
-                reason.trim().length < 10 ||
+                false ||
                 artifact.stale ||
                 artifact.state !== "REVIEW_PENDING"
               }
@@ -852,7 +853,7 @@ export function ContentWorkspace({ reviewMode = false }) {
               Approve stored artifact
             </button>
             <button
-              disabled={busy || reason.trim().length < 10 || artifact.stale}
+              disabled={busy || false || artifact.stale}
               onClick={() => review("REJECT")}
             >
               Reject

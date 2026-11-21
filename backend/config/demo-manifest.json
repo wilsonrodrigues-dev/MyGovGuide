@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "title": "Curated real demo inventory",
+  "schemes": [
+    {
+      "id": "IN-WK-02",
+      "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "sourceUrl": "https://financialservices.gov.in/pmjjby",
+      "sourceVersionId": "version-7f296db84324dc299a527a1e",
+      "formIds": [
+        "FORM-10"
+      ],
+      "ruleSetIds": [
+        "proposed-rules-c3ef9f6fb3b4ae9fa1f4f2ec",
+        "rules-IN-WK-02"
+      ],
+      "artifactIds": [
+        "6497f933-287e-48fe-94de-8726a3a97de7",
+        "720262da-d66e-4eef-b2e2-f18fb410e623",
+        "7e795ca1-b0ca-4458-9e1d-934d34954372"
+      ],
+      "publication": "PUBLISHED",
+      "ruleEvidenceVersionIds": [
+        "rule-evidence-4afecea1fc91078c80fb618c"
+      ]
+    },
+    {
+      "id": "IN-WK-03",
+      "title": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "sourceUrl": "https://financialservices.gov.in/pmsby",
+      "sourceVersionId": "version-0b914b613cff9e680ca8e589",
+      "formIds": [
+        "FORM-11"
+      ],
+      "ruleSetIds": [
+        "proposed-rules-3e2a15a4570a644bdd9e47ba",
+        "rules-IN-WK-03"
+      ],
+      "artifactIds": [
+        "2e4fc1c3-871d-4670-92b1-f7c781b1a83c",
+        "4ab5b673-8595-4680-bd08-ba02d89d1068",
+        "ce412a64-af6f-4de9-b071-0c5a00576f9f"
+      ],
+      "publication": "PUBLISHED",
+      "ruleEvidenceVersionIds": [
+        "rule-evidence-95dfd3edfca8a5f888a2ecef"
+      ]
+    },
+    {
+      "id": "IN-WK-04",
+      "title": "Atal Pension Yojana (APY)",
+      "sourceUrl": "https://financialservices.gov.in/atal-pension-yojana",
+      "sourceVersionId": "version-fa2472c4749698cd2c624098",
+      "formIds": [
+        "FORM-19"
+      ],
+      "ruleSetIds": [
+        "proposed-rules-1d70b064a46fdbe43ff7eb95",
+        "rules-IN-WK-04"
+      ],
+      "artifactIds": [],
+      "publication": "INTERNAL",
+      "ruleEvidenceVersionIds": [
+        "rule-evidence-c0237ffdec649406d7676f42"
+      ]
+    },
+    {
+      "id": "IN-FA-01",
+      "title": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238588&lang=1&reg=1",
+      "sourceVersionId": "version-c22abc23f2779d0d0ae58fda",
+      "formIds": [
+        "FORM-03"
+      ],
+      "ruleSetIds": [
+        "rules-IN-FA-01"
+      ],
+      "artifactIds": [
+        "2f487f3d-ded5-4a03-bfa3-6986c6eaaf40",
+        "3c41f00d-271b-4f8f-b979-bfc15af578d4",
+        "3ed3ee18-d65b-40d9-9e58-2d458c96e094",
+        "94a110f4-3d81-42a4-ac56-7520db8930b2",
+        "acaf9c26-bf8c-490c-b756-42b72bff87b9",
+        "ca56faf0-1bf0-469f-a233-5360b1fd8ff5"
+      ],
+      "publication": "PUBLISHED",
+      "ruleEvidenceVersionIds": []
+    },
+    {
+      "id": "IN-WO-02",
+      "title": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)",
+      "sourceUrl": "https://pmuy.gov.in/Ujjwala2.html",
+      "sourceVersionId": "version-4c73bb8d362796b3bd5deee5",
+      "formIds": [
+        "FORM-01",
+        "FORM-02",
+        "FORM-16",
+        "FORM-17",
+        "FORM-18"
+      ],
+      "ruleSetIds": [
+        "rules-IN-WO-02"
+      ],
+      "artifactIds": [
+        "0c84388f-a81a-4b01-b47f-c95bf37670ba",
+        "d2675b82-0663-4276-97fd-2a79550a26ee",
+        "d29a25b8-3710-43d8-a138-9ef2ae7513b5"
+      ],
+      "publication": "PUBLISHED",
+      "ruleEvidenceVersionIds": []
+    },
+    {
+      "id": "IN-ST-02",
+      "title": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323830&lang=1&reg=3",
+      "sourceVersionId": "version-a943875f43676fbca614b430",
+      "formIds": [
+        "FORM-04"
+      ],
+      "ruleSetIds": [
+        "rules-IN-ST-02"
+      ],
+      "artifactIds": [
+        "386c1d6c-3c08-4540-ad6d-61d3b1ac1b6e",
+        "474d9fa7-c2bc-4163-a96e-2af426ce9fb3",
+        "5d4be1b9-dd61-471b-b601-299dce3e6cd2",
+        "7df14ea6-1819-4057-aaa6-d6e34343a816",
+        "9d354f3f-5ec1-4ae1-ad2f-9b234d73a1c3"
+      ],
+      "publication": "PUBLISHED",
+      "ruleEvidenceVersionIds": []
+    },
+    {
+      "id": "IN-SR-02",
+      "title": "Senior Citizens Savings Scheme (SCSS)",
+      "sourceUrl": "https://www.indiapost.gov.in/banking-services/savings",
+      "sourceVersionId": "version-8a9c554936baff73de5e21ba",
+      "formIds": [
+        "FORM-13"
+      ],
+      "ruleSetIds": [
+        "rules-IN-SR-02"
+      ],
+      "artifactIds": [
+        "0bd8c8e8-7fe1-403b-85f6-f79f25777689",
+        "189f5811-93cf-40df-b308-d0d49ecceb90",
+        "29f3d07a-a3b1-429b-9cde-98fcca7de345"
+      ],
+      "publication": "PUBLISHED",
+      "ruleEvidenceVersionIds": []
+    },
+    {
+      "id": "IN-WO-03",
+      "title": "Sukanya Samriddhi Account (SSA)",
+      "sourceUrl": "https://www.indiapost.gov.in/banking-services/savings",
+      "sourceVersionId": "version-2c7b16369f0cd4e9b611e7b4",
+      "formIds": [
+        "FORM-12"
+      ],
+      "ruleSetIds": [
+        "rules-IN-WO-03"
+      ],
+      "artifactIds": [
+        "16653d55-2958-4b38-b4d7-29dcc47d268f",
+        "75a4955c-3cbf-4654-8331-5e7a1444247e",
+        "f20ad532-0cb3-4f35-b9e1-960919e64173"
+      ],
+      "publication": "PUBLISHED",
+      "ruleEvidenceVersionIds": []
+    }
+  ],
+  "scamIds": [
+    "A-01",
+    "A-11",
+    "A-10",
+    "A-12",
+    "A-08",
+    "A-13",
+    "A-09"
+  ],
+  "noticeIds": [
+    "ndma-alert-1795162562135030",
+    "ndma-alert-1795163949391016",
+    "ndma-alert-1795171180987012"
+  ]
+}

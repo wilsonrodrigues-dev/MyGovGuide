@@ -1,0 +1,11 @@
+import {Router} from 'express';
+import {z} from 'zod';
+import {reviewWorkload,buildReviewPackets,refreshReviewEvidence,triageReviewPackets} from '../services/verification/reviewEvidence.js';
+import {requireTrustedMutation} from '../middleware/citizenSecurity.js';
+import {ReviewTriageEvent} from '../models/reviewEvidence.js';
+const router=Router(),run=fn=>(req,res,next)=>Promise.resolve(fn(req,res)).catch(next);
+router.get('/',run(async(req,res)=>res.json(await reviewWorkload(req.query))));
+router.get('/packet',run(async(req,res)=>{const {packetKey}=z.object({packetKey:z.string().min(1).max(250)}).strict().parse(req.query);const packet=(await buildReviewPackets()).find(p=>p.packetKey===packetKey);if(!packet)return res.status(404).json({error:{code:'REVIEW_PACKET_NOT_FOUND',message:'No pending review packet found.'}});const events=await ReviewTriageEvent.find({packetKey}).sort({createdAt:-1}).limit(200).lean();res.json({...packet,triageHistory:events.map(e=>({...e,currentSnapshot:e.snapshot===packet.snapshot}))});}));
+router.post('/refresh',requireTrustedMutation,run(async(_req,res)=>res.json(await refreshReviewEvidence())));
+router.post('/triage',requireTrustedMutation,run(async(req,res)=>res.json(await triageReviewPackets(req.body,req.admin.username))));
+export default router;

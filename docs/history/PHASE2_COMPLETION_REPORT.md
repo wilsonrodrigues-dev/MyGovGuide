@@ -43,13 +43,13 @@ Current demonstration collections after two imports and two offline runs:
 | ChangeEvent / ReviewEvent / ImportRejection | 0 / 0 / 0 in the unchanged demo |
 | Approved sources / approved rule sets | **0 / 0** |
 
-These are demonstration-database counts, not integration-test database counts. Test databases intentionally include synthetic changes/reviews and are named separately. [Runtime evidence](../../backend/reports/phase2-status.json), [first actual import](../../backend/reports/available-import-first.json), [repeat actual import](../../backend/reports/import-available-latest.json).
+These are demonstration-database counts, not integration-test database counts. Test databases intentionally include synthetic changes/reviews and are named separately. [Runtime evidence](../../backend/reports/phase2-status.json), [first actual import](test-artifacts-before-cleanup/backend/available-import-first.json), [repeat actual import](../../backend/reports/import-available-latest.json).
 
 ## Collection and change results
 
 All four fixture adapters collected successfully and saved four clearly synthetic notices. The second run reported four unchanged records, no new versions, no new review items and no change events. A real government page was never fetched.
 
-Changed-content tests created a reviewable event and historical versions; repeated changed input created no duplicate event. Invalid/missing references and forced later write failures rolled back. Approved snapshots remained available across multiple unreviewed changes. The unchanged demonstration database correctly has zero ChangeEvents. [Integration evidence](../../backend/reports/mongo-integration.json) and [fixture evidence](../../backend/reports/fixtures-first.json) preserve actual counters.
+Changed-content tests created a reviewable event and historical versions; repeated changed input created no duplicate event. Invalid/missing references and forced later write failures rolled back. Approved snapshots remained available across multiple unreviewed changes. The unchanged demonstration database correctly has zero ChangeEvents. [Integration evidence](../../backend/reports/mongo-integration.json) and [fixture evidence](test-artifacts-before-cleanup/backend/fixtures-first.json) preserve actual counters.
 
 The Phase 1 permissions CSV contains 70 source decisions. All remain denied for live collection. They are listed in [SOURCE_APPROVAL_LOG.md](../../backend/docs/phase2/SOURCE_APPROVAL_LOG.md); the 32 generated research URL identities are separately listed in [SUPPLEMENTAL_SOURCE_LOG.md](../../backend/docs/phase2/SUPPLEMENTAL_SOURCE_LOG.md). The original source-registry JSON has not been reconstructed. The shipped approval configuration is empty, live mode is false, and scheduled execution is commented out.
 

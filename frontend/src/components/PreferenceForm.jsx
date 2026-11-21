@@ -4,12 +4,15 @@ import { ArrowRight, Check, Sprout, GraduationCap, HeartHandshake, UserRound, Br
 import { categories, states, stateName, languages, languageNames, isProfile } from '../data/options.js';
 import { useProfile } from '../context/ProfileContext.jsx';
 import { Button } from './ui/button.jsx';
+import {useAssistant,usePageVoice} from '../context/VoiceContext.jsx';
 const icons = [Sprout, GraduationCap, HeartHandshake, UserRound, BriefcaseBusiness, HardHat, Accessibility, Users];
-export function PreferenceForm({ initial, editing = false, onSaved }) {
+export function PreferenceForm({ initial, editing = false, onSaved,voiceGuidance=false,extra }) {
   const { t, i18n } = useTranslation(); const { saveProfile, changeLanguage } = useProfile();
   const [state, setState] = useState(initial?.state || '');
   const [category, setCategory] = useState(initial?.category || '');
   const [errors, setErrors] = useState({}); const [saving, setSaving] = useState(false);
+  const assistant=useAssistant();
+  usePageVoice({setField:(field,value)=>{if(field==='state'&&states.includes(value)){setState(value);setErrors({});if(voiceGuidance)assistant.speak(t('citizen.categoryPrompt'));}if(field==='category'&&categories.includes(value)){setCategory(value);setErrors({});}},results:[]});
   async function submit(event) {
     event.preventDefault();
     const profile = { state, category, language: i18n.language };
@@ -34,12 +37,14 @@ export function PreferenceForm({ initial, editing = false, onSaved }) {
         <Icon size={23} strokeWidth={1.5} aria-hidden="true" /><span>{t(`categories.${value}`)}</span>{category === value && <Check className="category-check" size={13} aria-hidden="true" />}
       </label>; })}</div>{errors.category && <p id="category-error" className="field-error" role="alert">{errors.category}</p>}
     </fieldset>
-    <fieldset className="form-section"><legend className="form-section-title"><span className="step-number">03</span>{t('onboarding.languageLabel')}</legend>
+    {editing&&<fieldset className="form-section"><legend className="form-section-title"><span className="step-number">03</span>{t('onboarding.languageLabel')}</legend>
       <div className="language-options">{languages.map(language => <label key={language} lang={language} className={i18n.language === language ? 'selected' : ''}>
         <input type="radio" name="preferredLanguage" value={language} checked={i18n.language === language} onChange={() => changeLanguage(language)} />
         <span>{languageNames[language]}</span>{i18n.language === language && <Check size={16} aria-hidden="true" />}
       </label>)}</div>
-    </fieldset>
+    </fieldset>}
+    {(state||category)&&<p className="preference-review">{t('citizen.reviewPreferences')}: {stateName(state,i18n.language)}{category?' · '+t('categories.'+category):''} · {languageNames[i18n.language]}</p>}
+    {extra}
     <Button type="submit" disabled={saving} className="form-submit">{saving ? <LoaderCircle className="loading-icon" size={18} aria-hidden="true" /> : null}{t(saving ? 'common.saving' : editing ? 'common.save' : 'onboarding.continue')}<ArrowRight size={18} aria-hidden="true" /></Button>
     <p className="form-privacy"><LockKeyhole size={14} aria-hidden="true" />{t(editing ? 'settings.privacy' : 'onboarding.privacyText')}</p>
   </form>;

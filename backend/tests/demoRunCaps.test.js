@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {enqueue} from '../src/services/admin/jobs.js';import {sanitizeEvent} from '../src/services/realtime/events.js';
+test('live run cap is enforced before database, source or network work',async()=>{for(const maxRecords of [0,4,1.5,10000])await assert.rejects(enqueue({sourceId:'NO-SOURCE',mode:'LIVE',maxRecords,actor:'TEST'}),/one to three/);});
+test('export sanitation preserves real timestamps and masks credential query strings',()=>{const s=sanitizeEvent({at:new Date('2026-11-20T12:00:00Z'),url:'https://example.test/?api_key=PRIVATE',password:'PRIVATE'});assert.equal(s.at,'2026-11-20T12:00:00.000Z');assert.ok(!s.url.includes('PRIVATE'));assert.equal(s.password,'[REDACTED]');});

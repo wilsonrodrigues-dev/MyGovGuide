@@ -87,7 +87,7 @@ test('secure anonymous profile API against native MongoDB', { skip: !uri && 'Set
       const fallbackSearch=(await(await call('/content/search?q=preview&language=kn')).json()).items;
       assert.equal(fallbackSearch.length,1);assert.equal(fallbackSearch[0].language,'en');assert.equal(fallbackSearch[0].requestedLanguage,'kn');assert.equal(fallbackSearch[0].translationUnavailable,true);
       const detail=await (await call(`/content/schemes/${input.id}?language=hi`)).json();assert.equal(detail.translationUnavailable,true);assert.equal(detail.language,'en');assert.equal(detail.source.version,scheme.currentVersionId);
-      assert.equal(detail.eligibilityStatus,'RULES_NOT_APPROVED');assert.equal(detail.eligibilityAvailable,false);assert.equal(detail.scheme.state,'Kerala');
+      assert.equal(detail.eligibilityStatus,'OPERATIVE_RULES_INCOMPLETE');assert.equal(detail.eligibilityAvailable,false);assert.equal(detail.scheme.state,'Kerala');
       assert.ok(!Object.hasOwn(previews[0], 'original')); assert.ok(!Object.hasOwn(previews[0], 'publicationEvidence'));
       await call('/profile', { ...b, method: 'PUT', body: { state: 'Karnataka', category: 'Student', language: 'en' } });
       assert.equal((await (await call('/schemes/preview', b)).json()).items.length, 0);
@@ -96,6 +96,18 @@ test('secure anonymous profile API against native MongoDB', { skip: !uri && 'Set
       assert.equal((await call(`/content/schemes/${input.id}?language=en`)).status,404);
       assert.equal((await(await call('/content/search?q=preview&language=kn')).json()).items.length,0,'English fallback must not expose stale content');
       results.push('published/verified/profile-matched safe preview projection: passed');
+    });
+    await t.test('catalog pagination covers all published matches, retains filters and General recommendations without eligibility claims',async()=>{
+      const store=new MongoStore();for(let i=0;i<5;i++){
+        const input={id:'catalog-page-'+i,title:'Mock catalog pagination '+i,sourceIds:['preview-source'],sourceUrl:'https://department.gov.in/projection-test',original:{testDouble:'Isolated pagination contract; not real government content'},normalized:{description:'Mock catalog record for page-boundary checks'}};
+        await ingest(store,'Scheme',input,{state:i===3?'All India':i===4?'Kerala':'Karnataka',beneficiaryCategories:[i===1||i===3?'General':i===4?'Worker':'Farmer'],schemeStatus:'ACTIVE'});
+        const s=await store.get('Scheme',input.id);await store.put('Scheme',{...s,status:'SOURCE_VERIFIED_FACT',publicationStatus:'PUBLISHED',cacheStale:false,approvedVersionId:s.currentVersionId,lastHumanReviewAt:new Date(),publicationEvidence:{rightsBasis:'Mock rights',reviewer:'Isolated test',evidence:'Mock publication contract only'}});await mockPublicationSnapshot(await store.get('Scheme',input.id));
+      }
+      const pages=[];for(const page of [1,2,3]){const r=await call('/content/search?q=catalog&language=kn&limit=2&page='+page);assert.equal(r.status,200);const d=await r.json();assert.equal(d.total,5);assert.equal(d.totalPages,3);assert.equal(d.page,page);assert.equal(d.hasNext,page<3);assert.ok(d.items.every(x=>x.translationUnavailable&&x.language==='en'));pages.push(...d.items.map(x=>x.id));}
+      assert.equal(new Set(pages).size,5);assert.equal(pages.length,5);
+      const filtered=await(await call('/content/search?q=catalog&state=Karnataka&category=Farmer&limit=10')).json();assert.equal(filtered.total,4);assert.ok(filtered.items.every(x=>x.state!=='Kerala'));
+      assert.equal((await call('/content/search?page=0')).status,400);
+      await call('/profile',{...b,method:'PUT',body:{state:'Karnataka',category:'General',language:'en'}});const recommended=await(await call('/schemes/preview',b)).json();assert.equal(recommended.items.length,4);assert.ok(recommended.items.every(x=>x.eligibilityAvailable===false));assert.equal(recommended.matching.category,'General');
     });
     await t.test('logout and expiry prevent later access even before TTL cleanup', async () => {
       assert.equal((await call('/session', { ...b, method: 'DELETE' })).status, 204);

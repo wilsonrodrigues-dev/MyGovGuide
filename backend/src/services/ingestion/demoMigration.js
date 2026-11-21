@@ -1,0 +1,5 @@
+// Select a bounded evidence graph, never operational queues or citizen/admin data.
+export function migrationFilters(schemes,forms,versions){
+ const ids=schemes.map(s=>s.id),formIds=forms.map(f=>f.id),versionIds=versions.map(v=>v.id),sourceIds=[...new Set([...schemes,...forms,...versions].flatMap(v=>v.sourceIds||[]))];
+ return{schemes:{_id:{$in:ids}},sources:{_id:{$in:sourceIds}},sourceversions:{_id:{$in:versionIds}},schemefacts:{schemeId:{$in:ids}},eligibilityrulesets:{schemeId:{$in:ids}},formtemplates:{_id:{$in:formIds}},formdocuments:{formId:{$in:formIds}},formguidanceartifacts:{formId:{$in:formIds},'validation.ok':true},formreviewevents:{formId:{$in:formIds}},contentapprovals:{schemeId:{$in:ids}},contentpublications:{schemeId:{$in:ids}},schemesearchdocuments:{schemeId:{$in:ids},published:true},aiartifacts:{schemeId:{$in:ids},sourceVersionId:{$in:versionIds},stale:false,'validation.ok':true},reviewevents:{entityId:{$in:[...ids,...formIds]}},schemeidentities:{schemeId:{$in:ids}},adapterconfigs:{_id:{$in:sourceIds}}};
+}

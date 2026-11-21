@@ -8,9 +8,14 @@ import { normalize, canonicalUrl } from '../services/normalization/index.js';
 import { record } from '../validators/contracts.js';
 import { stableId } from '../utils/hash.js';
 import { ingest } from '../services/changeDetection/ingest.js';
+import {ingestCollectedScheme} from '../services/ingestion/schemeIdentity.js';
+import {incrementalContract,atPath} from '../services/ingestion/incremental.js';
+import {parseSchemeDocument} from './schemeDocument.js';
+import {pdfEvidenceWarnings} from './pdfEvidence.js';
 
 const collected = z.object({ id: z.string().optional(), title: z.string().min(1), sourceUrl: z.string().url(),
   description: z.string().optional() }).passthrough();
+async function classifiedIngest(...args){const tally=await ingest(...args);return{...tally,classification:tally.created?'NEW':tally.updated?'UPDATED':'UNCHANGED'};}
 class Adapter {
   constructor(source, { http, fixtureRoot } = {}) { this.source = source; this.http = http; this.fixtureRoot = fixtureRoot; }
   discover() { return [this.source.url]; }
@@ -32,19 +37,20 @@ class Adapter {
   validate(value) { return record.parse(value); }
   stage(store, value) {
     const type = this.source.entityType || 'Notice';
-    const extra = type === 'Scheme' ? { state: value.normalized.state, governmentLevel: value.normalized.governmentLevel,
+    const extra = type === 'Scheme' ? { department:value.normalized.department,state: value.normalized.state, governmentLevel: value.normalized.governmentLevel,
       beneficiaryCategories: value.normalized.beneficiaryCategories, programmeType: value.normalized.programmeType,
       historicalAliases:value.original.historicalAliases||value.original.aliases||[],originalText:value.original.originalClauses||value.original.originalText||value.normalized.description,
       benefits:value.normalized.benefits,requiredDocuments:value.normalized.requiredDocuments,applicationInfo:value.normalized.applicationInfo } :
       type === 'FormTemplate' ? { formKind: value.original.formKind, observedFields: value.original.observedFields || [] } :
       type === 'ScamAlert' ? { recordType: value.original.recordType } : {};
-    return ingest(store, type, value, extra);
+    return type==='Scheme'?ingestCollectedScheme(store,this.source,value,extra):classifiedIngest(store, type, value, extra);
   }
 }
 export class ApiAdapter extends Adapter {
   parse(buffer) {
     const data = JSON.parse(buffer.toString('utf8'));
-    return z.array(collected).parse(Array.isArray(data) ? data : data.records);
+    const incremental=incrementalContract(this.source);
+    return z.array(collected).parse(Array.isArray(data) ? data : incremental?atPath(data,incremental.recordsPath):data.records);
   }
 }
 export class RssAdapter extends Adapter {
@@ -60,7 +66,7 @@ export class RssAdapter extends Adapter {
 // Candidate parser only. Registering a parser never authorizes a network request.
 // Activation remains blocked until endpoint access/robots evidence is established.
 export class PibRssAdapter extends RssAdapter {
-  stage(store,value) { return ingest(store,'Notice',value); }
+  stage(store,value) { return classifiedIngest(store,'Notice',value); }
   async parse(buffer) {
     const items = await super.parse(buffer);
     if (!items.length) throw new Error('PIB feed has no release items');
@@ -76,7 +82,7 @@ export class PibRssAdapter extends RssAdapter {
 // The department expressly offers these endpoints to RSS readers. This adapter
 // validates feed identity only; every request still needs the normal approval.
 export class IncomeTaxRssAdapter extends RssAdapter {
-  stage(store,value) { return ingest(store,'Notice',value); }
+  stage(store,value) { return classifiedIngest(store,'Notice',value); }
   async parse(buffer) {
     const items=await super.parse(buffer);
     if(!items.length)throw new Error('Income Tax RSS has no release items');
@@ -90,7 +96,7 @@ export class IncomeTaxRssAdapter extends RssAdapter {
   }
 }
 export class SachetRssAdapter extends RssAdapter {
-  stage(store,value) { return ingest(store,'Notice',value); }
+  stage(store,value) { return classifiedIngest(store,'Notice',value); }
   async parse(buffer) {
     const items=await super.parse(buffer);
     if(!items.length)throw new Error('Sachet RSS contains no alerts');
@@ -104,6 +110,7 @@ export class SachetRssAdapter extends RssAdapter {
 }
 export class HtmlAdapter extends Adapter {
   parse(buffer) {
+    if(this.source.entityType==='Scheme'&&this.source.adapterOptions?.schemeDocument)return parseSchemeDocument(buffer,this.source);
     const $ = load(buffer.toString('utf8'));
     $('script,style,nav,footer,header').remove();
     const options = this.source.adapterOptions || {};
@@ -125,7 +132,7 @@ export class PdfAdapter extends Adapter {
       const result = await parser.getText();
       const description = result.text.trim();
       if (!description) throw new Error('PDF has no extractable text; OCR is outside Phase 2');
-      return [{ title: this.source.title || 'Document requiring review', sourceUrl: this.source.url, description }];
+      return [{ title: this.source.title || 'Document requiring review', sourceUrl: this.source.url, description,extraction:{format:'PDF_TEXT',warnings:pdfEvidenceWarnings(description),currentness:'REVIEW_REQUIRED'} }];
     } finally { await parser.destroy(); }
   }
 }

@@ -1,0 +1,3761 @@
+{
+  "at": "2026-11-19T19:06:59.134Z",
+  "purpose": "Exact nine-scheme review packet retained after explicit owner approval and publication.",
+  "records": [
+    {
+      "packetKey": "Scheme:KA-GN-02",
+      "id": "KA-GN-02",
+      "name": "Anna Bhagya",
+      "snapshot": "dfe687c669d698d705a8a4436753a0232314a7e90c2c581cb12000a2da83fc72",
+      "sourceUrl": "https://bengaluruurban.nic.in/en/scheme/anna-bhagya/",
+      "sourceVersionId": "version-200777bf7adfaf978afa7543",
+      "sourceHash": "c9dca2c30e374673084e92a89bf5c39a14dd848b952a0c071d12e100238d4c8c",
+      "sourceEvidence": {
+        "excerpt": "subsidized food security to Below Poverty Line (BPL) and Antyodaya (AAY) ration cardholders",
+        "clauseRefs": [
+          "District Anna Bhagya description"
+        ],
+        "verifiedAt": "2026-11-18T10:19:17.918Z",
+        "validUntil": "2026-11-25T13:47:48.127Z",
+        "rightsBasis": "Limited factual paraphrase and short verification excerpt with source attribution; no images, forms, page mirroring or automated-access permission asserted. Human rights/currentness review required."
+      },
+      "approvedFacts": {
+        "title": "Anna Bhagya",
+        "historicalAliases": [],
+        "department": "Government of Karnataka / Food and Civil Supplies",
+        "state": "Karnataka",
+        "beneficiaryCategories": [
+          "General"
+        ],
+        "description": "Anna Bhagya is Karnataka food-security assistance for qualifying BPL/AAY ration-card households. Important limits: Sources describe differing rice/cash/nutritional-kit delivery. No current quantity, cash amount, automatic eligibility or last distribution is asserted until reconciled.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+        "benefits": "Anna Bhagya is Karnataka food-security assistance for qualifying BPL/AAY ration-card households.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "steps": [
+            "Consult the official Karnataka food/civil-supplies authority or local ration service for current entitlement and documentation."
+          ],
+          "url": "https://ahara.karnataka.gov.in/"
+        },
+        "supportingOfficialUrls": [
+          "https://ahara.karnataka.gov.in/"
+        ],
+        "eligibilityConditions": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "observedFacts": {
+          "batch": 4,
+          "publicationBlocked": false,
+          "reviewScope": "Owner approved limited public facts for AI preparation only; editorial approval is separate.",
+          "sourceGaps": [
+            "Sources describe differing rice/cash/nutritional-kit delivery. No current quantity, cash amount, automatic eligibility or last distribution is asserted until reconciled.",
+            "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+            "No open application window or guaranteed approval is asserted."
+          ]
+        }
+      },
+      "uncertainties": [
+        "Sources describe differing rice/cash/nutritional-kit delivery. No current quantity, cash amount, automatic eligibility or last distribution is asserted until reconciled.",
+        "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+        "No open application window or guaranteed approval is asserted.",
+        "Document requirements are unverified; an empty list does not mean no documents are required."
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "artifactId": "e27c5ada-9c6e-493e-8b7b-1fc1c3300e8f",
+          "sha256": "7c69f7b7b83398f98ed7928d5305217e28b06b44bc23bd60638f1a07d5c80811",
+          "output": {
+            "language": "en",
+            "title": "Anna Bhagya",
+            "summary": "Anna Bhagya is a food-security assistance program provided by the Government of Karnataka for qualifying BPL and AAY ration-card households. The program aims to provide food security, though specific delivery methods such as rice, cash, or nutritional kits vary and are subject to ongoing reconciliation. No open application window or guaranteed approval is asserted.",
+            "whoItMayHelp": "The scheme is intended for households holding Below Poverty Line (BPL) and Antyodaya (AAY) ration cards in the state of Karnataka.",
+            "benefits": [
+              "Provision of food-security assistance to eligible BPL and AAY ration-card holders."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Consult the official Karnataka food/civil-supplies authority or local ration service for current entitlement and documentation."
+              ],
+              "links": [
+                {
+                  "url": "https://ahara.karnataka.gov.in/",
+                  "label": "Official Karnataka Food and Civil Supplies Department Portal"
+                },
+                {
+                  "url": "https://bengaluruurban.nic.in/en/scheme/anna-bhagya/",
+                  "label": "Bengaluru Urban District Anna Bhagya Information"
+                }
+              ]
+            },
+            "limitations": [
+              "Sources describe differing rice, cash, or nutritional-kit delivery methods.",
+              "No current quantity, cash amount, automatic eligibility, or last distribution date is confirmed.",
+              "Complete current operative eligibility, exclusions, and latest amendments require editorial review.",
+              "No open application window or guaranteed approval is asserted."
+            ],
+            "aliases": [
+              "Anna Bhagya Scheme"
+            ],
+            "keywords": [
+              "Karnataka",
+              "Food Security",
+              "BPL",
+              "AAY",
+              "Ration Card",
+              "Government of Karnataka"
+            ],
+            "romanized": [
+              "Anna Bhagya"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Anna Bhagya"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka / Food and Civil Supplies"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"General\"]"
+              },
+              {
+                "id": "description",
+                "value": "Anna Bhagya is Karnataka food-security assistance for qualifying BPL/AAY ration-card households. Important limits: Sources describe differing rice/cash/nutritional-kit delivery. No current quantity, cash amount, automatic eligibility or last distribution is asserted until reconciled.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Anna Bhagya is Karnataka food-security assistance for qualifying BPL/AAY ration-card households."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official Karnataka food/civil-supplies authority or local ration service for current entitlement and documentation.\"],\"url\":\"https://ahara.karnataka.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://ahara.karnataka.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Sources describe differing rice/cash/nutritional-kit delivery. No current quantity, cash amount, automatic eligibility or last distribution is asserted until reconciled.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District Anna Bhagya description",
+                "quote": "subsidized food security to Below Poverty Line (BPL) and Antyodaya (AAY) ration cardholders"
+              }
+            ]
+          }
+        },
+        {
+          "language": "hi",
+          "artifactId": "3829c7a3-7ea5-480f-b95d-0575ad7a3fca",
+          "sha256": "8788f9261ac667e32a0bfcb642ed7f9bf8dc0f79215dc9bdbd35a5673ac30607",
+          "output": {
+            "language": "hi",
+            "title": "अन्न भाग्य",
+            "summary": "अन्न भाग्य कर्नाटक सरकार की एक खाद्य सुरक्षा सहायता योजना है जो पात्र बीपीएल (BPL) और अंत्योदय (AAY) राशन कार्ड धारक परिवारों के लिए है। वर्तमान में चावल, नकद या पोषण किट के वितरण के संबंध में जानकारी भिन्न है। वर्तमान मात्रा, नकद राशि, स्वचालित पात्रता या अंतिम वितरण की पुष्टि नहीं की गई है।",
+            "whoItMayHelp": "यह योजना कर्नाटक के पात्र बीपीएल (BPL) और अंत्योदय (AAY) राशन कार्ड धारक परिवारों के लिए है।",
+            "benefits": [
+              "पात्र परिवारों के लिए खाद्य सुरक्षा सहायता प्रदान करना।"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "वर्तमान पात्रता और आवश्यक दस्तावेजों के बारे में जानकारी के लिए कर्नाटक खाद्य और नागरिक आपूर्ति प्राधिकरण या स्थानीय राशन सेवा केंद्र से संपर्क करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://ahara.karnataka.gov.in/",
+                  "label": "आहार कर्नाटक आधिकारिक वेबसाइट"
+                },
+                {
+                  "url": "https://bengaluruurban.nic.in/en/scheme/anna-bhagya/",
+                  "label": "बेंगलुरु शहरी जिला अन्न भाग्य विवरण"
+                }
+              ]
+            },
+            "limitations": [
+              "स्रोत चावल, नकद या पोषण किट के वितरण के बारे में अलग-अलग जानकारी देते हैं।",
+              "वर्तमान मात्रा, नकद राशि, स्वचालित पात्रता या अंतिम वितरण की पुष्टि नहीं की गई है।",
+              "पूर्ण वर्तमान परिचालन पात्रता, बहिष्करण और नवीनतम संशोधनों के लिए संपादकीय समीक्षा की आवश्यकता है।",
+              "कोई खुला आवेदन विंडो या गारंटीकृत अनुमोदन का दावा नहीं किया गया है।"
+            ],
+            "aliases": [
+              "अन्न भाग्य योजना"
+            ],
+            "keywords": [
+              "खाद्य सुरक्षा",
+              "कर्नाटक",
+              "राशन कार्ड",
+              "बीपीएल",
+              "अंत्योदय",
+              "अन्न भाग्य"
+            ],
+            "romanized": [
+              "Anna Bhagya"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Anna Bhagya"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka / Food and Civil Supplies"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"General\"]"
+              },
+              {
+                "id": "description",
+                "value": "Anna Bhagya is Karnataka food-security assistance for qualifying BPL/AAY ration-card households. Important limits: Sources describe differing rice/cash/nutritional-kit delivery. No current quantity, cash amount, automatic eligibility or last distribution is asserted until reconciled.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Anna Bhagya is Karnataka food-security assistance for qualifying BPL/AAY ration-card households."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official Karnataka food/civil-supplies authority or local ration service for current entitlement and documentation.\"],\"url\":\"https://ahara.karnataka.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://ahara.karnataka.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Sources describe differing rice/cash/nutritional-kit delivery. No current quantity, cash amount, automatic eligibility or last distribution is asserted until reconciled.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District Anna Bhagya description",
+                "quote": "subsidized food security to Below Poverty Line (BPL) and Antyodaya (AAY) ration cardholders"
+              }
+            ]
+          }
+        },
+        {
+          "language": "kn",
+          "artifactId": "9d7d116f-d867-4663-aad4-927b2c881cdf",
+          "sha256": "ba26e477d329725aebc4da16b2753afa70b1a81f7f0d5b9beb9eed79a81cd56f",
+          "output": {
+            "language": "kn",
+            "title": "ಅನ್ನ ಭಾಗ್ಯ",
+            "summary": "ಅನ್ನ ಭಾಗ್ಯವು ಕರ್ನಾಟಕದ ಆಹಾರ ಭದ್ರತಾ ಯೋಜನೆಯಾಗಿದ್ದು, ಇದು ಅರ್ಹ ಬಿಪಿಎಲ್ (BPL) ಮತ್ತು ಅಂತ್ಯೋದಯ (AAY) ಪಡಿತರ ಚೀಟಿ ಹೊಂದಿರುವ ಕುಟುಂಬಗಳಿಗೆ ಸಹಾಯವನ್ನು ಒದಗಿಸುತ್ತದೆ. ಪ್ರಸ್ತುತ ಅಕ್ಕಿ, ನಗದು ಅಥವಾ ಪೌಷ್ಟಿಕಾಂಶದ ಕಿಟ್ ವಿತರಣೆಯ ಬಗ್ಗೆ ಮಾಹಿತಿಯು ಅಸ್ಪಷ್ಟವಾಗಿದೆ ಮತ್ತು ಪರಿಶೀಲನೆಯ ಅಗತ್ಯವಿದೆ. ಪ್ರಸ್ತುತ ಅರ್ಹತೆ, ಹೊರಗಿಡುವಿಕೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ತಿದ್ದುಪಡಿಗಳ ಬಗ್ಗೆ ಸಂಪೂರ್ಣ ಮಾಹಿತಿಯು ಲಭ್ಯವಿಲ್ಲ.",
+            "whoItMayHelp": "ಬಿಪಿಎಲ್ (BPL) ಮತ್ತು ಅಂತ್ಯೋದಯ (AAY) ಪಡಿತರ ಚೀಟಿ ಹೊಂದಿರುವ ಕುಟುಂಬಗಳು.",
+            "benefits": [
+              "ಅನ್ನ ಭಾಗ್ಯವು ಕರ್ನಾಟಕದ ಆಹಾರ ಭದ್ರತಾ ಯೋಜನೆಯಾಗಿದ್ದು, ಇದು ಅರ್ಹ ಬಿಪಿಎಲ್ (BPL) ಮತ್ತು ಅಂತ್ಯೋದಯ (AAY) ಪಡಿತರ ಚೀಟಿ ಹೊಂದಿರುವ ಕುಟುಂಬಗಳಿಗೆ ಸಹಾಯವನ್ನು ಒದಗಿಸುತ್ತದೆ."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ಪ್ರಸ್ತುತ ಅರ್ಹತೆ ಮತ್ತು ದಾಖಲೆಗಳಿಗಾಗಿ ಕರ್ನಾಟಕದ ಅಧಿಕೃತ ಆಹಾರ ಮತ್ತು ನಾಗರಿಕ ಸರಬರಾಜು ಪ್ರಾಧಿಕಾರ ಅಥವಾ ಸ್ಥಳೀಯ ಪಡಿತರ ಕಚೇರಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://ahara.karnataka.gov.in/",
+                  "label": "ಕರ್ನಾಟಕ ಆಹಾರ ಮತ್ತು ನಾಗರಿಕ ಸರಬರಾಜು ಇಲಾಖೆ ಅಧಿಕೃತ ಜಾಲತಾಣ"
+                }
+              ]
+            },
+            "limitations": [
+              "ಅಕ್ಕಿ, ನಗದು ಅಥವಾ ಪೌಷ್ಟಿಕಾಂಶದ ಕಿಟ್ ವಿತರಣೆಯ ಬಗ್ಗೆ ಮಾಹಿತಿಯು ಅಸ್ಪಷ್ಟವಾಗಿದೆ.",
+              "ಪ್ರಸ್ತುತ ಅರ್ಹತೆ, ಹೊರಗಿಡುವಿಕೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ತಿದ್ದುಪಡಿಗಳ ಬಗ್ಗೆ ಸಂಪೂರ್ಣ ಮಾಹಿತಿಯು ಲಭ್ಯವಿಲ್ಲ.",
+              "ಯಾವುದೇ ಮುಕ್ತ ಅರ್ಜಿ ಸಲ್ಲಿಕೆ ಅಥವಾ ಖಚಿತವಾದ ಅನುಮೋದನೆಯ ಬಗ್ಗೆ ಮಾಹಿತಿ ಇಲ್ಲ."
+            ],
+            "aliases": [
+              "Anna Bhagya"
+            ],
+            "keywords": [
+              "ಅನ್ನ ಭಾಗ್ಯ",
+              "ಕರ್ನಾಟಕ ಸರ್ಕಾರ",
+              "ಆಹಾರ ಭದ್ರತೆ",
+              "ಬಿಪಿಎಲ್",
+              "ಅಂತ್ಯೋದಯ",
+              "ಪಡಿತರ ಚೀಟಿ"
+            ],
+            "romanized": [
+              "Anna Bhagya"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Anna Bhagya"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka / Food and Civil Supplies"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"General\"]"
+              },
+              {
+                "id": "description",
+                "value": "Anna Bhagya is Karnataka food-security assistance for qualifying BPL/AAY ration-card households. Important limits: Sources describe differing rice/cash/nutritional-kit delivery. No current quantity, cash amount, automatic eligibility or last distribution is asserted until reconciled.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Anna Bhagya is Karnataka food-security assistance for qualifying BPL/AAY ration-card households."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official Karnataka food/civil-supplies authority or local ration service for current entitlement and documentation.\"],\"url\":\"https://ahara.karnataka.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://ahara.karnataka.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Sources describe differing rice/cash/nutritional-kit delivery. No current quantity, cash amount, automatic eligibility or last distribution is asserted until reconciled.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District Anna Bhagya description",
+                "quote": "subsidized food security to Below Poverty Line (BPL) and Antyodaya (AAY) ration cardholders"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "packetKey": "Scheme:KA-WO-01",
+      "id": "KA-WO-01",
+      "name": "Gruha Lakshmi",
+      "snapshot": "230cb773ed883764885882f194788e95f8236f7d54cdea2ce6aad788b8374e4f",
+      "sourceUrl": "https://chamrajnagar.nic.in/en/welfareschemes/",
+      "sourceVersionId": "version-51e5d2ca359fbec44560b915",
+      "sourceHash": "b1d0aca020f8f021bc80624e28d61b8e3ed3a0aef75eedc26f3120d559da5fee",
+      "sourceEvidence": {
+        "excerpt": "direct bank transfer to the female head of every household",
+        "clauseRefs": [
+          "District women-and-child-development scheme list"
+        ],
+        "verifiedAt": "2026-11-18T10:19:17.918Z",
+        "validUntil": "2026-11-25T13:47:49.942Z",
+        "rightsBasis": "Limited factual paraphrase and short verification excerpt with source attribution; no images, forms, page mirroring or automated-access permission asserted. Human rights/currentness review required."
+      },
+      "approvedFacts": {
+        "title": "Gruha Lakshmi",
+        "historicalAliases": [],
+        "department": "Government of Karnataka / Women and Child Development",
+        "state": "Karnataka",
+        "beneficiaryCategories": [
+          "Woman"
+        ],
+        "description": "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households. Important limits: The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+        "benefits": "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "steps": [
+            "Consult the official Seva Sindhu service or women-and-child-development office for enrolment and current eligibility/document rules."
+          ],
+          "url": "https://sevasindhu.karnataka.gov.in/"
+        },
+        "supportingOfficialUrls": [
+          "https://sevasindhu.karnataka.gov.in/"
+        ],
+        "eligibilityConditions": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "observedFacts": {
+          "batch": 4,
+          "publicationBlocked": false,
+          "reviewScope": "Owner approved limited public facts for AI preparation only; editorial approval is separate.",
+          "sourceGaps": [
+            "The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted.",
+            "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+            "No open application window or guaranteed approval is asserted."
+          ]
+        }
+      },
+      "uncertainties": [
+        "The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted.",
+        "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+        "No open application window or guaranteed approval is asserted.",
+        "Document requirements are unverified; an empty list does not mean no documents are required."
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "artifactId": "9070671d-9248-4e6e-a0a7-a6194976a037",
+          "sha256": "919871a805a63fcab3db9e839daa0e68c803d3dbd4c091bf87195db23f8f6d71",
+          "output": {
+            "language": "en",
+            "title": "Gruha Lakshmi",
+            "summary": "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households. Important limits: The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted. Complete current operative eligibility, exclusions and latest amendments require editorial review. No open application window or guaranteed approval is asserted.",
+            "whoItMayHelp": "Qualifying women heads of households in Karnataka.",
+            "benefits": [
+              "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Consult the official Seva Sindhu service or women-and-child-development office for enrolment and current eligibility/document rules."
+              ],
+              "links": [
+                {
+                  "url": "https://sevasindhu.karnataka.gov.in/",
+                  "label": "Seva Sindhu Official Portal"
+                }
+              ]
+            },
+            "limitations": [
+              "The short directory description omits exclusions and payment/currentness detail.",
+              "No current monthly payment or guaranteed disbursement is asserted.",
+              "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+              "No open application window or guaranteed approval is asserted."
+            ],
+            "aliases": [],
+            "keywords": [
+              "Karnataka",
+              "Financial Assistance",
+              "Women",
+              "Government of Karnataka",
+              "Women and Child Development"
+            ],
+            "romanized": [],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Gruha Lakshmi"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka / Women and Child Development"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households. Important limits: The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official Seva Sindhu service or women-and-child-development office for enrolment and current eligibility/document rules.\"],\"url\":\"https://sevasindhu.karnataka.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://sevasindhu.karnataka.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District women-and-child-development scheme list",
+                "quote": "direct bank transfer to the female head of every household"
+              }
+            ]
+          }
+        },
+        {
+          "language": "hi",
+          "artifactId": "a07efd88-5005-4678-bfc2-6fbace0f5c04",
+          "sha256": "b8acf8d85b160df0f4a34a7471e2b1bd9a1871121789686ea846ebe3bd5114c2",
+          "output": {
+            "language": "hi",
+            "title": "गृह लक्ष्मी",
+            "summary": "गृह लक्ष्मी कर्नाटक सरकार की एक सशर्त वित्तीय सहायता योजना है, जो पात्र महिला गृह प्रमुखों के लिए निर्देशित है। इस योजना के संबंध में कोई वर्तमान मासिक भुगतान या गारंटीकृत संवितरण का दावा नहीं किया गया है। पूर्ण पात्रता, बहिष्करण और नवीनतम संशोधनों के लिए आधिकारिक समीक्षा की आवश्यकता है।",
+            "whoItMayHelp": "यह योजना कर्नाटक की उन महिलाओं के लिए है जो अपने परिवार की मुखिया हैं और पात्रता शर्तों को पूरा करती हैं।",
+            "benefits": [
+              "पात्र महिला गृह प्रमुखों के लिए सशर्त वित्तीय सहायता।"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "नामांकन और वर्तमान पात्रता या दस्तावेज नियमों के लिए आधिकारिक सेवा सिंधु सेवा या महिला एवं बाल विकास कार्यालय से परामर्श करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://sevasindhu.karnataka.gov.in/",
+                  "label": "सेवा सिंधु आधिकारिक पोर्टल"
+                }
+              ]
+            },
+            "limitations": [
+              "योजना का विवरण बहिष्करण और भुगतान संबंधी जानकारी को छोड़ देता है।",
+              "कोई वर्तमान मासिक भुगतान या गारंटीकृत संवितरण का दावा नहीं किया गया है।",
+              "कोई खुला आवेदन विंडो या गारंटीकृत अनुमोदन का दावा नहीं किया गया है।",
+              "पूर्ण पात्रता और बहिष्करण के लिए संपादकीय समीक्षा की आवश्यकता है।"
+            ],
+            "aliases": [
+              "Gruha Lakshmi"
+            ],
+            "keywords": [
+              "कर्नाटक",
+              "महिला एवं बाल विकास",
+              "वित्तीय सहायता",
+              "गृह लक्ष्मी"
+            ],
+            "romanized": [
+              "Gruha Lakshmi"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Gruha Lakshmi"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka / Women and Child Development"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households. Important limits: The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official Seva Sindhu service or women-and-child-development office for enrolment and current eligibility/document rules.\"],\"url\":\"https://sevasindhu.karnataka.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://sevasindhu.karnataka.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District women-and-child-development scheme list",
+                "quote": "direct bank transfer to the female head of every household"
+              }
+            ]
+          }
+        },
+        {
+          "language": "kn",
+          "artifactId": "55dadd30-c3a8-408d-91cd-b318a9b2d364",
+          "sha256": "cae30bac8761f1a8a2a9549e2b3e07c950f98c3e6be7c60086a71ddaacdd2376",
+          "output": {
+            "language": "kn",
+            "title": "ಗೃಹ ಲಕ್ಷ್ಮಿ",
+            "summary": "ಗೃಹ ಲಕ್ಷ್ಮಿ ಯೋಜನೆಯು ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ ಇಲಾಖೆಯ ಅಡಿಯಲ್ಲಿ ಬರುವ ಒಂದು ಯೋಜನೆಯಾಗಿದೆ. ಇದು ಅರ್ಹ ಮಹಿಳಾ ಕುಟುಂಬದ ಯಜಮಾನಿಯರಿಗೆ ಆರ್ಥಿಕ ನೆರವು ನೀಡುವ ಯೋಜನೆಯಾಗಿದೆ. ಈ ಯೋಜನೆಯು ಪ್ರಸ್ತುತ ಸಂಪೂರ್ಣ ವಿವರಗಳನ್ನು ಒಳಗೊಂಡಿಲ್ಲ ಮತ್ತು ಅರ್ಹತೆ ಹಾಗೂ ಪಾವತಿಯ ಕುರಿತಾದ ನಿಯಮಗಳು ಬದಲಾವಣೆಗೆ ಒಳಪಟ್ಟಿರುತ್ತವೆ.",
+            "whoItMayHelp": "ಈ ಯೋಜನೆಯು ಕರ್ನಾಟಕದ ಅರ್ಹ ಮಹಿಳಾ ಕುಟುಂಬದ ಯಜಮಾನಿಯರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+            "benefits": [
+              "ಅರ್ಹ ಮಹಿಳಾ ಕುಟುಂಬದ ಯಜಮಾನಿಯರಿಗೆ ಆರ್ಥಿಕ ನೆರವು."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ನೋಂದಣಿ ಮತ್ತು ಪ್ರಸ್ತುತ ಅರ್ಹತೆ ಅಥವಾ ದಾಖಲೆಗಳ ನಿಯಮಗಳಿಗಾಗಿ ಅಧಿಕೃತ ಸೇವಾ ಸಿಂಧು ಸೇವೆ ಅಥವಾ ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ ಕಚೇರಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://sevasindhu.karnataka.gov.in/",
+                  "label": "ಸೇವಾ ಸಿಂಧು ಪೋರ್ಟಲ್"
+                }
+              ]
+            },
+            "limitations": [
+              "ಯೋಜನೆಯು ಸಂಪೂರ್ಣ ವಿವರಗಳನ್ನು ಹೊಂದಿಲ್ಲ ಮತ್ತು ಅರ್ಹತೆಯ ನಿಯಮಗಳು ಬದಲಾಗಬಹುದು.",
+              "ಯಾವುದೇ ಖಚಿತವಾದ ಮಾಸಿಕ ಪಾವತಿ ಅಥವಾ ವಿತರಣೆಯ ಭರವಸೆ ಇಲ್ಲ.",
+              "ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಯಾವುದೇ ನಿರ್ದಿಷ್ಟ ಅವಧಿಯ ಬಗ್ಗೆ ಮಾಹಿತಿ ಇಲ್ಲ."
+            ],
+            "aliases": [
+              "Gruha Lakshmi"
+            ],
+            "keywords": [
+              "ಗೃಹ ಲಕ್ಷ್ಮಿ",
+              "ಕರ್ನಾಟಕ ಸರ್ಕಾರ",
+              "ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ",
+              "ಆರ್ಥಿಕ ನೆರವು"
+            ],
+            "romanized": [
+              "Gruha Lakshmi"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Gruha Lakshmi"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka / Women and Child Development"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households. Important limits: The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Gruha Lakshmi is conditional Karnataka financial assistance directed to qualifying women heads of households."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official Seva Sindhu service or women-and-child-development office for enrolment and current eligibility/document rules.\"],\"url\":\"https://sevasindhu.karnataka.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://sevasindhu.karnataka.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"The short directory description omits exclusions and payment/currentness detail; do not repeat its universal-every-household phrasing as a verified entitlement. No current monthly payment or guaranteed disbursement asserted.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District women-and-child-development scheme list",
+                "quote": "direct bank transfer to the female head of every household"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "packetKey": "Scheme:IN-WO-04",
+      "id": "IN-WO-04",
+      "name": "Janani Suraksha Yojana (JSY)",
+      "snapshot": "a3dc43fd6e3586b1ab73ffde4c4bd56a0c87ee7e399ee4899b061aca11cf036a",
+      "sourceUrl": "https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841",
+      "sourceVersionId": "version-e42819e38bf97b6cb32841f7",
+      "sourceHash": "01d1b8419d8bf83aa15655b77cb9c0c4acd4e0235222b6539c4b1adb9f6f03b2",
+      "sourceEvidence": {
+        "excerpt": "integrates cash assistance with delivery and post-delivery care",
+        "clauseRefs": [
+          "NHM JSY purpose and implementation"
+        ],
+        "verifiedAt": "2026-11-18T10:19:17.918Z",
+        "validUntil": "2026-11-25T13:47:46.343Z",
+        "rightsBasis": "Limited factual paraphrase and short verification excerpt with source attribution; no images, forms, page mirroring or automated-access permission asserted. Human rights/currentness review required."
+      },
+      "approvedFacts": {
+        "title": "Janani Suraksha Yojana (JSY)",
+        "historicalAliases": [],
+        "department": "National Health Mission / Ministry of Health",
+        "state": "All India",
+        "beneficiaryCategories": [
+          "Woman"
+        ],
+        "description": "JSY promotes institutional delivery among poor pregnant women and links conditional cash assistance to delivery and post-delivery care. Important limits: Mother and ASHA payment components differ; no combined or statewide cash amount asserted. Current category/state rules and document checklist require review.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+        "benefits": "JSY promotes institutional delivery among poor pregnant women and links conditional cash assistance to delivery and post-delivery care.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "steps": [
+            "Consult the local public health facility or ASHA/health worker for applicable state/category rules and required maternal records."
+          ],
+          "url": "https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841"
+        },
+        "supportingOfficialUrls": [
+          "https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841"
+        ],
+        "eligibilityConditions": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "observedFacts": {
+          "batch": 3,
+          "publicationBlocked": false,
+          "reviewScope": "Owner approved limited public facts for AI preparation only; editorial approval is separate.",
+          "sourceGaps": [
+            "Mother and ASHA payment components differ; no combined or statewide cash amount asserted. Current category/state rules and document checklist require review.",
+            "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+            "No open application window or guaranteed approval is asserted."
+          ]
+        }
+      },
+      "uncertainties": [
+        "Mother and ASHA payment components differ; no combined or statewide cash amount asserted. Current category/state rules and document checklist require review.",
+        "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+        "No open application window or guaranteed approval is asserted.",
+        "Document requirements are unverified; an empty list does not mean no documents are required."
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "artifactId": "fe90fc63-b065-46c9-b3ca-1dfbe8e23382",
+          "sha256": "cb6e414a5ccfc23e4e57b29b9b78970a86061b22ca78d2bbe2f4e2e65363b86d",
+          "output": {
+            "language": "en",
+            "title": "Janani Suraksha Yojana (JSY)",
+            "summary": "Janani Suraksha Yojana (JSY) is a scheme under the National Health Mission that promotes institutional delivery among poor pregnant women. It integrates cash assistance with delivery and post-delivery care. Please note that mother and ASHA payment components differ, and no combined or statewide cash amount is asserted. Current category and state-specific rules, document requirements, and eligibility criteria require review at the local level.",
+            "whoItMayHelp": "Poor pregnant women.",
+            "benefits": [
+              "Promotion of institutional delivery.",
+              "Conditional cash assistance linked to delivery and post-delivery care."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Consult the local public health facility or ASHA/health worker for applicable state/category rules and required maternal records."
+              ],
+              "links": [
+                {
+                  "url": "https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841",
+                  "label": "National Health Mission JSY Official Page"
+                }
+              ]
+            },
+            "limitations": [
+              "Mother and ASHA payment components differ.",
+              "No combined or statewide cash amount is asserted.",
+              "Current category/state rules and document checklist require review.",
+              "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+              "No open application window or guaranteed approval is asserted."
+            ],
+            "aliases": [
+              "JSY"
+            ],
+            "keywords": [
+              "JSY",
+              "Janani Suraksha Yojana",
+              "Maternal Health",
+              "Institutional Delivery",
+              "National Health Mission"
+            ],
+            "romanized": [
+              "Janani Suraksha Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Janani Suraksha Yojana (JSY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "National Health Mission / Ministry of Health"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "JSY promotes institutional delivery among poor pregnant women and links conditional cash assistance to delivery and post-delivery care. Important limits: Mother and ASHA payment components differ; no combined or statewide cash amount asserted. Current category/state rules and document checklist require review.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "JSY promotes institutional delivery among poor pregnant women and links conditional cash assistance to delivery and post-delivery care."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the local public health facility or ASHA/health worker for applicable state/category rules and required maternal records.\"],\"url\":\"https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Mother and ASHA payment components differ; no combined or statewide cash amount asserted. Current category/state rules and document checklist require review.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "NHM JSY purpose and implementation",
+                "quote": "integrates cash assistance with delivery and post-delivery care"
+              }
+            ]
+          }
+        },
+        {
+          "language": "hi",
+          "artifactId": "55154602-06bc-4557-99c7-502a1dd5b83d",
+          "sha256": "c76dbe59aa0c3200eb580c082aa5b4f8f1b9005a8cf36f15cee9e6e0c1b3dc18",
+          "output": {
+            "language": "hi",
+            "title": "जननी सुरक्षा योजना (JSY)",
+            "summary": "जननी सुरक्षा योजना (JSY) गरीब गर्भवती महिलाओं के बीच संस्थागत प्रसव को बढ़ावा देती है और प्रसव तथा प्रसवोत्तर देखभाल के साथ सशर्त नकद सहायता को जोड़ती है। योजना के तहत माँ और आशा (ASHA) के भुगतान के घटक अलग-अलग हैं। वर्तमान में कोई संयुक्त या राज्यव्यापी नकद राशि निर्धारित नहीं है। पात्रता, बहिष्करण और नवीनतम संशोधनों के लिए आधिकारिक समीक्षा आवश्यक है।",
+            "whoItMayHelp": "यह योजना गरीब गर्भवती महिलाओं के लिए है।",
+            "benefits": [
+              "संस्थागत प्रसव को बढ़ावा देना",
+              "प्रसव और प्रसवोत्तर देखभाल के लिए सशर्त नकद सहायता"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "लागू राज्य/श्रेणी के नियमों और आवश्यक मातृ रिकॉर्ड के लिए स्थानीय सार्वजनिक स्वास्थ्य सुविधा या आशा (ASHA)/स्वास्थ्य कार्यकर्ता से परामर्श करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841",
+                  "label": "जननी सुरक्षा योजना आधिकारिक वेबसाइट"
+                }
+              ]
+            },
+            "limitations": [
+              "माँ और आशा के भुगतान के घटक अलग-अलग हैं।",
+              "कोई संयुक्त या राज्यव्यापी नकद राशि का उल्लेख नहीं है।",
+              "वर्तमान श्रेणी/राज्य के नियमों और दस्तावेज चेकलिस्ट की समीक्षा आवश्यक है।",
+              "पूर्ण परिचालन पात्रता और बहिष्करण के लिए संपादकीय समीक्षा आवश्यक है।",
+              "कोई खुला आवेदन विंडो या गारंटीकृत स्वीकृति का दावा नहीं किया गया है।"
+            ],
+            "aliases": [
+              "JSY"
+            ],
+            "keywords": [
+              "जननी सुरक्षा योजना",
+              "JSY",
+              "मातृ स्वास्थ्य",
+              "संस्थागत प्रसव",
+              "राष्ट्रीय स्वास्थ्य मिशन"
+            ],
+            "romanized": [
+              "Janani Suraksha Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Janani Suraksha Yojana (JSY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "National Health Mission / Ministry of Health"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "JSY promotes institutional delivery among poor pregnant women and links conditional cash assistance to delivery and post-delivery care. Important limits: Mother and ASHA payment components differ; no combined or statewide cash amount asserted. Current category/state rules and document checklist require review.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "JSY promotes institutional delivery among poor pregnant women and links conditional cash assistance to delivery and post-delivery care."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the local public health facility or ASHA/health worker for applicable state/category rules and required maternal records.\"],\"url\":\"https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Mother and ASHA payment components differ; no combined or statewide cash amount asserted. Current category/state rules and document checklist require review.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "NHM JSY purpose and implementation",
+                "quote": "integrates cash assistance with delivery and post-delivery care"
+              }
+            ]
+          }
+        },
+        {
+          "language": "kn",
+          "artifactId": "1a80107e-2e8d-4324-829a-32a445049c9e",
+          "sha256": "2d9f46667f952da84aa93e14ff62e5f61ad09784d76604fdde0cd7d9ebb3aad9",
+          "output": {
+            "language": "kn",
+            "title": "ಜನನಿ ಸುರಕ್ಷಾ ಯೋಜನೆ (JSY)",
+            "summary": "ಜನನಿ ಸುರಕ್ಷಾ ಯೋಜನೆಯು ಬಡ ಗರ್ಭಿಣಿಯರಲ್ಲಿ ಸಾಂಸ್ಥಿಕ ಹೆರಿಗೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ ಮತ್ತು ಹೆರಿಗೆ ಹಾಗೂ ಹೆರಿಗೆ ನಂತರದ ಆರೈಕೆಗೆ ಷರತ್ತುಬದ್ಧ ನಗದು ಸಹಾಯವನ್ನು ಒದಗಿಸುತ್ತದೆ. ತಾಯಿ ಮತ್ತು ಆಶಾ ಕಾರ್ಯಕರ್ತೆಯರ ಪಾವತಿ ಅಂಶಗಳು ಭಿನ್ನವಾಗಿರುತ್ತವೆ ಮತ್ತು ಯಾವುದೇ ಸಂಯೋಜಿತ ಅಥವಾ ರಾಜ್ಯವ್ಯಾಪಿ ನಗದು ಮೊತ್ತವನ್ನು ಇಲ್ಲಿ ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ. ಪ್ರಸ್ತುತ ವರ್ಗ/ರಾಜ್ಯ ನಿಯಮಗಳು ಮತ್ತು ದಾಖಲೆಗಳ ಪರಿಶೀಲನೆ ಅಗತ್ಯವಿದೆ.",
+            "whoItMayHelp": "ಬಡ ಗರ್ಭಿಣಿಯರು.",
+            "benefits": [
+              "ಸಾಂಸ್ಥಿಕ ಹೆರಿಗೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ.",
+              "ಹೆರಿಗೆ ಮತ್ತು ಹೆರಿಗೆ ನಂತರದ ಆರೈಕೆಗಾಗಿ ಷರತ್ತುಬದ್ಧ ನಗದು ಸಹಾಯವನ್ನು ಒದಗಿಸುತ್ತದೆ."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ಅನ್ವಯವಾಗುವ ರಾಜ್ಯ/ವರ್ಗ ನಿಯಮಗಳು ಮತ್ತು ಅಗತ್ಯವಿರುವ ತಾಯಿಯ ದಾಖಲೆಗಳಿಗಾಗಿ ಸ್ಥಳೀಯ ಸಾರ್ವಜನಿಕ ಆರೋಗ್ಯ ಕೇಂದ್ರ ಅಥವಾ ಆಶಾ/ಆರೋಗ್ಯ ಕಾರ್ಯಕರ್ತರನ್ನು ಸಂಪರ್ಕಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841",
+                  "label": "ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್"
+                }
+              ]
+            },
+            "limitations": [
+              "ತಾಯಿ ಮತ್ತು ಆಶಾ ಪಾವತಿ ಅಂಶಗಳು ಭಿನ್ನವಾಗಿವೆ.",
+              "ಯಾವುದೇ ಸಂಯೋಜಿತ ಅಥವಾ ರಾಜ್ಯವ್ಯಾಪಿ ನಗದು ಮೊತ್ತವನ್ನು ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ.",
+              "ಪ್ರಸ್ತುತ ವರ್ಗ/ರಾಜ್ಯ ನಿಯಮಗಳು ಮತ್ತು ದಾಖಲೆಗಳ ಪರಿಶೀಲನೆ ಅಗತ್ಯವಿದೆ.",
+              "ಸಂಪೂರ್ಣ ಪ್ರಸ್ತುತ ಕಾರ್ಯಾಚರಣೆಯ ಅರ್ಹತೆ, ಹೊರಗಿಡುವಿಕೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ತಿದ್ದುಪಡಿಗಳ ಸಂಪಾದಕೀಯ ಪರಿಶೀಲನೆ ಅಗತ್ಯವಿದೆ.",
+              "ಯಾವುದೇ ಮುಕ್ತ ಅರ್ಜಿ ವಿಂಡೋ ಅಥವಾ ಖಾತರಿಯ ಅನುಮೋದನೆಯನ್ನು ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ."
+            ],
+            "aliases": [
+              "JSY"
+            ],
+            "keywords": [
+              "ಜನನಿ ಸುರಕ್ಷಾ ಯೋಜನೆ",
+              "JSY",
+              "ಸಾಂಸ್ಥಿಕ ಹೆರಿಗೆ",
+              "ಗರ್ಭಿಣಿಯರು",
+              "ಆರೋಗ್ಯ"
+            ],
+            "romanized": [
+              "Janani Suraksha Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Janani Suraksha Yojana (JSY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "National Health Mission / Ministry of Health"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "JSY promotes institutional delivery among poor pregnant women and links conditional cash assistance to delivery and post-delivery care. Important limits: Mother and ASHA payment components differ; no combined or statewide cash amount asserted. Current category/state rules and document checklist require review.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "JSY promotes institutional delivery among poor pregnant women and links conditional cash assistance to delivery and post-delivery care."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the local public health facility or ASHA/health worker for applicable state/category rules and required maternal records.\"],\"url\":\"https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://nhm.gov.in/nhm/index1.php?lang=1&level=3&lid=309&sublinkid=841\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Mother and ASHA payment components differ; no combined or statewide cash amount asserted. Current category/state rules and document checklist require review.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "NHM JSY purpose and implementation",
+                "quote": "integrates cash assistance with delivery and post-delivery care"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "packetKey": "Scheme:IN-ST-05",
+      "id": "IN-ST-05",
+      "name": "PM YASASVI Top Class Education in College (OBC/EBC/DNT)",
+      "snapshot": "445f364c99b2ac8a1b0c7f0b3490ef9ea13e3d0f661cb146273178f21fd08b44",
+      "sourceUrl": "https://www.mnnit.ac.in/images/newstories/2026/notices/Slots_of_Colleges_under_Top_Class_College_for_OBCs.pdf",
+      "sourceVersionId": "version-011cb8bfcc2b4361d1dd0c50",
+      "sourceHash": "ec798466543aa1a08dfba2ea19bdb4fff86ebe191e3d48623bb8ca49d5466210",
+      "sourceEvidence": {
+        "excerpt": "Allocation of slots (Phase-I) under the scheme",
+        "clauseRefs": [
+          "Ministry letter and allocation annexure hosted by MNNIT"
+        ],
+        "verifiedAt": "2026-11-18T10:19:17.918Z",
+        "validUntil": "2026-11-25T13:47:42.762Z",
+        "rightsBasis": "Limited factual paraphrase and short verification excerpt with source attribution; no images, forms, page mirroring or automated-access permission asserted. Human rights/currentness review required."
+      },
+      "approvedFacts": {
+        "title": "PM YASASVI Top Class Education in College (OBC/EBC/DNT)",
+        "historicalAliases": [],
+        "department": "Department of Social Justice and Empowerment",
+        "state": "All India",
+        "beneficiaryCategories": [
+          "Student"
+        ],
+        "description": "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year2026-27. Important limits: Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+        "benefits": "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year2026-27.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "steps": [
+            "Consult the official NSP and institution for the college scheme, allotted slots and current requirements."
+          ],
+          "url": "https://scholarships.gov.in/"
+        },
+        "supportingOfficialUrls": [
+          "https://scholarships.gov.in/"
+        ],
+        "eligibilityConditions": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+        "dates": {
+          "sourcePublication": {
+            "original": "2026-06-09",
+            "value": "2026-06-09",
+            "reviewRequired": false
+          }
+        },
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "observedFacts": {
+          "batch": 3,
+          "publicationBlocked": false,
+          "reviewScope": "Owner approved limited public facts for AI preparation only; editorial approval is separate.",
+          "sourceGaps": [
+            "Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed.",
+            "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+            "No open application window or guaranteed approval is asserted."
+          ]
+        }
+      },
+      "uncertainties": [
+        "Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed.",
+        "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+        "No open application window or guaranteed approval is asserted.",
+        "Document requirements are unverified; an empty list does not mean no documents are required."
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "artifactId": "b1b7cb7c-dcf3-44c4-817f-977234600cc2",
+          "sha256": "df5f87ff9e56eec44edb5c63e6d02bb09f38f46f2ff018519aed836c579ef2f3",
+          "output": {
+            "language": "en",
+            "title": "PM YASASVI Top Class Education in College (OBC/EBC/DNT)",
+            "summary": "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year 2026-27. Important limits: Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed. Complete current operative eligibility, exclusions and latest amendments require editorial review. No open application window or guaranteed approval is asserted.",
+            "whoItMayHelp": "Students belonging to OBC, EBC and DNT categories.",
+            "benefits": [
+              "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year 2026-27."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Consult the official NSP and institution for the college scheme, allotted slots and current requirements."
+              ],
+              "links": [
+                {
+                  "url": "https://scholarships.gov.in/",
+                  "label": "National Scholarship Portal"
+                },
+                {
+                  "url": "https://www.mnnit.ac.in/images/newstories/2026/notices/Slots_of_Colleges_under_Top_Class_College_for_OBCs.pdf",
+                  "label": "Allocation of slots (Phase-I) document"
+                }
+              ]
+            },
+            "limitations": [
+              "Letter/slot allocation is not a complete benefit or eligibility guideline.",
+              "Grant rates, family-income ceilings, documents and deadline must be reviewed.",
+              "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+              "No open application window or guaranteed approval is asserted."
+            ],
+            "aliases": [
+              "PM YASASVI Top Class Education"
+            ],
+            "keywords": [
+              "OBC",
+              "EBC",
+              "DNT",
+              "Scholarship",
+              "Education",
+              "PM YASASVI"
+            ],
+            "romanized": [
+              "PM YASASVI Top Class Education"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "PM YASASVI Top Class Education in College (OBC/EBC/DNT)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Department of Social Justice and Empowerment"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Student\"]"
+              },
+              {
+                "id": "description",
+                "value": "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year2026-27. Important limits: Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year2026-27."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official NSP and institution for the college scheme, allotted slots and current requirements.\"],\"url\":\"https://scholarships.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://scholarships.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{\"sourcePublication\":{\"original\":\"2026-06-09\",\"value\":\"2026-06-09\",\"reviewRequired\":false}}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "Ministry letter and allocation annexure hosted by MNNIT",
+                "quote": "Allocation of slots (Phase-I) under the scheme"
+              }
+            ]
+          }
+        },
+        {
+          "language": "hi",
+          "artifactId": "570c1172-4c6b-4340-942f-8705b0db58de",
+          "sha256": "89ac54ce0026f95e5d4ef2d7fc09bce7fbfba5e7db1978d337c21c04cded80c0",
+          "output": {
+            "language": "hi",
+            "title": "पीएम यशस्वी टॉप क्लास एजुकेशन इन कॉलेज (ओबीसी/ईबीसी/डीएनटी)",
+            "summary": "मंत्रालय का पत्र शैक्षणिक वर्ष 2026-27 के लिए ओबीसी, ईबीसी और डीएनटी छात्रों के लिए कॉलेजों में टॉप क्लास एजुकेशन योजना की निरंतरता और संस्थान-वार स्लॉट आवंटन की पुष्टि करता है। यह जानकारी केवल सीमित सार्वजनिक तथ्यों पर आधारित है और पूर्ण पात्रता दिशानिर्देश नहीं है।",
+            "whoItMayHelp": "ओबीसी, ईबीसी और डीएनटी श्रेणियों के छात्र।",
+            "benefits": [
+              "मंत्रालय के पत्र के अनुसार शैक्षणिक वर्ष 2026-27 के लिए योजना की निरंतरता और संस्थान-वार स्लॉट आवंटन की पुष्टि।"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "कॉलेज योजना, आवंटित स्लॉट और वर्तमान आवश्यकताओं के लिए आधिकारिक एनएसपी (NSP) और संबंधित संस्थान से संपर्क करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://scholarships.gov.in/",
+                  "label": "आधिकारिक एनएसपी पोर्टल"
+                },
+                {
+                  "url": "https://www.mnnit.ac.in/images/newstories/2026/notices/Slots_of_Colleges_under_Top_Class_College_for_OBCs.pdf",
+                  "label": "स्लॉट आवंटन विवरण"
+                }
+              ]
+            },
+            "limitations": [
+              "पत्र/स्लॉट आवंटन पूर्ण लाभ या पात्रता दिशानिर्देश नहीं है।",
+              "अनुदान दरें, पारिवारिक आय सीमा, आवश्यक दस्तावेज और समय सीमा की समीक्षा की जानी चाहिए।",
+              "पूर्ण वर्तमान परिचालन पात्रता, बहिष्करण और नवीनतम संशोधनों के लिए संपादकीय समीक्षा की आवश्यकता है।",
+              "कोई खुली आवेदन विंडो या गारंटीकृत अनुमोदन का दावा नहीं किया गया है।"
+            ],
+            "aliases": [
+              "PM YASASVI Top Class Education in College"
+            ],
+            "keywords": [
+              "ओबीसी",
+              "ईबीसी",
+              "डीएनटी",
+              "छात्रवृत्ति",
+              "उच्च शिक्षा",
+              "पीएम यशस्वी"
+            ],
+            "romanized": [
+              "PM YASASVI Top Class Education in College"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "PM YASASVI Top Class Education in College (OBC/EBC/DNT)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Department of Social Justice and Empowerment"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Student\"]"
+              },
+              {
+                "id": "description",
+                "value": "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year2026-27. Important limits: Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year2026-27."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official NSP and institution for the college scheme, allotted slots and current requirements.\"],\"url\":\"https://scholarships.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://scholarships.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{\"sourcePublication\":{\"original\":\"2026-06-09\",\"value\":\"2026-06-09\",\"reviewRequired\":false}}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "Ministry letter and allocation annexure hosted by MNNIT",
+                "quote": "Allocation of slots (Phase-I) under the scheme"
+              }
+            ]
+          }
+        },
+        {
+          "language": "kn",
+          "artifactId": "952cb329-62f7-4e50-8409-5399fbd33ed2",
+          "sha256": "33e1cbf75bd526a89a31d82c01754c3f5991ab0fe8800233fbe4aad9ef8aa61d",
+          "output": {
+            "language": "kn",
+            "title": "PM YASASVI Top Class Education in College (OBC/EBC/DNT)",
+            "summary": "PM YASASVI Top Class Education in College (OBC/EBC/DNT) ಯೋಜನೆಯು 2026-27ನೇ ಶೈಕ್ಷಣಿಕ ವರ್ಷಕ್ಕೆ OBC, EBC ಮತ್ತು DNT ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಕಾಲೇಜುಗಳಲ್ಲಿ ಶಿಕ್ಷಣಕ್ಕಾಗಿ ಸಂಸ್ಥೆಗಳ ಸ್ಲಾಟ್ ಹಂಚಿಕೆಯನ್ನು ಮುಂದುವರಿಸುವುದನ್ನು ಸಚಿವಾಲಯದ ಪತ್ರವು ದೃಢಪಡಿಸುತ್ತದೆ. ಇದು ಸಂಪೂರ್ಣ ಪ್ರಯೋಜನ ಅಥವಾ ಅರ್ಹತೆಯ ಮಾರ್ಗಸೂಚಿಯಲ್ಲ.",
+            "whoItMayHelp": "OBC, EBC ಮತ್ತು DNT ವರ್ಗದ ವಿದ್ಯಾರ್ಥಿಗಳು.",
+            "benefits": [
+              "2026-27ನೇ ಶೈಕ್ಷಣಿಕ ವರ್ಷಕ್ಕೆ ಕಾಲೇಜುಗಳಲ್ಲಿ ಶಿಕ್ಷಣಕ್ಕಾಗಿ ಸಂಸ್ಥೆಗಳ ಸ್ಲಾಟ್ ಹಂಚಿಕೆ."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ಕಾಲೇಜು ಯೋಜನೆ, ಹಂಚಿಕೆ ಮಾಡಲಾದ ಸ್ಲಾಟ್‌ಗಳು ಮತ್ತು ಪ್ರಸ್ತುತ ಅವಶ್ಯಕತೆಗಳಿಗಾಗಿ ಅಧಿಕೃತ NSP ಮತ್ತು ಸಂಸ್ಥೆಯನ್ನು ಸಂಪರ್ಕಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://scholarships.gov.in/",
+                  "label": "ಅಧಿಕೃತ NSP ಪೋರ್ಟಲ್"
+                },
+                {
+                  "url": "https://www.mnnit.ac.in/images/newstories/2026/notices/Slots_of_Colleges_under_Top_Class_College_for_OBCs.pdf",
+                  "label": "ಸ್ಲಾಟ್ ಹಂಚಿಕೆ ಅನೆಕ್ಸ್"
+                }
+              ]
+            },
+            "limitations": [
+              "ಪತ್ರ ಅಥವಾ ಸ್ಲಾಟ್ ಹಂಚಿಕೆಯು ಸಂಪೂರ್ಣ ಪ್ರಯೋಜನ ಅಥವಾ ಅರ್ಹತೆಯ ಮಾರ್ಗಸೂಚಿಯಲ್ಲ.",
+              "ಅನುದಾನದ ದರಗಳು, ಕುಟುಂಬದ ಆದಾಯದ ಮಿತಿಗಳು, ದಾಖಲೆಗಳು ಮತ್ತು ಗಡುವನ್ನು ಪರಿಶೀಲಿಸಬೇಕು.",
+              "ಸಂಪೂರ್ಣ ಪ್ರಸ್ತುತ ಅರ್ಹತೆ, ಹೊರಗಿಡುವಿಕೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ಪರಿಶೀಲನೆಯ ಅಗತ್ಯವಿದೆ.",
+              "ಯಾವುದೇ ಮುಕ್ತ ಅರ್ಜಿ ವಿಂಡೋ ಅಥವಾ ಖಚಿತವಾದ ಅನುಮೋದನೆಯನ್ನು ನೀಡಲಾಗಿಲ್ಲ."
+            ],
+            "aliases": [],
+            "keywords": [
+              "PM YASASVI",
+              "OBC",
+              "EBC",
+              "DNT",
+              "Top Class Education",
+              "Scholarship"
+            ],
+            "romanized": [],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "PM YASASVI Top Class Education in College (OBC/EBC/DNT)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Department of Social Justice and Empowerment"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Student\"]"
+              },
+              {
+                "id": "description",
+                "value": "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year2026-27. Important limits: Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "The ministry letter confirms continuation and institution-slot allocation for Top Class Education in Colleges for OBC, EBC and DNT students for academic year2026-27."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official NSP and institution for the college scheme, allotted slots and current requirements.\"],\"url\":\"https://scholarships.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://scholarships.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{\"sourcePublication\":{\"original\":\"2026-06-09\",\"value\":\"2026-06-09\",\"reviewRequired\":false}}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Letter/slot allocation is not a complete benefit or eligibility guideline; grant rates, family-income ceilings, documents and deadline must be reviewed.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "Ministry letter and allocation annexure hosted by MNNIT",
+                "quote": "Allocation of slots (Phase-I) under the scheme"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "packetKey": "Scheme:IN-WO-01",
+      "id": "IN-WO-01",
+      "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+      "snapshot": "9b8dc101d06a9a3afc4e099e520643b40dd42c31a7fbb787169843c444d332ea",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2270668&lang=1&reg=48",
+      "sourceVersionId": "version-d86cafa45aa5d7235696d5bc",
+      "sourceHash": "4dc55a381c796d980938e38ed5240c8a96d16dc8ccddde6d7bc15483a961ab31",
+      "sourceEvidence": {
+        "excerpt": "eligible beneficiaries receive ₹5,000 in two instalments",
+        "clauseRefs": [
+          "PIB PMMVY maternity-benefit conditions"
+        ],
+        "verifiedAt": "2026-11-18T10:19:17.918Z",
+        "validUntil": "2026-11-25T13:47:44.552Z",
+        "rightsBasis": "Limited factual paraphrase and short verification excerpt with source attribution; no images, forms, page mirroring or automated-access permission asserted. Human rights/currentness review required."
+      },
+      "approvedFacts": {
+        "title": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+        "historicalAliases": [],
+        "department": "Ministry of Women and Child Development",
+        "state": "All India",
+        "beneficiaryCategories": [
+          "Woman"
+        ],
+        "description": "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones. Important limits: Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+        "benefits": "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "steps": [
+            "Ask the official women-and-child-development service or local implementing office for enrolment and milestone documentation."
+          ],
+          "url": "https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana"
+        },
+        "supportingOfficialUrls": [
+          "https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana"
+        ],
+        "eligibilityConditions": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+        "dates": {
+          "sourcePublication": {
+            "original": "2026-06-09",
+            "value": "2026-06-09",
+            "reviewRequired": false
+          }
+        },
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "observedFacts": {
+          "batch": 3,
+          "publicationBlocked": false,
+          "reviewScope": "Owner approved limited public facts for AI preparation only; editorial approval is separate.",
+          "sourceGaps": [
+            "Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.",
+            "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+            "No open application window or guaranteed approval is asserted."
+          ]
+        }
+      },
+      "uncertainties": [
+        "Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.",
+        "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+        "No open application window or guaranteed approval is asserted.",
+        "Document requirements are unverified; an empty list does not mean no documents are required."
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "artifactId": "8e374665-bf00-4a36-b349-f7c504548e89",
+          "sha256": "2d3e3d4c7de416c17b55fd8048ede9792de51f59361d794afc6c00b6fc5646b7",
+          "output": {
+            "language": "en",
+            "title": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+            "summary": "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones. Important limits: Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+            "whoItMayHelp": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+            "benefits": [
+              "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Ask the official women-and-child-development service or local implementing office for enrolment and milestone documentation."
+              ],
+              "links": [
+                {
+                  "url": "https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana",
+                  "label": "Official WCD PMMVY Page"
+                },
+                {
+                  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2270668&lang=1&reg=48",
+                  "label": "PIB Press Release"
+                }
+              ]
+            },
+            "limitations": [
+              "Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.",
+              "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+              "No open application window or guaranteed approval is asserted."
+            ],
+            "aliases": [
+              "PMMVY"
+            ],
+            "keywords": [
+              "maternity assistance",
+              "PMMVY",
+              "women welfare",
+              "Ministry of Women and Child Development"
+            ],
+            "romanized": [
+              "Pradhan Mantri Matru Vandana Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Matru Vandana Yojana (PMMVY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Women and Child Development"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones. Important limits: Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Ask the official women-and-child-development service or local implementing office for enrolment and milestone documentation.\"],\"url\":\"https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{\"sourcePublication\":{\"original\":\"2026-06-09\",\"value\":\"2026-06-09\",\"reviewRequired\":false}}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "PIB PMMVY maternity-benefit conditions",
+                "quote": "eligible beneficiaries receive ₹5,000 in two instalments"
+              }
+            ]
+          }
+        },
+        {
+          "language": "hi",
+          "artifactId": "d6f2c2ab-da69-4245-ab56-1e4f45a570f3",
+          "sha256": "b10b51b04688e9fd27a55137cdd6c7f500923e5c50c8e12568d0c771c093bb46",
+          "output": {
+            "language": "hi",
+            "title": "प्रधानमंत्री मातृ वंदना योजना (PMMVY)",
+            "summary": "प्रधानमंत्री मातृ वंदना योजना (PMMVY) एक सशर्त मातृत्व सहायता योजना है। योजना के तहत पहले जीवित बच्चे के लिए 5000 रुपये और दूसरे बच्चे के लड़की होने पर 6000 रुपये की सहायता का प्रावधान है, जो स्वास्थ्य संबंधी मील के पत्थरों से जुड़ी है। पूर्ण बहिष्करण, स्वास्थ्य-मील के पत्थर के साक्ष्य और वर्तमान संशोधन या आवेदन प्रक्रियाओं की जानकारी अभी समीक्षाधीन है। कोई खुला आवेदन विंडो या गारंटीकृत स्वीकृति का दावा नहीं किया गया है।",
+            "whoItMayHelp": "यह योजना महिलाओं के लिए है। पात्रता की शर्तें अपूर्ण हैं और कोई आधिकारिक नियम या व्यक्तिगत पात्रता निर्णय उपलब्ध नहीं है।",
+            "benefits": [
+              "पहले जीवित बच्चे के लिए 5000 रुपये की सहायता।",
+              "दूसरे बच्चे के लड़की होने पर 6000 रुपये की सहायता।",
+              "सहायता राशि स्वास्थ्य संबंधी मील के पत्थरों से जुड़ी है।"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "नामांकन और मील के पत्थर के दस्तावेजों के लिए आधिकारिक महिला एवं बाल विकास सेवा या स्थानीय कार्यान्वयन कार्यालय से संपर्क करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana",
+                  "label": "महिला एवं बाल विकास मंत्रालय आधिकारिक वेबसाइट"
+                }
+              ]
+            },
+            "limitations": [
+              "पूर्ण बहिष्करण, स्वास्थ्य-मील के पत्थर के साक्ष्य और वर्तमान संशोधन या आवेदन प्रक्रियाओं की जानकारी अभी समीक्षाधीन है।",
+              "राष्ट्रीय पृष्ठ का समय समाप्त हो गया था।",
+              "पूर्ण वर्तमान परिचालन पात्रता, बहिष्करण और नवीनतम संशोधनों के लिए संपादकीय समीक्षा की आवश्यकता है।",
+              "कोई खुला आवेदन विंडो या गारंटीकृत स्वीकृति का दावा नहीं किया गया है।"
+            ],
+            "aliases": [
+              "PMMVY"
+            ],
+            "keywords": [
+              "मातृत्व सहायता",
+              "महिला एवं बाल विकास",
+              "PMMVY",
+              "सरकारी योजना"
+            ],
+            "romanized": [
+              "Pradhan Mantri Matru Vandana Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Matru Vandana Yojana (PMMVY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Women and Child Development"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones. Important limits: Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Ask the official women-and-child-development service or local implementing office for enrolment and milestone documentation.\"],\"url\":\"https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{\"sourcePublication\":{\"original\":\"2026-06-09\",\"value\":\"2026-06-09\",\"reviewRequired\":false}}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "PIB PMMVY maternity-benefit conditions",
+                "quote": "eligible beneficiaries receive ₹5,000 in two instalments"
+              }
+            ]
+          }
+        },
+        {
+          "language": "kn",
+          "artifactId": "8b3e9578-9ea6-4dd8-9d67-4bada263cfac",
+          "sha256": "99057d3600bc5db2c127b1e056e7b71faf93d93447351b8f67cf5b303cfbd3fc",
+          "output": {
+            "language": "kn",
+            "title": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಮಾತೃ ವಂದನಾ ಯೋಜನೆ (PMMVY)",
+            "summary": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಮಾತೃ ವಂದನಾ ಯೋಜನೆಯು ಷರತ್ತುಬದ್ಧ ಮಾತೃತ್ವ ಸಹಾಯವನ್ನು ಒದಗಿಸುತ್ತದೆ. ಮೊದಲ ಜೀವಂತ ಮಗುವಿಗೆ 5000 ರೂಪಾಯಿ ಮತ್ತು ಎರಡನೇ ಮಗು ಹೆಣ್ಣು ಮಗುವಾಗಿದ್ದರೆ 6000 ರೂಪಾಯಿಗಳ ಸಹಾಯಧನವನ್ನು ಆರೋಗ್ಯ ಮೈಲಿಗಲ್ಲುಗಳಿಗೆ ಲಿಂಕ್ ಮಾಡಲಾಗಿದೆ. ಈ ಯೋಜನೆಯ ಸಂಪೂರ್ಣ ಹೊರಗಿಡುವಿಕೆಗಳು, ಆರೋಗ್ಯ ಮೈಲಿಗಲ್ಲುಗಳ ಸಾಕ್ಷ್ಯ ಮತ್ತು ಪ್ರಸ್ತುತ ತಿದ್ದುಪಡಿಗಳು ಪರಿಶೀಲನೆಗೆ ಬಾಕಿ ಇವೆ.",
+            "whoItMayHelp": "ಮಹಿಳೆಯರು.",
+            "benefits": [
+              "ಮೊದಲ ಜೀವಂತ ಮಗುವಿಗೆ 5000 ರೂಪಾಯಿಗಳ ಸಹಾಯಧನ.",
+              "ಎರಡನೇ ಮಗು ಹೆಣ್ಣು ಮಗುವಾಗಿದ್ದರೆ 6000 ರೂಪಾಯಿಗಳ ಸಹಾಯಧನ."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ನೋಂದಣಿ ಮತ್ತು ಮೈಲಿಗಲ್ಲು ದಾಖಲಾತಿಗಾಗಿ ಅಧಿಕೃತ ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ ಸೇವೆ ಅಥವಾ ಸ್ಥಳೀಯ ಅನುಷ್ಠಾನ ಕಚೇರಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana",
+                  "label": "ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್"
+                }
+              ]
+            },
+            "limitations": [
+              "ಸಂಪೂರ್ಣ ಹೊರಗಿಡುವಿಕೆಗಳು, ಆರೋಗ್ಯ ಮೈಲಿಗಲ್ಲುಗಳ ಸಾಕ್ಷ್ಯ ಮತ್ತು ಪ್ರಸ್ತುತ ತಿದ್ದುಪಡಿಗಳು ಪರಿಶೀಲನೆಗೆ ಬಾಕಿ ಇವೆ.",
+              "ಯಾವುದೇ ಮುಕ್ತ ಅರ್ಜಿ ವಿಂಡೋ ಅಥವಾ ಖಾತರಿಯ ಅನುಮೋದನೆಯನ್ನು ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ."
+            ],
+            "aliases": [
+              "PMMVY"
+            ],
+            "keywords": [
+              "ಮಾತೃತ್ವ ಸಹಾಯ",
+              "ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ",
+              "PMMVY",
+              "ಸರ್ಕಾರಿ ಯೋಜನೆ"
+            ],
+            "romanized": [
+              "Pradhan Mantri Matru Vandana Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Matru Vandana Yojana (PMMVY)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Women and Child Development"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones. Important limits: Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "PMMVY provides conditional maternity assistance: the cited release describes INR5000 for the first living child and INR6000 for a second child when the second child is a girl, linked to health milestones."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Ask the official women-and-child-development service or local implementing office for enrolment and milestone documentation.\"],\"url\":\"https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://www.wcd.gov.in/offerings/pradhan-mantri-matru-vandana-yojana\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{\"sourcePublication\":{\"original\":\"2026-06-09\",\"value\":\"2026-06-09\",\"reviewRequired\":false}}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Full exclusions, health-milestone evidence and current amendment/application procedures remain to be reviewed; the national page timed out.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "PIB PMMVY maternity-benefit conditions",
+                "quote": "eligible beneficiaries receive ₹5,000 in two instalments"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "packetKey": "Scheme:IN-WK-01",
+      "id": "IN-WK-01",
+      "name": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)",
+      "snapshot": "59659c032aa6f26aef94a04d49f4034b0de10f6e7d7c991dd1450e2954d29334",
+      "sourceUrl": "https://www.eshram.gov.in/Schemes",
+      "sourceVersionId": "version-22bb784e0d74d8fdcf93067c",
+      "sourceHash": "eff70ad16195da67aac9cbdf8fc876ebb1b13b3167faa834a611963b6f954970",
+      "sourceEvidence": {
+        "excerpt": "Pradhan Mantri Shram Yogi Maan-Dhan Yojana (PM-SYM)",
+        "clauseRefs": [
+          "e-Shram PM-SYM old-age protection section"
+        ],
+        "verifiedAt": "2026-11-18T10:19:17.918Z",
+        "validUntil": "2026-11-25T13:47:43.661Z",
+        "rightsBasis": "Limited factual paraphrase and short verification excerpt with source attribution; no images, forms, page mirroring or automated-access permission asserted. Human rights/currentness review required."
+      },
+      "approvedFacts": {
+        "title": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)",
+        "historicalAliases": [],
+        "department": "Ministry of Labour and Employment",
+        "state": "All India",
+        "beneficiaryCategories": [
+          "Worker"
+        ],
+        "description": "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply. Important limits: Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+        "benefits": "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "steps": [
+            "Use the official e-Shram scheme reference and confirm PM-SYM enrolment requirements with its implementing service."
+          ],
+          "url": "https://www.eshram.gov.in/Schemes"
+        },
+        "supportingOfficialUrls": [
+          "https://www.eshram.gov.in/Schemes"
+        ],
+        "eligibilityConditions": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "observedFacts": {
+          "batch": 3,
+          "publicationBlocked": false,
+          "reviewScope": "Owner approved limited public facts for AI preparation only; editorial approval is separate.",
+          "sourceGaps": [
+            "Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.",
+            "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+            "No open application window or guaranteed approval is asserted."
+          ]
+        }
+      },
+      "uncertainties": [
+        "Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.",
+        "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+        "No open application window or guaranteed approval is asserted.",
+        "Document requirements are unverified; an empty list does not mean no documents are required."
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "artifactId": "47c38552-93eb-4124-ab0b-c7dd2e1f671d",
+          "sha256": "6c6c14f1fe3f46770a77d7df9e590140677d501c48868949e91dcf497100eb3b",
+          "output": {
+            "language": "en",
+            "title": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)",
+            "summary": "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply. Important limits: Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+            "whoItMayHelp": "Unorganised workers.",
+            "benefits": [
+              "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Use the official e-Shram scheme reference and confirm PM-SYM enrolment requirements with its implementing service."
+              ],
+              "links": [
+                {
+                  "url": "https://www.eshram.gov.in/Schemes",
+                  "label": "Official e-Shram scheme reference"
+                }
+              ]
+            },
+            "limitations": [
+              "Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed.",
+              "No unconditional pension entitlement asserted.",
+              "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+              "No open application window or guaranteed approval is asserted."
+            ],
+            "aliases": [],
+            "keywords": [
+              "pension",
+              "unorganised workers",
+              "PM-SYM",
+              "Ministry of Labour and Employment"
+            ],
+            "romanized": [],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Labour and Employment"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Worker\"]"
+              },
+              {
+                "id": "description",
+                "value": "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply. Important limits: Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Use the official e-Shram scheme reference and confirm PM-SYM enrolment requirements with its implementing service.\"],\"url\":\"https://www.eshram.gov.in/Schemes\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://www.eshram.gov.in/Schemes\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "e-Shram PM-SYM old-age protection section",
+                "quote": "Pradhan Mantri Shram Yogi Maan-Dhan Yojana (PM-SYM)"
+              }
+            ]
+          }
+        },
+        {
+          "language": "hi",
+          "artifactId": "91de0d85-6561-4213-bb8a-ba6c534e5933",
+          "sha256": "a6b317468eb98631e9fd28704195b82b5a20108e43ac6e8a128a64ab69ba5f21",
+          "output": {
+            "language": "hi",
+            "title": "प्रधानमंत्री श्रम योगी मानधन (PM-SYM)",
+            "summary": "PM-SYM असंगठित श्रमिकों के लिए एक अंशदायी पेंशन कार्यक्रम है। आधिकारिक योजना विवरण निर्दिष्ट पेंशन आयु के बाद पेंशन सहायता की पहचान करता है; योगदान और शर्तें लागू होती हैं। पूर्ण योगदान अनुसूची, पात्रता/बहिष्करण शर्तें, उत्तरजीवी शर्तें और दस्तावेज व्यापक रूप से समीक्षा नहीं किए गए हैं। कोई बिना शर्त पेंशन पात्रता का दावा नहीं किया गया है। पूर्ण वर्तमान परिचालन पात्रता, बहिष्करण और नवीनतम संशोधनों के लिए संपादकीय समीक्षा की आवश्यकता है। कोई खुली आवेदन विंडो या गारंटीकृत अनुमोदन का दावा नहीं किया गया है।",
+            "whoItMayHelp": "असंगठित श्रमिक",
+            "benefits": [
+              "PM-SYM असंगठित श्रमिकों के लिए एक अंशदायी पेंशन कार्यक्रम है। आधिकारिक योजना विवरण निर्दिष्ट पेंशन आयु के बाद पेंशन सहायता की पहचान करता है; योगदान और शर्तें लागू होती हैं।"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "आधिकारिक ई-श्रम योजना संदर्भ का उपयोग करें और इसके कार्यान्वयन सेवा के साथ PM-SYM नामांकन आवश्यकताओं की पुष्टि करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://www.eshram.gov.in/Schemes",
+                  "label": "ई-श्रम आधिकारिक योजना पृष्ठ"
+                }
+              ]
+            },
+            "limitations": [
+              "पूर्ण योगदान अनुसूची, पात्रता/बहिष्करण शर्तें, उत्तरजीवी शर्तें और दस्तावेज व्यापक रूप से समीक्षा नहीं किए गए हैं।",
+              "कोई बिना शर्त पेंशन पात्रता का दावा नहीं किया गया है।",
+              "पूर्ण वर्तमान परिचालन पात्रता, बहिष्करण और नवीनतम संशोधनों के लिए संपादकीय समीक्षा की आवश्यकता है।",
+              "कोई खुली आवेदन विंडो या गारंटीकृत अनुमोदन का दावा नहीं किया गया है।"
+            ],
+            "aliases": [
+              "PM-SYM"
+            ],
+            "keywords": [
+              "पेंशन",
+              "असंगठित श्रमिक",
+              "PM-SYM",
+              "श्रम और रोजगार मंत्रालय"
+            ],
+            "romanized": [
+              "Pradhan Mantri Shram Yogi Maandhan"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Labour and Employment"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Worker\"]"
+              },
+              {
+                "id": "description",
+                "value": "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply. Important limits: Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Use the official e-Shram scheme reference and confirm PM-SYM enrolment requirements with its implementing service.\"],\"url\":\"https://www.eshram.gov.in/Schemes\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://www.eshram.gov.in/Schemes\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "e-Shram PM-SYM old-age protection section",
+                "quote": "Pradhan Mantri Shram Yogi Maan-Dhan Yojana (PM-SYM)"
+              }
+            ]
+          }
+        },
+        {
+          "language": "kn",
+          "artifactId": "f944d556-c063-4529-8963-f405b95de9df",
+          "sha256": "c543d6791bac8901bab8b0c59a5c1c1f80846b2cd55bc4ed1ac02d0e57a947fa",
+          "output": {
+            "language": "kn",
+            "title": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಶ್ರಮ ಯೋಗಿ ಮಾಂಧನ್ (PM-SYM)",
+            "summary": "PM-SYM ಎನ್ನುವುದು ಅರ್ಹ ಅಸಂಘಟಿತ ಕಾರ್ಮಿಕರಿಗಾಗಿ ಇರುವ ಒಂದು ಕೊಡುಗೆ ಆಧಾರಿತ ಪಿಂಚಣಿ ಕಾರ್ಯಕ್ರಮವಾಗಿದೆ. ಅಧಿಕೃತ ಯೋಜನೆಯ ವಿವರಣೆಯು ನಿರ್ದಿಷ್ಟ ಪಿಂಚಣಿ ವಯಸ್ಸಿನ ನಂತರ ಪಿಂಚಣಿ ಬೆಂಬಲವನ್ನು ಗುರುತಿಸುತ್ತದೆ; ಕೊಡುಗೆಗಳು ಮತ್ತು ಷರತ್ತುಗಳು ಅನ್ವಯಿಸುತ್ತವೆ. ಪೂರ್ಣ ಕೊಡುಗೆ ವೇಳಾಪಟ್ಟಿ, ಅರ್ಹತೆ/ಹೊರಗಿಡುವಿಕೆಯ ಷರತ್ತುಗಳು, ಬದುಕುಳಿದವರ ನಿಯಮಗಳು ಮತ್ತು ದಾಖಲೆಗಳನ್ನು ಸಮಗ್ರವಾಗಿ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ. ಯಾವುದೇ ಬೇಷರತ್ತಾದ ಪಿಂಚಣಿ ಹಕ್ಕನ್ನು ಪ್ರತಿಪಾದಿಸಲಾಗಿಲ್ಲ. ಸಂಪೂರ್ಣ ಪ್ರಸ್ತುತ ಕಾರ್ಯಾಚರಣೆಯ ಅರ್ಹತೆ, ಹೊರಗಿಡುವಿಕೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ಪರಿಶೀಲನೆಯ ಅಗತ್ಯವಿದೆ. ಯಾವುದೇ ಮುಕ್ತ ಅರ್ಜಿ ವಿಂಡೋ ಅಥವಾ ಖಾತರಿಯ ಅನುಮೋದನೆಯನ್ನು ಪ್ರತಿಪಾದಿಸಲಾಗಿಲ್ಲ.",
+            "whoItMayHelp": "ಅರ್ಹ ಅಸಂಘಟಿತ ಕಾರ್ಮಿಕರು.",
+            "benefits": [
+              "PM-SYM ಎನ್ನುವುದು ಅರ್ಹ ಅಸಂಘಟಿತ ಕಾರ್ಮಿಕರಿಗಾಗಿ ಇರುವ ಒಂದು ಕೊಡುಗೆ ಆಧಾರಿತ ಪಿಂಚಣಿ ಕಾರ್ಯಕ್ರಮವಾಗಿದೆ. ಅಧಿಕೃತ ಯೋಜನೆಯ ವಿವರಣೆಯು ನಿರ್ದಿಷ್ಟ ಪಿಂಚಣಿ ವಯಸ್ಸಿನ ನಂತರ ಪಿಂಚಣಿ ಬೆಂಬಲವನ್ನು ಗುರುತಿಸುತ್ತದೆ; ಕೊಡುಗೆಗಳು ಮತ್ತು ಷರತ್ತುಗಳು ಅನ್ವಯಿಸುತ್ತವೆ."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ಅಧಿಕೃತ ಇ-ಶ್ರಮ್ (e-Shram) ಯೋಜನೆಯ ಉಲ್ಲೇಖವನ್ನು ಬಳಸಿ ಮತ್ತು ಅದರ ಅನುಷ್ಠಾನ ಸೇವೆಯೊಂದಿಗೆ PM-SYM ನೋಂದಣಿ ಅವಶ್ಯಕತೆಗಳನ್ನು ದೃಢೀಕರಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://www.eshram.gov.in/Schemes",
+                  "label": "ಅಧಿಕೃತ ಇ-ಶ್ರಮ್ ಯೋಜನೆಗಳ ವೆಬ್‌ಸೈಟ್"
+                }
+              ]
+            },
+            "limitations": [
+              "ಪೂರ್ಣ ಕೊಡುಗೆ ವೇಳಾಪಟ್ಟಿ, ಅರ್ಹತೆ/ಹೊರಗಿಡುವಿಕೆಯ ಷರತ್ತುಗಳು, ಬದುಕುಳಿದವರ ನಿಯಮಗಳು ಮತ್ತು ದಾಖಲೆಗಳನ್ನು ಸಮಗ್ರವಾಗಿ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.",
+              "ಯಾವುದೇ ಬೇಷರತ್ತಾದ ಪಿಂಚಣಿ ಹಕ್ಕನ್ನು ಪ್ರತಿಪಾದಿಸಲಾಗಿಲ್ಲ.",
+              "ಸಂಪೂರ್ಣ ಪ್ರಸ್ತುತ ಕಾರ್ಯಾಚರಣೆಯ ಅರ್ಹತೆ, ಹೊರಗಿಡುವಿಕೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ಪರಿಶೀಲನೆಯ ಅಗತ್ಯವಿದೆ.",
+              "ಯಾವುದೇ ಮುಕ್ತ ಅರ್ಜಿ ವಿಂಡೋ ಅಥವಾ ಖಾತರಿಯ ಅನುಮೋದನೆಯನ್ನು ಪ್ರತಿಪಾದಿಸಲಾಗಿಲ್ಲ."
+            ],
+            "aliases": [
+              "PM-SYM"
+            ],
+            "keywords": [
+              "ಪಿಂಚಣಿ",
+              "ಅಸಂಘಟಿತ ಕಾರ್ಮಿಕರು",
+              "ಶ್ರಮ ಯೋಗಿ ಮಾಂಧನ್",
+              "ಕಾರ್ಮಿಕ ಸಚಿವಾಲಯ"
+            ],
+            "romanized": [
+              "Pradhan Mantri Shram Yogi Maandhan"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Ministry of Labour and Employment"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Worker\"]"
+              },
+              {
+                "id": "description",
+                "value": "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply. Important limits: Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "PM-SYM is a contributory pension programme for eligible unorganised workers. The official scheme description identifies pension support after the specified pension age; contributions and conditions apply."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Use the official e-Shram scheme reference and confirm PM-SYM enrolment requirements with its implementing service.\"],\"url\":\"https://www.eshram.gov.in/Schemes\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://www.eshram.gov.in/Schemes\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Full contribution schedule, eligibility/exclusion conditions, survivor terms and documents not comprehensively reviewed. No unconditional pension entitlement asserted.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "e-Shram PM-SYM old-age protection section",
+                "quote": "Pradhan Mantri Shram Yogi Maan-Dhan Yojana (PM-SYM)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "packetKey": "Scheme:KA-WO-02",
+      "id": "KA-WO-02",
+      "name": "Shakti Scheme (Karnataka)",
+      "snapshot": "1c29e60da71a01b7b945014249f491463dcf1049cd8e7bf956d4b972610dc104",
+      "sourceUrl": "https://bengaluruurban.nic.in/en/scheme/shakti-scheme/",
+      "sourceVersionId": "version-57c429955cf9a447deadbc7c",
+      "sourceHash": "a34441a4fe2601899c3eb244d16cb2f227c6d9414ea8cda4d90262830453b7d7",
+      "sourceEvidence": {
+        "excerpt": "The beneficiary must carry a valid photo identity proof while travelling.",
+        "clauseRefs": [
+          "District Shakti permitted service and identity sections"
+        ],
+        "verifiedAt": "2026-11-18T10:19:17.918Z",
+        "validUntil": "2026-11-25T13:47:50.885Z",
+        "rightsBasis": "Limited factual paraphrase and short verification excerpt with source attribution; no images, forms, page mirroring or automated-access permission asserted. Human rights/currentness review required."
+      },
+      "approvedFacts": {
+        "title": "Shakti Scheme (Karnataka)",
+        "historicalAliases": [],
+        "department": "Government of Karnataka / Transport",
+        "state": "Karnataka",
+        "beneficiaryCategories": [
+          "Woman"
+        ],
+        "description": "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary. Important limits: Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+        "benefits": "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "steps": [
+            "Carry accepted government photo identification and confirm permitted bus/service routes with the state transport operator."
+          ],
+          "url": "https://bengaluruurban.nic.in/en/scheme/shakti-scheme/"
+        },
+        "supportingOfficialUrls": [
+          "https://bengaluruurban.nic.in/en/scheme/shakti-scheme/"
+        ],
+        "eligibilityConditions": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "observedFacts": {
+          "batch": 4,
+          "publicationBlocked": false,
+          "reviewScope": "Owner approved limited public facts for AI preparation only; editorial approval is separate.",
+          "sourceGaps": [
+            "Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.",
+            "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+            "No open application window or guaranteed approval is asserted."
+          ]
+        }
+      },
+      "uncertainties": [
+        "Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.",
+        "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+        "No open application window or guaranteed approval is asserted.",
+        "Document requirements are unverified; an empty list does not mean no documents are required."
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "artifactId": "f4168779-362e-46f0-a7ca-fa5c63e392a4",
+          "sha256": "0a6ab533f6adc897d1bc544609b05c6c1a7e026e40980e1334e8d8e30fe80ac4",
+          "output": {
+            "language": "en",
+            "title": "Shakti Scheme (Karnataka)",
+            "summary": "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary. Important limits: Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+            "whoItMayHelp": "Women who are residents of Karnataka.",
+            "benefits": [
+              "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Carry accepted government photo identification and confirm permitted bus/service routes with the state transport operator."
+              ],
+              "links": [
+                {
+                  "url": "https://bengaluruurban.nic.in/en/scheme/shakti-scheme/",
+                  "label": "Official Shakti Scheme Information"
+                }
+              ]
+            },
+            "limitations": [
+              "Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules.",
+              "No universal free-bus claim.",
+              "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+              "No open application window or guaranteed approval is asserted."
+            ],
+            "aliases": [],
+            "keywords": [
+              "Shakti Scheme",
+              "Karnataka",
+              "Transport",
+              "Free travel",
+              "Women"
+            ],
+            "romanized": [],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Shakti Scheme (Karnataka)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka / Transport"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary. Important limits: Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Carry accepted government photo identification and confirm permitted bus/service routes with the state transport operator.\"],\"url\":\"https://bengaluruurban.nic.in/en/scheme/shakti-scheme/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://bengaluruurban.nic.in/en/scheme/shakti-scheme/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District Shakti permitted service and identity sections",
+                "quote": "The beneficiary must carry a valid photo identity proof while travelling."
+              }
+            ]
+          }
+        },
+        {
+          "language": "hi",
+          "artifactId": "8ca67c53-7d88-4676-8ca8-7d5b0b35dfd9",
+          "sha256": "950cd79031a82bce1b268d50afe03b08f28be7174af2c54b9c3266d19dea757b",
+          "output": {
+            "language": "hi",
+            "title": "शक्ति योजना (कर्नाटक)",
+            "summary": "शक्ति योजना कर्नाटक राज्य द्वारा संचालित साधारण और एक्सप्रेस बसों में पात्र निवासियों के लिए मुफ्त यात्रा की सुविधा प्रदान करती है। इसमें प्रीमियम और अन्य विशिष्ट सेवाएं शामिल नहीं हैं। सटीक यात्री श्रेणियों, अंतरराज्यीय अपवादों और सेवा बहिष्करणों के लिए आधिकारिक नियमों की जांच करना आवश्यक है। यह कोई सार्वभौमिक मुफ्त बस सेवा का दावा नहीं है और न ही किसी आवेदन विंडो या गारंटीकृत अनुमोदन का आश्वासन दिया गया है।",
+            "whoItMayHelp": "यह योजना मुख्य रूप से महिलाओं के लिए है।",
+            "benefits": [
+              "कर्नाटक राज्य द्वारा संचालित निर्दिष्ट साधारण और एक्सप्रेस बसों में मुफ्त यात्रा की सुविधा।"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "मान्य सरकारी फोटो पहचान पत्र साथ रखें।",
+                "राज्य परिवहन ऑपरेटर के साथ अनुमत बस और सेवा मार्गों की पुष्टि करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://bengaluruurban.nic.in/en/scheme/shakti-scheme/",
+                  "label": "शक्ति योजना आधिकारिक वेबसाइट"
+                }
+              ]
+            },
+            "limitations": [
+              "प्रीमियम और अन्य विशिष्ट सेवाएं इस योजना में शामिल नहीं हैं।",
+              "सटीक यात्री श्रेणियों और अंतरराज्यीय अपवादों के लिए आधिकारिक नियमों की जांच करना आवश्यक है।",
+              "यह कोई सार्वभौमिक मुफ्त बस सेवा का दावा नहीं है।",
+              "वर्तमान पात्रता और नवीनतम संशोधनों के लिए आधिकारिक समीक्षा आवश्यक है।",
+              "कोई खुली आवेदन प्रक्रिया या गारंटीकृत अनुमोदन का दावा नहीं किया गया है।"
+            ],
+            "aliases": [
+              "Shakti Scheme"
+            ],
+            "keywords": [
+              "शक्ति योजना",
+              "कर्नाटक परिवहन",
+              "मुफ्त बस यात्रा",
+              "महिला कल्याण",
+              "सरकारी योजना"
+            ],
+            "romanized": [
+              "Shakti Yojana"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Shakti Scheme (Karnataka)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka / Transport"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary. Important limits: Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Carry accepted government photo identification and confirm permitted bus/service routes with the state transport operator.\"],\"url\":\"https://bengaluruurban.nic.in/en/scheme/shakti-scheme/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://bengaluruurban.nic.in/en/scheme/shakti-scheme/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District Shakti permitted service and identity sections",
+                "quote": "The beneficiary must carry a valid photo identity proof while travelling."
+              }
+            ]
+          }
+        },
+        {
+          "language": "kn",
+          "artifactId": "f66f2826-b412-46a8-b571-0037d002b5ce",
+          "sha256": "46b1909f38298e58d5ec3f4760cc9989085577b3c47ee5555a223f4e1abf54aa",
+          "output": {
+            "language": "kn",
+            "title": "ಶಕ್ತಿ ಯೋಜನೆ (ಕರ್ನಾಟಕ)",
+            "summary": "ಶಕ್ತಿ ಯೋಜನೆಯು ಕರ್ನಾಟಕ ರಾಜ್ಯದ ನಿರ್ದಿಷ್ಟ ಸಾಮಾನ್ಯ ಮತ್ತು ಎಕ್ಸ್‌ಪ್ರೆಸ್ ಬಸ್ ಸೇವೆಗಳಲ್ಲಿ ಅರ್ಹ ಮಹಿಳಾ ಪ್ರಯಾಣಿಕರಿಗೆ ಉಚಿತ ಪ್ರಯಾಣದ ಸೌಲಭ್ಯವನ್ನು ಒದಗಿಸುತ್ತದೆ. ಪ್ರೀಮಿಯಂ ಮತ್ತು ಇತರ ಹೊರಗಿಡಲಾದ ಸೇವೆಗಳು ಈ ಯೋಜನೆಯ ವ್ಯಾಪ್ತಿಗೆ ಬರುವುದಿಲ್ಲ. ನಿಖರವಾದ ಪ್ರಯಾಣಿಕರ ವರ್ಗಗಳು, ಅಂತರರಾಜ್ಯ ವಿನಾಯಿತಿಗಳು ಮತ್ತು ಸೇವಾ ಹೊರಗಿಡುವಿಕೆಗಳನ್ನು ಅಧಿಕೃತ ನಿಯಮಗಳಲ್ಲಿ ಪರಿಶೀಲಿಸಬೇಕು.",
+            "whoItMayHelp": "ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಮಹಿಳೆಯರು.",
+            "benefits": [
+              "ಕರ್ನಾಟಕ ರಾಜ್ಯದ ನಿರ್ದಿಷ್ಟ ಸಾಮಾನ್ಯ ಮತ್ತು ಎಕ್ಸ್‌ಪ್ರೆಸ್ ಬಸ್ ಸೇವೆಗಳಲ್ಲಿ ಉಚಿತ ಪ್ರಯಾಣದ ಸೌಲಭ್ಯ."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ಮಾನ್ಯವಾದ ಸರ್ಕಾರಿ ಫೋಟೋ ಗುರುತಿನ ಚೀಟಿಯನ್ನು ಕಡ್ಡಾಯವಾಗಿ ಹೊಂದಿರಬೇಕು.",
+                "ರಾಜ್ಯ ಸಾರಿಗೆ ಸಂಸ್ಥೆಯೊಂದಿಗೆ ಅನುಮತಿಸಲಾದ ಬಸ್ ಮತ್ತು ಮಾರ್ಗಗಳನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಬೇಕು."
+              ],
+              "links": [
+                {
+                  "url": "https://bengaluruurban.nic.in/en/scheme/shakti-scheme/",
+                  "label": "ಶಕ್ತಿ ಯೋಜನೆ ಅಧಿಕೃತ ಮಾಹಿತಿ"
+                }
+              ]
+            },
+            "limitations": [
+              "ನಿಖರವಾದ ಪ್ರಯಾಣಿಕರ ವರ್ಗಗಳು, ಅಂತರರಾಜ್ಯ ವಿನಾಯಿತಿಗಳು ಮತ್ತು ಸೇವಾ ಹೊರಗಿಡುವಿಕೆಗಳನ್ನು ಅಧಿಕೃತ ನಿಯಮಗಳಲ್ಲಿ ಪರಿಶೀಲಿಸಬೇಕು.",
+              "ಯಾವುದೇ ಸಾರ್ವತ್ರಿಕ ಉಚಿತ ಬಸ್ ಪ್ರಯಾಣದ ಹಕ್ಕು ಇರುವುದಿಲ್ಲ.",
+              "ಪ್ರಸ್ತುತ ಕಾರ್ಯಾಚರಣೆಯ ಅರ್ಹತೆ, ಹೊರಗಿಡುವಿಕೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ಪರಿಶೀಲನೆ ಅಗತ್ಯ.",
+              "ಯಾವುದೇ ಮುಕ್ತ ಅರ್ಜಿ ವಿಂಡೋ ಅಥವಾ ಖಚಿತವಾದ ಅನುಮೋದನೆಯನ್ನು ನೀಡಲಾಗಿಲ್ಲ."
+            ],
+            "aliases": [
+              "ಶಕ್ತಿ ಯೋಜನೆ"
+            ],
+            "keywords": [
+              "ಶಕ್ತಿ ಯೋಜನೆ",
+              "ಕರ್ನಾಟಕ ಸರ್ಕಾರ",
+              "ಉಚಿತ ಬಸ್ ಪ್ರಯಾಣ",
+              "ಮಹಿಳಾ ಸಬಲೀಕರಣ",
+              "ಸಾರಿಗೆ"
+            ],
+            "romanized": [
+              "Shakti Yojane"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Shakti Scheme (Karnataka)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka / Transport"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary. Important limits: Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Shakti provides fare-free travel on specified Karnataka state-run ordinary/express services for qualifying residents, including the covered passenger categories. Premium and other excluded services are outside this summary."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Carry accepted government photo identification and confirm permitted bus/service routes with the state transport operator.\"],\"url\":\"https://bengaluruurban.nic.in/en/scheme/shakti-scheme/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://bengaluruurban.nic.in/en/scheme/shakti-scheme/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Exact passenger categories, interstate exceptions and service exclusions must be checked in operative rules. No universal free-bus claim.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District Shakti permitted service and identity sections",
+                "quote": "The beneficiary must carry a valid photo identity proof while travelling."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "packetKey": "Scheme:IN-WO-03",
+      "id": "IN-WO-03",
+      "name": "Sukanya Samriddhi Account (SSA)",
+      "snapshot": "66ba93759e324b7c6a9e0442057307d792aeaa62080b0e4500b56c71ddaff0c9",
+      "sourceUrl": "https://www.indiapost.gov.in/banking-services/savings",
+      "sourceVersionId": "version-2c7b16369f0cd4e9b611e7b4",
+      "sourceHash": "2bb243caa3d163c8b23ea97a2a9d635661b493060e01442640709c5a1230c959",
+      "sourceEvidence": {
+        "excerpt": "deposit into RD, PPF and SSA, and view your transaction details.",
+        "clauseRefs": [
+          "India Post SSA and savings-account services"
+        ],
+        "verifiedAt": "2026-11-18T10:19:17.918Z",
+        "validUntil": "2026-11-25T13:47:45.452Z",
+        "rightsBasis": "Limited factual paraphrase and short verification excerpt with source attribution; no images, forms, page mirroring or automated-access permission asserted. Human rights/currentness review required."
+      },
+      "approvedFacts": {
+        "title": "Sukanya Samriddhi Account (SSA)",
+        "historicalAliases": [],
+        "department": "National Savings Institute / Department of Economic Affairs",
+        "state": "All India",
+        "beneficiaryCategories": [
+          "Woman"
+        ],
+        "description": "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit. Important limits: Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+        "benefits": "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "steps": [
+            "Consult a post office or authorized provider for current SSA account-opening, deposit and withdrawal requirements."
+          ],
+          "url": "https://www.indiapost.gov.in/banking-services/savings"
+        },
+        "supportingOfficialUrls": [
+          "https://www.indiapost.gov.in/banking-services/savings"
+        ],
+        "eligibilityConditions": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "observedFacts": {
+          "batch": 3,
+          "publicationBlocked": false,
+          "reviewScope": "Owner approved limited public facts for AI preparation only; editorial approval is separate.",
+          "sourceGaps": [
+            "Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.",
+            "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+            "No open application window or guaranteed approval is asserted."
+          ]
+        }
+      },
+      "uncertainties": [
+        "Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.",
+        "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+        "No open application window or guaranteed approval is asserted.",
+        "Document requirements are unverified; an empty list does not mean no documents are required."
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "artifactId": "f20ad532-0cb3-4f35-b9e1-960919e64173",
+          "sha256": "c1f2e093e986fa2b394029ef21a37f9ac865c67a003e3db17a7fdad6b261cb25",
+          "output": {
+            "language": "en",
+            "title": "Sukanya Samriddhi Account (SSA)",
+            "summary": "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit. Important limits: Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+            "whoItMayHelp": "Women",
+            "benefits": [
+              "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Consult a post office or authorized provider for current SSA account-opening, deposit and withdrawal requirements."
+              ],
+              "links": [
+                {
+                  "url": "https://www.indiapost.gov.in/banking-services/savings",
+                  "label": "India Post Banking Services"
+                }
+              ]
+            },
+            "limitations": [
+              "Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.",
+              "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+              "No open application window or guaranteed approval is asserted."
+            ],
+            "aliases": [
+              "SSA"
+            ],
+            "keywords": [
+              "Sukanya Samriddhi Account",
+              "SSA",
+              "India Post",
+              "Savings",
+              "Deposit"
+            ],
+            "romanized": [
+              "Sukanya Samriddhi Account"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Sukanya Samriddhi Account (SSA)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "National Savings Institute / Department of Economic Affairs"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit. Important limits: Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult a post office or authorized provider for current SSA account-opening, deposit and withdrawal requirements.\"],\"url\":\"https://www.indiapost.gov.in/banking-services/savings\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://www.indiapost.gov.in/banking-services/savings\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "India Post SSA and savings-account services",
+                "quote": "deposit into RD, PPF and SSA, and view your transaction details."
+              }
+            ]
+          }
+        },
+        {
+          "language": "hi",
+          "artifactId": "75a4955c-3cbf-4654-8331-5e7a1444247e",
+          "sha256": "219ea0371eaf0179ada7ef5535a2555f55a704ae6fbb01faf01dba8199dfdffb",
+          "output": {
+            "language": "hi",
+            "title": "सुकन्या समृद्धि खाता (SSA)",
+            "summary": "सुकन्या समृद्धि खाता (SSA) भारत सरकार की एक लघु बचत योजना है जिसे इंडिया पोस्ट द्वारा सूचीबद्ध किया गया है। यह एक बचत या जमा खाता है, न कि कोई स्वचालित नकद लाभ। वर्तमान में, ब्याज दर, आयु सीमा, निकासी, कर उपचार और आवश्यक दस्तावेजों की जानकारी प्रमाणित नहीं है।",
+            "whoItMayHelp": "यह योजना बालिकाओं के लिए एक बचत उत्पाद के रूप में लक्षित है।",
+            "benefits": [
+              "सुकन्या समृद्धि खाता एक सरकारी लघु बचत उत्पाद है।",
+              "यह एक बचत/जमा खाता है।"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "खाता खोलने, जमा करने और निकासी की वर्तमान आवश्यकताओं के लिए किसी डाकघर या अधिकृत प्रदाता से संपर्क करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://www.indiapost.gov.in/banking-services/savings",
+                  "label": "इंडिया पोस्ट बचत सेवाएं"
+                }
+              ]
+            },
+            "limitations": [
+              "वर्तमान ब्याज दर, आयु सीमा, निकासी और कर उपचार की जानकारी प्रमाणित नहीं है।",
+              "पूर्ण पात्रता और नवीनतम संशोधनों के लिए संपादकीय समीक्षा की आवश्यकता है।",
+              "कोई खुला आवेदन विंडो या गारंटीकृत स्वीकृति का दावा नहीं किया गया है।"
+            ],
+            "aliases": [
+              "SSA"
+            ],
+            "keywords": [
+              "सुकन्या समृद्धि खाता",
+              "बचत खाता",
+              "इंडिया पोस्ट",
+              "लघु बचत",
+              "SSA"
+            ],
+            "romanized": [
+              "Sukanya Samriddhi Account"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Sukanya Samriddhi Account (SSA)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "National Savings Institute / Department of Economic Affairs"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit. Important limits: Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult a post office or authorized provider for current SSA account-opening, deposit and withdrawal requirements.\"],\"url\":\"https://www.indiapost.gov.in/banking-services/savings\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://www.indiapost.gov.in/banking-services/savings\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "India Post SSA and savings-account services",
+                "quote": "deposit into RD, PPF and SSA, and view your transaction details."
+              }
+            ]
+          }
+        },
+        {
+          "language": "kn",
+          "artifactId": "16653d55-2958-4b38-b4d7-29dcc47d268f",
+          "sha256": "d17eb1f488ede4f4df7ff149da498fa924f881aea19d5e09a620c9ee160a8186",
+          "output": {
+            "language": "kn",
+            "title": "ಸುಕನ್ಯಾ ಸಮೃದ್ಧಿ ಖಾತೆ (SSA)",
+            "summary": "ಸುಕನ್ಯಾ ಸಮೃದ್ಧಿ ಖಾತೆಯು ಇಂಡಿಯಾ ಪೋಸ್ಟ್‌ನಿಂದ ಪಟ್ಟಿ ಮಾಡಲಾದ ಸರ್ಕಾರಿ ಸಣ್ಣ ಉಳಿತಾಯ ಉತ್ಪನ್ನವಾಗಿದೆ. ಇದು ಉಳಿತಾಯ ಅಥವಾ ಠೇವಣಿ ಖಾತೆಯಾಗಿದ್ದು, ಸ್ವಯಂಚಾಲಿತ ನಗದು ಪ್ರಯೋಜನವಲ್ಲ. ಪ್ರಸ್ತುತ ಅಧಿಸೂಚಿತ ಬಡ್ಡಿ ದರ, ವಯಸ್ಸಿನ ಮಿತಿಗಳು, ಹಿಂಪಡೆಯುವಿಕೆಗಳು ಮತ್ತು ತೆರಿಗೆ ನಿಯಮಗಳಂತಹ ವಿವರಗಳು ಪ್ರಮಾಣೀಕರಿಸಲ್ಪಟ್ಟಿಲ್ಲ.",
+            "whoItMayHelp": "ಮಹಿಳೆಯರು.",
+            "benefits": [
+              "ಸುಕನ್ಯಾ ಸಮೃದ್ಧಿ ಖಾತೆಯು ಇಂಡಿಯಾ ಪೋಸ್ಟ್‌ನಿಂದ ಪಟ್ಟಿ ಮಾಡಲಾದ ಸರ್ಕಾರಿ ಸಣ್ಣ ಉಳಿತಾಯ ಉತ್ಪನ್ನವಾಗಿದೆ. ಇದು ಉಳಿತಾಯ ಅಥವಾ ಠೇವಣಿ ಖಾತೆಯಾಗಿದ್ದು, ಸ್ವಯಂಚಾಲಿತ ನಗದು ಪ್ರಯೋಜನವಲ್ಲ."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ಪ್ರಸ್ತುತ SSA ಖಾತೆ ತೆರೆಯುವಿಕೆ, ಠೇವಣಿ ಮತ್ತು ಹಿಂಪಡೆಯುವಿಕೆಯ ಅವಶ್ಯಕತೆಗಳಿಗಾಗಿ ಅಂಚೆ ಕಚೇರಿ ಅಥವಾ ಅಧಿಕೃತ ಸೇವಾ ಪೂರೈಕೆದಾರರನ್ನು ಸಂಪರ್ಕಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://www.indiapost.gov.in/banking-services/savings",
+                  "label": "ಇಂಡಿಯಾ ಪೋಸ್ಟ್ ಉಳಿತಾಯ ಸೇವೆಗಳು"
+                }
+              ]
+            },
+            "limitations": [
+              "ಪ್ರಸ್ತುತ ಅಧಿಸೂಚಿತ ಬಡ್ಡಿ ಅವಧಿ/ದರ, ಬಾಲಕಿಯ ವಯಸ್ಸು/ಖಾತೆ ಮಿತಿಗಳು, ಹಿಂಪಡೆಯುವಿಕೆಗಳು, ತೆರಿಗೆ ಚಿಕಿತ್ಸೆ ಮತ್ತು ದಾಖಲೆಗಳ ಪರಿಶೀಲನಾ ಪಟ್ಟಿಯು ಪ್ರಮಾಣೀಕರಿಸಲ್ಪಟ್ಟಿಲ್ಲ.",
+              "ಸಂಪೂರ್ಣ ಪ್ರಸ್ತುತ ಕಾರ್ಯಾಚರಣೆಯ ಅರ್ಹತೆ, ಹೊರಗಿಡುವಿಕೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ಪರಿಶೀಲನೆಯ ಅಗತ್ಯವಿದೆ.",
+              "ಯಾವುದೇ ಮುಕ್ತ ಅರ್ಜಿ ವಿಂಡೋ ಅಥವಾ ಖಾತರಿಪಡಿಸಿದ ಅನುಮೋದನೆಯನ್ನು ಪ್ರತಿಪಾದಿಸಲಾಗಿಲ್ಲ."
+            ],
+            "aliases": [
+              "Sukanya Samriddhi Account",
+              "SSA"
+            ],
+            "keywords": [
+              "ಉಳಿತಾಯ",
+              "ಠೇವಣಿ",
+              "ಅಂಚೆ ಕಚೇರಿ",
+              "ಮಹಿಳೆ",
+              "ಸರ್ಕಾರಿ ಯೋಜನೆ"
+            ],
+            "romanized": [
+              "Sukanya Samriddhi Khate"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Sukanya Samriddhi Account (SSA)"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "National Savings Institute / Department of Economic Affairs"
+              },
+              {
+                "id": "state",
+                "value": "All India"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Woman\"]"
+              },
+              {
+                "id": "description",
+                "value": "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit. Important limits: Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Sukanya Samriddhi Account is a government small-savings product listed by India Post. It is a savings/deposit account, not an automatic cash benefit."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult a post office or authorized provider for current SSA account-opening, deposit and withdrawal requirements.\"],\"url\":\"https://www.indiapost.gov.in/banking-services/savings\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://www.indiapost.gov.in/banking-services/savings\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":3,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"Current notified interest period/rate, girl-child age/account limits, withdrawals, tax treatment and document checklist are not certified.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "India Post SSA and savings-account services",
+                "quote": "deposit into RD, PPF and SSA, and view your transaction details."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "packetKey": "Scheme:KA-ST-01",
+      "id": "KA-ST-01",
+      "name": "Yuva Nidhi",
+      "snapshot": "d9948ff11861e7987c0262f8cc1e3cd8f17e0a61263cf3031d1ab6ff6efe9830",
+      "sourceUrl": "https://bangalorerural.nic.in/en/district-skill-development-office-2/",
+      "sourceVersionId": "version-91c3afa5321d636335c76029",
+      "sourceHash": "8daa08f198f9066d2fbc1496b85b0c83aa9abd0baa0610911714908e902f3fca",
+      "sourceEvidence": {
+        "excerpt": "financial assistance for the unemployed graduates and diploma holders",
+        "clauseRefs": [
+          "District skill-development Yuva Nidhi description"
+        ],
+        "verifiedAt": "2026-11-18T10:19:17.918Z",
+        "validUntil": "2026-11-25T13:47:49.031Z",
+        "rightsBasis": "Limited factual paraphrase and short verification excerpt with source attribution; no images, forms, page mirroring or automated-access permission asserted. Human rights/currentness review required."
+      },
+      "approvedFacts": {
+        "title": "Yuva Nidhi",
+        "historicalAliases": [],
+        "department": "Government of Karnataka",
+        "state": "Karnataka",
+        "beneficiaryCategories": [
+          "Student"
+        ],
+        "description": "Yuva Nidhi provides conditional financial assistance to eligible unemployed graduates and diploma holders in Karnataka. Important limits: District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted.",
+        "benefits": "Yuva Nidhi provides conditional financial assistance to eligible unemployed graduates and diploma holders in Karnataka.",
+        "requiredDocuments": [],
+        "applicationInfo": {
+          "steps": [
+            "Consult the official Seva Sindhu guarantee service and employment office for current cohort eligibility and required declarations."
+          ],
+          "url": "https://sevasindhugs.karnataka.gov.in/"
+        },
+        "supportingOfficialUrls": [
+          "https://sevasindhugs.karnataka.gov.in/"
+        ],
+        "eligibilityConditions": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision.",
+        "dates": {},
+        "monetaryAmounts": [],
+        "ageRanges": [],
+        "incomeThresholds": [],
+        "observedFacts": {
+          "batch": 4,
+          "publicationBlocked": false,
+          "reviewScope": "Owner approved limited public facts for AI preparation only; editorial approval is separate.",
+          "sourceGaps": [
+            "District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted.",
+            "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+            "No open application window or guaranteed approval is asserted."
+          ]
+        }
+      },
+      "uncertainties": [
+        "District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted.",
+        "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+        "No open application window or guaranteed approval is asserted.",
+        "Document requirements are unverified; an empty list does not mean no documents are required."
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "artifactId": "fbdbc205-5624-4c7a-bfc2-0a2ad692b204",
+          "sha256": "31606a2ed4abf4f97ae5e3891f872ffd66064f9f508d805262638e184d1b0b80",
+          "output": {
+            "language": "en",
+            "title": "Yuva Nidhi",
+            "summary": "Yuva Nidhi provides conditional financial assistance to eligible unemployed graduates and diploma holders in Karnataka. Important limits: District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted. Complete current operative eligibility, exclusions and latest amendments require editorial review. No open application window or guaranteed approval is asserted.",
+            "whoItMayHelp": "Unemployed graduates and diploma holders in Karnataka.",
+            "benefits": [
+              "Conditional financial assistance for eligible unemployed graduates and diploma holders in Karnataka."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "Consult the official Seva Sindhu guarantee service and employment office for current cohort eligibility and required declarations."
+              ],
+              "links": [
+                {
+                  "url": "https://sevasindhugs.karnataka.gov.in/",
+                  "label": "Seva Sindhu Official Portal"
+                }
+              ]
+            },
+            "limitations": [
+              "District text contains stale 2023-cohort information and an employment-wording typo.",
+              "Current cohorts, benefit period, monthly declarations and checklist need current operative verification.",
+              "No current payment amount or open window is asserted.",
+              "Complete current operative eligibility, exclusions and latest amendments require editorial review.",
+              "No open application window or guaranteed approval is asserted."
+            ],
+            "aliases": [
+              "Yuva Nidhi"
+            ],
+            "keywords": [
+              "Yuva Nidhi",
+              "Karnataka",
+              "Unemployment",
+              "Financial Assistance",
+              "Graduates",
+              "Diploma Holders"
+            ],
+            "romanized": [
+              "Yuva Nidhi"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Yuva Nidhi"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Student\"]"
+              },
+              {
+                "id": "description",
+                "value": "Yuva Nidhi provides conditional financial assistance to eligible unemployed graduates and diploma holders in Karnataka. Important limits: District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Yuva Nidhi provides conditional financial assistance to eligible unemployed graduates and diploma holders in Karnataka."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official Seva Sindhu guarantee service and employment office for current cohort eligibility and required declarations.\"],\"url\":\"https://sevasindhugs.karnataka.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://sevasindhugs.karnataka.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District skill-development Yuva Nidhi description",
+                "quote": "financial assistance for the unemployed graduates and diploma holders"
+              }
+            ]
+          }
+        },
+        {
+          "language": "hi",
+          "artifactId": "27ba0d74-f54a-4eb3-a465-c453deab6524",
+          "sha256": "4dfd29bf1fc9520a7cc883407a067f3054d63ba491be01419cdf63eb15203887",
+          "output": {
+            "language": "hi",
+            "title": "युवा निधि",
+            "summary": "युवा निधि कर्नाटक में पात्र बेरोजगार स्नातकों और डिप्लोमा धारकों को सशर्त वित्तीय सहायता प्रदान करती है। वर्तमान कोहोर्ट, लाभ अवधि, मासिक घोषणाओं और चेकलिस्ट के लिए आधिकारिक सत्यापन की आवश्यकता है। कोई वर्तमान भुगतान राशि या खुला आवेदन विंडो सुनिश्चित नहीं है। पूर्ण पात्रता और बहिष्करण के लिए संपादकीय समीक्षा आवश्यक है।",
+            "whoItMayHelp": "कर्नाटक के बेरोजगार स्नातक और डिप्लोमा धारक।",
+            "benefits": [
+              "पात्र बेरोजगार स्नातकों और डिप्लोमा धारकों के लिए सशर्त वित्तीय सहायता।"
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "वर्तमान कोहोर्ट पात्रता और आवश्यक घोषणाओं के लिए आधिकारिक सेवा सिंधु गारंटी सेवा और रोजगार कार्यालय से परामर्श करें।"
+              ],
+              "links": [
+                {
+                  "url": "https://sevasindhugs.karnataka.gov.in/",
+                  "label": "सेवा सिंधु पोर्टल"
+                }
+              ]
+            },
+            "limitations": [
+              "जिला पाठ में पुरानी 2023-कोहोर्ट जानकारी और रोजगार-शब्दों में त्रुटि है।",
+              "वर्तमान कोहोर्ट, लाभ अवधि, मासिक घोषणाओं और चेकलिस्ट के लिए वर्तमान परिचालन सत्यापन की आवश्यकता है।",
+              "कोई वर्तमान भुगतान राशि या खुला आवेदन विंडो सुनिश्चित नहीं है।",
+              "पूर्ण परिचालन पात्रता, बहिष्करण और नवीनतम संशोधनों के लिए संपादकीय समीक्षा की आवश्यकता है।",
+              "कोई खुला आवेदन विंडो या गारंटीकृत अनुमोदन सुनिश्चित नहीं है।"
+            ],
+            "aliases": [
+              "Yuva Nidhi"
+            ],
+            "keywords": [
+              "युवा निधि",
+              "कर्नाटक",
+              "बेरोजगार",
+              "स्नातक",
+              "डिप्लोमा धारक",
+              "वित्तीय सहायता"
+            ],
+            "romanized": [
+              "Yuva Nidhi"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Yuva Nidhi"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Student\"]"
+              },
+              {
+                "id": "description",
+                "value": "Yuva Nidhi provides conditional financial assistance to eligible unemployed graduates and diploma holders in Karnataka. Important limits: District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Yuva Nidhi provides conditional financial assistance to eligible unemployed graduates and diploma holders in Karnataka."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official Seva Sindhu guarantee service and employment office for current cohort eligibility and required declarations.\"],\"url\":\"https://sevasindhugs.karnataka.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://sevasindhugs.karnataka.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District skill-development Yuva Nidhi description",
+                "quote": "financial assistance for the unemployed graduates and diploma holders"
+              }
+            ]
+          }
+        },
+        {
+          "language": "kn",
+          "artifactId": "cfa6c53a-aaf5-445b-997a-c1ac3f4d25da",
+          "sha256": "02c343e8ba2cbea3b0462d5d2a5a4d0b1fb049a0e6aacd6ab0dfb289a2300ba7",
+          "output": {
+            "language": "kn",
+            "title": "ಯುವ ನಿಧಿ",
+            "summary": "ಯುವ ನಿಧಿಯು ಕರ್ನಾಟಕದ ಅರ್ಹ ನಿರುದ್ಯೋಗಿ ಪದವೀಧರರು ಮತ್ತು ಡಿಪ್ಲೊಮಾ ಹೊಂದಿರುವವರಿಗೆ ಷರತ್ತುಬದ್ಧ ಆರ್ಥಿಕ ನೆರವನ್ನು ಒದಗಿಸುತ್ತದೆ. ಪ್ರಸ್ತುತ ತಂಡಗಳು, ಪ್ರಯೋಜನದ ಅವಧಿ, ಮಾಸಿಕ ಘೋಷಣೆಗಳು ಮತ್ತು ಪರಿಶೀಲನಾಪಟ್ಟಿಯ ಕುರಿತು ಅಧಿಕೃತ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಬೇಕಾಗಿದೆ. ಪ್ರಸ್ತುತ ಪಾವತಿ ಮೊತ್ತ ಅಥವಾ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಅವಧಿಯ ಬಗ್ಗೆ ಯಾವುದೇ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.",
+            "whoItMayHelp": "ಕರ್ನಾಟಕದ ನಿರುದ್ಯೋಗಿ ಪದವೀಧರರು ಮತ್ತು ಡಿಪ್ಲೊಮಾ ಹೊಂದಿರುವವರು.",
+            "benefits": [
+              "ಅರ್ಹ ನಿರುದ್ಯೋಗಿ ಪದವೀಧರರು ಮತ್ತು ಡಿಪ್ಲೊಮಾ ಹೊಂದಿರುವವರಿಗೆ ಷರತ್ತುಬದ್ಧ ಆರ್ಥಿಕ ನೆರವು."
+            ],
+            "documents": [],
+            "howToApply": {
+              "steps": [
+                "ಪ್ರಸ್ತುತ ತಂಡದ ಅರ್ಹತೆ ಮತ್ತು ಅಗತ್ಯ ಘೋಷಣೆಗಳಿಗಾಗಿ ಅಧಿಕೃತ ಸೇವಾ ಸಿಂಧು ಗ್ಯಾರಂಟಿ ಸೇವೆ ಮತ್ತು ಉದ್ಯೋಗ ಕಚೇರಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ."
+              ],
+              "links": [
+                {
+                  "url": "https://sevasindhugs.karnataka.gov.in/",
+                  "label": "ಸೇವಾ ಸಿಂಧು ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್"
+                }
+              ]
+            },
+            "limitations": [
+              "ಪ್ರಸ್ತುತ ತಂಡಗಳು, ಪ್ರಯೋಜನದ ಅವಧಿ, ಮಾಸಿಕ ಘೋಷಣೆಗಳು ಮತ್ತು ಪರಿಶೀಲನಾಪಟ್ಟಿಯ ಕುರಿತು ಅಧಿಕೃತ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಬೇಕಾಗಿದೆ.",
+              "ಪ್ರಸ್ತುತ ಪಾವತಿ ಮೊತ್ತ ಅಥವಾ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಅವಧಿಯ ಬಗ್ಗೆ ಯಾವುದೇ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.",
+              "ಸಂಪೂರ್ಣ ಪ್ರಸ್ತುತ ಕಾರ್ಯಾಚರಣೆಯ ಅರ್ಹತೆ, ಹೊರಗಿಡುವಿಕೆಗಳು ಮತ್ತು ಇತ್ತೀಚಿನ ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸಂಪಾದಕೀಯ ಪರಿಶೀಲನೆಯ ಅಗತ್ಯವಿದೆ.",
+              "ಯಾವುದೇ ಮುಕ್ತ ಅರ್ಜಿ ವಿಂಡೋ ಅಥವಾ ಖಾತರಿಯ ಅನುಮೋದನೆಯನ್ನು ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ."
+            ],
+            "aliases": [
+              "Yuva Nidhi"
+            ],
+            "keywords": [
+              "ಯುವ ನಿಧಿ",
+              "ಕರ್ನಾಟಕ ಸರ್ಕಾರ",
+              "ನಿರುದ್ಯೋಗಿ",
+              "ಪದವೀಧರರು",
+              "ಡಿಪ್ಲೊಮಾ",
+              "ಆರ್ಥಿಕ ನೆರವು"
+            ],
+            "romanized": [
+              "Yuva Nidhi"
+            ],
+            "preservedFacts": [
+              {
+                "id": "title",
+                "value": "Yuva Nidhi"
+              },
+              {
+                "id": "historicalAliases",
+                "value": "[]"
+              },
+              {
+                "id": "department",
+                "value": "Government of Karnataka"
+              },
+              {
+                "id": "state",
+                "value": "Karnataka"
+              },
+              {
+                "id": "beneficiaryCategories",
+                "value": "[\"Student\"]"
+              },
+              {
+                "id": "description",
+                "value": "Yuva Nidhi provides conditional financial assistance to eligible unemployed graduates and diploma holders in Karnataka. Important limits: District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted.; Complete current operative eligibility, exclusions and latest amendments require editorial review.; No open application window or guaranteed approval is asserted."
+              },
+              {
+                "id": "benefits",
+                "value": "Yuva Nidhi provides conditional financial assistance to eligible unemployed graduates and diploma holders in Karnataka."
+              },
+              {
+                "id": "requiredDocuments",
+                "value": "[]"
+              },
+              {
+                "id": "applicationInfo",
+                "value": "{\"steps\":[\"Consult the official Seva Sindhu guarantee service and employment office for current cohort eligibility and required declarations.\"],\"url\":\"https://sevasindhugs.karnataka.gov.in/\"}"
+              },
+              {
+                "id": "supportingOfficialUrls",
+                "value": "[\"https://sevasindhugs.karnataka.gov.in/\"]"
+              },
+              {
+                "id": "eligibilityConditions",
+                "value": "Incomplete descriptive audience information only; no approved rules or personal eligibility decision."
+              },
+              {
+                "id": "dates",
+                "value": "{}"
+              },
+              {
+                "id": "monetaryAmounts",
+                "value": "[]"
+              },
+              {
+                "id": "ageRanges",
+                "value": "[]"
+              },
+              {
+                "id": "incomeThresholds",
+                "value": "[]"
+              },
+              {
+                "id": "observedFacts",
+                "value": "{\"batch\":4,\"publicationBlocked\":false,\"reviewScope\":\"Owner approved limited public facts for AI preparation only; editorial approval is separate.\",\"sourceGaps\":[\"District text contains stale2023-cohort information and an employment-wording typo; current cohorts, benefit period, monthly declarations and checklist need current operative verification. No current payment amount or open window asserted.\",\"Complete current operative eligibility, exclusions and latest amendments require editorial review.\",\"No open application window or guaranteed approval is asserted.\"]}"
+              }
+            ],
+            "citations": [
+              {
+                "clauseRef": "District skill-development Yuva Nidhi description",
+                "quote": "financial assistance for the unemployed graduates and diploma holders"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "decision": {
+    "status": "APPROVED_AND_PUBLISHED",
+    "at": "2026-11-19T19:12:05.656Z",
+    "actor": "owner:explicit-confirmation-2026-11-20",
+    "exactOwnerReply": "Approve these nine schemes and 27 revisions",
+    "receipt": "../backend/reports/owner-confirmed-publication.json",
+    "sourcePermissionsApproved": false,
+    "eligibilityApproved": false
+  }
+}

@@ -1,1 +1,0 @@
-Native collection worker and persisted scheduler ready.

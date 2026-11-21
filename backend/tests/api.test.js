@@ -18,6 +18,7 @@ test('health remains available without MongoDB and citizen/admin database routes
     const cookie=login.headers.get('set-cookie').split(';')[0];
     assert.equal((await fetch(base+'/api/admin/auth/session',{headers:{Cookie:cookie}})).status,200);
     assert.equal((await fetch(base+'/api/admin/stats',{headers:{Cookie:cookie}})).status,503);
+    assert.equal((await fetch(base+'/api/admin/source-coverage',{headers:{Cookie:cookie}})).status,503);
     assert.equal((await fetch(base+'/api/admin/auth/logout',{method:'POST',headers:{Cookie:cookie}})).status,200);
     assert.equal((await fetch(base+'/api/admin/auth/session',{headers:{Cookie:cookie}})).status,401);
     const bad = await fetch(`${base}/api/data/status`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{bad' });

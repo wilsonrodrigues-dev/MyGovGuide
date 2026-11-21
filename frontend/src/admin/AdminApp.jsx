@@ -1,10 +1,12 @@
+import {ContentWorkbench} from './ContentWorkbench.jsx';
 import { useEffect, useState, useCallback, useRef } from "react";
-import { NavLink, Routes, Route, Navigate, Link } from "react-router-dom";
+import { NavLink, Routes, Route, Navigate, Link,useLocation } from "react-router-dom";
 import {
   Landmark,
   LayoutDashboard,
   Database,
   Radio,
+  Activity,
   CalendarClock,
   History,
   Search,
@@ -22,6 +24,12 @@ import {
 import { adminApi as api, errorText } from "./api.js";
 import "./admin.css";
 import { ContentWorkspace, PipelineStatus } from "./ContentWorkspace.jsx";
+import {SchemeCollectionTable} from './SchemeCollectionTable.jsx';
+import {SourceCoverage} from './SourceCoverage.jsx';
+import {FormWorkspace} from './FormWorkspace.jsx';
+import {EvidenceReviewWorkspace,EvidencePacket} from './EvidenceReviewWorkspace.jsx';
+import {ContentHub} from './ContentHub.jsx';
+import {LiveMonitor} from './LiveMonitor.jsx';
 const date = (value) =>
   value
     ? new Date(value).toLocaleString("en-IN", {
@@ -34,6 +42,7 @@ const sections = [
   ["", "Overview", LayoutDashboard],
   ["sources", "Sources", Radio],
   ["collection", "Run collection", Play],
+  ["monitor", "Live monitor", Activity],
   ["schedules", "Schedules", CalendarClock],
   ["history", "Execution history", History],
   ["data", "Data explorer", Database],
@@ -41,6 +50,7 @@ const sections = [
   ["reviews", "Review queue", ClipboardCheck],
   ["ai", "AI processing", Languages],
   ["publish", "Review & publish", FileCheck2],
+  ["forms", "Forms guidance", FileCheck2],
   ["system", "System", ShieldCheck],
 ];
 function Badge({ children }) {
@@ -233,7 +243,7 @@ function Overview() {
     approvedSources: "Approved sources",
     restrictedSources: "Restricted sources",
     researchOnly: "Research-only records",
-    pendingReviews: "Pending reviews",
+    
     ChangeEvent: "Change events",
     ImportRejection: "Historical import rejections",
   };
@@ -245,7 +255,7 @@ function Overview() {
     : [];
   return (
     <>
-      <Title title="A clear view of the pipeline">
+      <Title title="Dashboard">
         <Link className="ad-primary" to="/admin/collection">
           <Play size={16} /> Run collection
         </Link>
@@ -254,7 +264,11 @@ function Overview() {
         Research in, evidence checked, people informed. Every record has a
         source.
       </p>
-      <PipelineStatus />
+      <State {...state} />
+      {d?.operational&&<section aria-label="Operational content statistics"><div className="ad-metrics">{Object.entries({totalSchemes:'Total schemes',publishedSchemes:'Published schemes',fullyEnrichedSchemes:'Fully enriched schemes',executableEligibilitySchemes:'Complete executable eligibility',availableForms:'Available form references',checkedFormDocuments:'Checked form documents',completeMultilingualFormGuides:'Complete multilingual form guides',publicNotices:'Public notices',scamAwarenessRecords:'Scam-awareness records',successfulAIProcessingJobs:'Successful AI processing jobs',failedProcessingJobs:'Failed processing jobs'}).map(([key,label])=><article key={key}><span>{label}</span><strong>{d.operational[key]}</strong><small>From current database checks</small></article>)}</div><p>Last data update: {date(d.operational.lastDataUpdate)} · Last successful collection: {date(d.operational.lastSuccessfulCollection)}</p></section>}
+      <details className="ad-panel"><summary>Diagnostics / Blocked Content</summary><p>Unresolved source rights, official facts and document editions remain in the existing review workspace.</p><Link to="/admin/attention">Open blocked content diagnostics</Link>{d?.operational&&<p>{d.operational.diagnostics.supersededFailedAIJobs} retained failed AI attempts have valid current replacements. Their audit history is preserved.</p>}</details>
+      <p><Link to="/admin/content">Open Content &rarr; Preview &rarr; Approve &amp; Publish</Link></p>
+      <details className="ad-panel"><summary>Advanced pipeline and inventory</summary>
       <State {...state} />
       {d && (
         <>
@@ -393,6 +407,7 @@ function Overview() {
           </Panel>
         </>
       )}
+      </details>
     </>
   );
 }
@@ -701,6 +716,8 @@ function Collection() {
         </Panel>
       </div>
       {job && <JobDetail id={job} close={() => setJob(null)} />}
+      <SourceCoverage/>
+      <SchemeCollectionTable/>
     </>
   );
 }
@@ -1315,7 +1332,8 @@ function Changes() {
     </>
   );
 }
-function Reviews() {
+function Reviews(){return <><EvidenceReviewWorkspace/><details className="ad-panel"><summary>Individual record actions (legacy)</summary><LegacyReviews/></details></>;}
+function LegacyReviews() {
   const [page, setPage] = useState(1),
     [status, setStatus] = useState("PENDING"),
     [selected, setSelected] = useState(null),
@@ -1424,6 +1442,7 @@ function Reviews() {
         >
           <form className="ad-form" onSubmit={submit}>
             <p>Version: {selected.versionId || "Research fact"}</p>
+            <EvidencePacket packetKey={selected.entityType+':'+selected.entityId} onLoaded={()=>setSelected(current=>current?{...current,packetLoaded:true}:null)}/>
             <label>
               Decision
               <select
@@ -1435,18 +1454,16 @@ function Reviews() {
               </select>
             </label>
             <label>
-              Supporting evidence
+              Optional rejection note
               <textarea
-                required
-                minLength={10}
                 maxLength={4000}
                 rows={5}
                 value={evidence}
                 onChange={(e) => setEvidence(e.target.value)}
-                placeholder="Cite the official source, relevant clause and reason."
+                placeholder="Optional reason. Existing evidence is attached automatically."
               />
             </label>
-            <button className="ad-primary" disabled={busy}>
+            <button className="ad-primary" disabled={busy||!selected.packetLoaded}>
               Record decision
             </button>
             <p role="status">{message}</p>
@@ -1526,6 +1543,8 @@ function System() {
   );
 }
 export function AdminApp() {
+  const location=useLocation(),[advanced,setAdvanced]=useState(false);
+  useEffect(()=>{setAdvanced(!['/admin','/admin/','/admin/content','/admin/attention'].includes(location.pathname));},[location.pathname]);
   const [user, setUser] = useState(null),
     [loading, setLoading] = useState(true),
     [username, setUsername] = useState(""),
@@ -1649,6 +1668,8 @@ export function AdminApp() {
         </Link>
         <p className="ad-nav-caption">WORKSPACE</p>
         <nav aria-label="Admin navigation">
+          {[['','Dashboard',LayoutDashboard],['content','Content',Database],['attention','Needs Attention',ClipboardCheck]].map(([path,name,Icon])=><NavLink key={path} to={'/admin'+(path?'/'+path:'')} end={!path}><Icon size={18}/>{name}</NavLink>)}
+          <details className="ad-advanced-nav" open={advanced} onToggle={e=>setAdvanced(e.currentTarget.open)}><summary>Advanced / Operations</summary>
           {sections.map(([path, name, Icon]) => (
             <NavLink
               key={path}
@@ -1659,6 +1680,7 @@ export function AdminApp() {
               {name}
             </NavLink>
           ))}
+          </details>
         </nav>
         <div className="ad-sidebar-bottom">
           <ShieldCheck size={20} />
@@ -1690,8 +1712,11 @@ export function AdminApp() {
           )}
           <Routes>
             <Route index element={<Overview />} />
+            <Route path="content" element={<ContentWorkbench />} />
+            <Route path="attention" element={<ContentWorkbench attentionOnly />} />
             <Route path="sources" element={<Sources />} />
             <Route path="collection" element={<Collection />} />
+            <Route path="monitor" element={<LiveMonitor />} />
             <Route path="schedules" element={<Schedules />} />
             <Route path="history" element={<HistoryPage />} />
             <Route path="data" element={<Explorer />} />
@@ -1699,6 +1724,7 @@ export function AdminApp() {
             <Route path="reviews" element={<Reviews />} />
             <Route path="ai" element={<ContentWorkspace />} />
             <Route path="publish" element={<ContentWorkspace reviewMode />} />
+            <Route path="forms" element={<FormWorkspace />} />
             <Route path="system" element={<System />} />
             <Route path="*" element={<Navigate to="/admin" replace />} />
           </Routes>

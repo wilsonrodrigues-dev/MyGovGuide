@@ -21,6 +21,10 @@ test('Unicode normalization and indexed tokens preserve Hindi/Kannada and transl
   assert.equal(normalizeSearch('  SCHOLARSHIP,  विद्यार्थि  ಕನ್ನಡ  '),'scholarship विद्यार्थि ಕನ್ನಡ');
   assert.ok(searchTokens(['ವಿದ್ಯಾರ್ಥಿವೇತನ']).includes('ವಿದ್ಯಾರ್ಥಿವೇತನ'));assert.ok(searchTokens(['scholarship']).includes('scholar'));
 });
+test('a negative approval disclaimer is allowed but positive or mixed eligibility promises remain rejected',()=>{
+ const out=fixtureOutput(approval,'en');out.limitations.push('No open application window or guaranteed approval is asserted.');assert.equal(validateOutput(out,approval,'en').ok,true);
+ for(const claim of ['You are eligible.','Not only are you automatically eligible.','No guaranteed approval is asserted, but you are eligible.']){const changed=structuredClone(out);changed.summary=claim;assert.ok(validateOutput(changed,approval,'en').errors.includes('UNSUPPORTED_ELIGIBILITY_PROMISE'));}
+});
 test('429 defers project and never rotates to the second Gemini key',async()=>{
   assert.equal(categorize({status:429,headers:{'retry-after':'120'}}).retryAfterMs,120000);
   assert.equal(categorize({status:429,message:JSON.stringify({error:{details:[{retryDelay:'180s'}]}})}).retryAfterMs,180000);

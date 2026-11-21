@@ -1,5 +1,48 @@
 # Collection operations
 
+## Canonical identity and incremental collection — 18 November 2026
+
+The existing collector now resolves canonical identities before inserting schemes and records NEW, UNCHANGED, UPDATED or NEEDS_IDENTITY_REVIEW. Exact normalized URLs retain compatible name/jurisdiction checks; raw record IDs are source-local. Similar names or conflicting keys require explicit identity review in the existing Collection page. Unchanged observations retain original evidence without a duplicate version or Gemini work. Updated facts retain old versions, show before/after values and require renewed fact review. Source permissions and publication controls remain separate.
+
+For an API that expressly documents these capabilities, the reviewed source approval JSON can include:
+
+```json
+{
+  "adapterOptions": {
+    "identityPolicy": {
+      "namespace": "REPLACE_WITH_DOCUMENTED_OFFICIAL_NAMESPACE",
+      "officialIdField": "schemeCode",
+      "documentationUrl": "https://example.test/official-api-contract",
+      "reviewedBy": "REPLACE_WITH_ACTUAL_REVIEWER",
+      "evidence": "REPLACE_WITH_ACTUAL_ID_CONTRACT_EVIDENCE",
+      "verifiedAt": "2026-11-18T00:00:00.000Z"
+    },
+    "incremental": {
+      "mode": "CURSOR",
+      "documentationUrl": "https://example.test/official-api-contract",
+      "reviewedBy": "REPLACE_WITH_ACTUAL_REVIEWER",
+      "evidence": "REPLACE_WITH_ACTUAL_PAGINATION_PERMISSION",
+      "recordsPath": "records",
+      "cursorParam": "cursor",
+      "nextCursorPath": "next",
+      "limitParam": "limit",
+      "pageSize": 100,
+      "maxPages": 10,
+      "updatedSinceParam": "updated_since",
+      "watermarkPath": "watermark",
+      "overlapSeconds": 60
+    }
+  }
+}
+```
+
+This is an illustrative contract shape, not a real endpoint or authorization. Replace every value using the official API documentation and actual source review. Omit identityPolicy when IDs are not documented. For documented offset pagination, use mode OFFSET and offsetParam; omit cursorParam/nextCursorPath. updatedSinceParam requires a response watermarkPath. Dot paths select documented JSON fields; no arbitrary URL from a response is followed. Only declared parameters vary; credential-free HTTPS, approved host/path, fixed queries, DNS checks, rate limits and database approval matching remain mandatory.
+
+Traversal is bounded to at most20 pages and10,000 staged records. Every page validates before any records/checkpoint commit. Cursor loops, malformed pages, unsupported page304 responses and bound exhaustion fail without advancing state. Paginated APIs do not reuse page ETags as whole-source validators; existing nonpaginated feed ETag/Last-Modified handling remains available. An unchanged scheme check is a metadata update, not a new AI preparation request.
+
+Migration: run `npm run db:migrate:identities` to inspect metadata changes, then `npm run db:migrate:identities -- --apply` against the intended private backend environment. Existing IDs/content remain preserved. The current Atlas migration is already applied; no mappings or collection history were fabricated. [Existing-versus-added audit and actual test results](../history/INCREMENTAL_SCHEME_COLLECTION_REPORT.md).
+
+
 Latest execution: PM-KISAN has actual owner-approved EN/HI/KN publication in Atlas, three indexes and one publication record. Existing citizen discovery/detail routes now serve it. NDMA execution configuration was separately restored and verified with HTTP200/100 unchanged then HTTP304; no schedule or new notice/version. No new Gemini calls or eligibility approvals. [Current completion evidence and lineage](../history/ATLAS_DATA_TO_CITIZEN_COMPLETION_REPORT.md); [official dataset API findings](OFFICIAL_DATASET_API_FINDINGS.md). Earlier same-day local/zero-publication/configuration observations below are historical.
 
 
@@ -22,7 +65,7 @@ The ignored backend environment explicitly selects native application MongoDB an
 
 The same native worker now also consumes reviewed-content AI preparation jobs. Source fetches do not call an LLM. Collection provenance records fixture/live mode, source/run identity, captured timestamp, raw-record hash and conditional response metadata. SafeHttp supports exact-endpoint ETag/Last-Modified revalidation and bounded 304 handling. The PIB candidate parser always stages notices, never scheme eligibility inferred from a news feed.
 
-Earlier policy investigation (superseded only for the separately authorized NDMA feed): PIB robots returned an unavailable HTML page; the checked OGD host returned a disallow-all robots policy. No source approval or genuine live run was added. OGD's documented API requires a suitable API key plus dataset-specific license/access review. Public reuse licensing alone does not authorize crawling the denied host. See `backend/reports/phase36-source-policy-check.json`, `phase36-ogd-policy.json` and [AI operations](AI_PROCESSING_RUNBOOK.md). The original Phase 3.5 findings below remain historical evidence.
+Earlier policy investigation (superseded only for the separately authorized NDMA feed): PIB robots returned an unavailable HTML page; the checked OGD host returned a disallow-all robots policy. No source approval or genuine live run was added. OGD's documented API requires a suitable API key plus dataset-specific license/access review. Public reuse licensing alone does not authorize crawling the denied host. Generated source-policy receipts were removed during the 21 November 2026 cleanup and remain in the local recovery branch. See [AI operations](AI_PROCESSING_RUNBOOK.md). The original Phase 3.5 findings below remain historical evidence.
 
 The Phase 2 adapter, SafeHttp transport, transactional staging, immutable versions and change detection remain the collection engine. Phase 3.5 supplies authenticated orchestration around it, rather than a replacement crawler.
 
@@ -54,7 +97,7 @@ The transport blocks private/metadata IPs, credential URLs, unapproved redirects
 | PIB registry N01/N02/N03 | Official [RSS index](https://www.pib.gov.in/RssMain.aspx) exists. [Copyright policy](https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30) permits accurate attributed reproduction of its material with third-party exclusions. Direct `/robots.txt` probe returned HTTP 200 **HTML saying the page is unavailable**, not a robots policy. RSS index redirected to a region/language query. | Access evidence remains incomplete; no activation and no live feed collection |
 | data.gov.in | [Terms](https://www.data.gov.in/terms-of-use) and [GODL](https://data.gov.in/Godl) describe dataset-specific licensing. Direct browsing of terms/robots returned 503 in this session. No specific usable endpoint/API credentials were established. | Candidate only; no activation |
 
-Raw bounded policy-probe outcomes are in `backend/reports/phase35-policy-probes.json`. These requests investigated access policy; they were not collection runs. There were **zero successful genuine government live collection runs** in this phase.
+Raw bounded policy-probe outcomes were removed during the 21 November 2026 cleanup and remain in the local recovery branch. These requests investigated access policy; they were not collection runs. There were **zero successful genuine government live collection runs** in this phase.
 
 `PibRssAdapter` is a candidate source-specific parser. It checks HTTPS PIB release-link identity and numeric PRID, preserves observed dates/document links, attaches publisher attribution and uses stable official release IDs. It handles feed metadata only, with no page traversal or pagination. Tests use explicitly synthetic XML. Real connectivity, actual feed format, pagination applicability and production parsing remain unverified until an authorized endpoint is available. Generic API/RSS/HTML/PDF adapters are also available behind the same gate; no API credential entry or arbitrary authenticated scraping is exposed.
 

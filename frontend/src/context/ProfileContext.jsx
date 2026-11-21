@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react';
+import {useLocation} from 'react-router-dom';
 import i18n from '../i18n/index.js';
 import { bootstrap, persistProfile } from '../lib/api.js';
 import { isProfile, languages } from '../data/options.js';
@@ -7,12 +8,14 @@ const ProfileContext = createContext(null);
 function cached() { try { return readPreferences(window.localStorage); } catch { return null; } }
 function cache(profile, pending) { try { return writePreferences(window.localStorage, profile, pending); } catch { return false; } }
 export function ProfileProvider({ children }) {
+  const location=useLocation(),privateRoute=/^\/(?:notices?|eligibility)(?:\/|$)/.test(location.pathname);
   const [profile, setProfile] = useState(() => cached()?.profile || null);
   const [booting, setBooting] = useState(true);
   const [syncStatus, setSyncStatus] = useState('loading');
   const sequence = useRef(0); const saves = useRef(Promise.resolve());
   useEffect(() => {
     let active = true;
+    if(privateRoute){setBooting(false);setSyncStatus('private');return()=>{active=false;};}
     (async () => {
       const local = cached();
       try {
@@ -26,7 +29,7 @@ export function ProfileProvider({ children }) {
       finally { if (active) setBooting(false); }
     })();
     return () => { active = false; };
-  }, []);
+  }, [privateRoute]);
   async function saveProfile(next) {
     if (!isProfile(next)) throw new Error('Invalid preferences');
     const current = ++sequence.current;
@@ -47,7 +50,7 @@ export function ProfileProvider({ children }) {
     if (!languages.includes(language)) return;
     i18n.changeLanguage(language);
     try { localStorage.setItem('mygovguide.language', language); } catch { /* language still works for this visit */ }
-    if (profile) await saveProfile({ ...profile, language });
+    if (profile && !privateRoute) await saveProfile({ ...profile, language });
   }
   return <ProfileContext.Provider value={{ profile, booting, syncStatus, saveProfile, changeLanguage }}>{children}</ProfileContext.Provider>;
 }

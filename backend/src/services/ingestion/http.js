@@ -58,7 +58,7 @@ export class SafeHttp {
             const resolved = await this.resolve(a.host);
             const cached = this.validators.get(url) || {}, headers = {};
             for (const [key, value] of [['If-None-Match',cached.etag],['If-Modified-Since',cached.lastModified]]) if (typeof value === 'string' && value.length <= 1000 && !/[\r\n]/.test(value)) headers[key]=value;
-            return this.request(url, resolved, { timeoutMs: this.timeoutMs, maxBytes: this.maxBytes, headers });
+            const started=this.now(),result=await this.request(url, resolved, { timeoutMs: this.timeoutMs, maxBytes: this.maxBytes, headers });return {...result,responseTimeMs:Math.max(0,this.now()-started)};
           });
         } catch (error) {
           if (attempt === 2 || /authorization|budget|scope|public|disabled|expired/i.test(error.message)) throw error;
@@ -78,7 +78,7 @@ export class SafeHttp {
         url = new URL(response.location, url).href;
         continue;
       }
-      const metadata={status:response.status,etag:response.etag,lastModified:response.lastModified,url,responseBytes:response.body.length};
+      const metadata={status:response.status,etag:response.etag,lastModified:response.lastModified,url,responseBytes:response.body.length,responseTimeMs:response.responseTimeMs};
       this.responses.set(initialUrl,metadata);this.responses.set(url,metadata);
       if (response.status === 304) {
         const prior=this.validators.get(url)||{};

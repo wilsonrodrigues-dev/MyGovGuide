@@ -1,5 +1,20 @@
 # MyGovGuide administration
 
+## Evidence preparation and review triage
+
+Use `/admin/reviews` for the grouped evidence worklist. Filter by content type, risk, reason, title or active/handled state; open a packet for source/version evidence, original clauses, missing facts, differences, current AI comparison and administrative history. Original ReviewItem flags remain intact, so the raw pending count differs from active work. The current Atlas reduction is104 handled observations,212 active records and118 packets; [exact interpretation](../history/EVIDENCE_REVIEW_AUTOMATION_REPORT.md).
+
+Batch handling only annotates routine observations or historical internal snapshots with a deterministic reason and per-record audit. It cannot approve source rights, facts, eligibility or AI publication. Stale snapshots are refused. Old NDMA snapshots are archived under a48-hour internal policy, not declared expired hazards; fresh/unverified notices remain blocked. Legacy record actions remain under the disclosure and wait for evidence to load. Use the existing publication/forms workspaces for actual human decisions.
+
+`npm run reviews:prepare` rebuilds/caches evidence; `npm run reviews:triage` applies safe administrative handling. The existing worker refreshes evidence every five minutes without government or model requests from this task. Unchanged check metadata preserves valid annotations; changed content/scope/dependencies must be reassessed. Rights/currentness blockers cannot be solved by toggling permissions or passing a hash check.
+
+## Incremental scheme collection — 18 November 2026
+
+Use the existing /admin/collection page: the scheme table shows source, canonical ID, last checked, last observed change, collection classification and review/publication state. Filter by source/outcome, open preserved observation history and inspect exact before/after changes. Legacy research records show NO_COLLECTED_OBSERVATION until an actual collection check exists. The separate identity-review list shows ambiguous candidates, evidence and possible canonical matches. An explicit confirmed mapping requires official evidence and approves identity only. It does not approve facts or publication. Re-run the authorized source after mapping to process its evidence. Existing manual collection and schedule controls remain the entry points.
+
+Current Atlas catalog:35 records,15 published schemes,117 artifacts,75 current language revisions; all20 pending records stay pending. [Audit and actual verification](../history/INCREMENTAL_SCHEME_COLLECTION_REPORT.md). Earlier dated checkpoint counts below are historical.
+
+
 Latest execution: PM-KISAN has actual owner-approved EN/HI/KN publication in Atlas, three indexes and one publication record. Existing citizen discovery/detail routes now serve it. NDMA execution configuration was separately restored and verified with HTTP200/100 unchanged then HTTP304; no schedule or new notice/version. No new Gemini calls or eligibility approvals. [Current completion evidence and lineage](../history/ATLAS_DATA_TO_CITIZEN_COMPLETION_REPORT.md); [official dataset API findings](OFFICIAL_DATASET_API_FINDINGS.md). Earlier same-day local/zero-publication/configuration observations below are historical.
 
 

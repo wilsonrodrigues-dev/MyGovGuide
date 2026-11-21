@@ -45,10 +45,12 @@ export function approvedLinks(approval) {
   return [...new Set(links)].filter(s => { try { const u = new URL(s); return u.protocol === 'https:' && !u.username && !u.password; } catch { return false; } });
 }
 export function validateOutput(value, approval, language) {
-  const parsed = contentOutput.safeParse(value); const errors = [], warnings = ['Editor review required for every language, claim, translation and keyword. AI text is not an authoritative official translation.'];
+  const parsed = contentOutput.safeParse(value); const errors = [], warnings = ['AI-assisted text is not an authoritative official translation; source-bound factual validation is required before publication.'];
   if (!parsed.success) return { ok: false, errors: ['STRUCTURED_OUTPUT_INVALID'], warnings };
   const out = parsed.data;
   if (out.language !== language) errors.push('LANGUAGE_MISMATCH');
+  const requiredNotes=approval.facts?.observedFacts?.requiredPublicNotes?.[language]||[];
+  if(!Array.isArray(requiredNotes)||requiredNotes.some(note=>typeof note!=='string'||!out.limitations.includes(note)))errors.push('SOURCE_SCOPE_NOTES_OMITTED');
   if (language === 'hi' && !/[\u0900-\u097f]/u.test(out.summary + out.title)) errors.push('HINDI_SCRIPT_MISSING');
   if (language === 'kn' && !/[\u0c80-\u0cff]/u.test(out.summary + out.title)) errors.push('KANNADA_SCRIPT_MISSING');
   if (hash([...out.preservedFacts].sort((a,b)=>a.id.localeCompare(b.id))) !== hash(preservedFacts(approval.facts).sort((a,b)=>a.id.localeCompare(b.id)))) errors.push('APPROVED_FACTS_CHANGED_OR_MISSING');
@@ -64,7 +66,12 @@ export function validateOutput(value, approval, language) {
   const knownDates=new Set([...digits(JSON.stringify(approval.facts)+approval.excerpt).matchAll(/\b\d{4}-\d{2}-\d{2}\b/g)].map(m=>m[0]));
   for(const match of digits(strings(prose).join(' ')).matchAll(/\b\d{4}-\d{2}-\d{2}\b/g))if(!knownDates.has(match[0]))errors.push('DATE_CHANGED');
   for(const match of strings(out).join(' ').matchAll(/https?:\/\/[^\s"<>]+/g))if(!allowedLinks.has(match[0].replace(/[.,;)]$/,'')))errors.push('UNAPPROVED_LINK');
-  if (/\b(?:guaranteed approval|you are eligible|automatically eligible|approval guaranteed)\b/i.test(strings(out).join(' '))) errors.push('UNSUPPORTED_ELIGIBILITY_PROMISE');
+  // Exact preserved source facts and quotations are evidence, not new model
+  // assertions. Keep positive promises forbidden while admitting this explicit
+  // negative disclaimer used in the approved fact-review packets.
+  const claimFields=Object.fromEntries(Object.entries(out).filter(([key])=>!['preservedFacts','citations'].includes(key)));
+  const claims=strings(claimFields).map(text=>text.replace(/\bNo (?:open application window or )?guaranteed approval is asserted\b/gi,''));
+  if (/\b(?:guaranteed approval|you are eligible|automatically eligible|approval guaranteed)\b/i.test(claims.join(' '))) errors.push('UNSUPPORTED_ELIGIBILITY_PROMISE');
   return { ok: errors.length === 0, errors: [...new Set(errors)], warnings, output: out };
 }
 export function makePrompt(approval, language) {

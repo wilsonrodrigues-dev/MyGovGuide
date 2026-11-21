@@ -1,0 +1,7 @@
+import {extractNoticeFacts} from '../../src/services/notices/extraction.js';
+export const sampleNotice='Department of Learning\nSubject: TEST ONLY scholarship document check\nNotice No: TEST-2026\nIssued on 2026-11-01; event held on 2026-11-18; last date 2026-11-30.\nStudents must submit an enrollment certificate to the district office.\nApplication method: submit documents at the office.\nThis is an internally authored test, not a government announcement.';
+export function noticeFixtureInput(text=sampleNotice){return{text,analysis:extractNoticeFacts(text),dataClass:'SYNTHETIC'};}
+export function noticeFixtureOutput(input,language='en'){
+ const prose={en:'Read the original instructions and verify unclear requirements with the issuing office.',hi:'मूल निर्देश पढ़ें और अस्पष्ट आवश्यकताओं की पुष्टि जारीकर्ता कार्यालय से करें।',kn:'ಮೂಲ ಸೂಚನೆ ಓದಿ ಮತ್ತು ಅಸ್ಪಷ್ಟ ಷರತ್ತುಗಳನ್ನು ನೀಡಿದ ಕಚೇರಿಯಿಂದ ಪರಿಶೀಲಿಸಿ.'}[language];
+ return{language,summary:{text:prose,lineIds:[input.analysis.lines[0].id]},audience:[],actions:input.analysis.facts.filter(f=>f.kind==='ACTION').map(f=>({factId:f.id,explanation:prose})),dates:input.analysis.facts.filter(f=>f.kind==='DATE').map(f=>({factId:f.id,originalText:f.value,dateKind:f.dateKind,explanation:prose})),documents:input.analysis.facts.filter(f=>f.kind==='DOCUMENT').map(f=>({factId:f.id,explanation:prose})),methods:[],warnings:['UNAUTHENTICATED_DOCUMENT','VERIFY_UNCLEAR_REQUIREMENTS','NO_GUARANTEED_ELIGIBILITY'],missing:input.analysis.missing};
+}

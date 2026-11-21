@@ -1,0 +1,26 @@
+import {hash} from '../../utils/hash.js';
+
+export const automatedPolicy='OWNER_EVIDENCE_VALIDATION_2026_11_21';
+export const automatedActor='SYSTEM:MYGOVGUIDE_EVIDENCE_VALIDATOR_V1';
+const requiredChecks=['officialSource','sourceVersionIntegrity','coverage','factualConsistency','privacy','conflictsResolved'];
+export function createAutomatedValidation({kind,id,subjectHash,sourceBindings,checks,scope,limitations=[],expiresAt,now=new Date()}){
+ if(!kind||!id||!/^[a-f0-9]{64}$/.test(subjectHash)||!sourceBindings?.length||sourceBindings.some(b=>!b.versionId||!/^[a-f0-9]{64}$/.test(b.contentHash))||requiredChecks.some(c=>checks?.[c]!==true)||!scope||!Number.isFinite(+new Date(expiresAt))||new Date(expiresAt)<=now)throw Object.assign(Error('Incomplete evidence validation'),{code:'AUTOMATED_VALIDATION_PREREQUISITES_MISSING'});
+ const certificate={policy:automatedPolicy,actor:automatedActor,kind,id,subjectHash,sourceBindings:structuredClone(sourceBindings),checks:{...checks},scope,limitations:[...limitations],validatedAt:now.toISOString(),expiresAt:new Date(expiresAt).toISOString(),humanReviewed:false,governmentCertified:false};
+ return {...certificate,seal:hash(certificate)};
+}
+export function validAutomatedValidation(value,{kind,id,subjectHash,sourceBindings}={},now=new Date()){
+ if(!value)return false;const {seal,...certificate}=value;
+ return value.policy===automatedPolicy&&value.actor===automatedActor&&value.humanReviewed===false&&value.governmentCertified===false&&value.kind===kind&&value.id===id&&value.subjectHash===subjectHash&&requiredChecks.every(c=>value.checks?.[c]===true)&&new Date(value.validatedAt)<=now&&new Date(value.expiresAt)>now&&seal===hash(certificate)&&(!sourceBindings||hash(value.sourceBindings)===hash(sourceBindings));
+}
+export const ruleValidationSubject=rule=>hash({id:rule.id||rule._id,schemeId:rule.schemeId,rules:rule.rules,questions:rule.questions,sourceBindings:rule.sourceBindings,sourceVersionIds:rule.sourceVersionIds,completeness:rule.completeness,missingInformation:rule.missingInformation,exceptions:rule.exceptions,effectiveFrom:rule.effectiveFrom?new Date(rule.effectiveFrom).toISOString():null,effectiveUntil:rule.effectiveUntil?new Date(rule.effectiveUntil).toISOString():null,scope:rule.normalized?.evaluationScope||'INITIAL_APPLICATION'});
+export const machineRuleValidated=rule=>validAutomatedValidation(rule?.automatedValidation,{kind:'ELIGIBILITY_RULESET',id:rule?.id||rule?._id,subjectHash:ruleValidationSubject(rule)});
+export const formDocumentSubject=doc=>hash({id:doc._id,sha256:doc.sha256,fields:doc.fields,sourceVersionId:doc.sourceVersionId,pages:doc.pages,documents:doc.documents,purpose:doc.purpose,applicationUrl:doc.applicationUrl,warnings:doc.warnings,expiresAt:doc.expiresAt?new Date(doc.expiresAt).toISOString():null});
+export const formArtifactSubject=artifact=>hash({documentId:artifact.documentId,language:artifact.language,binding:artifact.binding,output:artifact.output,provider:artifact.provider,model:artifact.model,promptVersion:artifact.promptVersion});
+export const machineFormDocument=doc=>!!doc&&validAutomatedValidation(doc.automatedValidation,{kind:'FORM_DOCUMENT',id:doc._id,subjectHash:formDocumentSubject(doc)});
+export const machineFormArtifact=a=>!!a&&a.status==='AUTOMATED_VALIDATED'&&validAutomatedValidation(a.automatedValidation,{kind:'FORM_GUIDANCE',id:a._id,subjectHash:formArtifactSubject(a)});
+export const publicEvidenceSubject=(type,record,version)=>hash({type,id:record.id||record._id,sourceVersionId:version.id||version._id,sourceHash:version.contentHash,sourceUrl:record.sourceUrl,title:record.title,publishingAuthority:record.publishingAuthority,recordType:record.recordType,publishedAt:record.publishedAt?new Date(record.publishedAt).toISOString():null,effectiveUntil:record.effectiveUntil?new Date(record.effectiveUntil).toISOString():null,classification:record.normalized?.citizenClassification||null});
+export const machinePublicEvidence=(type,record,version)=>!!record&&!!version&&validAutomatedValidation(record.automatedValidation,{kind:type+'_EVIDENCE',id:record.id||record._id,subjectHash:publicEvidenceSubject(type,record,version),sourceBindings:[{versionId:version.id||version._id,contentHash:version.contentHash}]});
+export const publicArtifactSubject=a=>hash({entityType:a.entityType,entityId:a.entityId,schemeId:a.schemeId,approvalId:a.approvalId,language:a.language,sourceVersionId:a.sourceVersionId,sourceHash:a.sourceHash,promptVersion:a.promptVersion,output:a.output});
+export const machinePublicArtifact=a=>!!a&&a.state==='AUTOMATED_VALIDATED'&&validAutomatedValidation(a.automatedValidation,{kind:'PUBLIC_ARTIFACT',id:a._id,subjectHash:publicArtifactSubject(a),sourceBindings:[{versionId:a.sourceVersionId,contentHash:a.sourceHash}]});
+export const schemeFactsSubject=a=>hash({schemeId:a.schemeId,sourceVersionId:a.sourceVersionId,sourceHash:a.sourceHash,factsHash:a.factsHash,facts:a.facts,excerpt:a.excerpt,clauseRefs:a.clauseRefs,evidenceUrl:a.evidenceUrl});
+export const machineSchemeFacts=a=>!!a&&validAutomatedValidation(a.automatedValidation,{kind:'SCHEME_FACTS',id:a._id,subjectHash:schemeFactsSubject(a),sourceBindings:[{versionId:a.sourceVersionId,contentHash:a.sourceHash}]});

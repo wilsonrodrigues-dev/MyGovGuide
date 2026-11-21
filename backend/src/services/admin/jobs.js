@@ -11,8 +11,16 @@ import { authorize } from '../ingestion/access.js';
 import { hash } from '../../utils/hash.js';
 import { env, serverRoot } from '../../config/env.js';
 import { audit } from './auth.js';
+import { publish } from '../realtime/events.js';
 
 export const fixtures = JSON.parse(await readFile(path.join(serverRoot, 'fixtures/sources.json'), 'utf8'));
+function sanitizeJob(job) {
+  if (!job) return null;
+  const value = job.toObject ? job.toObject() : job;
+  const { leaseToken, activeKey, ...safe } = value;
+  return safe;
+}
+function jobEvent(type, job, extra = {}) { return publish(type, { job: sanitizeJob(job), ...extra }); }
 export function fail(message, status = 400) { throw Object.assign(new Error(message), { safe: true, status }); }
 export async function sourceFor(sourceId, mode, session) {
   if (mode === 'FIXTURE') {
@@ -27,11 +35,16 @@ export async function sourceFor(sourceId, mode, session) {
   authorize(config.approval, config.approval.url, config.approval.method);
   return config.approval;
 }
-export async function enqueue({ sourceId, mode, actor, trigger = 'MANUAL', scheduledKey }, session) {
-  if (!session) return new MongoStore().transaction(s => enqueue({ sourceId, mode, actor, trigger, scheduledKey }, s));
+export async function enqueue({ sourceId, mode, actor, trigger = 'MANUAL', scheduledKey,maxRecords=mode==='LIVE'?3:10000 }, session) {
+  if(!Number.isInteger(maxRecords)||maxRecords<1||maxRecords>(mode==='LIVE'?3:10000))fail('Live demo runs must be limited to one to three records');
+  if (!session) {
+    const job = await new MongoStore().transaction(s => enqueue({ sourceId, mode, actor, trigger, scheduledKey,maxRecords }, s));
+    await jobEvent('job:queued', job);
+    return job;
+  }
   if (!['FIXTURE', 'LIVE'].includes(mode)) fail('Invalid collection mode');
   await sourceFor(sourceId, mode, session);
-  const value = { _id: randomUUID(), sourceId, mode, actor, trigger, state: 'QUEUED', activeKey: sourceId, progress: 'Waiting for worker', ...(scheduledKey ? { scheduledKey } : {}) };
+  const value = { _id: randomUUID(), sourceId, mode,maxRecords, actor, trigger, state: 'QUEUED', activeKey: sourceId, progress: 'Waiting for worker', ...(scheduledKey ? { scheduledKey } : {}) };
   try {
     const [job] = await CollectionJob.create([value], { session });
     await audit(actor, 'JOB_QUEUED', job._id, { sourceId, mode, trigger }, session);
@@ -88,19 +101,25 @@ export async function schedulerTick(now = new Date()) {
   return due.length;
 }
 const leaseMs = 60000;
-export async function recoverExpired(now = new Date()) {
-  await CollectionJob.updateMany({ state: 'RUNNING', leaseUntil: { $lt: now }, attempts: { $lt: 3 }, cancelRequested: false }, { $set: { state: 'QUEUED', progress: 'Recovered after worker interruption' }, $unset: { leaseToken: '', leaseUntil: '' } });
-  await CollectionJob.updateMany({ state: 'RUNNING', leaseUntil: { $lt: now }, $or: [{ attempts: { $gte: 3 } }, { cancelRequested: true }] }, { $set: { state: 'INTERRUPTED', finishedAt: now, error: 'Worker lease expired; review execution before retrying' }, $unset: { activeKey: '', leaseToken: '', leaseUntil: '' } });
+export async function recoverExpired(now = new Date(),jobId) {
+  const scope=jobId?{_id:jobId}:{};
+  const interrupted=await CollectionJob.find({...scope,state:'RUNNING',leaseUntil:{$lt:now},runId:{$exists:true}}).select('runId').lean();
+  if(interrupted.length)await models.IngestionRun.updateMany({_id:{$in:interrupted.map(j=>j.runId)},outcome:'RUNNING'},{$set:{outcome:'FAILED',finishedAt:now},$push:{runErrors:'Worker interruption; committed record/cursor transactions are retained and retry is idempotent.'}});
+  await CollectionJob.updateMany({ ...scope,state: 'RUNNING', leaseUntil: { $lt: now }, attempts: { $lt: 3 }, cancelRequested: false }, { $set: { state: 'QUEUED', progress: 'Recovered after worker interruption' }, $unset: { leaseToken: '', leaseUntil: '' } });
+  await CollectionJob.updateMany({ ...scope,state: 'RUNNING', leaseUntil: { $lt: now }, $or: [{ attempts: { $gte: 3 } }, { cancelRequested: true }] }, { $set: { state: 'INTERRUPTED', finishedAt: now, error: 'Worker lease expired; review execution before retrying' }, $unset: { activeKey: '', leaseToken: '', leaseUntil: '' } });
 }
 export async function cancelJob(id) {
   const queued = await CollectionJob.findOneAndUpdate({ _id: id, state: 'QUEUED' }, { $set: { state: 'CANCELLED', cancelRequested: true, finishedAt: new Date(), progress: 'Cancelled before start' }, $unset: { activeKey: '' } }, { new: true });
-  return queued || CollectionJob.findOneAndUpdate({ _id: id, state: 'RUNNING' }, { $set: { cancelRequested: true, progress: 'Cancellation requested; waiting for safe boundary' } }, { new: true });
+  const job = queued || await CollectionJob.findOneAndUpdate({ _id: id, state: 'RUNNING' }, { $set: { cancelRequested: true, progress: 'Cancellation requested; waiting for safe boundary' } }, { new: true });
+  if (job) await jobEvent('job:updated', job, { reason: 'CANCELLATION_REQUESTED' });
+  return job;
 }
-export async function runOne({ collectFn = collect } = {}) {
-  await recoverExpired();
+export async function runOne({ collectFn = collect, jobId, maxRecords=10000 } = {}) {
+  await recoverExpired(new Date(),jobId);
   const token = randomUUID();
-  const job = await CollectionJob.findOneAndUpdate({ state: 'QUEUED', cancelRequested: false }, { $set: { state: 'RUNNING', startedAt: new Date(), leaseToken: token, leaseUntil: new Date(Date.now() + leaseMs), progress: 'Checking source authorization' }, $inc: { attempts: 1 } }, { sort: { createdAt: 1 }, new: true }).lean();
+  const job = await CollectionJob.findOneAndUpdate({ state: 'QUEUED', cancelRequested: false,...(jobId?{_id:jobId}:{}) }, { $set: { state: 'RUNNING', startedAt: new Date(), leaseToken: token, leaseUntil: new Date(Date.now() + leaseMs), progress: 'Checking source authorization' }, $inc: { attempts: 1 } }, { sort: { createdAt: 1 }, new: true }).lean();
   if (!job) return null;
+  await jobEvent('job:running', job);
   const owned = { _id: job._id, state: 'RUNNING', leaseToken: token };
   let lost = false;
   const heartbeat = setInterval(async () => {
@@ -117,8 +136,8 @@ export async function runOne({ collectFn = collect } = {}) {
       if (!r.matchedCount) throw new Error('Cancelled or worker lease lost');
       await sourceFor(job.sourceId, job.mode, session);
     };
-    const run = await collectFn(new MongoStore(), [source], { offline: job.mode === 'FIXTURE', enableLive: env.ENABLE_LIVE_COLLECTION === 'true', fixtureRoot: path.join(serverRoot, 'fixtures'),
-      beforeCommit: check, onProgress: async (progress, runId) => { await CollectionJob.updateOne(owned, { $set: { progress, runId } }); }, shouldCancel: async () => lost || Boolean((await CollectionJob.findOne(owned).lean())?.cancelRequested) });
+    const run = await collectFn(new MongoStore(), [source], { offline: job.mode === 'FIXTURE', enableLive: env.ENABLE_LIVE_COLLECTION === 'true', fixtureRoot: path.join(serverRoot, 'fixtures'),maxRecords:Math.min(maxRecords,job.maxRecords||(job.mode==='LIVE'?3:10000)),
+      beforeCommit: check, onProgress: async (progress, runId, detail={}) => { await CollectionJob.updateOne(owned, { $set: { progress, runId } }); await publish('job:progress', { jobId: job._id, progress, runId,...detail }); }, shouldCancel: async () => lost || Boolean((await CollectionJob.findOne(owned).lean())?.cancelRequested) });
     const latest = await CollectionJob.findOne(owned).lean();
     const state = latest?.cancelRequested ? 'CANCELLED' : run.outcome === 'SUCCESS' ? 'SUCCEEDED' : run.outcome === 'NO_OP' ? 'BLOCKED' : 'FAILED';
     await CollectionJob.updateOne(owned, { $set: { state, runId: run.id, counters: run.counters, finishedAt: new Date(), progress: 'Finished; records remain subject to review', ...(state === 'FAILED' ? { error: 'Source failed; inspect run details' } : {}) }, $unset: { activeKey: '', leaseToken: '', leaseUntil: '' } });
@@ -126,5 +145,7 @@ export async function runOne({ collectFn = collect } = {}) {
     const latest = await CollectionJob.findOne(owned).lean();
     await CollectionJob.updateOne(owned, { $set: { state: latest?.cancelRequested ? 'CANCELLED' : 'FAILED', finishedAt: new Date(), error: 'Collection stopped safely; verify source authorization and run history' }, $unset: { activeKey: '', leaseToken: '', leaseUntil: '' } });
   } finally { clearInterval(heartbeat); }
-  return CollectionJob.findById(job._id).select('-leaseToken').lean();
+  const finished = await CollectionJob.findById(job._id).select('-leaseToken').lean();
+  await jobEvent('job:finished', finished);
+  return finished;
 }

@@ -1,6 +1,7 @@
 import dns from 'node:dns/promises';
 import ipaddr from 'ipaddr.js';
 import { approval } from '../../validators/contracts.js';
+import {approvedIncrementalQuery} from './incremental.js';
 
 export function publicAddress(address) {
   try { return ipaddr.process(address).range() === 'unicast'; } catch { return false; }
@@ -21,7 +22,7 @@ export function authorize(source, url, method, now = new Date()) {
   if (/(?:login|signin|captcha|beneficiar|aadhaar|account|otp|webform)/i.test(u.pathname)) throw new Error('Protected or citizen-data path blocked');
   // Query parameters are only approved when explicitly present on the reviewed endpoint.
   const reviewed = new URL(a.url);
-  if (u.search !== reviewed.search) throw new Error('Unapproved query parameters');
+  if (u.search !== reviewed.search&&!approvedIncrementalQuery(a,u.href)) throw new Error('Unapproved query parameters');
   return a;
 }
 export async function resolvePublic(host, lookup = dns.lookup) {

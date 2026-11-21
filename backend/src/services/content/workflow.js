@@ -1,3 +1,6 @@
+import {failedJobDispositions} from './jobDisposition.js';
+import {attachedEvidence} from '../verification/attachedEvidence.js';
+import {recordOperation as publish} from '../realtime/events.js';
 import mongoose from 'mongoose';
 import { randomUUID } from 'node:crypto';
 import { z } from 'zod';
@@ -10,6 +13,8 @@ import { env } from '../../config/env.js';
 import { hash } from '../../utils/hash.js';
 import { canonicalFacts, validateOutput, languages, promptVersion, words, searchTokens, syntheticEvidence } from './contracts.js';
 import { AIProviderRouter, AIError, providerHealth } from './providers.js';
+import {machineSchemeFacts} from '../verification/automatedPolicy.js';
+import {compactPromptVersion,generateCompactContent} from './compactContract.js';
 
 function reject(message, status = 409) { throw Object.assign(new Error(message), { status, safe: true }); }
 export function isolatedTestDatabase() { return env.NODE_ENV === 'test' && /^mygovguide_phase2_test(?:_[\w-]+)?$/.test(mongoose.connection.name || ''); }
@@ -25,7 +30,7 @@ export async function classification(scheme, version, session) {
   return 'CURATED_PUBLIC';
 }
 export const approvalInput = z.object({ sourceVersionId: z.string().min(1).max(180), excerpt: z.string().trim().min(40).max(12000), clauseRefs: z.array(z.string().trim().min(1).max(180)).min(1).max(20),
-  evidenceUrl: z.string().url(), rightsBasis: z.string().trim().min(10).max(2000), evidence: z.string().trim().min(10).max(3000),
+  evidenceUrl: z.string().url(), rightsBasis: z.string().trim().min(10).max(2000), evidence: z.string().trim().max(3000).default(''),
   verifiedAt: z.iso.datetime(), validUntil: z.iso.datetime(), publicNonSensitive: z.literal(true), factsChecked: z.literal(true), rightsChecked: z.literal(true) }).strict();
 export async function approveFacts(schemeId, input, actor) {
   const data = approvalInput.parse(input);
@@ -41,6 +46,7 @@ export async function approveFacts(schemeId, input, actor) {
     if (/\b(?:\d[ -]?){12}\b|AIza[\w-]{20,}|mongodb(?:\+srv)?:\/\//i.test(data.excerpt)) reject('Do not include private identifiers or credentials in public evidence',400);
     const facts = canonicalFacts(version.payload);
     if (!facts.title || !facts.description) reject('Reviewed source must contain a title and source-grounded description');
+    data.evidence=attachedEvidence({entityType:'Scheme',entityId:schemeId,versionId:version.id,sourceUrl:version.payload.sourceUrl,clauseRefs:data.clauseRefs,factsHash:hash(facts)},data.evidence);
     const _id = hash([schemeId, version.id, facts, data]);
     let approval = await ContentApproval.findById(_id).session(session).lean();
     if(approval&&scheme.contentApprovalId===_id)return approval;
@@ -59,16 +65,22 @@ export async function approveFacts(schemeId, input, actor) {
 export async function currentApproval(schemeId, approvalId, session) {
   const scheme = await models.Scheme.findById(schemeId).session(session || null).lean();
   const approval = scheme && await ContentApproval.findById(approvalId || scheme.contentApprovalId).session(session || null).lean();
+  const staged=scheme?.normalized?.citizenPreparedContent;
+  if(approvalId&&approval&&staged?.approvalId===approvalId&&staged.sourceVersionId===approval.sourceVersionId&&staged.sourceHash===approval.sourceHash&&machineSchemeFacts(approval)&&new Date(approval.validUntil)>new Date()){
+    const version=await models.SourceVersion.findById(approval.sourceVersionId).session(session||null).lean();if(!version||version.entityId!==schemeId||version.entityType!=='Scheme'||hash(version.payload)!==approval.sourceHash)reject('Staged source integrity failed');return {scheme,approval,staged:true};
+  }
   if (!scheme || !approval || scheme.contentApprovalId !== approval._id || scheme.currentVersionId !== approval.sourceVersionId || scheme.contentHash !== approval.sourceHash || scheme.approvedVersionId !== approval.sourceVersionId || scheme.status !== 'SOURCE_VERIFIED_FACT' || new Date(approval.validUntil) <= new Date()) reject('Current human-approved facts and unexpired rights/evidence are required');
   if (approval.dataClass === 'SYNTHETIC' && !isolatedTestDatabase()) reject('Synthetic data cannot enter the real content pipeline');
   return {scheme,approval};
 }
-export async function enqueueAI(schemeId, languageList, actor, { config = env } = {}) {
+async function reusableArtifact(approval,language){const artifacts=await AIArtifact.find({schemeId:approval.schemeId,approvalId:approval._id,sourceVersionId:approval.sourceVersionId,sourceHash:approval.sourceHash,language,stale:false,'validation.ok':true,state:{$in:['APPROVED','REVIEW_PENDING','AUTOMATED_VALIDATED']}}).sort({createdAt:-1}).lean();return artifacts.find(a=>a.dataClass===approval.dataClass&&validateOutput(a.output,approval,language).ok);}
+export async function enqueueAI(schemeId, languageList, actor, { config = env,regenerate=false } = {}) {
   z.array(z.enum(languages)).min(1).max(3).parse(languageList);
   const {approval} = await currentApproval(schemeId);
-  if (!config.GEMINI_MODEL) reject('Set GEMINI_MODEL after checking provider capability; no model is assumed');
   const jobs=[];
   for (const language of [...new Set(languageList)]) {
+    const cached=!regenerate&&await reusableArtifact(approval,language);if(cached){const job=await AIJob.findById(cached.jobId).lean();jobs.push({...job,_id:job?._id||'artifact:'+cached._id,state:job?.state||'REVIEW_PENDING',artifactId:cached._id,cached:true,language,preparationStatus:'VALIDATED_ARTIFACT_REUSED'});await publish('ai:cache-reused',{runId:'ai:'+cached._id,schemeId,language,artifactId:cached._id});continue;}
+  if (!config.GEMINI_MODEL) reject('Set GEMINI_MODEL after checking provider capability; no model is assumed');
     const dedupeKey=hash([schemeId,approval._id,approval.sourceHash,language,'PREPARE_CONTENT',promptVersion,'gemini',config.GEMINI_MODEL]);
     const job = await AIJob.findOneAndUpdate({dedupeKey},{$setOnInsert:{_id:randomUUID(),schemeId,approvalId:approval._id,sourceVersionId:approval.sourceVersionId,sourceHash:approval.sourceHash,language,task:'PREPARE_CONTENT',promptVersion,provider:'gemini',model:config.GEMINI_MODEL,dedupeKey,state:'QUEUED',nextRetry:new Date(),requestedBy:actor,dataClass:approval.dataClass}},{upsert:true,new:true});
     jobs.push(job.toObject());
@@ -85,11 +97,12 @@ export async function reserveBudget(amount, config=env) {
 }
 export async function retryAI(id,actor) {
   const job=await AIJob.findById(id).lean(); if(!job || !['FAILED','BLOCKED','DEFERRED'].includes(job.state)) reject('Only failed, blocked or deferred jobs can be retried');
-  await currentApproval(job.schemeId,job.approvalId);
+  const {approval}=await currentApproval(job.schemeId,job.approvalId);
+  const cached=await reusableArtifact(approval,job.language);if(cached){await audit(actor,'AI_VALIDATED_ARTIFACT_REUSED',id,{artifactId:cached._id});return{ok:true,cached:true,artifactId:cached._id};}
   await AIJob.updateOne({_id:id,state:job.state},{$set:{state:'QUEUED',nextRetry:new Date()},$unset:{error:'',errorCode:''}});
   await audit(actor,'AI_RETRY_REQUESTED',id); return {ok:true};
 }
-export async function runAIOnce({ router, config=env }={}) {
+export async function runAIOnce({ router, config=env,jobId }={}) {
   const token=randomUUID(), now=new Date(), leaseUntil=new Date(Date.now()+90000);
   let slot;
   for(let i=0;i<config.AI_MAX_CONCURRENT_JOBS;i++) {
@@ -99,44 +112,54 @@ export async function runAIOnce({ router, config=env }={}) {
   if(!slot)return null;
   let job,heartbeat;
   try {
-    await AIJob.updateMany({state:'RUNNING',leaseUntil:{$lt:now},attempts:{$lt:3}},{$set:{state:'QUEUED',nextRetry:now},$unset:{leaseToken:'',leaseUntil:''}});
-    await AIJob.updateMany({state:'RUNNING',leaseUntil:{$lt:now},attempts:{$gte:3}},{$set:{state:'FAILED',errorCode:'WORKER_RETRY_LIMIT',finishedAt:now},$unset:{leaseToken:'',leaseUntil:''}});
-    job=await AIJob.findOneAndUpdate({state:{$in:['QUEUED','DEFERRED']},nextRetry:{$lte:now}},{$set:{state:'RUNNING',leaseToken:token,leaseUntil},$inc:{attempts:1}},{sort:{createdAt:1},new:true}).lean();
+    await AIJob.updateMany({...(jobId?{_id:jobId}:{}),entityType:{$nin:['Notice','ScamAlert']},state:'RUNNING',leaseUntil:{$lt:now},attempts:{$lt:3}},{$set:{state:'QUEUED',nextRetry:now},$unset:{leaseToken:'',leaseUntil:''}});
+    await AIJob.updateMany({...(jobId?{_id:jobId}:{}),entityType:{$nin:['Notice','ScamAlert']},state:'RUNNING',leaseUntil:{$lt:now},attempts:{$gte:3}},{$set:{state:'FAILED',errorCode:'WORKER_RETRY_LIMIT',finishedAt:now},$unset:{leaseToken:'',leaseUntil:''}});
+    job=await AIJob.findOneAndUpdate({...(jobId?{_id:jobId}:{}),entityType:{$nin:['Notice','ScamAlert']},state:{$in:['QUEUED','DEFERRED']},nextRetry:{$lte:now}},{$set:{state:'RUNNING',leaseToken:token,leaseUntil},$inc:{attempts:1}},{sort:{createdAt:1},new:true}).lean();
     if(!job)return null;
     const owned={_id:job._id,state:'RUNNING',leaseToken:token}; let lost=false;
     heartbeat=setInterval(async()=>{try{const until=new Date(Date.now()+90000);const r=await AIJob.updateOne({...owned,leaseUntil:{$gt:new Date()}},{$set:{leaseUntil:until}});const s=await AIWorkerSlot.updateOne({_id:slot._id,token,leaseUntil:{$gt:new Date()}},{$set:{leaseUntil:until}});if(!r.matchedCount||!s.matchedCount)lost=true;}catch{lost=true;}},15000);heartbeat.unref();
     try {
       const {approval}=await currentApproval(job.schemeId,job.approvalId);
+      await publish('ai:generating',{runId:'ai:'+job._id,schemeId:job.schemeId,language:job.language,requestedModel:job.model,sourceVersionId:job.sourceVersionId});
       const providerRouter=router||new AIProviderRouter({config:{...config,GEMINI_MODEL:job.model},reserve:amount=>reserveBudget(amount,config)});
-      const generated=await providerRouter.generate(approval,job.language);
+      const generated=job.promptVersion===compactPromptVersion?await generateCompactContent(providerRouter,approval,job.language):await providerRouter.generate(approval,job.language);
+      await publish('ai:generated',{runId:'ai:'+job._id,schemeId:job.schemeId,language:job.language,provider:generated.provider,model:generated.model,usage:generated.usage});
       await AIJob.updateOne(owned,{$set:{usage:generated.usage,providerAttempts:generated.attempts,costBoundUsd:generated.costUsd,actualProvider:generated.provider,actualModel:generated.model}});
       const validation=validateOutput(generated.output,approval,job.language);
       await new MongoStore().transaction(async session=>{
         if(lost)reject('Worker lease lost');
         const fence=await AIJob.updateOne({...owned,leaseUntil:{$gt:new Date()}},{$set:{leaseUntil:new Date(Date.now()+90000)}},{session});if(!fence.matchedCount)reject('Worker lease lost');
-        const {scheme}=await currentApproval(job.schemeId,job.approvalId,session);
-        const locked=await models.Scheme.updateOne({_id:scheme.id,currentVersionId:job.sourceVersionId,contentApprovalId:job.approvalId},{$set:{updatedAt:new Date()}},{session});if(!locked.matchedCount)reject('Source changed');
+        const {scheme,staged}=await currentApproval(job.schemeId,job.approvalId,session);
+        const locked=await models.Scheme.updateOne(staged?{_id:scheme.id,'normalized.citizenPreparedContent.sourceVersionId':job.sourceVersionId,'normalized.citizenPreparedContent.approvalId':job.approvalId}:{_id:scheme.id,currentVersionId:job.sourceVersionId,contentApprovalId:job.approvalId},{$set:{updatedAt:new Date()}},{session});if(!locked.matchedCount)reject('Source changed');
         const artifactId=randomUUID();
         await AIArtifact.create([{_id:artifactId,schemeId:job.schemeId,jobId:job._id,approvalId:job.approvalId,sourceVersionId:job.sourceVersionId,sourceHash:job.sourceHash,language:job.language,task:job.task,promptVersion:job.promptVersion,provider:generated.provider,model:generated.model,dataClass:approval.dataClass,output:generated.output,validation:{ok:validation.ok,errors:validation.errors,warnings:validation.warnings},usage:generated.usage,attempts:generated.attempts,costUsd:generated.costUsd,state:validation.ok?'REVIEW_PENDING':'VALIDATION_FAILED'}],{session});
         await AIJob.updateOne(owned,{$set:{state:validation.ok?'REVIEW_PENDING':'FAILED',artifactId,finishedAt:new Date(),...(validation.ok?{}:{errorCode:'FACT_VALIDATION_FAILED',error:'Output did not preserve approved facts; inspect validation errors.'})},$unset:{leaseToken:'',leaseUntil:''}},{session});
         await audit('ai-worker','AI_CONTENT_PREPARED',artifactId,{language:job.language,provider:generated.provider,model:generated.model,validationPassed:validation.ok,dataClass:approval.dataClass},session);
       });
+      await publish('ai:prepared',{runId:'ai:'+job._id,schemeId:job.schemeId,language:job.language,validationPassed:validation.ok,state:validation.ok?'REVIEW_PENDING':'VALIDATION_FAILED'});
+      if(validation.ok&&machineSchemeFacts(approval)){
+        const {automaticallyPublishScheme}=await import('../verification/automatedPublication.js');
+        try{await automaticallyPublishScheme(job.schemeId);}catch(error){if(error.code!=='THREE_VALIDATED_SCHEME_LANGUAGES_REQUIRED')await audit('automated-validator','AUTOMATED_PUBLICATION_BLOCKED',job.schemeId,{code:error.code||'PUBLICATION_FAILED'});}
+      }
     } catch(error) {
       const code=error.code||'SOURCE_OR_WORKER_GATE';
+      if(error.generationReceipt){const g=error.generationReceipt;await AIArtifact.create({_id:randomUUID(),schemeId:job.schemeId,jobId:job._id,approvalId:job.approvalId,sourceVersionId:job.sourceVersionId,sourceHash:job.sourceHash,language:job.language,task:job.task,promptVersion:job.promptVersion,provider:g.provider,model:g.model,dataClass:job.dataClass,output:g.output,validation:{ok:false,errors:[code]},usage:g.usage,attempts:g.attempts,costUsd:g.costUsd,state:'VALIDATION_FAILED'});}
       const retryable=['PROVIDER_QUOTA','PROVIDER_COOLDOWN','PROVIDER_TEMPORARY','PROVIDERS_UNAVAILABLE'].includes(code)&&job.attempts<3;
       const blocked=['AI_SPENDING_NOT_AUTHORIZED','BUDGET_DENIED','PRICE_CONFIGURATION_REQUIRED','PROVIDER_NOT_CONFIGURED','PROVIDER_CREDENTIAL_DISABLED','PROVIDER_AUTHORIZATION'].includes(code);
       await AIJob.updateOne(owned,{$set:{state:retryable?'DEFERRED':blocked?'BLOCKED':'FAILED',nextRetry:new Date(Date.now()+Math.max(60000,error.retryAfterMs||0)),errorCode:code,error:'Preparation stopped safely. Check source review, provider health, entitlement and budget.',finishedAt:new Date()},$unset:{leaseToken:'',leaseUntil:''}});
       await audit('ai-worker','AI_PREPARATION_STOPPED',job._id,{code,attempts:error.attempts||[]});
+      await publish('ai:stopped',{runId:'ai:'+job._id,schemeId:job.schemeId,language:job.language,errorCode:code});
     }
     return AIJob.findById(job._id).lean();
   } finally { if(heartbeat)clearInterval(heartbeat);await AIWorkerSlot.updateOne({_id:slot._id,token},{$unset:{token:'',leaseUntil:''}}); }
 }
 export async function reviewArtifact(id,decision,actor) {
-  const value=z.object({action:z.enum(['APPROVE','REJECT','EDIT']),evidence:z.string().trim().min(10).max(3000),output:z.unknown().optional()}).strict().parse(decision);
+  const value=z.object({action:z.enum(['APPROVE','REJECT','EDIT']),evidence:z.string().trim().max(3000).default(''),output:z.unknown().optional()}).strict().parse(decision);
   return new MongoStore().transaction(async session=>{
     const artifact=await AIArtifact.findById(id).session(session).lean();if(!artifact)reject('Artifact not found',404);
     if(artifact.stale)reject('Artifact is stale; prepare from current approved evidence');
     const {approval,scheme}=await currentApproval(artifact.schemeId,artifact.approvalId,session);
+    value.evidence=attachedEvidence({entityType:'Scheme',entityId:scheme.id,versionId:scheme.currentVersionId,sourceUrl:approval.evidenceUrl,approvalId:approval._id,artifactIds:[id],factsHash:approval.factsHash,clauseRefs:approval.clauseRefs},value.evidence);
     const output=value.action==='EDIT'?value.output:artifact.output, validation=validateOutput(output,approval,artifact.language);
     if(value.action!=='REJECT'&&!validation.ok)reject(`Factual validation failed: ${validation.errors.join(', ')}`,400);
     // Once reviewed/published, an artifact is immutable. Edits produce a new draft revision.
@@ -152,10 +175,11 @@ export async function reviewArtifact(id,decision,actor) {
     await audit(actor,`AI_ARTIFACT_${state}`,id,{language:artifact.language,approvalId:approval._id},session);return {ok:true,state};
   });
 }
-export async function publishContent(schemeId,artifactIds,evidence,actor,{withdraw=false}={}) {
-  z.string().trim().min(10).max(3000).parse(evidence);
-  return new MongoStore().transaction(async session=>{
+export async function publishContent(schemeId,artifactIds,evidence,actor,{withdraw=false,session=null}={}) {
+  z.string().trim().max(3000).optional().parse(evidence);
+  const perform=async session=>{
     const {scheme,approval}=await currentApproval(schemeId,undefined,session);
+    evidence=attachedEvidence({entityType:'Scheme',entityId:schemeId,versionId:scheme.currentVersionId,sourceUrl:approval.evidenceUrl,approvalId:approval._id,artifactIds,factsHash:approval.factsHash,clauseRefs:approval.clauseRefs},evidence);
     if(!withdraw&&approval.facts.observedFacts?.publicationBlocked===true)reject('Publication requires refreshed current official evidence; this fact packet is explicitly blocked');
     if(withdraw){await models.Scheme.updateOne({_id:schemeId},{$set:{publicationStatus:'WITHDRAWN',cacheStale:true}},{session});await SchemeSearchDocument.updateMany({schemeId},{$set:{published:false}},{session});}
     else {
@@ -174,7 +198,7 @@ export async function publishContent(schemeId,artifactIds,evidence,actor,{withdr
     const action=withdraw?'WITHDRAW':'PUBLISH';
     await ContentPublication.create([{_id:randomUUID(),schemeId,approvalId:approval._id,sourceVersionId:scheme.currentVersionId,artifactIds:artifactIds||[],action,reviewer:actor,evidence,dataClass:approval.dataClass}],{session});
     await audit(actor,`CONTENT_${action}`,schemeId,{artifactIds:artifactIds||[],sourceVersionId:scheme.currentVersionId,dataClass:approval.dataClass},session);return {ok:true,action};
-  });
+  };return session?perform(session):new MongoStore().transaction(perform);
 }
 export async function contentMetrics() {
   const recordOrigins=[];
@@ -183,5 +207,6 @@ export async function contentMetrics() {
     recordOrigins.push(...groups.map(g=>({entityType:type,origin:g._id,count:g.count})));
   }
   const [states,artifacts,published,approvals,budgets]=await Promise.all([AIJob.aggregate([{$group:{_id:{state:'$state',dataClass:'$dataClass'},count:{$sum:1}}}]),AIArtifact.aggregate([{$group:{_id:{language:'$language',state:'$state',dataClass:'$dataClass',stale:'$stale'},count:{$sum:1},inputTokens:{$sum:'$usage.inputTokens'},outputTokens:{$sum:'$usage.outputTokens'},costBoundUsd:{$sum:'$costUsd'}}}]),SchemeSearchDocument.aggregate([{$match:{published:true}},{$group:{_id:{dataClass:'$dataClass',language:'$language'},count:{$sum:1}}}]),ContentApproval.countDocuments(),AIDailyBudget.find().sort({_id:-1}).limit(7).lean()]);
-  return {jobs:states,artifacts,published,approvals,factApprovals:approvals,approvalOrigins:await ContentApproval.aggregate([{$group:{_id:'$dataClass',count:{$sum:1}}}]),recordOrigins,budgets,providers:await providerHealth(),researchSchemes:await models.Scheme.countDocuments({status:'RESEARCH_ONLY'}),eligibilityRulesApproved:await models.EligibilityRuleSet.countDocuments({status:'RULES_APPROVED_CURRENT'}),collectionModes:await models.IngestionRun.aggregate([{$group:{_id:'$mode',runs:{$sum:1},recordsCreated:{$sum:'$counters.created'}}}])};
+  const failures=await AIJob.find({state:{$in:['FAILED','BLOCKED']}}).limit(1000).lean(),dispositions=await failedJobDispositions(failures);const {inspectRules}=await import('../eligibility/service.js');let executableRules=0;const recordedRules=await models.EligibilityRuleSet.find({status:{$in:['RULES_APPROVED_CURRENT','RULES_VALIDATED_CURRENT']}}).lean();for(const rule of recordedRules)if((await inspectRules(rule)).ok)executableRules++;
+  return {historicalFailures:dispositions.filter(d=>d.disposition==='HISTORICAL_FAILURE_CURRENT_VALID_OUTPUT_EXISTS').length,failureDispositionsChecked:dispositions.length,failureDispositionLimit:1000,ruleApprovalsRecorded:recordedRules.length,jobs:states,artifacts,published,approvals,factApprovals:approvals,approvalOrigins:await ContentApproval.aggregate([{$group:{_id:'$dataClass',count:{$sum:1}}}]),recordOrigins,budgets,providers:await providerHealth(),researchSchemes:await models.Scheme.countDocuments({status:'RESEARCH_ONLY'}),eligibilityRulesApproved:executableRules,collectionModes:await models.IngestionRun.aggregate([{$group:{_id:'$mode',runs:{$sum:1},recordsCreated:{$sum:'$counters.created'}}}])};
 }

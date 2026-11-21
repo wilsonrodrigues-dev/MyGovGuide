@@ -1,11 +1,12 @@
 import { randomUUID } from 'node:crypto';
 import { hash } from '../../utils/hash.js';
 import { models } from '../../models/index.js';
+import {machineRuleValidated} from './automatedPolicy.js';
 const allowed = {
   RESEARCH_ONLY: ['SOURCE_VERIFIED_FACT', 'REJECTED', 'REVIEW_REQUIRED'],
   REVIEW_REQUIRED: ['SOURCE_VERIFIED_FACT', 'REJECTED', 'SUPERSEDED'],
   SOURCE_VERIFIED_FACT: ['RULES_APPROVED_CURRENT', 'REVIEW_REQUIRED', 'SUPERSEDED'],
-  RULES_APPROVED_CURRENT: ['REVIEW_REQUIRED', 'SUPERSEDED'], REJECTED: ['REVIEW_REQUIRED'], SUPERSEDED: []
+  RULES_APPROVED_CURRENT: ['REVIEW_REQUIRED', 'SUPERSEDED'], RULES_VALIDATED_CURRENT: ['REVIEW_REQUIRED', 'SUPERSEDED'], REJECTED: ['REVIEW_REQUIRED'], SUPERSEDED: []
 };
 export async function review(store, type, id, decision) {
   if (!decision.reviewer?.trim() || !decision.evidence?.trim()) throw new Error('Named reviewer and explicit evidence required');
@@ -45,10 +46,10 @@ export async function review(store, type, id, decision) {
   });
 }
 export function eligibilityReadiness(ruleSet, now = new Date()) {
-  const ready = ruleSet?.status === 'RULES_APPROVED_CURRENT' && ruleSet.completeness === 'COMPLETE' && ruleSet.rules?.length > 0 &&
+  const decision=ruleSet?.status==='RULES_VALIDATED_CURRENT'&&machineRuleValidated(ruleSet)||ruleSet?.status==='RULES_APPROVED_CURRENT'&&ruleSet.review?.humanCurated&&ruleSet.review?.reviewedBy&&ruleSet.review?.approvedAt&&ruleSet.review?.evidence;
+  const ready = decision && ruleSet.completeness === 'COMPLETE' && ruleSet.rules?.length > 0 &&
     !ruleSet.missingInformation?.length && ruleSet.sourceVersionIds?.length > 0 &&
-    ruleSet.review?.humanCurated && ruleSet.review?.reviewedBy && ruleSet.review?.approvedAt &&
-    ruleSet.review?.evidence && ruleSet.effectiveFrom && new Date(ruleSet.effectiveFrom) <= now &&
+    ruleSet.effectiveFrom && new Date(ruleSet.effectiveFrom) <= now &&
     (!ruleSet.effectiveUntil || new Date(ruleSet.effectiveUntil) >= now);
   return { canEvaluate: Boolean(ready), result: ready ? 'READY_FOR_PHASE3_ENGINE' : 'INFORMATION_INCOMPLETE' };
 }

@@ -1,0 +1,13 @@
+import {reviewPublicFacts} from '../services/notices/factReview.js';
+import {enqueueScam} from '../services/scams/workflow.js';
+import {demoWorklist} from '../services/verification/demoScope.js';
+import {enqueuePublicNotice} from '../services/notices/publicWorkflow.js';
+import {Router} from 'express';import {z} from 'zod';import {contentWorkbench,workbenchDecision} from '../services/verification/contentWorkbench.js';import {processAdministrativeObservations} from '../services/verification/reviewEvidence.js';import {requireTrustedMutation} from '../middleware/citizenSecurity.js';
+const router=Router(),run=fn=>(req,res,next)=>Promise.resolve(fn(req,res)).catch(next);
+router.get('/',run(async(req,res)=>{const q=z.object({scope:z.enum(['ALL','DEMO']).default('ALL'),category:z.enum(['ALL','PUBLISHED','READY','NEEDS_ATTENTION','AUTOMATICALLY_HANDLED','BLOCKED']).default('ALL'),q:z.string().max(160).default(''),type:z.string().max(40).default(''),page:z.coerce.number().int().min(1).default(1),limit:z.coerce.number().int().min(1).max(100).default(25),detail:z.string().max(250).optional()}).strict().parse(req.query),allWork=await contentWorkbench(),work=q.scope==='DEMO'?await demoWorklist(allWork):allWork;if(q.detail){const row=work.items.find(r=>r.packetKey===q.detail);return row?res.json(row):res.status(404).json({error:{message:'Record not found'}});}const all=work.items.filter(r=>(q.category==='ALL'||r.category===q.category)&&(!q.type||r.type===q.type)&&(!q.q||(r.title+' '+r.id).toLowerCase().includes(q.q.toLowerCase())));res.json({...work,items:all.slice((q.page-1)*q.limit,q.page*q.limit).map(({preview,...row})=>row),total:all.length,page:q.page,hasNext:q.page*q.limit<all.length,ready:work.items.filter(r=>r.category==='READY').map(({preview,...row})=>row)});}));
+router.post('/facts/:type/:id',requireTrustedMutation,run(async(req,res)=>res.json(await reviewPublicFacts(req.params.type,req.params.id,req.body,req.admin.username))));
+router.post('/scams/:id/prepare',requireTrustedMutation,run(async(req,res)=>res.json(await enqueueScam(req.params.id,req.admin.username))));
+router.post('/notices/:id/prepare',requireTrustedMutation,run(async(req,res)=>res.json(await enqueuePublicNotice(req.params.id,req.admin.username))));
+router.post('/decisions',requireTrustedMutation,run(async(req,res)=>res.json(await workbenchDecision(req.body,req.admin.username))));
+router.post('/process',requireTrustedMutation,run(async(req,res)=>res.json(await processAdministrativeObservations(req.admin.username))));
+export default router;

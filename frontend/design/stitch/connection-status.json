@@ -1,9 +1,0 @@
-{
-  "projectResource": "projects/16872371074444001614",
-  "directMcpGeneration": "SUCCESS",
-  "directMcpFinalRead": "SUCCESS",
-  "nativeToolsDiscovered": true,
-  "nativeListScreensResult": "Authentication required",
-  "credentialsStoredInApplicationSource": false,
-  "note": "Native tool exposure happened during implementation. Existing resources were reused; no duplicate project was created."
-}
