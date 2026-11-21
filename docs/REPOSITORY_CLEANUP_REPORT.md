@@ -101,6 +101,6 @@ Git history still contains Google-key-like strings in historical source-capture 
 
 ## Commit and push
 
-Commit title: `chore: clean repository and prepare final system redesign`.
+Commit: `e6b9dc8` (`chore: clean repository and prepare final system redesign`).
 
-Target: the existing `origin` remote on `main`, without force-push. The final push result is recorded in the session summary and Git remote state.
+Pushed to the existing `origin/main` as a fast-forward from `ca73ecf`, without force-push. The local branch and `origin/main` both point to `e6b9dc8` after verification.
